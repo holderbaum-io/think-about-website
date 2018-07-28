@@ -1,13 +1,84 @@
+/*
+Light Blue: ACD3FF
+Pink: B756D9
+Dark Blue: 223866
+*/
+
 * {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  color: #223866;
+  padding: 0;
+}
+
+html, body, main, figure, h1 {
+  margin: 0;
+}
+
+main {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
 }
 
 h1 {
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
+  font-size: 2rem;
 }
 
-h2 {
-  font-weight: 700;
+header section {
+  background-color: #acd3ff;
+}
+
+header section img {
+  width: 60%;
+  max-width: 250px;
+}
+
+section section h1, section article h1 {
+  font-family: 'Roboto', serif;
+  font-size: 1.3rem;
+}
+
+section header h1, article header h1 {
+  font-size: 1rem;
+}
+
+/* Breakpoints */
+
+@media (min-width: 980px) {
+html {
+  font-size: 25px;
+}
+
+li {
+  max-width: 30%;
+}
+}
+
+@media (max-width: 979px) {
+html {
+  font-size: 25px;
+}
+
+li {
+  max-width: 45%;
+}
+}
+
+@media (max-width: 499px) {
+html {
+  font-size: 20px;
+}
+
+li {
+  max-width: 90%;
+}
 }
