@@ -24,7 +24,14 @@ main {
 
 li {
   list-style-type: none;
+  vertical-align: top;
   display: inline-block;
+  margin: 2%;
+  box-shadow: 0px 10px 20px #ddd;
+}
+
+li section p, li section h1 {
+  margin: 1rem;
 }
 
 h1 {
@@ -33,52 +40,116 @@ h1 {
   font-size: 2rem;
 }
 
+h2 {
+  font-weight: 700;
+}
+
+main > header > section > p, main > header > section > h1,
+main > section > p, main > section > h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px
+}
+
 header section {
   background-color: #acd3ff;
 }
 
+
+header section p {
+  font-size: 1.3rem;
+}
+
 header section img {
-  width: 60%;
+  width: 40%;
   max-width: 250px;
 }
 
-section section h1, section article h1 {
+section section h1, section h2 {
   font-family: 'Roboto', serif;
   font-size: 1.5rem;
 }
 
-section header h1, article header h1 {
+section section p {
+  font-family: 'Roboto', serif;
+  font-size: 0.8rem;
+}
+
+section section * {
+  text-align: left;
+}
+
+section section h1::after {
+  content: " ";
+  display: block;
+  margin: 1em 0;
+  height: 0.2em;
+  width: 2em;
+}
+
+[topic=tech] h1::after {
+  background-color: #b756d9;
+}
+
+[topic=design] h1::after {
+  background-color: #223866;
+}
+
+[topic=society] h1::after {
+  background-color: #acd3ff;
+}
+
+section header h1 {
   font-size: 1rem;
+}
+
+section header figure {
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+}
+
+[topic=tech] figure {
+  background-color: #b756d9;
+}
+
+[topic=design] figure {
+  background-color: #223866;
+}
+
+[topic=society] figure {
+  background-color: #acd3ff;
 }
 
 /* Breakpoints */
 
 @media (min-width: 980px) {
 html {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 li {
-  max-width: 30%;
+  max-width: 29%;
 }
 }
 
 @media (max-width: 979px) {
 html {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 li {
-  max-width: 45%;
+  max-width: 46%;
 }
 }
 
-@media (max-width: 499px) {
+@media (max-width: 599px) {
 html {
   font-size: 20px;
 }
 
 li {
-  max-width: 90%;
+  max-width: 98%;
 }
 }
