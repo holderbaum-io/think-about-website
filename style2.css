@@ -1,5 +1,6 @@
 /* Element reset and defaults */
 html {
+  font-size: 20px;
   box-sizing: border-box;
 }
 
@@ -11,6 +12,10 @@ html {
   color: #223866;
   box-sizing: inherit;
   padding: 0;
+}
+
+h1, h2 {
+  font-weight: 700;
 }
 
 /* Main column layout */
@@ -25,13 +30,45 @@ section > *:not(ol) {
   padding-right: 10%;
 }
 
+section section > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 li {
   list-style-type: none;
   vertical-align: top;
-  display: inline-block
+  display: inline-block;
   width: 33.33%;
 }
 
+/* 1st level headlines */
+
+section h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+}
+
+/* 2nd level headlines */
+
+section section h1, section h2 {
+  font-family: 'Roboto', serif;
+  font-size: 1.5rem;
+}
+
+/* global header styling */
+main > header p {
+  font-size: 1.3rem;
+}
+
+/* nested section styling */
+section section p {
+  font-size: 0.8rem;
+}
+
+section section * {
+  text-align: left;
+}
 
 /* weird colors for better testing */
 
