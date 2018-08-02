@@ -4,6 +4,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 *, *:before, *:after {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -16,6 +20,10 @@ html {
 
 h1, h2 {
   font-weight: 700;
+}
+
+figure {
+  margin: 0
 }
 
 /* Main column layout */
@@ -57,6 +65,17 @@ section section h1, section h2 {
 }
 
 /* global header styling */
+main > header {
+  background-color: #acd3ff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+main > header h1 img {
+  width: 50%;
+  max-width: 200px;
+}
+
 main > header p {
   font-size: 1.3rem;
 }
