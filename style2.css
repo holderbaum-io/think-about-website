@@ -1,3 +1,4 @@
+/* Element reset and defaults */
 html {
   box-sizing: border-box;
 }
@@ -9,30 +10,39 @@ html {
   text-align: center;
   color: #223866;
   box-sizing: inherit;
+  padding: 0;
 }
+
+/* Main column layout */
 
 main {
   max-width: 980px;
   margin: 0 auto;
 }
 
-ol {
-  background-color: lightpink;
-  padding: 0;
+section > *:not(ol) {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 li {
   list-style-type: none;
   vertical-align: top;
-  display: inline-block;
+  display: inline-block
   width: 33.33%;
 }
 
-main > section, main > header > section {
-  background-color: LemonChiffon;
+
+/* weird colors for better testing */
+
+ol {
+  background-color: lightpink;
 }
 
 section > *:not(ol) {
   background-color: NavajoWhite;
-  padding: 0 10%;
+}
+
+main > section, main > header > section {
+  background-color: LemonChiffon;
 }
