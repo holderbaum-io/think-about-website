@@ -39,7 +39,7 @@ li {
   list-style-type: none;
   vertical-align: top;
   display: inline-block;
-  width: 33.33%;
+  max-width: 33.33%;
 }
 
 /* 1st level headlines */
@@ -68,6 +68,19 @@ section section p {
 
 section section * {
   text-align: left;
+}
+
+/* breakpoints */
+@media (max-width: 979px) {
+li {
+  max-width: 46%;
+}
+}
+
+@media (max-width: 599px) {
+li {
+  max-width: 98%;
+}
 }
 
 /* weird colors for better testing */
