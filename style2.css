@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  color: #223866;
+  box-sizing: inherit;
+}
+
+main {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+ol {
+  background-color: lightpink;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  vertical-align: top;
+  display: inline-block;
+  width: 33.33%;
+}
+
+main > section, main > header > section {
+  background-color: LemonChiffon;
+}
+
+section > *:not(ol) {
+  background-color: NavajoWhite;
+  padding: 0 10%;
+}
