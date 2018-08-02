@@ -38,18 +38,12 @@ section > *:not(ol) {
   padding-right: 10%;
 }
 
-section section > * {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 li {
   list-style-type: none;
   vertical-align: top;
   max-width: 31.33%;
   display: inline-block;
   box-shadow: 0px 10px 20px #ddd;
-  padding: 2%;
   margin-left: 1%;
   margin-right: 1%;
   margin-bottom: 2rem;
@@ -86,6 +80,16 @@ main > header p {
 }
 
 /* nested section styling */
+section section header {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+section section *:not(header) {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
 section section p {
   font-size: 0.8rem;
 }
@@ -93,6 +97,22 @@ section section p {
 section section * {
   text-align: left;
 }
+
+section section h1::after {
+  content: " ";
+  display: block;
+  margin: 1em 0;
+  height: 0.2em;
+  width: 2em;
+}
+
+/* section header styling */
+section header figure {
+  min-height: 100px;
+  width: 100%;
+  display: inline-block;
+}
+
 
 /* breakpoints */
 @media (max-width: 979px) {
