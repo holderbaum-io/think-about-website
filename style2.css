@@ -129,16 +129,16 @@ li {
 }
 }
 
-/* weird colors for better testing */
+/* topic related colors */
 
-ol {
-  background-color: lightpink;
+[topic=tech] h1::after, [topic=tech] figure {
+  background-color: #b756d9;
 }
 
-section > *:not(ol) {
-  background-color: NavajoWhite;
+[topic=design] h1::after, [topic=design] figure {
+  background-color: #223866;
 }
 
-main > section, main > header > section {
-  background-color: LemonChiffon;
+[topic=society] h1::after, [topic=society] figure {
+  background-color: #acd3ff;
 }
