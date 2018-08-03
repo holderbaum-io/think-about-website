@@ -1,6 +1,6 @@
 /* Element reset and defaults */
 html {
-  font-size: 20px;
+  font-size: 23px;
   box-sizing: border-box;
 }
 
@@ -28,14 +28,24 @@ figure {
 
 /* Main column layout */
 
-main {
+main > section {
+  margin-bottom: 3rem;
+}
+
+main > section, main > header > section, main > footer > section {
   max-width: 980px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section > *:not(ol) {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+section img {
+  width: 80%;
+  max-width: 500px;
 }
 
 li {
@@ -49,6 +59,34 @@ li {
   margin-bottom: 2rem;
 }
 
+b {
+  font-weight: 700;
+}
+
+/* Buttons */
+button {
+  background-color: #b756d9;
+  border: 0;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+button:not([disabled]) {
+  cursor: pointer;
+}
+
+button:not([disabled]):hover {
+  text-decoration: underline;
+}
+
+button[disabled] {
+  background-color: grey;
+}
+
+
 /* 1st level headlines */
 
 section h1 {
@@ -60,7 +98,7 @@ section h1 {
 
 section section h1, section h2 {
   font-family: 'Roboto', serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 /* global header styling */
@@ -75,8 +113,26 @@ main > header h1 img {
   max-width: 200px;
 }
 
-main > header p {
+main > header * {
   font-size: 1.3rem;
+}
+
+/* global footer styling */
+main > footer {
+  background-color: #223866;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+main > footer *{
+  color: white;
+  display: inline;
+  text-align: right;
+
+}
+
+main > footer a {
+  text-decoration: none;
 }
 
 /* nested section styling */
@@ -86,8 +142,8 @@ section section header {
 }
 
 section section *:not(header) {
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 section section p {
