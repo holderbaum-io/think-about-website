@@ -48,6 +48,18 @@ section img {
   max-width: 500px;
 }
 
+main > nav {
+  background-color: #acd3ff;
+  text-align: right;
+}
+
+main > nav a {
+  display: inline-block;
+  color: white;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+}
+
 ol li {
   list-style-type: none;
   vertical-align: top;
