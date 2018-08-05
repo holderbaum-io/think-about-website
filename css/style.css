@@ -48,7 +48,7 @@ section img {
   max-width: 500px;
 }
 
-li {
+ol li {
   list-style-type: none;
   vertical-align: top;
   max-width: 31.33%;
@@ -57,6 +57,11 @@ li {
   margin-left: 1%;
   margin-right: 1%;
   margin-bottom: 2rem;
+}
+
+ul li {
+  list-style-type: circle;
+  margin: 1rem;
 }
 
 b {
@@ -180,13 +185,13 @@ section header figure {
 
 /* breakpoints */
 @media (max-width: 979px) {
-li {
+ol li {
   max-width: 47%;
 }
 }
 
 @media (max-width: 699px) {
-li {
+ol li {
   max-width: 80%;
   margin-left: 10%;
   margin-right: 10%;
