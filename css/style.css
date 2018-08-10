@@ -153,7 +153,8 @@ main > footer *{
   color: white;
   display: inline;
   text-align: right;
-
+  font-size: 0.7rem;
+  padding: 1rem;
 }
 
 main > footer a {
