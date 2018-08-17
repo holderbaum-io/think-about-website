@@ -2,13 +2,7 @@
 
 task_run() {
   local port="${1:-9090}"
-
-  if python --version 2>&1 |grep 2.7 &>/dev/null;
-  then
-    python -m SimpleHTTPServer "$port"
-  else
-    python -m http.server "$port"
-  fi
+  python server.py "$port"
 }
 
 usage() {
