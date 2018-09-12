@@ -1,0 +1,10 @@
+language: generic
+addons:
+  ssh_known_hosts:
+    - turing.holderbaum.me
+script:
+  - ./do prepare-ci
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: ./do deploy
