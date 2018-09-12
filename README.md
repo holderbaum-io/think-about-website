@@ -1,4 +1,4 @@
-# The Think About! Website
+# The Think About! Website [![Build Status](https://travis-ci.org/hrx-events/think-about.svg?branch=master)](https://travis-ci.org/hrx-events/think-about)
 
 This is the code for the main Think About! Website, fully responsive.
 
@@ -13,3 +13,7 @@ To see changes locally, simply run:
 ```
 
 This starts a webserver, which you can visit here: http://localhost:9090/ .
+
+## Deployment
+
+Deployment is done automatically via Travis CI on every push. Nothing to do here.
