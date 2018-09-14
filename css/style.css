@@ -13,7 +13,7 @@ body {
   font-weight: 400;
   font-size: 1rem;
   text-align: center;
-  color: #223866;
+  color: #250047;
   box-sizing: inherit;
   padding: 0;
 }
@@ -49,7 +49,8 @@ section img {
 }
 
 main > nav {
-  background-color: #acd3ff;
+  background-color: #250047;
+  color: white;
   text-align: right;
 }
 
@@ -82,7 +83,7 @@ b {
 
 /* Buttons */
 button {
-  background-color: #b756d9;
+  background-color: #c625ff;
   border: 0;
   color: white;
   font-size: 1rem;
@@ -128,9 +129,13 @@ section h3 {
 
 /* global header styling */
 main > header {
-  background-color: #acd3ff;
+  background-color: #250047;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+main > header * {
+  color: white;
 }
 
 main > header h1 img {
@@ -144,7 +149,7 @@ main > header * {
 
 /* global footer styling */
 main > footer {
-  background-color: #223866;
+  background-color: #250047;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -226,13 +231,13 @@ section[topic] p {
 /* topic related colors */
 
 [topic=tech] h1::after, [topic=tech] figure {
-  background-color: #b756d9;
+  background-color: #c625ff;
 }
 
 [topic=design] h1::after, [topic=design] figure {
-  background-color: #223866;
+  background-color: #250047;
 }
 
 [topic=society] h1::after, [topic=society] figure {
-  background-color: #acd3ff;
+  background-color: #658eff;
 }
