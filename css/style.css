@@ -52,6 +52,7 @@ main > nav {
   background-color: #250047;
   color: white;
   text-align: right;
+  float: right;
 }
 
 main > nav a {
