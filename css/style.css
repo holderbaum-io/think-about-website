@@ -6,6 +6,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #470076;
 }
 
 *, *:before, *:after {
@@ -13,7 +14,7 @@ body {
   font-weight: 400;
   font-size: 1rem;
   text-align: center;
-  color: #250047;
+  color: #19002f;
   box-sizing: inherit;
   padding: 0;
 }
@@ -28,11 +29,19 @@ figure {
 
 /* Main column layout */
 
+main {
+}
+
 main > section {
   margin-bottom: 3rem;
 }
 
-main > section, main > header > section, main > footer > section {
+main > section:first-child > h1 {
+  margin-top: 0;
+}
+
+main {
+  background-color: white;
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
@@ -48,14 +57,14 @@ section img {
   max-width: 500px;
 }
 
-main > nav {
-  background-color: #250047;
+nav {
+  background-color: #19002f;
   color: white;
   text-align: right;
   float: right;
 }
 
-main > nav a {
+nav a {
   display: inline-block;
   color: white;
   padding: 0.3rem;
@@ -129,33 +138,33 @@ section h3 {
 
 
 /* global header styling */
-main > header {
-  background-color: #250047;
+body > header {
+  background-color: #19002f;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-main > header * {
+body > header * {
   color: white;
 }
 
-main > header h1 img {
+body > header h1 img {
   width: 50%;
   max-width: 200px;
 }
 
-main > header * {
+body > header * {
   font-size: 1.3rem;
 }
 
 /* global footer styling */
-main > footer {
-  background-color: #250047;
+body > footer {
+  background-color: #19002f;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-main > footer *{
+body > footer *{
   color: white;
   display: inline;
   text-align: right;
@@ -163,7 +172,7 @@ main > footer *{
   padding: 1rem;
 }
 
-main > footer a {
+body > footer a {
   text-decoration: none;
 }
 
@@ -236,7 +245,7 @@ section[topic] p {
 }
 
 [topic=design] h1::after, [topic=design] figure {
-  background-color: #250047;
+  background-color: #19002f;
 }
 
 [topic=society] h1::after, [topic=society] figure {
