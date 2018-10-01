@@ -30,18 +30,16 @@ figure {
 /* Main column layout */
 
 main {
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  padding-top: 1rem;
 }
 
 main > section {
   margin-bottom: 3rem;
 }
 
-main > section:first-child > h1 {
-  margin-top: 0;
-}
-
-main {
-  background-color: white;
+main, section {
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
@@ -139,9 +137,13 @@ section h3 {
 
 /* global header styling */
 body > header {
-  background-color: #19002f;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  height: 750px;
+  background-image: url("/assets/keyvisual.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-size: 4096px 750px;
+  background-color: #470076;
 }
 
 body > header * {
@@ -154,7 +156,12 @@ body > header h1 img {
 }
 
 body > header * {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+}
+
+body > header > section:first-child {
+  padding: 4rem;
+  padding-top: 4rem;
 }
 
 /* global footer styling */
