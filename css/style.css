@@ -85,7 +85,7 @@ ul li {
   margin: 1rem;
 }
 
-b {
+b, strong {
   font-weight: 700;
 }
 

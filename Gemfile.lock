@@ -10,6 +10,7 @@ GEM
     concurrent-ruby (1.0.5)
     i18n (1.1.0)
       concurrent-ruby (~> 1.0)
+    kramdown (1.17.0)
     minitest (5.11.3)
     multi_json (1.13.1)
     mustermann (1.0.3)
@@ -38,6 +39,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  kramdown
   sinatra
   sinatra-contrib
 

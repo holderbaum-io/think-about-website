@@ -1,6 +1,7 @@
 require 'sinatra/base'
 require 'sinatra/reloader'
 require 'erb'
+require 'kramdown'
 
 class Result
   attr_reader :content, :type
@@ -11,15 +12,19 @@ class Result
   end
 end
 
-class TemplateValues
-  attr_reader :content
-
-  def initialize(content)
-    @content = content
+class Values
+  attr_reader :lang
+  def initialize(lang)
+    @lang = lang
   end
 
-  def title
-    'lol'
+  def partial(key)
+    ERB.new(File.read("partials/#{key}.html.erb")).result(_context)
+  end
+
+  def content(key)
+    text = File.read("content/#{lang}/#{key}.md")
+    Kramdown::Document.new(text).to_html
   end
 
   def _context
@@ -27,12 +32,16 @@ class TemplateValues
   end
 end
 
-class PageValues
-  attr_reader :content
+class TemplateValues < Values
+  attr_reader :main
 
-  def _context
-    binding
+  def initialize(lang, main)
+    super lang
+    @main = main
   end
+end
+
+class PageValues < Values
 end
 
 class ServerError < RuntimeError
@@ -68,7 +77,8 @@ class Server < Sinatra::Application
   def render_page(file)
     if File.extname(file) == '.erb'
       template = ERB.new(File.read(file))
-      values = PageValues.new
+      lang = File.split(file).first
+      values = PageValues.new(lang)
       template.result(values._context)
     else
       File.read(file)
@@ -79,7 +89,8 @@ class Server < Sinatra::Application
     type = resolve_type(file)
     if type == 'text/html'
       template = ERB.new(File.read('template.html.erb'))
-      values = TemplateValues.new(render_page file)
+      lang = File.split(file).first
+      values = TemplateValues.new(lang, render_page(file))
       Result.new(template.result(values._context), type)
     else
       Result.new(render_page(file), type)

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= lang %>">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,13 +9,17 @@
   </head>
   <body>
     <nav>
-      <a href="/de/">DE</a>
+      <% if lang == "en" %>
+        <a href="/de/">DE</a>
+      <% else %>
+        <a href="/en/">EN</a>
+      <% end %>
     </nav>
-    <%= content %>
+    <%= main %>
     <footer>
       <section>
-         <a href="/en/about.html">Imprint</a>
-         <a href="/en/privacy.html">Privacy</a>
+         <a href="/<%= lang %>/about.html">Imprint</a>
+         <a href="/<%= lang %>/privacy.html">Privacy</a>
       </section>
     </footer>
   </body>
