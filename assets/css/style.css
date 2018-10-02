@@ -1,6 +1,18 @@
+/*
+ * Headlines/Footer   0e003b
+ * Text               4a4a4a
+ * Tech               eb18ff
+ * Design             00a0df
+ * Society            6b3cff
+ * Background         f9f9f9
+ * Dark Background    470076
+ * /
+
+/* ================================ */
 /* Element reset and defaults */
+
 html {
-  font-size: 23px;
+  font-size: 20px;
   box-sizing: border-box;
 }
 
@@ -13,129 +25,57 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  text-align: center;
   color: #19002f;
   box-sizing: inherit;
   padding: 0;
+  letter-spacing: 0.02rem;
 }
 
-h1, h2 {
+h1, h2, h1 *, h2 * {
   font-weight: 700;
+  letter-spacing: 0.05rem;
+  font-size: 1.5rem;
+  font-style: normal;
 }
 
 figure {
   margin: 0
 }
 
-/* Main column layout */
-
-main {
-  background-color: white;
-  border-radius: 10px 10px 0 0;
-  padding-top: 1rem;
+b, strong {
+  font-weight: 700;
+  letter-spacing: 0.05rem;
 }
 
-main > section {
-  margin-bottom: 3rem;
-}
-
-main, section {
+body div {
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
 }
 
-section > *:not(ol) {
-  padding-left: 10%;
-  padding-right: 10%;
+body div.centered {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
 }
 
-section img {
-  width: 80%;
-  max-width: 500px;
+main > section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-nav {
-  background-color: #470076;
-  color: white;
-  text-align: right;
-  float: right;
+main > section:nth-child(odd) {
+  background-color: #f9f9f9;
 }
 
-nav a {
-  display: inline-block;
-  color: white;
-  padding: 0.3rem;
-  font-size: 0.8rem;
-}
-
-ol li {
-  list-style-type: none;
-  vertical-align: top;
-  max-width: 31.33%;
-  display: inline-block;
-  box-shadow: 0px 10px 20px #ddd;
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-bottom: 2rem;
-}
-
-ul li {
-  list-style-type: circle;
-  margin: 1rem;
-}
-
-b, strong {
-  font-weight: 700;
-}
-
-/* Buttons */
-button {
-  background-color: #c625ff;
-  border: 0;
-  color: white;
-  font-size: 1rem;
-  font-weight: 700;
-  padding: 1rem;
-  border-radius: 1rem;
-  margin: 1rem;
-}
-button:not([disabled]) {
-  cursor: pointer;
-}
-
-button:not([disabled]):hover {
-  text-decoration: underline;
-}
-
-button[disabled] {
-  background-color: grey;
+main > section > h1 {
+  text-align: center;
 }
 
 
-/* 1st level headlines */
+/* ================================ */
+/* Keyvisual */
 
-section h1 {
-  font-family: 'Montserrat';
-  font-size: 2rem;
-}
-
-/* 2nd level headlines */
-
-section section h1, section h2 {
-  font-family: 'Montserrat', serif;
-  font-size: 1.4rem;
-}
-
-/* 3rd level headlines */
-
-section h3 {
-  font-family: 'Montserrat', serif;
-  font-size: 1.3rem;
-}
-
-
-/* global header styling */
 body > header {
   height: 600px;
   background-image: url("/assets/images/keyvisual.svg");
@@ -144,117 +84,121 @@ body > header {
   background-size: auto;
   background-size: 4096px 600px;
   background-color: #470076;
+  padding-top: 70px;
 }
 
 body > header * {
   color: white;
 }
 
-body > header h1 img {
+body > header *:first-child {
+  margin-top: 0;
+}
+
+/* ================================ */
+/* Topics */
+
+section.topics section:nth-child(even) figure {
+  float: right;
+}
+
+section.topics section:nth-child(even) article {
+  float: left;
+}
+
+section.topics section:nth-child(odd) figure {
+  float: left;
+}
+
+section.topics section:nth-child(odd) article {
+  float: right;
+}
+
+section.topics section figure, section.topics section article {
   width: 50%;
-  max-width: 200px;
 }
 
-body > header * {
-  font-size: 1.1rem;
-}
-
-body > header > section:first-child {
-  padding: 4rem;
-  padding-top: 4rem;
-}
-
-/* global footer styling */
-body > footer {
-  background-color: #470076;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-body > footer *{
-  color: white;
-  display: inline;
-  text-align: right;
-  font-size: 0.7rem;
-  padding: 1rem;
-}
-
-body > footer a {
-  text-decoration: none;
-}
-
-/* nested section styling */
-section section header {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-section section *:not(header) {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-section section p {
-  font-size: 0.8rem;
-}
-
-section section * {
-  text-align: left;
-}
-
-section section h1::after {
-  content: " ";
+section.topics section:after {
+  content: '';
   display: block;
-  margin: 1em 0;
-  height: 0.2em;
-  width: 2em;
+  clear: both;
 }
 
-section[topic] p {
-  min-height: 13rem;
+/* ================================ */
+/* Speaker */
+
+section.speakers {
+  text-align: center;
 }
 
-/* section header styling */
-section header figure {
-  min-height: 100px;
-  width: 100%;
+section.speakers section {
+  background-color: white;
+  position: relative;
+  max-width: 30%;
+  min-height: 28rem;
   display: inline-block;
+  vertical-align: top;
+  border-radius: 15px;
+  padding: 2%;
+  margin: 1%;
+}
+
+section.speakers article * {
+  font-size: 0.8rem
+}
+
+section.speakers section figure {
+  text-align: center;
+  width: 100%;
+}
+
+section.speakers section figure:first-child img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+section.speakers section figure:last-child {
+  left: 0;
+  bottom: 1%;
+  position: absolute;
+}
+
+section.speakers section figure:last-child img {
+  width: 150px;
+}
+
+section.speakers:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 
-/* breakpoints */
+/* ================================ */
+/* Topic related coloring */
+
+
+[topic=tech] em {
+ color: #eb18ff;
+}
+
+[topic=design] em {
+ color: #00a0df;
+}
+
+[topic=society] em {
+ color: #6b3cff;
+}
+
 @media (max-width: 979px) {
-ol li {
-  max-width: 47%;
-}
-
-section[topic] p {
-  min-height: 10rem;
-}
 }
 
 @media (max-width: 699px) {
-ol li {
-  max-width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-section[topic] p {
-  min-height: 10rem;
+body > header {
+  height: 400px;
+  background-image: url("/assets/images/keyvisual-small.svg");
+  background-size: 700px 400px;
+  padding-top: 70px;
 }
 }
 
-/* topic related colors */
-
-[topic=tech] h1::after, [topic=tech] figure {
-  background-color: #c625ff;
-}
-
-[topic=design] h1::after, [topic=design] figure {
-  background-color: #19002f;
-}
-
-[topic=society] h1::after, [topic=society] figure {
-  background-color: #658eff;
-}

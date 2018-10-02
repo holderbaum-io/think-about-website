@@ -1,6 +1,92 @@
 <%= partial 'keyvisual' %>
 <main>
   <section>
-    <h1>Our Conference</h1>
+    <div class="centered">
+      <figure>
+        <img width="130px" src="/assets/images/logo.png" alt="Think About! Logo">
+      </figure>
+      <%= content 'our_conference' %>
+    </div>
+  </section>
+  <section class="topics">
+    <div>
+      <section topic="tech">
+        <figure>
+          <img src="/assets/images/tech.svg">
+        </figure>
+        <article>
+          <h1>Think About <em>Tech!</em></h1>
+          <p>
+          Technology has become a part of nearly every aspect of human life. We will present quality talks from domain experts of software development, hardware and software hacking, internet of things and artificial intelligence and many more.
+          </p>
+        </article>
+      </section>
+      <section topic="design">
+        <figure>
+          <img src="/assets/images/design.svg">
+        </figure>
+        <article>
+          <h1>Think About <em>Design!</em></h1>
+          <p>
+          Nearly everything we use on a daily basis is designed - whether it's an app to monitor a menstrual cycle or an autonomous machine. With rapidly evolving technology comes a responsibilities towards society. We will cover topics such as design ethics, product &amp; UX design, art &amp; culture, ...
+          </p>
+        </article>
+      </section>
+      <section topic="society">
+        <figure>
+          <img src="/assets/images/society.svg">
+        </figure>
+        <article>
+          <h1>Think About <em>Society!</em></h1>
+          <p>
+          Technology and design continue to shape humanity as a whole. Topics like discrimination, social and economic equity, and participation in our society is more important than ever. We want to create a platform to talk and discuss these topics.
+          </p>
+        </article>
+      </section>
+    </div>
+  </section>
+  <section class="speakers">
+    <div>
+      <h1>Our Speakers</h1>
+      <section>
+        <figure>
+          <img src="/assets/images/speaker/christoph_hassler.png">
+        </figure>
+        <article>
+          <h1>Christoph Hassler</h1>
+          <p>
+          UX Consultant and Lead for Social and Economic Justice at Thoughtworks, working in the field of design since the early 2000, active in the struggle against racism and capitalist exploitation since the 90th. Thinking a lot about the future of work and the role technology might take to free or condemn society.
+          </p>
+        </article>
+        <figure>
+          <img src="/assets/images/speaker/thoughtworks.png">
+        </figure>
+      </section>
+      <section>
+        <figure>
+          <img src="/assets/images/speaker/maren_heltsche.png">
+        </figure>
+        <article>
+          <h1>Maren Heltsche</h1>
+          <p>
+          Maren Heltsche is a programmer at the myclimate foundation. She is co-founder and maintainer of the open source platform speakerinnen.org. Apart from that she volunteers as board member of Digital Media Women. She loves knitting, yoga and DIY.
+          </p>
+        </article>
+        <figure>
+          <img src="/assets/images/speaker/dmw.png">
+        </figure>
+      </section>
+      <section>
+        <figure>
+          <img src="/assets/images/speaker/sebastian_golasch.png">
+        </figure>
+        <article>
+          <h1>Sebastian Golasch</h1>
+          <p>
+          Sebastian works at Deutsche Telekom, after some time developing backend applications with Java and PHP he became a citizen of the JavaScript world. Recently he´s getting his hands dirty with Python and Rust. Famous last words: "If I would’ve wanted to work in ‘Enterprise’, I’d have joined Starfleet..."
+          </p>
+        </article>
+      </section>
+    </div>
   </section>
 </main>
