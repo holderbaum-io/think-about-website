@@ -4,16 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Think About! Conference 2019</title>
-    <link rel="stylesheet" href="/css/fonts.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/fonts.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
     <nav>
-      <% if lang == "en" %>
-        <a href="/de/">DE</a>
-      <% else %>
-        <a href="/en/">EN</a>
-      <% end %>
+      <% switch_lang = lang == "en" ? "de" : "en" %>
+        <a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a>
     </nav>
     <%= main %>
     <footer>

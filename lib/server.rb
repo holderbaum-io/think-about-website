@@ -13,9 +13,12 @@ class Result
 end
 
 class Values
-  attr_reader :lang
-  def initialize(lang)
+  attr_reader :lang, :url, :file
+
+  def initialize(lang, url, file)
     @lang = lang
+    @url = url
+    @file = file
   end
 
   def partial(key)
@@ -35,8 +38,8 @@ end
 class TemplateValues < Values
   attr_reader :main
 
-  def initialize(lang, main)
-    super lang
+  def initialize(lang, url, file, main)
+    super lang, url, file
     @main = main
   end
 end
@@ -54,10 +57,14 @@ class ServerError < RuntimeError
 end
 
 class Server < Sinatra::Application
+  def path(file)
+    File.join('pages', file)
+  end
+
   def resolve_path(file)
-    return file if File.file? file
-    return resolve_path(file + '.erb') if File.file? file + '.erb'
-    return resolve_path(File.join(file, 'index.html')) if File.directory? file
+    return file if File.file?(path(file))
+    return resolve_path(file + '.erb') if File.file?(path(file + '.erb'))
+    return resolve_path(File.join(file, 'index.html')) if File.directory?(path(file))
     raise ServerError.new(404, "File not found: #{file}")
   end
 
@@ -74,32 +81,41 @@ class Server < Sinatra::Application
     end
   end
 
-  def render_page(file)
+  def render_page(lang, url, file)
     if File.extname(file) == '.erb'
-      template = ERB.new(File.read(file))
-      lang = File.split(file).first
-      values = PageValues.new(lang)
+      template = ERB.new(File.read(path(file)))
+      values = PageValues.new(lang, url, file)
       template.result(values._context)
     else
-      File.read(file)
+      File.read(path(file))
     end
   end
 
-  def render_document(file)
+  def render_document(lang, file, url)
     type = resolve_type(file)
     if type == 'text/html'
       template = ERB.new(File.read('template.html.erb'))
-      lang = File.split(file).first
-      values = TemplateValues.new(lang, render_page(file))
+      values = TemplateValues.new(lang, url, file, render_page(lang, url, file))
       Result.new(template.result(values._context), type)
     else
-      Result.new(render_page(file), type)
+      Result.new(render_page(lang, url, file), type)
     end
   end
 
-  get '/*' do
+  def render_asset(file)
+    type = resolve_type(file)
+    Result.new(File.read(File.join('assets', file)), type)
+  end
+
+  get '/assets/*' do
+    result = render_asset(params[:splat].first)
+    content_type result.type
+    result.content
+  end
+
+  get '/:lang/*' do
     begin
-      result = render_document(resolve_path(params[:splat].first))
+      result = render_document(params[:lang], resolve_path(params[:splat].first), params[:splat].first)
       content_type result.type
       result.content
     rescue ServerError => e
