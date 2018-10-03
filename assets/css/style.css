@@ -53,6 +53,11 @@ figure, article {
   margin: 2rem 0;
 }
 
+figure {
+  width: 100%;
+  max-width: 500px;
+}
+
 b, strong {
   font-weight: 700;
   letter-spacing: 0.05rem;
@@ -68,6 +73,8 @@ body div.centered {
   max-width: 600px;
   text-align: center;
   margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 main > section {
@@ -268,8 +275,13 @@ section.topics section:nth-child(1n) figure {
 section.topics section:nth-child(1n) article {
   float: none;
   width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 @media (max-width: 699px) {
+html {
+  font-size: 18px;
+}
 body > header {
   height: 400px;
   background-image: url("/assets/images/keyvisual-small.svg");
