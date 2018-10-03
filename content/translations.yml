@@ -1,9 +1,13 @@
 de:
+  imprint: Impressum
+  privacy: Datenschutz
   speakers:
     title: "Die Referent*innen"
     tba: "Noch ein bisschen Geduld, die Agenda wird bald veröffentlicht."
 
 en:
+  imprint: Imprint
+  privacy: Privacy
   speakers:
     title: "Our Speakers"
     tba: " Speakers will be announced soon."
