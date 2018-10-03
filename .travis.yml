@@ -1,10 +1,13 @@
-language: generic
+language: ruby
 addons:
   ssh_known_hosts:
     - turing.holderbaum.me
+install: true
 script:
   - ./do prepare-ci
+  - ./do build
 deploy:
   skip_cleanup: true
   provider: script
-  script: ./do deploy
+  script:
+    - ./do deploy
