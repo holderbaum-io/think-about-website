@@ -116,6 +116,22 @@ body > header *:first-child {
 }
 
 /* ================================ */
+/* Footer */
+
+footer {
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+/* ================================ */
 /* Topics */
 
 section.topics section:nth-child(even) figure {
