@@ -116,6 +116,25 @@ body > header *:first-child {
 }
 
 /* ================================ */
+/* Navigation */
+
+nav {
+  position: absolute;
+  width: 100%;
+  text-align: right;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+/* ================================ */
 /* Footer */
 
 footer {

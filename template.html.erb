@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
-<!--    <nav>
-      <% switch_lang = lang == "en" ? "de" : "en" %>
+    <nav>
+      <div>
+        <% switch_lang = lang == "en" ? "de" : "en" %>
         <a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a>
-    </nav> -->
+      </div>
+    </nav>
     <%= main %>
     <footer>
        <a href="/<%= lang %>/about.html">Imprint</a>
