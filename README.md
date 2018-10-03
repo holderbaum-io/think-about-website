@@ -9,7 +9,7 @@ It contains semantical HTML5 and a mostly class-less minimal CSS styling.
 To see changes locally, simply run:
 
 ```sh
-./do run
+./do serve
 ```
 
 This starts a webserver, which you can visit here: http://localhost:9090/ .
