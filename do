@@ -1,5 +1,9 @@
 #!/bin/bash
 
+ensure_ruby() {
+  bundle install --path vendor/bundle --binstubs vendor/bin
+}
+
 function task_prepare_ci {
   openssl aes-256-cbc \
     -K "$encrypted_9e05e58bd4ea_key" \
@@ -10,9 +14,17 @@ function task_prepare_ci {
   chmod 600 deploy/id_rsa
 }
 
-task_run() {
+task_serve() {
+  ensure_ruby
+
   local port="${1:-9090}"
-  python server.py "$port"
+  ./vendor/bin/rackup -p "$port" -o 0.0.0.0
+}
+
+task_build() {
+  ensure_ruby
+
+  bundle exec ruby ./bin/build.rb
 }
 
 task_deploy() {
@@ -39,7 +51,7 @@ task_deploy() {
 }
 
 usage() {
-  echo "$0 run"
+  echo "$0 serve | build"
   exit 1
 }
 
@@ -47,7 +59,8 @@ cmd="${1:-}"
 shift || true
 case "$cmd" in
   prepare-ci) task_prepare_ci ;;
-  run) task_run "${1:-}" ;;
+  serve) task_serve "${1:-}" ;;
+  build) task_build ;;
   deploy) task_deploy ;;
   *) usage ;;
 esac
