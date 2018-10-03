@@ -19,7 +19,7 @@ class Server < Sinatra::Application
       result = renderer.render(lang, file)
       content_type result.type
       result.content
-    rescue RenderError => e
+    rescue Renderer::RenderError => e
       [e.type, e.text]
     end
   end
