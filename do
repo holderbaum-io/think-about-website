@@ -37,10 +37,7 @@ task_deploy() {
   rsync \
     -ruvc \
     --delete \
-    de \
-    en \
-    css \
-    assets \
+    result/* \
     deploy-think-about@turing.holderbaum.me:www/
 
   rsync \
