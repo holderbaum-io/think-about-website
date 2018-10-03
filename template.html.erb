@@ -10,7 +10,7 @@
   <body>
     <nav>
       <div>
-        <% if !url.empty? %>
+        <% if !url.empty? && url != 'index.html' %>
           <a button href="/<%= lang %>/"><%= t('backlink') %></a>
         <% end %>
         <% switch_lang = lang == "en" ? "de" : "en" %>

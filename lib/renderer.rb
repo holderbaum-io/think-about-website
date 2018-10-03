@@ -104,7 +104,6 @@ class Renderer
       file = File.join('content', 'translations.yml')
       result = YAML.safe_load(File.read(file))[lang]
       key.split('.').each do |k|
-        p result: result, k: k
         result = result.fetch(k)
       end
       result
