@@ -53,8 +53,12 @@ h4 {
   margin-top: 0;
 }
 
-figure, article {
+article {
   margin: 2rem 0;
+}
+
+figure {
+  margin: 2rem auto;
 }
 
 figure {
@@ -77,8 +81,6 @@ body div.centered {
   max-width: 600px;
   text-align: center;
   margin: 0 auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 main > section {
@@ -141,6 +143,11 @@ body > header * {
 
 body > header *:first-child {
   margin-top: 0;
+}
+
+body > header div.centered {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* ================================ */
