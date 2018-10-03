@@ -276,23 +276,23 @@ section.speakers:after {
 /* ================================ */
 /* Location */
 
-section.location figure {
+section.image-with-text figure {
   float: left;
   width: 50%;
 }
 
-section.location figure img {
+section.image-with-text figure img {
   width: 100%;
 }
 
-section.location article {
+section.image-with-text article {
   float: right;
   width: 50%;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-section.location:after {
+section.image-with-text:after {
   content: '';
   display: block;
   clear: both;
@@ -319,14 +319,14 @@ h1, h4 {
   text-align: center !important;
 }
 
-section.location figure {
+section.image-with-text figure {
   margin: 2rem auto;
   float: none;
   width: 80%;
   max-width: 500px;
 }
 
-section.location article {
+section.image-with-text article {
   float: none;
   width: 100%;
   padding-left: 0;
