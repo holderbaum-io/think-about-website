@@ -92,6 +92,26 @@ main > section > h1 {
   text-align: center;
 }
 
+/* ================================ */
+/* Buttons */
+
+a[button] {
+  background-color: #6b3cff;
+  border: 0;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a[button]:hover {
+  text-decoration: underline;
+}
 
 /* ================================ */
 /* Keyvisual */
