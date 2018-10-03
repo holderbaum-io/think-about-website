@@ -132,7 +132,7 @@ body > header {
 }
 
 body > header[small] {
-  height: 70px;
+  height: 75px;
 }
 
 body > header * {
@@ -154,12 +154,9 @@ nav {
   padding: 1rem;
 }
 
-nav a {
-  text-decoration: none;
-  color: white;
-  border: 1px solid white;
-  border-radius: 5px;
-  padding: 2px;
+nav a[button] {
+  margin: 0;
+  background-color: #eb18ff;
 }
 
 nav a:first-child {
@@ -170,7 +167,7 @@ nav a:last-child {
   float: right;
 }
 
-nav:after {
+nav div:after {
   content: '';
   display: block;
   clear: both;

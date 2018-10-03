@@ -11,10 +11,10 @@
     <nav>
       <div>
         <% if !url.empty? %>
-          <a href="/<%= lang %>/"><%= t('backlink') %></a>
+          <a button href="/<%= lang %>/"><%= t('backlink') %></a>
         <% end %>
         <% switch_lang = lang == "en" ? "de" : "en" %>
-        <a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a>
+        <a button href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a>
       </div>
     </nav>
     <%= main %>
