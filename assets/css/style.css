@@ -100,11 +100,15 @@ body > header {
   height: 600px;
   background-image: url("/assets/images/keyvisual.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 0;
   background-size: auto;
   background-size: 4096px 600px;
   background-color: #470076;
   padding-top: 70px;
+}
+
+body > header[small] {
+  height: 70px;
 }
 
 body > header * {
