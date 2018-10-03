@@ -1,5 +1,6 @@
 require 'erb'
 require 'kramdown'
+require 'yaml'
 
 class Renderer
   def initialize(source_dir = nil)
@@ -97,6 +98,16 @@ class Renderer
     def content(key)
       text = File.read("content/#{lang}/#{key}.md")
       Kramdown::Document.new(text).to_html
+    end
+
+    def t(key)
+      file = File.join('content', 'translations.yml')
+      result = YAML.safe_load(File.read(file))[lang]
+      key.split('.').each do |k|
+        p result: result, k: k
+        result = result.fetch(k)
+      end
+      result
     end
 
     def _context
