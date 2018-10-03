@@ -25,21 +25,32 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  color: #19002f;
+  color: #4a4a4a;
   box-sizing: inherit;
   padding: 0;
   letter-spacing: 0.02rem;
 }
 
-h1, h2, h1 *, h2 * {
+h1, h2, h3, h1 *, h2 *, h3 * {
   font-weight: 700;
   letter-spacing: 0.05rem;
   font-size: 1.5rem;
   font-style: normal;
+  margin-top: 0;
+  color: #0e003b;
 }
 
-figure {
-  margin: 0
+h4 {
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+figure, article {
+  margin: 2rem 0;
 }
 
 b, strong {
@@ -62,6 +73,8 @@ body div.centered {
 main > section {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 main > section:nth-child(odd) {
@@ -116,6 +129,11 @@ section.topics section:nth-child(odd) article {
 
 section.topics section figure, section.topics section article {
   width: 50%;
+}
+
+section.topics section article {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 section.topics section:after {
@@ -189,6 +207,8 @@ section.location figure img {
 section.location article {
   float: right;
   width: 50%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 section.location:after {
@@ -208,28 +228,46 @@ footer {
 /* Topic related coloring */
 
 
-[topic=tech] em {
+[topic=tech] em, [topic=tech] h4 {
  color: #eb18ff;
 }
 
-[topic=design] em {
+[topic=design] em, [topic=design] h4 {
  color: #00a0df;
 }
 
-[topic=society] em {
+[topic=society] em, [topic=society] h4 {
  color: #6b3cff;
 }
 
 @media (max-width: 979px) {
-section.location figure, section.location article {
-  float: none;
-  width: 100%;
+h1, h4 {
+  text-align: center !important;
 }
 
-section.topics section figure, section.topics section article {
+section.location figure {
+  margin: 2rem auto;
+  float: none;
+  width: 80%;
+  max-width: 500px;
+}
+
+section.location article {
   float: none;
   width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
+
+section.topics section:nth-child(1n) figure {
+  float: none;
+  width: 80%;
+  max-width: 400px;
+  margin: 3rem auto;
+}
+section.topics section:nth-child(1n) article {
+  float: none;
+  width: 100%;
 }
 @media (max-width: 699px) {
 body > header {

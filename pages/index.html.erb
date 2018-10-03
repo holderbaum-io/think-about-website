@@ -15,10 +15,7 @@
           <img src="/assets/images/tech.svg">
         </figure>
         <article>
-          <h1>Think About <em>Tech!</em></h1>
-          <p>
-          Technology has become a part of nearly every aspect of human life. We will present quality talks from domain experts of software development, hardware and software hacking, internet of things and artificial intelligence and many more.
-          </p>
+          <%= content 'topic_tech' %>
         </article>
       </section>
       <section topic="design">
@@ -26,10 +23,7 @@
           <img src="/assets/images/design.svg">
         </figure>
         <article>
-          <h1>Think About <em>Design!</em></h1>
-          <p>
-          Nearly everything we use on a daily basis is designed - whether it's an app to monitor a menstrual cycle or an autonomous machine. With rapidly evolving technology comes a responsibilities towards society. We will cover topics such as design ethics, product &amp; UX design, art &amp; culture, ...
-          </p>
+          <%= content 'topic_design' %>
         </article>
       </section>
       <section topic="society">
@@ -37,10 +31,7 @@
           <img src="/assets/images/society.svg">
         </figure>
         <article>
-          <h1>Think About <em>Society!</em></h1>
-          <p>
-          Technology and design continue to shape humanity as a whole. Topics like discrimination, social and economic equity, and participation in our society is more important than ever. We want to create a platform to talk and discuss these topics.
-          </p>
+          <%= content 'topic_society' %>
         </article>
       </section>
     </div>
@@ -91,32 +82,20 @@
   </section>
   <section class="location">
     <div>
+      <article>
+        <%= content 'location' %>
+      </article>
       <figure>
         <img src="/assets/images/cinenova.png" alt="The Cinenova Building at night, fully illuminated.">
       </figure>
-      <article>
-        <h1>Our Location</h1>
-        <p>
-        The Conference will take place in a cozy cinema right in the center of the Ehrenfeld district in Cologne. It provides us with two big halls for talks, unlimited drinks, free popcorn and regional organic catering services.
-        </p>
-        <p>
-        But do not worry about not seeing the sunlight: The Cinenova has a sunny outdoor area as well.
-        </p>
-      </article>
     </div>
   </section>
   <section>
     <div class="centered">
-    <h1>Ready for new Per&shy;spectives?</h1>
-    <p>
-    Our world should become a better and safer place for every human being -- regardless of their personal backgrounds and beliefs.
-    </p>
-    <p>
-    <b>So let's come together and do something great!</b>
-    </p>
-      <figure>
-        <img width="400px" src="/assets/images/buddies.svg" alt="Think About! Monsters">
-      </figure>
+    <%= content 'perspectives' %>
+    <figure>
+      <img width="400px" src="/assets/images/buddies.svg" alt="Think About! Monsters">
+    </figure>
     </div>
   </section>
 </main>
