@@ -71,12 +71,20 @@ end
 
 class Renderer
   class Result
-    attr_reader :content, :filename, :type
+    attr_reader :content, :type
 
     def initialize(content, filename, type)
       @content = content
       @filename = filename
       @type = type
+    end
+
+    def filename
+      if @filename == ''
+        'index.html'
+      else
+        @filename
+      end
     end
   end
 end

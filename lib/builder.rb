@@ -14,6 +14,7 @@ class Builder
     languages.each do |lang|
       Dir['pages/**'].each do |page|
         file = page.gsub(/\.erb$/, '').gsub(%r{^pages/}, '')
+        file = '' if file == 'index.html'
         result = renderer.render(lang, file)
         target_path = File.join(@target_dir, lang, result.filename)
         FileUtils.mkdir_p(File.dirname(target_path))
