@@ -46,7 +46,7 @@ task_deploy() {
   rsync \
     -ruvc \
     --delete \
-    conf.d/* \
+    deploy/conf.d/* \
     deploy-think-about@turing.holderbaum.me:conf.d/
 }
 
