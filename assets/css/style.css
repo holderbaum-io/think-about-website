@@ -142,6 +142,8 @@ body > header {
 
 body > header[small] {
   height: 75px;
+  background-color: #f9f9f9;
+  background-image: none;
 }
 
 body > header * {
