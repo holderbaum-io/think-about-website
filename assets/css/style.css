@@ -53,6 +53,13 @@ h4 {
   margin-top: 0;
 }
 
+hr {
+  border: 0;
+  height: 1px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 article {
   margin: 2rem 0;
 }
@@ -243,41 +250,90 @@ section.speakers {
 }
 
 section.speakers section {
+  text-align: left;
   background-color: white;
   border: 1px solid #e9e9e9;
   position: relative;
   width: 30%;
-  max-width: 400px;
-  min-height: 28rem;
+  max-width: 300px;
   display: inline-block;
   vertical-align: top;
-  border-radius: 15px;
-  padding: 2%;
+  border-radius: 5px;
+  padding: 3%;
+  padding-top: 4%;
   margin: 1%;
+  margin-bottom: 2rem;
+}
+
+section.speakers section * {
+  text-align: left;
+}
+
+section.speakers section h1, section.speakers section h4 {
+  margin-bottom: 0;
+}
+section.speakers section p {
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+}
+
+section.speakers section[topic=tech] {
+  background-image:
+    linear-gradient(
+      to bottom,
+      #eb18ff,
+      #eb18ff 7px,
+      white 7px,
+      white 100%
+    );
+}
+
+section.speakers section[topic=design] {
+  background-image:
+    linear-gradient(
+      to bottom,
+      #00a0df,
+      #00a0df 7px,
+      white 7px,
+      white 100%
+
+    );
+}
+
+section.speakers section[topic=society] {
+  background-image:
+    linear-gradient(
+      to bottom,
+      #6b3cff,
+      #6b3cff 7px,
+      white 7px,
+      white 100%
+
+    );
+}
+
+section.speakers article {
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 section.speakers article * {
-  font-size: 0.8rem
+  font-size: 0.8rem;
+}
+
+section.speakers article header {
+  height: 6rem;
 }
 
 section.speakers section figure {
-  text-align: center;
+  text-align: left;
   width: 100%;
+  margin: 0;
 }
 
 section.speakers section figure:first-child img {
-  width: 150px;
+  width: 100px;
   border-radius: 50%;
-}
-
-section.speakers section figure:last-child {
-  left: 0;
-  bottom: 1%;
-  position: absolute;
-}
-
-section.speakers section figure:last-child img {
-  width: 150px;
 }
 
 section.speakers:after {
@@ -325,21 +381,34 @@ section.image-with-text:after {
 /* Topic related coloring */
 
 
-[topic=tech] em, [topic=tech] h4 {
+[topic=tech] em, [topic=tech] h4, [topic=tech] a  {
  color: #eb18ff;
 }
 
-[topic=design] em, [topic=design] h4 {
+[topic=design] em, [topic=design] h4, [topic=design] a {
  color: #00a0df;
 }
 
-[topic=society] em, [topic=society] h4 {
+[topic=society] em, [topic=society] h4, [topic=society] a {
  color: #6b3cff;
 }
 
+[topic=tech] hr {
+ background-color: #eb18ff;
+}
+
+[topic=design] hr {
+ background-color: #00a0df;
+}
+
+[topic=society] hr {
+ background-color: #6b3cff;
+}
+
+
 @media (max-width: 979px) {
 h1, h4 {
-  text-align: center !important;
+  text-align: center;
 }
 
 section.image-with-text figure {
