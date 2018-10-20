@@ -38,79 +38,87 @@
     </div>
   </section>
   <section class="speakers">
-    <div>
-      <h1>Our Speakers</h1>
-      <section topic="society">
-        <figure>
-          <img src="/assets/images/speaker/christoph_hassler.png" />
-        </figure>
-        <article>
-          <header>
-            <h1>Christoph Hassler</h1>
-            <p>Lead for Social and Economic Justice at <a href="#">ThoughtWorks</a>
-          </header>
-          <hr/>
-          <h4>Society Talk</h4>
-          <p>"Automatization and the impact on the working class."</p>
-        </article>
-      </section>
-      <section topic="tech">
-        <figure>
-          <img src="/assets/images/speaker/sebastian_golasch.png">
-        </figure>
-        <article>
-          <header>
-            <h1>Sebastian Golasch</h1>
-            <p>Specialist Senior Manager Software Developer at <a href="#">Deutsche Telekom</a></p>
-          </header>
-          <hr/>
-          <h4>Tech Talk</h4>
-          <p>"EME? CDM? DRM? CENC? IDK!"</p>
-        </article>
-      </section>
-      <section topic="design">
-        <figure>
-          <img src="/assets/images/speaker/wilhelm_rinke.png">
-        </figure>
-        <article>
-          <header>
-            <h1>Wilhelm Rinke</h1>
-            <p>CEO at <a href="#">Berliner Ideenlabor</a></p>
-          </header>
-          <hr/>
-          <h4>Design Talk</h4>
-          <p>"Zukunftsbilder und menschzentriertes Design"</p>
-        </article>
-      </section>
-      <section topic="society">
-        <figure>
-          <img src="/assets/images/speaker/maren_heltsche.png" />
-        </figure>
-        <article>
-          <header>
-            <h1>Maren Heltsche</h1>
-            <p>Co-Founder of <a href="#">speakerinnen.org</a></p>
-          </header>
-          <hr/>
-          <h4>Society Talk</h4>
-          <p>"Du solltest Softwareentwicklerin werden!"</p>
-        </article>
-      </section>
-      <section topic="society">
-        <figure>
-          <img src="/assets/images/speaker/muriel_boettger.png">
-        </figure>
-        <article>
-          <header>
-            <h1>Muriel Böttger</h1>
-            <p>Founder of <a href="#">Share & Grow</a></p>
-          </header>
-          <hr/>
-          <h4>Society Talk</h4>
-          <p>"think.about: Wie beeinflusst das Smartphone unsere Psyche und wie können wir lernen besser damit umzugehen?"</p>
-        </article>
-      </section>
-    </div>
+    <% if feature? :speakers %>
+      <!-- Example lineup for styling purposes  -->
+      <div>
+        <h1><%= t('speakers.title') %></h1>
+        <section topic="society">
+          <figure>
+            <img src="/assets/images/speaker/christoph_hassler.png" />
+          </figure>
+          <article>
+            <header>
+              <h1>Christoph Hassler</h1>
+              <p>Lead for Social and Economic Justice at <a href="#">ThoughtWorks</a>
+            </header>
+            <hr/>
+            <h4>Society Talk</h4>
+            <p>"Automatization and the impact on the working class."</p>
+          </article>
+        </section>
+        <section topic="tech">
+          <figure>
+            <img src="/assets/images/speaker/sebastian_golasch.png">
+          </figure>
+          <article>
+            <header>
+              <h1>Sebastian Golasch</h1>
+              <p>Specialist Senior Manager Software Developer at <a href="#">Deutsche Telekom</a></p>
+            </header>
+            <hr/>
+            <h4>Tech Talk</h4>
+            <p>"EME? CDM? DRM? CENC? IDK!"</p>
+          </article>
+        </section>
+        <section topic="design">
+          <figure>
+            <img src="/assets/images/speaker/wilhelm_rinke.png">
+          </figure>
+          <article>
+            <header>
+              <h1>Wilhelm Rinke</h1>
+              <p>CEO at <a href="#">Berliner Ideenlabor</a></p>
+            </header>
+            <hr/>
+            <h4>Design Talk</h4>
+            <p>"Zukunftsbilder und menschzentriertes Design"</p>
+          </article>
+        </section>
+        <section topic="society">
+          <figure>
+            <img src="/assets/images/speaker/maren_heltsche.png" />
+          </figure>
+          <article>
+            <header>
+              <h1>Maren Heltsche</h1>
+              <p>Co-Founder of <a href="#">speakerinnen.org</a></p>
+            </header>
+            <hr/>
+            <h4>Society Talk</h4>
+            <p>"Du solltest Softwareentwicklerin werden!"</p>
+          </article>
+        </section>
+        <section topic="society">
+          <figure>
+            <img src="/assets/images/speaker/muriel_boettger.png">
+          </figure>
+          <article>
+            <header>
+              <h1>Muriel Böttger</h1>
+              <p>Founder of <a href="#">Share & Grow</a></p>
+            </header>
+            <hr/>
+            <h4>Society Talk</h4>
+            <p>"think.about: Wie beeinflusst das Smartphone unsere Psyche und wie können wir lernen besser damit umzugehen?"</p>
+          </article>
+        </section>
+      </div>
+    <% else %>
+      <div>
+        <h1><%= t('speakers.title') %></h1>
+        <p><%= t('speakers.tba') %></p>
+      </div>
+    <% end %>
   </section>
   <section class="image-with-text">
     <div>

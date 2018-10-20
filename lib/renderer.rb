@@ -117,6 +117,10 @@ class Renderer
       result
     end
 
+    def feature?(type)
+      ENV.fetch("FEATURE_#{type.to_s.upcase}", false)
+    end
+
     def _context
       binding
     end
