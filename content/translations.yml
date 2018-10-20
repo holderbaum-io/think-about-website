@@ -1,5 +1,5 @@
 de:
-  backlink: "Zurück zur Startseite"
+  backlink: "Zurück"
   imprint: Impressum
   privacy: Datenschutz
   speakers:
@@ -7,7 +7,7 @@ de:
     tba: "Noch ein bisschen Geduld, die Agenda wird bald veröffentlicht."
 
 en:
-  backlink: "Back to Landing Page"
+  backlink: "Back"
   imprint: Imprint
   privacy: Privacy
   speakers:
