@@ -431,7 +431,7 @@ section.topics section:nth-child(1n) figure {
   float: none;
   width: 80%;
   max-width: 400px;
-  margin: 3rem auto;
+  margin: 3rem auto 0 auto;
 }
 section.topics section:nth-child(1n) article {
   float: none;
