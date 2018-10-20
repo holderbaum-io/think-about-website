@@ -246,7 +246,8 @@ section.speakers section {
   background-color: white;
   border: 1px solid #e9e9e9;
   position: relative;
-  max-width: 30%;
+  width: 30%;
+  max-width: 400px;
   min-height: 28rem;
   display: inline-block;
   vertical-align: top;
@@ -283,6 +284,16 @@ section.speakers:after {
   content: '';
   display: block;
   clear: both;
+}
+@media (max-width: 979px) {
+section.speakers section {
+  width: 47%;
+}
+}
+@media (max-width: 699px) {
+section.speakers section {
+  width: 98%;
+}
 }
 
 /* ================================ */
