@@ -9,4 +9,4 @@ script:
   - ./do deploy
   - ./do clean
   - FEATURE_PREVIEW=1 ./do build
-  - ./do deploy
+  - ./do deploy deploy-think-about-preview

@@ -32,6 +32,8 @@ task_clean() {
 }
 
 task_deploy() {
+  local user="${1:-deploy-think-about}"
+
   if [[ -f deploy/id_rsa ]];
   then
     eval "$(ssh-agent -s)"
@@ -42,13 +44,13 @@ task_deploy() {
     -ruvc \
     --delete \
     result/* \
-    deploy-think-about@turing.holderbaum.me:www/
+    "${user}@turing.holderbaum.me:www/"
 
   rsync \
     -ruvc \
     --delete \
     deploy/conf.d/* \
-    deploy-think-about@turing.holderbaum.me:conf.d/
+    "${user}@turing.holderbaum.me:conf.d/"
 }
 
 usage() {
@@ -61,8 +63,8 @@ shift || true
 case "$cmd" in
   prepare-ci) task_prepare_ci ;;
   clean) task_clean ;;
-  serve) task_serve "${1:-}" ;;
+  serve) task_serve "$@" ;;
   build) task_build ;;
-  deploy) task_deploy ;;
+  deploy) task_deploy "$@" ;;
   *) usage ;;
 esac
