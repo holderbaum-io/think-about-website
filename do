@@ -27,6 +27,10 @@ task_build() {
   bundle exec ruby ./bin/build.rb
 }
 
+task_clean() {
+  rm -rf result/
+}
+
 task_deploy() {
   if [[ -f deploy/id_rsa ]];
   then
@@ -48,7 +52,7 @@ task_deploy() {
 }
 
 usage() {
-  echo "$0 serve | build"
+  echo "$0 serve | build | clean"
   exit 1
 }
 
@@ -56,6 +60,7 @@ cmd="${1:-}"
 shift || true
 case "$cmd" in
   prepare-ci) task_prepare_ci ;;
+  clean) task_clean ;;
   serve) task_serve "${1:-}" ;;
   build) task_build ;;
   deploy) task_deploy ;;
