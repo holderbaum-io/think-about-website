@@ -6,8 +6,7 @@ install: true
 script:
   - ./do prepare-ci
   - ./do build
-deploy:
-  skip_cleanup: true
-  provider: script
-  script:
-    - ./do deploy
+  - ./do deploy
+  - ./do clean
+  - FEATURE_PREVIEW=1 ./do build
+  - ./do deploy
