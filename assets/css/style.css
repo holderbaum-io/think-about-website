@@ -323,10 +323,6 @@ section.speakers article * {
   font-size: 0.8rem;
 }
 
-section.speakers article header {
-  height: 6rem;
-}
-
 section.speakers section figure {
   text-align: left;
   width: 100%;
