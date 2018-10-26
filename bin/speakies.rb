@@ -26,8 +26,8 @@ talks.reject { |t| t[:track].casecmp('keynote').zero? } .each do |talk|
   person = speaker[:full_public_name]
   person_slug = slug(person)
   link = speaker[:links].first
-  url = link ? link[:url] : nil
-  company = link ? link[:title] : nil
+  url = link ? link[:url] : '#'
+  company = link ? link[:title] : 'TODO'
   html = <<-HTML
           <section topic="#{talk[:track].downcase}">
             <article>
