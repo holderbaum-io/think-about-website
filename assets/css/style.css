@@ -315,22 +315,37 @@ section.speakers section[topic=society] {
 }
 
 section.speakers article {
-  margin-top: 1rem;
-  margin-bottom: 0;
+  margin: 0;
+  min-height: 10rem;
 }
 
 section.speakers article * {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
-section.speakers section figure {
-  text-align: left;
-  width: 100%;
+section.speakers section hr {
+  background-color: #9b9b9b;
+}
+
+section.speakers section header a {
+  color: #9b9b9b;
+}
+
+section.speakers section header div {
   margin: 0;
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
 }
 
-section.speakers section figure:first-child img {
-  width: 100px;
+section.speakers section header figure {
+  margin: 0;
+  width: 30%;
+  display: inline-block;
+}
+
+section.speakers section header figure img {
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -379,30 +394,17 @@ section.image-with-text:after {
 /* Topic related coloring */
 
 
-[topic=tech] em, [topic=tech] h4, [topic=tech] a  {
+[topic=tech] em, [topic=tech] h4 {
  color: #eb18ff;
 }
 
-[topic=design] em, [topic=design] h4, [topic=design] a {
+[topic=design] em, [topic=design] h4 {
  color: #00a0df;
 }
 
-[topic=society] em, [topic=society] h4, [topic=society] a {
+[topic=society] em, [topic=society] h4 {
  color: #6b3cff;
 }
-
-[topic=tech] hr {
- background-color: #eb18ff;
-}
-
-[topic=design] hr {
- background-color: #00a0df;
-}
-
-[topic=society] hr {
- background-color: #6b3cff;
-}
-
 
 @media (max-width: 979px) {
 h1, h4 {
