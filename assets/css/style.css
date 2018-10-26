@@ -263,6 +263,7 @@ section.speakers section {
   border-radius: 5px;
   padding: 20px;
   padding-top: 30px;
+  padding-bottom: 16px;
   margin: 1%;
   margin-bottom: 2rem;
 }
@@ -316,15 +317,22 @@ section.speakers section[topic=society] {
 
 section.speakers article {
   margin: 0;
-  min-height: 10rem;
 }
 
-section.speakers article * {
+section.speakers article header * {
   font-size: 0.7rem;
 }
 
 section.speakers section hr {
   background-color: #9b9b9b;
+}
+
+section.speakers section article > p {
+  min-height: 5rem;
+}
+
+section.speakers section header h1 {
+  font-weight: 400;
 }
 
 section.speakers section header a {
@@ -347,6 +355,7 @@ section.speakers section header figure {
 section.speakers section header figure img {
   width: 100%;
   border-radius: 50%;
+  display: block;
 }
 
 section.speakers:after {

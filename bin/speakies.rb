@@ -31,17 +31,16 @@ talks.reject { |t| t[:track].casecmp('keynote').zero? } .each do |talk|
   html = <<-HTML
           <section topic="#{talk[:track].downcase}">
             <article>
+              <h4>#{talk[:track].capitalize} Talk</h4>
+              <p>"#{talk[:title]}"</p>
+              <hr/>
               <header>
                 <div>
                   <h1>#{person}</h1>
                   <p><a href="#{url}">#{company}</a>
                 </div><figure>
                   <img src="/assets/images/speaker/#{person_slug}.png" />
-                </figure>
-              </header>
-              <hr/>
-              <h4>#{talk[:track].capitalize} Talk</h4>
-              <p>"#{talk[:title]}"</p>
+                </figure></header>
             </article>
           </section>
   HTML
