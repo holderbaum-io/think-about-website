@@ -261,8 +261,8 @@ section.speakers section {
   display: inline-block;
   vertical-align: top;
   border-radius: 5px;
-  padding: 3%;
-  padding-top: 4%;
+  padding: 20px;
+  padding-top: 30px;
   margin: 1%;
   margin-bottom: 2rem;
 }
