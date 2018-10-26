@@ -31,6 +31,10 @@ task_clean() {
   rm -rf result/
 }
 
+task_update_speakers() {
+  bundle exec ruby bin/speakies.rb > partials/speakers_list.html.erb
+}
+
 task_deploy() {
   local user="${1:-deploy-think-about}"
 
@@ -54,7 +58,7 @@ task_deploy() {
 }
 
 usage() {
-  echo "$0 serve | build | clean"
+  echo "$0 serve | build | update_speakers | deploy | clean"
   exit 1
 }
 
@@ -65,6 +69,7 @@ case "$cmd" in
   clean) task_clean ;;
   serve) task_serve "$@" ;;
   build) task_build ;;
+  update_speakers) task_update_speakers ;;
   deploy) task_deploy "$@" ;;
   *) usage ;;
 esac
