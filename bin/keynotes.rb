@@ -1,5 +1,6 @@
 require 'net/http'
 require 'json'
+require 'date'
 
 def slug(string)
   string.downcase.gsub!(/[ äöüß]/) do |match|
@@ -21,7 +22,7 @@ talks = schedule[:conference_events][:events].select do |talk|
   talk[:type] == 'lecture'
 end
 
-talks.select { |t| t[:track].casecmp('keynote').zero? } .each do |talk|
+talks.select { |t| t[:track].casecmp('keynote').zero? }.sort_by { |t| Date.parse(t[:start_time]) }.reverse.each do |talk|
   speaker = talk[:speakers][0]
   person = speaker[:full_public_name]
   person_slug = slug(person)
