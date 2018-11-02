@@ -261,6 +261,10 @@ section.speakers section {
   position: relative;
 }
 
+section.speakers > div + *{
+  margin-top: 4rem;
+}
+
 section.speakers .keynotes section {
   width: 100%;
   padding-bottom: 30px;
