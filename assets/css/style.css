@@ -324,6 +324,7 @@ section.speakers .talks section {
   width: 30%;
   max-width: 300px;
   margin: 1%;
+  margin-bottom: 2rem;
 }
 
 section.speakers .talks section * {
