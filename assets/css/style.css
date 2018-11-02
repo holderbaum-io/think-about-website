@@ -247,40 +247,94 @@ section.topics section:after {
 /* ================================ */
 /* Speaker */
 
+section.speakers section {
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #e9e9e9;
+  vertical-align: top;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 16px;
+  margin-bottom: 2rem;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+}
+
+section.speakers .keynotes section {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+section.speakers .keynotes article {
+  margin: 0;
+}
+
+
+section.speakers .keynotes article > * {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+section.speakers .keynotes article > header a {
+  font-size: 0.7rem;
+}
+
+section.speakers .keynotes article > header > figure {
+  margin: 0;
+  width: 29%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+section.speakers .keynotes article > header > div {
+  width: 63%;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+section.speakers .keynotes article > header > figure img {
+  width: 100%;
+  max-width: 100px;
+  border-radius: 50%;
+  display: block;
+}
+
+section.speakers .keynotes article > div p {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+
 section.speakers {
   text-align: center;
 }
 
-section.speakers section {
-  text-align: left;
-  background-color: white;
-  border: 1px solid #e9e9e9;
-  position: relative;
+section.speakers .talks section {
   width: 30%;
   max-width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  border-radius: 5px;
-  padding: 20px;
-  padding-top: 30px;
-  padding-bottom: 16px;
   margin: 1%;
-  margin-bottom: 2rem;
 }
 
-section.speakers section * {
+section.speakers .talks section * {
   text-align: left;
 }
 
-section.speakers section h1, section.speakers section h4 {
+section.speakers .talks section h1, section.speakers .talks section h4 {
   margin-bottom: 0;
 }
-section.speakers section p {
+section.speakers .talks section p {
   margin-top: 0.3rem;
   margin-bottom: 0;
 }
 
-section.speakers section[topic=tech] {
+section.speakers .talks section[topic=tech] {
   background-image:
     linear-gradient(
       to bottom,
@@ -291,7 +345,7 @@ section.speakers section[topic=tech] {
     );
 }
 
-section.speakers section[topic=design] {
+section.speakers .talks section[topic=design] {
   background-image:
     linear-gradient(
       to bottom,
@@ -303,7 +357,7 @@ section.speakers section[topic=design] {
     );
 }
 
-section.speakers section[topic=society] {
+section.speakers .talks section[topic=society] {
   background-image:
     linear-gradient(
       to bottom,
@@ -315,63 +369,83 @@ section.speakers section[topic=society] {
     );
 }
 
-section.speakers article {
+section.speakers .talks article {
   margin: 0;
 }
 
-section.speakers article header * {
+section.speakers .talks article header * {
   font-size: 0.7rem;
 }
 
-section.speakers section hr {
+section.speakers .talks section hr {
   background-color: #9b9b9b;
 }
 
-section.speakers section article > p {
+section.speakers .talks section article > p {
   min-height: 5rem;
 }
 
-section.speakers section header h1 {
+section.speakers .talks section header h1 {
   font-weight: 400;
 }
 
-section.speakers section header a {
+section.speakers .talks section header a {
   color: #9b9b9b;
 }
 
-section.speakers section header div {
+section.speakers .talks section header div {
   margin: 0;
   width: 70%;
   display: inline-block;
   vertical-align: top;
 }
 
-section.speakers section header figure {
+section.speakers .talks section header figure {
   margin: 0;
   width: 30%;
   display: inline-block;
 }
 
-section.speakers section header figure img {
+section.speakers .talks section header figure img {
   width: 100%;
   border-radius: 50%;
   display: block;
 }
 
-section.speakers:after {
+section.speakers .talks:after {
   content: '';
   display: block;
   clear: both;
 }
 @media (max-width: 979px) {
-section.speakers section {
+section.speakers .talks section {
   width: 47%;
+}
+section.speakers .keynotes article h4 {
+  text-align: left;
 }
 }
 @media (max-width: 699px) {
-section.speakers section {
+section.speakers .talks section {
   width: 98%;
 }
+section.speakers .keynotes article > * {
+  width: 100%;
+}
+section.speakers .keynotes article h4 {
+  text-align: left;
+}
+section.speakers .keynotes article > header > figure,
+section.speakers .keynotes article > header > div {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+section.speakers .keynotes article div {
+  margin-top: 20px;
+}
+
 }
 
 /* ================================ */

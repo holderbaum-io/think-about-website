@@ -2,6 +2,8 @@ de:
   backlink: "Zurück"
   imprint: Impressum
   privacy: Datenschutz
+  keynotes:
+    title: "Die Keynotes"
   speakers:
     title: "Die Referent*innen"
     tba: "Noch ein bisschen Geduld, die Agenda wird bald veröffentlicht."
@@ -10,6 +12,8 @@ en:
   backlink: "Back"
   imprint: Imprint
   privacy: Privacy
+  keynotes:
+    title: "Our Keynotes"
   speakers:
     title: "Our Speakers"
     tba: " Speakers will be announced soon."

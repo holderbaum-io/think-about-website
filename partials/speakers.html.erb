@@ -1,6 +1,10 @@
 <% if feature? :preview %>
   <!-- Example lineup for styling purposes  -->
-  <div>
+  <div class="keynotes">
+    <h1><%= t('keynotes.title') %></h1>
+    <%= partial 'keynotes_list' %>
+  </div>
+  <div class="talks">
     <h1><%= t('speakers.title') %></h1>
     <%= partial 'speakers_list' %>
   </div>
