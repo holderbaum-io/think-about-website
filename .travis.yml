@@ -1,4 +1,7 @@
 language: ruby
+branches:
+  only:
+  - master
 addons:
   ssh_known_hosts:
     - turing.holderbaum.me
