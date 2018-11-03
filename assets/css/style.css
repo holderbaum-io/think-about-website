@@ -245,6 +245,113 @@ section.topics section:after {
 }
 
 /* ================================ */
+/* Tickets */
+
+section.tickets {
+  text-align: center;
+}
+
+
+section.tickets section {
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #e9e9e9;
+  vertical-align: top;
+  padding: 0;
+  margin-bottom: 2rem;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  width: 30%;
+  max-width: 300px;
+  margin: 1%;
+  margin-bottom: 2rem;
+}
+
+section.tickets section h1 {
+  width: 100%;
+  margin: 0;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+section.tickets section article {
+  margin-top: 0;
+}
+
+section.tickets section header {
+  text-align: center;
+  min-height: 3rem;
+}
+
+section.tickets section header del {
+  font-size: 0.7rem;
+  color: #9b9b9b;
+  display: block;
+  min-height: 1rem;
+  padding-top: 1rem;
+}
+
+section.tickets section header price:first-child {
+  padding-top: 2rem;
+}
+
+section.tickets section header price {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+section.tickets section header price:last-child {
+  margin-bottom: 4rem;
+}
+
+section.tickets section header p {
+  font-size: 0.7rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #9b9b9b;
+}
+
+section.tickets section ul {
+  padding-top: 0;
+  margin-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section.tickets section ul li {
+  list-style: none;
+  font-size: 0.7rem;
+}
+
+section.tickets section ul li:not(:first-child) {
+  border-top: 1px solid #9f9f9f;
+}
+
+section.tickets section[ticket="early"] h1 {
+  background-color: #eb18ff;
+}
+
+section.tickets section[ticket="regular"] h1 {
+  background-color: #00a0df;
+}
+
+section.tickets section[ticket="supporter"] h1 {
+  background-color: #6b3cff;
+}
+
+/* ================================ */
 /* Speaker */
 
 section.speakers section {
@@ -423,7 +530,8 @@ section.speakers .talks:after {
   clear: both;
 }
 @media (max-width: 979px) {
-section.speakers .talks section {
+section.speakers .talks section,
+section.tickets section {
   width: 47%;
 }
 section.speakers .keynotes article h4 {
@@ -431,7 +539,8 @@ section.speakers .keynotes article h4 {
 }
 }
 @media (max-width: 699px) {
-section.speakers .talks section {
+section.speakers .talks section,
+section.tickets section {
   width: 98%;
 }
 section.speakers .keynotes article > * {
