@@ -258,14 +258,13 @@ section.tickets section {
   border: 1px solid #e9e9e9;
   vertical-align: top;
   padding: 0;
-  margin-bottom: 2rem;
   display: inline-block;
   text-align: left;
   position: relative;
   width: 30%;
   max-width: 300px;
   margin: 1%;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 section.tickets section h1 {
@@ -282,6 +281,7 @@ section.tickets section h1 {
 
 section.tickets section article {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 section.tickets section header {
@@ -326,6 +326,7 @@ section.tickets section header p {
 section.tickets section ul {
   padding-top: 0;
   margin-top: 0;
+  margin-bottom: 0;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -335,7 +336,8 @@ section.tickets section ul li {
   font-size: 0.7rem;
 }
 
-section.tickets section ul li:not(:first-child) {
+section.tickets section ul li {
+  padding: 0.8rem 0;
   border-top: 1px solid #afafaf;
 }
 
