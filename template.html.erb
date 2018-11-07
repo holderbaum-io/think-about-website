@@ -8,20 +8,33 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
-    <nav>
+    <% switch_lang = lang == "en" ? "de" : "en" %>
+    <nav desktop>
       <div>
-        <% if !url.empty? %>
-          <a button href="/<%= lang %>/"><%= t('backlink') %></a>
-        <% end %>
-        <% switch_lang = lang == "en" ? "de" : "en" %>
-        <a button href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a>
+        <a href="/<%= lang %>/"><img src="/assets/images/logo.svg" alt="Think About! Logo"/></a>
+        <ul>
+          <li><a href="consensus.html">Our Consensus</a></li><li><a href="location.html">Location</a></li><li><a href="about-us.html">Who we are</a></li><li><a button href="tickets.html">Buy Tickets</a></li><li><a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav mobile>
+      <div>
+        <a button href="#footer">Menu</a>
+        <a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a>
       </div>
     </nav>
     <%= main %>
     <footer>
-       <a href="/<%= lang %>/about.html"><%= t('imprint') %></a>
-       |
-       <a href="/<%= lang %>/privacy.html"><%= t('privacy') %></a>
+      <nav>
+        <a href="">X</a>
+        <h1><a id="footer"/>Think About!</h1>
+        <ul>
+          <li><a href="/<%= lang %>/">Landing Page</a></li><li><a href="consensus.html">Our Consensus</a></li><li><a href="location.html">Location</a></li><li><a href="about-us.html">Who we are</a></li><li><a button href="tickets.html">Buy Tickets</a></li><li>
+          <hr/>
+         <li><a href="about.html"><%= t('imprint') %></a>
+         <li><a href="privacy.html"><%= t('privacy') %></a>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>

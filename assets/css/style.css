@@ -170,28 +170,69 @@ body > header div.centered {
 /* ================================ */
 /* Navigation */
 
-nav {
-  position: absolute;
+body > nav {
+  position: relative;
   width: 100%;
   text-align: center;
   color: white;
+}
+
+body > nav > div {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+body > nav a {
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+body > nav[mobile] {
+  display: none;
+  position: absolute;
+  top: 0;
   padding: 1rem;
 }
 
-nav a[button] {
+body > nav[desktop] {
+  display: block;
+}
+
+body > nav a[button] {
   margin: 0;
   background-color: #eb18ff;
 }
 
-nav a:first-child {
+body > nav[mobile] a:last-child {
+  position: absolute;
+  right: 1.3rem;
+  top: 1.5rem;
+  font-size: 0.8rem;
+}
+
+body > nav[desktop] img {
   float: left;
+  height: 2rem;
+  margin-top: 0.7rem;
 }
 
-nav a:last-child {
+body > nav[desktop] ul {
   float: right;
+  list-style: none;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
 }
 
-nav div:after {
+body > nav[desktop] ul li {
+  display: inline-block;
+  padding: 0;
+}
+
+body > nav[desktop] ul li:not(:first-child) {
+  margin-left: 2rem;
+}
+
+body > nav[desktop]:after {
   content: '';
   display: block;
   clear: both;
@@ -206,17 +247,34 @@ footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #470076;
-  margin-top: 2rem;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: 0;
+  position: relative;
 }
 
 footer a {
   color: white;
   text-decoration: none;
   font-size: 0.8rem;
+}
+
+footer nav {
+  background-color: #470076;
+  color: white;
+}
+
+footer nav * {
+  color: white;
+}
+
+footer nav > a:first-child {
+  display: none;
+  position: absolute;
+  font-size: 1.5rem;
+  right: 1rem;
+  top: 1rem;
+}
+
+footer nav ul {
+  list-style: none;
 }
 
 /* ================================ */
@@ -568,6 +626,15 @@ section.speakers .talks:after {
   clear: both;
 }
 @media (max-width: 979px) {
+body > nav[desktop] > div > a:first-child {
+  display: none;
+}
+footer {
+  min-height: 100vh;
+}
+footer nav > a:first-child {
+  display: inline-block;
+}
 section.speakers .talks section,
 section.tickets section {
   width: 47%;
@@ -577,6 +644,12 @@ section.speakers .keynotes article h4 {
 }
 }
 @media (max-width: 699px) {
+body > nav[desktop] {
+  display: none;
+}
+body > nav[mobile] {
+  display: block;
+}
 section.speakers .talks section,
 section.tickets section {
   width: 98%;
