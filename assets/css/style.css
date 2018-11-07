@@ -775,7 +775,7 @@ h1, h4 {
 section.image-with-text figure {
   margin: 2rem auto;
   float: none;
-  width: 80%;
+  width: 90%;
   max-width: 500px;
 }
 
@@ -788,7 +788,7 @@ section.image-with-text article {
 
 section.topics section:nth-child(1n) figure {
   float: none;
-  width: 80%;
+  width: 90%;
   max-width: 400px;
   margin: 3rem auto 0 auto;
 }
