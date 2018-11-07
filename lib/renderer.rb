@@ -108,13 +108,17 @@ class Renderer
       Kramdown::Document.new(text).to_html
     end
 
-    def t(key)
+    def t(key, values = {})
       file = File.join('content', 'translations.yml')
       result = YAML.safe_load(File.read(file))[lang]
       key.split('.').each do |k|
         result = result.fetch(k)
       end
-      result
+      if values.empty?
+        result
+      else
+        result % values
+      end
     end
 
     def data(key)

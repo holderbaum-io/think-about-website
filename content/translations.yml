@@ -7,6 +7,24 @@ de:
   speakers:
     title: "Die Referent*innen"
     tba: "Noch ein bisschen Geduld, die Agenda wird bald veröffentlicht."
+  tickets:
+    title: "Think about buying a ticket?"
+    sold_out: "Ausverkauft!"
+    leftover: "(Noch %{amount} verfügbar)"
+    solidarity_price_details: "(inkl. 250 € für Solidaritäts-Tickets)"
+    benefits:
+      duration: "2-Tages-Ticket für 24 Talks"
+      food: "Tolle regionale Küche"
+      beverages: "Popcorn & Getränke Flatrate"
+      karma: "Karma Punkte"
+    types:
+      earlybird:
+        title: "Early Bird Ticket"
+      regular:
+        title: "Regular Ticket"
+      supporter:
+        title: "Supporter Ticket"
+
 
 en:
   backlink: "Back"
@@ -17,3 +35,21 @@ en:
   speakers:
     title: "Our Speakers"
     tba: " Speakers will be announced soon."
+  tickets:
+    title: "Think about buying a ticket?"
+    sold_out: "Sold Out!"
+    leftover: "(Only %{amount} left)"
+    solidarity_price_details: "(incl. 250 € to make solidarity tickets possible)"
+    benefits:
+      duration: "2-Day ticket for 24 talks"
+      food: "Amazing organic food"
+      beverages: "Unlimited popcorn & drinks"
+      karma: "Karma Points"
+    types:
+      earlybird:
+        title: "Early Bird Ticket"
+      regular:
+        title: "Regular Ticket"
+      supporter:
+        title: "Supporter Ticket"
+

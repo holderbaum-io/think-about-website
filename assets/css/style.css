@@ -78,6 +78,14 @@ b, strong {
   letter-spacing: 0.05rem;
 }
 
+ul {
+  list-style: square;
+}
+
+ul li {
+  padding-bottom: 0.5rem;
+}
+
 body div {
   max-width: 980px;
   margin-left: auto;
@@ -338,11 +346,16 @@ section.tickets section ul li {
 
 section.tickets section ul li {
   padding: 0.8rem 0;
-  border-top: 1px solid #afafaf;
+  border-top: 1px solid #dfdfdf;
 }
 
 section.tickets section[ticket="early"] h1 {
   background-color: #eb18ff;
+}
+
+section.tickets section h1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 section.tickets section[ticket="regular"] h1 {

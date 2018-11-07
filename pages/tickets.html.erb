@@ -3,24 +3,14 @@
   <section>
     <div class="centered">
       <article>
-        <h1>Our Ticket Approach</h1>
-        <p>Our ticket prices allow us to support diversity and solidarity throughout our conference.</p>
+        <%= content 'tickets_intro' %>
       </article>
     </div>
   </section>
   <section class="image-with-text">
     <div>
       <article>
-        <p>
-        With buying a ticket you enable us to:
-        </p>
-        <ul>
-          <li>have a full-time awareness team on site</li>
-          <li>provide child-care for attending parents</li>
-          <li>give away at least 20 solidarity tickets *</li>
-          <li>pay every helper equally</li>
-          <li>offer free live-streaming of the talks</li>
-        </ul>
+        <%= content 'tickets_benefits' %>
       </article>
       <figure>
         <img src="/assets/images/consensus.svg" alt="Monster Friends">
@@ -30,49 +20,49 @@
   <section class="tickets">
     <div>
       <section ticket="early" <%= data('tickets.earlybird.available') ? '' : 'disabled' %>>
-        <h1>Early Bird Ticket</h1>
+        <h1><%= t('tickets.types.earlybird.title') %></h1>
         <article>
           <header>
-            <del>500 €</del>
+            <del><%= data('tickets.regular.price') %> €</del>
             <price><%= data('tickets.earlybird.price') %> €</price>
             <% if data('tickets.earlybird.available') %>
-            <p>(only <%= data('tickets.earlybird.available_number') %> left)</p>
+            <p><%= t('tickets.leftover', amount: data('tickets.earlybird.available_number')) %></p>
             <% else %>
-            <p>Sold Out</p>
+            <p><%= t('tickets.sold_out') %></p>
             <% end %>
           </header>
           <ul>
-            <li>2-Day ticket for 24 talks</li>
-            <li>High quality organic food</li>
-            <li>Unlimited popcorn &amp; drinks</li>
+            <li><%= t('tickets.benefits.duration') %></li>
+            <li><%= t('tickets.benefits.food') %></li>
+            <li><%= t('tickets.benefits.beverages') %></li>
           </ul>
         </article>
       </section>
       <section ticket="regular" <%= data('tickets.regular.available') ? '' : 'disabled' %>>
-        <h1>Regular Ticket</h1>
+        <h1><%= t('tickets.types.regular.title') %></h1>
         <article>
           <header>
             <price><%= data('tickets.regular.price') %> €</price>
           </header>
           <ul>
-            <li>2-Day ticket for 24 talks</li>
-            <li>High quality organic food</li>
-            <li>Unlimited popcorn &amp; drinks</li>
+            <li><%= t('tickets.benefits.duration') %></li>
+            <li><%= t('tickets.benefits.food') %></li>
+            <li><%= t('tickets.benefits.beverages') %></li>
           </ul>
         </article>
       </section>
       <section ticket="supporter" <%= data('tickets.supporter.available') ? '' : 'disabled' %>>
-        <h1>Supporter Ticket</h1>
+        <h1><%= t('tickets.types.supporter.title') %></h1>
         <article>
           <header>
             <price><%= data('tickets.supporter.price') %> €</price>
-            <p>(incl. 250 € to make solidarity tickets possible)</p>
+            <p><%= t('tickets.solidarity_price_details') %></p>
           </header>
           <ul>
-            <li>2-Day ticket for 24 talks</li>
-            <li>High quality organic food</li>
-            <li>Unlimited popcorn &amp; drinks</li>
-            <li>Karma points</li>
+            <li><%= t('tickets.benefits.duration') %></li>
+            <li><%= t('tickets.benefits.food') %></li>
+            <li><%= t('tickets.benefits.beverages') %></li>
+            <li><%= t('tickets.benefits.karma') %></li>
           </ul>
         </article>
       </section>
@@ -81,8 +71,7 @@
   <section>
     <div class="centered">
       <article>
-        <h1>* You can’t afford a ticket?</h1>
-        <p>Don’t worry! Just drop us a short message with an introduction and the price you can afford. We will get back to you as soon as possible.</p>
+        <%= content 'tickets_notes' %>
       </article>
     </div>
   </section>
