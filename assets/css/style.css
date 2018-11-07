@@ -273,11 +273,15 @@ section.tickets section {
   width: 30%;
   max-width: 300px;
   margin: 1%;
-  margin-bottom: 0rem;
+  margin-bottom: 2rem;
+}
+
+section.tickets h1 {
+  margin-bottom: 3rem;
 }
 
 section.tickets a:last-child {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 section.tickets section h1 {

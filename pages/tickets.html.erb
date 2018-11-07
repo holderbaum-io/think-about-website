@@ -38,8 +38,7 @@
             <li><%= t('tickets.benefits.beverages') %></li>
           </ul>
         </article>
-      </section>
-      <section ticket="regular" <%= data('tickets.regular.available') ? '' : 'disabled' %>>
+      </section><section ticket="regular" <%= data('tickets.regular.available') ? '' : 'disabled' %>>
         <h1><%= t('tickets.types.regular.title') %></h1>
         <article>
           <header>
@@ -51,8 +50,7 @@
             <li><%= t('tickets.benefits.beverages') %></li>
           </ul>
         </article>
-      </section>
-      <section ticket="supporter" <%= data('tickets.supporter.available') ? '' : 'disabled' %>>
+      </section><section ticket="supporter" <%= data('tickets.supporter.available') ? '' : 'disabled' %>>
         <h1><%= t('tickets.types.supporter.title') %></h1>
         <article>
           <header>
@@ -67,8 +65,8 @@
           </ul>
         </article>
       </section>
-      <a href="<%= t('tickets.shop_link.link') %>" button><%= t('tickets.shop_link.text') %></a>
     </div>
+    <a href="<%= t('tickets.shop_link.link') %>" button><%= t('tickets.shop_link.text') %></a>
   </section>
   <section>
     <div class="centered">
