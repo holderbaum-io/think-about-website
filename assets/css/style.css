@@ -797,10 +797,14 @@ body > header {
   height: 442px;
   background-image: url("/assets/images/keyvisual-small.svg");
   background-size: 700px 442px;
-  padding-top: 110px;
+  padding-top: 90px;
 }
 body > header div.centered {
   max-width: 25rem;
+}
+
+body > header a[button] {
+  margin-top: 0;
 }
 
 }
