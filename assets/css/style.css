@@ -312,6 +312,11 @@ footer nav > a:first-child img {
   width: 1.2rem;
 }
 
+footer nav img {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
 footer nav ul {
   list-style: none;
 }
@@ -677,12 +682,6 @@ section.speakers .talks:after {
 body > nav[desktop] > div > a:first-child {
   display: none;
 }
-footer {
-  min-height: 100vh;
-}
-footer nav > a:first-child {
-  display: inline-block;
-}
 section.speakers .talks section,
 section.tickets section {
   width: 47%;
@@ -697,6 +696,12 @@ body > nav[desktop] {
 }
 body > nav[mobile] {
   display: block;
+}
+footer {
+  min-height: 100vh;
+}
+footer nav > a:first-child {
+  display: inline-block;
 }
 section.speakers .talks section,
 section.tickets section {
@@ -806,6 +811,5 @@ body > header {
 body > header div.centered {
   max-width: 25rem;
 }
-
 }
 
