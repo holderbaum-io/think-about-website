@@ -276,6 +276,10 @@ section.tickets section {
   margin-bottom: 0rem;
 }
 
+section.tickets a:last-child {
+  margin-top: 4rem;
+}
+
 section.tickets section h1 {
   width: 100%;
   margin: 0;

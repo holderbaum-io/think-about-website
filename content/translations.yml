@@ -11,7 +11,10 @@ de:
     title: "Think about buying a ticket?"
     sold_out: "Ausverkauft!"
     leftover: "(Noch %{amount} verfügbar)"
-    solidarity_price_details: "(inkl. 250 € für Solidaritäts-Tickets)"
+    shop_link:
+      text: "Zum Ticket Shop"
+      link: "https://pretix.eu/locale/set?locale=de-informal&next=/hrx/think-about-2019/"
+    solidarity_price_details: "(inkl. 250 € für Solidarische Tickets)"
     benefits:
       duration: "2-Tages-Ticket für 24 Talks"
       food: "Tolle regionale Küche"
@@ -39,6 +42,9 @@ en:
     title: "Think about buying a ticket?"
     sold_out: "Sold Out!"
     leftover: "(Only %{amount} left)"
+    shop_link:
+      text: "To Ticket Shop"
+      link: "https://pretix.eu/locale/set?locale=en&next=/hrx/think-about-2019/"
     solidarity_price_details: "(incl. 250 € to make solidarity tickets possible)"
     benefits:
       duration: "2-Day ticket for 24 talks"
