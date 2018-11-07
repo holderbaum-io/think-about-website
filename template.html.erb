@@ -17,16 +17,20 @@
         </ul>
       </div>
     </nav>
-    <nav mobile>
+    <nav mobile <%= !url.empty? && url != 'index.html' ? 'dark' : ''%>>
       <div>
-        <a button href="#footer">Menu</a>
         <a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a>
+        <% if !url.empty? && url != 'index.html' %>
+          <a href="#footer"><img src="/assets/images/menu-dark.svg"/></a>
+        <% else %>
+          <a href="#footer"><img src="/assets/images/menu.svg"/></a>
+        <% end %>
       </div>
     </nav>
     <%= main %>
     <footer>
       <nav>
-        <a href="">X</a>
+        <a href="#"><img src="/assets/images/close.svg"/></a>
         <h1><a id="footer"/>Think About!</h1>
         <ul>
           <li><a href="/<%= lang %>/">Landing Page</a></li><li><a href="consensus.html">Our Consensus</a></li><li><a href="location.html">Location</a></li><li><a href="about-us.html">Who we are</a></li><li><a button href="tickets.html">Buy Tickets</a></li><li>

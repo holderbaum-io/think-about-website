@@ -134,6 +134,10 @@ a[button]:hover {
   text-decoration: underline;
 }
 
+header a[button] {
+  background-color: #eb18ff;
+}
+
 /* ================================ */
 /* Keyvisual */
 
@@ -203,11 +207,34 @@ body > nav a[button] {
   background-color: #eb18ff;
 }
 
-body > nav[mobile] a:last-child {
+body > nav[mobile] > div > * {
   position: absolute;
-  right: 1.3rem;
-  top: 1.5rem;
+  top: 1rem;
+}
+
+body > nav[mobile] > div > *:first-child {
+  left: 1rem;
+}
+body > nav[mobile] > div > *:last-child {
+  right: 1rem;
+}
+
+body > nav[mobile] a img {
+  width: 1.2rem;
+}
+
+body > nav[mobile] a {
+  color: white;
+}
+
+body > nav[mobile][dark] a {
+  color: #470076;
+}
+
+body > nav[mobile] a:first-child {
+  padding-top: 0.1rem;
   font-size: 0.8rem;
+  font-weight: 700;
 }
 
 body > nav[desktop] img {
@@ -268,9 +295,12 @@ footer nav * {
 footer nav > a:first-child {
   display: none;
   position: absolute;
-  font-size: 1.5rem;
   right: 1rem;
   top: 1rem;
+}
+
+footer nav > a:first-child img {
+  width: 1.2rem;
 }
 
 footer nav ul {
@@ -750,10 +780,14 @@ html {
   font-size: 18px;
 }
 body > header {
-  height: 400px;
+  height: 442px;
   background-image: url("/assets/images/keyvisual-small.svg");
-  background-size: 700px 400px;
-  padding-top: 70px;
+  background-size: 700px 442px;
+  padding-top: 110px;
 }
+body > header div.centered {
+  max-width: 25rem;
+}
+
 }
 
