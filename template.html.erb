@@ -13,7 +13,12 @@
       <div>
         <a href="/<%= lang %>/"><img src="/assets/images/logo.svg" alt="Think About! Logo"/></a>
         <ul>
-          <li><a href="consensus.html">Our Consensus</a></li><li><a href="location.html">Location</a></li><li><a href="about-us.html">Who we are</a></li><li><a button href="tickets.html">Buy Tickets</a></li><li><a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a></li>
+          <li><a href="consensus.html"><%= t('nav.consensus') %></a></li>
+          <li><a href="about-us.html"><%= t('nav.about-us') %></a></li>
+          <% if feature? :preview %>
+          <li><a button href="tickets.html"><%= t('nav.tickets') %></a></li>
+          <% end %>
+          <li><a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a></li>
         </ul>
       </div>
     </nav>
@@ -33,10 +38,15 @@
         <a href="#"><img src="/assets/images/close.svg"/></a>
         <h1><a id="footer"/>Think About!</h1>
         <ul>
-          <li><a href="/<%= lang %>/">Landing Page</a></li><li><a href="consensus.html">Our Consensus</a></li><li><a href="location.html">Location</a></li><li><a href="about-us.html">Who we are</a></li><li><a button href="tickets.html">Buy Tickets</a></li><li>
+          <li><a href=""><%= t('nav.home') %></a></li>
+          <li><a href="consensus.html"><%= t('nav.consensus') %></a></li>
+          <li><a href="about-us.html"><%= t('nav.about-us') %></a></li>
+          <% if feature? :preview %>
+          <li><a button href="tickets.html"><%= t('nav.tickets') %></a></li>
+          <% end %>
           <hr/>
-         <li><a href="about.html"><%= t('imprint') %></a>
-         <li><a href="privacy.html"><%= t('privacy') %></a>
+          <li><a href="about.html"><%= t('nav.imprint') %></a>
+          <li><a href="privacy.html"><%= t('nav.privacy') %></a>
         </ul>
       </nav>
     </footer>

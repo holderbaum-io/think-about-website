@@ -1,7 +1,11 @@
 de:
-  backlink: "Zurück"
-  imprint: Impressum
-  privacy: Datenschutz
+  nav:
+    imprint: "Impressum"
+    privacy: "Datenschutz"
+    home: "Startseite"
+    consensus: "Unser Konsens"
+    about-us: "Über Uns"
+    tickets: "Ticket Kaufen"
   keynotes:
     title: "Die Keynotes"
   speakers:
@@ -30,9 +34,13 @@ de:
 
 
 en:
-  backlink: "Back"
-  imprint: Imprint
-  privacy: Privacy
+  nav:
+    imprint: "Imprint"
+    privacy: "Privacy"
+    home: "Home"
+    consensus: "Our Consensus"
+    about-us: "About Us"
+    tickets: "Get Ticket"
   keynotes:
     title: "Our Keynotes"
   speakers:
