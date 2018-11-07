@@ -117,6 +117,17 @@ class Renderer
       result
     end
 
+    def data(key)
+      nodes = key.split('.')
+      filename = nodes.shift
+      file = File.join 'data', filename + '.json'
+      result = JSON.parse File.read file
+      nodes.each do |k|
+        result = result.fetch(k)
+      end
+      result
+    end
+
     def feature?(type)
       ENV.fetch("FEATURE_#{type.to_s.upcase}", false)
     end
