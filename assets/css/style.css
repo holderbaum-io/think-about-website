@@ -240,19 +240,24 @@ body > nav[mobile] a:first-child {
 body > nav[desktop] img {
   float: left;
   height: 2rem;
-  margin-top: 0.7rem;
+  margin-top: 0.5rem;
 }
 
 body > nav[desktop] ul {
   float: right;
   list-style: none;
-  margin-top: 0.7rem;
-  margin-bottom: 0.7rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 body > nav[desktop] ul li {
   display: inline-block;
   padding: 0;
+}
+
+body > nav[desktop] ul li a:not([button]) {
+  margin: 1rem;
+  display: inline-block;
 }
 
 body > nav[desktop] ul li:not(:first-child) {
