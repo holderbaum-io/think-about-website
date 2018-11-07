@@ -294,7 +294,7 @@ section.tickets section header del {
   color: #9b9b9b;
   display: block;
   min-height: 1rem;
-  padding-top: 1rem;
+  margin-top: 1rem;
 }
 
 section.tickets section header price:first-child {
@@ -317,8 +317,8 @@ section.tickets section header p {
   padding-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
-  min-height: 3rem;
-  margin-top: 1rem;
+  min-height: 3.9rem;
+  margin-top: 0.1rem;
   margin-bottom: 0;
   color: #9b9b9b;
 }
@@ -336,7 +336,7 @@ section.tickets section ul li {
 }
 
 section.tickets section ul li:not(:first-child) {
-  border-top: 1px solid #9f9f9f;
+  border-top: 1px solid #afafaf;
 }
 
 section.tickets section[ticket="early"] h1 {
@@ -350,6 +350,20 @@ section.tickets section[ticket="regular"] h1 {
 section.tickets section[ticket="supporter"] h1 {
   background-color: #6b3cff;
 }
+
+section.tickets section[ticket][disabled] {
+  background-color: #ededed;
+}
+
+section.tickets section[ticket][disabled] h1 {
+  background-color: #9b9b9b;
+  color: white;
+}
+
+section.tickets section[ticket][disabled] * {
+  color: #9b9b9b;
+}
+
 
 /* ================================ */
 /* Speaker */

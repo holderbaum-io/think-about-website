@@ -29,12 +29,17 @@
   </section>
   <section class="tickets">
     <div>
-      <section ticket="early">
+      <section ticket="early" <%= data('tickets.earlybird.available') ? '' : 'disabled' %>>
         <h1>Early Bird Ticket</h1>
         <article>
           <header>
             <del>500 €</del>
-            <price>380 €</price>
+            <price><%= data('tickets.earlybird.price') %> €</price>
+            <% if data('tickets.earlybird.available') %>
+            <p>(only <%= data('tickets.earlybird.available_number') %> left)</p>
+            <% else %>
+            <p>Sold Out</p>
+            <% end %>
           </header>
           <ul>
             <li>2-Day ticket for 24 talks</li>
@@ -43,11 +48,11 @@
           </ul>
         </article>
       </section>
-      <section ticket="regular">
+      <section ticket="regular" <%= data('tickets.regular.available') ? '' : 'disabled' %>>
         <h1>Regular Ticket</h1>
         <article>
           <header>
-            <price>500 €</price>
+            <price><%= data('tickets.regular.price') %> €</price>
           </header>
           <ul>
             <li>2-Day ticket for 24 talks</li>
@@ -56,11 +61,11 @@
           </ul>
         </article>
       </section>
-      <section ticket="supporter">
+      <section ticket="supporter" <%= data('tickets.supporter.available') ? '' : 'disabled' %>>
         <h1>Supporter Ticket</h1>
         <article>
           <header>
-            <price>750 €</price>
+            <price><%= data('tickets.supporter.price') %> €</price>
             <p>(incl. 250 € to make solidarity tickets possible)</p>
           </header>
           <ul>
