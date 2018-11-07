@@ -171,6 +171,10 @@ body > header div.centered {
   padding-right: 2rem;
 }
 
+body > header a[button] {
+  margin-top: 0.4rem;
+}
+
 /* ================================ */
 /* Navigation */
 
@@ -801,10 +805,6 @@ body > header {
 }
 body > header div.centered {
   max-width: 25rem;
-}
-
-body > header a[button] {
-  margin-top: 0;
 }
 
 }
