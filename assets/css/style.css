@@ -353,6 +353,15 @@ section.tickets {
   text-align: center;
 }
 
+section.ticket-benefits ul {
+  list-style: none;
+}
+
+section.ticket-benefits ul li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top: 1px solid #dfdfdf;
+}
 
 section.tickets section {
   border-radius: 5px;
