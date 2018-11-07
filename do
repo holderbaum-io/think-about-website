@@ -39,6 +39,10 @@ task_update_keynotes() {
   bundle exec ruby bin/keynotes.rb > partials/keynotes_list.html.erb
 }
 
+task_update_tickets() {
+  bundle exec ruby bin/tickets.rb > data/tickets.json
+}
+
 
 task_deploy() {
   local user="${1:-deploy-think-about}"
@@ -63,7 +67,7 @@ task_deploy() {
 }
 
 usage() {
-  echo "$0 serve | build | update_keynotes | update_speakers | deploy | clean"
+  echo "$0 serve | build | update_keynotes | update_speakers | update_tickets | deploy | clean"
   exit 1
 }
 
@@ -76,6 +80,7 @@ case "$cmd" in
   build) task_build ;;
   update_keynotes) task_update_keynotes ;;
   update_speakers) task_update_speakers ;;
+  update_tickets) task_update_tickets ;;
   deploy) task_deploy "$@" ;;
   *) usage ;;
 esac

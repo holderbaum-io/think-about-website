@@ -8,11 +8,14 @@ GEM
       tzinfo (~> 1.1)
     backports (3.11.4)
     concurrent-ruby (1.0.5)
+    faraday (0.15.3)
+      multipart-post (>= 1.2, < 3)
     i18n (1.1.0)
       concurrent-ruby (~> 1.0)
     kramdown (1.17.0)
     minitest (5.11.3)
     multi_json (1.13.1)
+    multipart-post (2.0.0)
     mustermann (1.0.3)
     rack (2.0.5)
     rack-protection (2.0.4)
@@ -39,6 +42,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  faraday
   kramdown
   sinatra
   sinatra-contrib
