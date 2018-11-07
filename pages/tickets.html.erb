@@ -17,6 +17,7 @@
   <section class="tickets">
     <div>
       <h1><%= t('tickets.title') %></h1>
+      <a href="<%= t('tickets.shop_link.link') %>">
       <section ticket="early" <%= data('tickets.earlybird.available') ? '' : 'disabled' %>>
         <h1><%= t('tickets.types.earlybird.title') %></h1>
         <article>
@@ -35,7 +36,7 @@
             <li><%= t('tickets.benefits.beverages') %></li>
           </ul>
         </article>
-      </section><section ticket="regular" <%= data('tickets.regular.available') ? '' : 'disabled' %>>
+      </section></a><a href="<%= t('tickets.shop_link.link') %>"><section ticket="regular" <%= data('tickets.regular.available') ? '' : 'disabled' %>>
         <h1><%= t('tickets.types.regular.title') %></h1>
         <article>
           <header>
@@ -47,7 +48,7 @@
             <li><%= t('tickets.benefits.beverages') %></li>
           </ul>
         </article>
-      </section><section ticket="supporter" <%= data('tickets.supporter.available') ? '' : 'disabled' %>>
+      </section></a><a href="<%= t('tickets.shop_link.link') %>"><section ticket="supporter" <%= data('tickets.supporter.available') ? '' : 'disabled' %>>
         <h1><%= t('tickets.types.supporter.title') %></h1>
         <article>
           <header>
@@ -61,7 +62,7 @@
             <li><%= t('tickets.benefits.karma') %></li>
           </ul>
         </article>
-      </section>
+      </section></a>
     </div>
     <a href="<%= t('tickets.shop_link.link') %>" button><%= t('tickets.shop_link.text') %></a>
   </section>
