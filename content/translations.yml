@@ -5,7 +5,7 @@ de:
     home: "Startseite"
     consensus: "Unser Konsens"
     about-us: "Über Uns"
-    tickets: "Ticket Kaufen"
+    tickets: "Ticket kaufen"
   keynotes:
     title: "Die Keynotes"
   speakers:
@@ -13,6 +13,7 @@ de:
     tba: "Noch ein bisschen Geduld, die Agenda wird bald veröffentlicht."
   tickets:
     title: "Think about buying a ticket?"
+    tba: "Der Ticketverkauf startet bald!"
     sold_out: "Ausverkauft!"
     leftover: "(Noch %{amount} verfügbar)"
     shop_link:
@@ -48,6 +49,7 @@ en:
     tba: " Speakers will be announced soon."
   tickets:
     title: "Think about buying a ticket?"
+    tba: "Ticket Sale starts soon!"
     sold_out: "Sold Out!"
     leftover: "(Only %{amount} left)"
     shop_link:
