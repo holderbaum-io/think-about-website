@@ -1,6 +1,7 @@
 require 'erb'
 require 'kramdown'
 require 'yaml'
+require 'json'
 
 class Renderer
   def initialize(source_dir = nil)
