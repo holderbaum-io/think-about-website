@@ -103,7 +103,7 @@ You have the right to say NO and to resist when someone oversteps your borders,
 hurts your feelings or those of someone else! You can say NO with facial
 expressions, words or body language. Even if you have said YES before.
 
-Adapted from Amyna eY., Institute for prevention of sexual abuse via [Geheimorganisation.org](http://diversity.geheim.org/) at the 34C3. 
+Adapted from Amyna e.V., Institute for prevention of sexual abuse via [Geheimorganisation.org](http://diversity.geheim.org/) at the 34C3. 
 
 ## Disclaimer
 
