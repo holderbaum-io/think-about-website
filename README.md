@@ -12,7 +12,14 @@ To see changes locally, simply run:
 ./do serve
 ```
 
-This starts a webserver, which you can visit here: http://localhost:9090/ .
+You can also start the server in "preview" mode like this:
+
+```sh
+FEATURE_PREVIEW=1 ./do serve
+```
+
+
+This starts a webserver, which you can visit here: http://localhost:9090/en/ .
 
 ## Deployment
 
