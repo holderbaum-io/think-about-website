@@ -117,7 +117,7 @@ Du hast das Recht, NEIN zu sagen und dich zu wehren, wenn jemand deine Grenzen
 NEIN sagen mit Blicken, Worten oder durch deine Körperhaltung. Auch, wenn du
 schon einmal JA gesagt hast.
 
-Inspiriert durch: [Geheimorganisation](http://diversity.geheim.org/)
+Nach Amyna eV., Institut zur Prävention sexuellen Missbrauchs, aufgefunden durch [Geheimorganisation](http://diversity.geheim.org/) auf dem 34C3.
 
 ## Disclaimer
 
