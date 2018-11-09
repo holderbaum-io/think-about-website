@@ -26,26 +26,23 @@ talks.select { |t| t[:track].casecmp('keynote').zero? }.sort_by { |t| Date.parse
   speaker = talk[:speakers][0]
   person = speaker[:full_public_name]
   person_slug = slug(person)
-  about = speaker[:abstract]
   link = speaker[:links].first
   url = link ? link[:url] : '#'
-
+  company = link ? link[:title] : 'TODO'
   html = <<-HTML
           <section topic="#{talk[:track].downcase}">
+            <h4>Keynote</h4>
             <article>
+              <p>"#{talk[:title]}"</p>
+              <hr/>
               <header>
-                <figure>
-                  <img src="/assets/images/speaker/#{person_slug}.png" />
-                </figure>
                 <div>
-                  <h4>Keynote</h4>
-                  <p>"#{talk[:title]}"</p>
-                  <a href="#{url}">#{person}</a>
-                </div>
-              </header><div>
-                <p>#{about}</p>
-              </div>
-            </article>
+                  <h1>#{person}</h1>
+                  <p><a href="#{url}">#{company}</a></p>
+                </div><figure>
+                  <img src="/assets/images/speaker/#{person_slug}.png" />
+                </figure></header>
+              </article>
           </section>
   HTML
   indentation = html.lines.first[/^ */].size
