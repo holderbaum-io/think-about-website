@@ -44,6 +44,14 @@ h1, h2, h3, h1 *, h2 *, h3 * {
   color: #0e003b;
 }
 
+h2, h2 * {
+  font-size: 1.1rem;
+}
+
+h3, h3 * {
+  font-size: 1rem;
+}
+
 h4 {
   letter-spacing: 0.05rem;
   font-weight: 700;
