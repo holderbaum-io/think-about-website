@@ -8,9 +8,11 @@ de:
     tickets: "Ticket kaufen"
   keynotes:
     title: "Die Keynotes"
+    more: "Und weitere..."
   speakers:
     title: "Die Referent*innen"
     tba: "Noch ein bisschen Geduld, die Agenda wird bald veröffentlicht."
+    more: "Und weitere..."
   tickets:
     title: "Think about buying a ticket?"
     tba: "Der Ticketverkauf startet bald!"
@@ -44,9 +46,11 @@ en:
     tickets: "Get Ticket"
   keynotes:
     title: "Our Keynotes"
+    more: "And some more..."
   speakers:
     title: "Our Speakers"
     tba: " Speakers will be announced soon."
+    more: "And some more..."
   tickets:
     title: "Think about buying a ticket?"
     tba: "Ticket Sale starts soon!"

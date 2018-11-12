@@ -22,7 +22,9 @@ talks = schedule[:conference_events][:events].select do |talk|
   talk[:type] == 'lecture'
 end
 
-talks.select { |t| t[:track].casecmp('keynote').zero? }.sort_by { |t| Date.parse(t[:start_time]) }.reverse.each do |talk|
+selection = talks.select { |t| t[:track].casecmp('keynote').zero? }.sort_by { |t| Date.parse(t[:start_time]) }.reverse
+
+selection.each do |talk|
   speaker = talk[:speakers][0]
   person = speaker[:full_public_name]
   person_slug = slug(person)
@@ -47,4 +49,8 @@ talks.select { |t| t[:track].casecmp('keynote').zero? }.sort_by { |t| Date.parse
   HTML
   indentation = html.lines.first[/^ */].size
   puts html.lines.map { |l| l.gsub(/^ {#{indentation}}/, '') }.join
+end
+
+if selection.size < 4
+  puts "<p><%= t('keynotes.more') %></p>"
 end
