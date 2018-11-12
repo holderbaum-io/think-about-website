@@ -59,7 +59,7 @@ Zusammenkünften im Zusammenhang mit dieser Konferenz.
 
 Inspiriert durch: [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
 
-## Unsere Awareness-Teams und weitere Kontaktmöglichkeiten
+# Unsere Awareness-Teams und weitere Kontaktmöglichkeiten
 
 Um eine angenehme, sichere und respektvolle Atmosphäre für alle anwesenden
 Personen auf der Think About! conference zu ermöglichen, gibt es unsere
@@ -94,7 +94,7 @@ Die Organisatoren können via Mail unter folgenden Adressen erreicht werden:
 Selbstverständlich können auch externe Organisationen angesprochen werden -
 eine Auflistung wird im Laufe der Zeit hier veröffentlicht.
 
-## Message of Empowerment
+# Message of Empowerment
 
 Du musst nicht die NASA hacken können, um zur Think About! Konferenz zu
 gehören. Solange du rücksichtsvoll mit anderen umgehst und die Absicht hast
@@ -119,7 +119,7 @@ schon einmal JA gesagt hast.
 
 Nach Amyna eV., Institut zur Prävention sexuellen Missbrauchs, aufgefunden durch [Geheimorganisation](http://diversity.geheim.org/) auf dem 34C3.
 
-## Disclaimer
+# Disclaimer
 
 Dieses Dokument ist ein work in progress und wird von Zeit zu Zeit
 aktualisiert.  Falls Ihr Euch in diesen Prozess einbringen wollt laden wir Euch
