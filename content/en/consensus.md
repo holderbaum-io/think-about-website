@@ -1,4 +1,4 @@
-# Think About! Our Code of Conduct
+# Think About! Our Code of Conduct {#coc}
 
 All attendees, speakers, sponsors, organizers and volunteers at our conference
 are required to agree with the following code of conduct. Our Awareness-Team
@@ -82,7 +82,7 @@ The organization team can be reached via mail under the following addresses:
 External organizations can be reached as well – a list of recommendations will
 be provided here soo
 
-# Message of Empowerment
+# Message of Empowerment {#empowerment}
 
 You don't have to be able to hack NASA in order to be a part of the Think
 About! conference. As long as you are considerate of others and intend to

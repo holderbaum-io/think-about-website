@@ -1,4 +1,4 @@
-# Think About! Our Code of Conduct
+# Think About! Our Code of Conduct {#coc}
 
 Alle Besucher\*innen, Redner\*innen, Sponsor\*innen, Organisator\*innen und
 Freiwilligen auf dieser Konferenz werden aufgefordert, sich an folgende
@@ -99,7 +99,7 @@ Die Organisatoren können via Mail unter folgenden Adressen erreicht werden:
 Selbstverständlich können auch externe Organisationen angesprochen werden -
 eine Auflistung wird im Laufe der Zeit hier veröffentlicht.
 
-# Message of Empowerment
+# Message of Empowerment {#empowerment}
 
 Du musst nicht die NASA hacken können, um zur Think About! Konferenz zu
 gehören. Solange du rücksichtsvoll mit anderen umgehst und die Absicht hast
