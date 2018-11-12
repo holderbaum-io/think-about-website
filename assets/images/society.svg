@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 360 295" enable-background="new 0 0 360 295" xml:space="preserve">
 <g id="Background">
@@ -16,69 +16,8 @@
 <g id="Trees">
 </g>
 <g id="Floor">
-	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="178.752" y1="128.2089" x2="178.752" y2="275.013">
-		<stop  offset="0" style="stop-color:#A4AAFF"/>
-		<stop  offset="0.998" style="stop-color:#A4AAFF;stop-opacity:0.1"/>
-	</linearGradient>
-	<rect x="-4.9" y="125.7" fill="url(#SVGID_1_)" width="367.3" height="158.8"/>
 </g>
 <g id="Dekoration">
-	<g>
-		<ellipse opacity="0.19" fill="#4A00D0" cx="268.5" cy="150.5" rx="11.9" ry="2.8"/>
-		<g>
-			<g>
-				<g>
-					<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="267.2976" y1="78.9717" x2="268.7844" y2="130.8231">
-						<stop  offset="0" style="stop-color:#6B3CFF"/>
-						<stop  offset="1" style="stop-color:#6B3CFF;stop-opacity:0.2"/>
-					</linearGradient>
-					<path fill="url(#SVGID_2_)" d="M282.5,115.8c-0.9-0.8-1.9-1.5-2.7-2.5c-1.9-2.1-2.5-5.3-1.5-8c0.5-1.4,1.4-2.6,1.7-4.1
-						c0.6-3-1.5-5.7-3.3-8.2c-0.6-0.8-1.2-1.7-1.6-2.6c-0.7-1.4-0.8-2.9-0.4-4.4c0.4-1.3,0.3-2.7-0.2-3.9c-0.8-1.8-2.6-3-4.5-3.1
-						h-2.6c-1.9,0.1-3.7,1.4-4.5,3.1c-0.6,1.2-0.6,2.6-0.2,3.9c0.5,1.5,0.3,3-0.4,4.4c-0.5,0.9-1,1.8-1.6,2.6
-						c-1.8,2.4-3.9,5.2-3.3,8.2c0.3,1.5,1.2,2.7,1.7,4.1c1,2.7,0.4,5.9-1.5,8c-0.8,0.9-1.8,1.6-2.7,2.5c-2.9,2.7-4.3,7.3-2.3,10.6
-						c1.7,2.7,4.8,4.2,8.1,4.2h8h0.2h8c3.3,0,6.4-1.6,8.1-4.2C286.9,123,285.4,118.4,282.5,115.8z"/>
-				</g>
-				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="268.0681" y1="116.9327" x2="269.0424" y2="150.9142">
-					<stop  offset="0" style="stop-color:#4A00D0"/>
-					<stop  offset="1" style="stop-color:#6B3CFF;stop-opacity:0.2"/>
-				</linearGradient>
-				
-					<line fill="#5451B7" stroke="url(#SVGID_3_)" stroke-width="2.4075" stroke-linecap="round" stroke-miterlimit="10" x1="268.6" y1="118.1" x2="268.6" y2="149.7"/>
-				<path fill="none" stroke="#FFFFFF" stroke-width="0.6486" stroke-linecap="round" stroke-miterlimit="10" d="M264.3,86
-					c0,0-2.2-4.8,2.9-5.9"/>
-				
-					<line fill="none" stroke="#FFFFFF" stroke-width="0.6486" stroke-linecap="round" stroke-miterlimit="10" x1="268.2" y1="80.1" x2="268.7" y2="80.1"/>
-			</g>
-		</g>
-	</g>
-	<g>
-		<ellipse opacity="0.19" fill="#4A00D0" cx="233.3" cy="135.2" rx="8.4" ry="2"/>
-		<g>
-			<g>
-				<g>
-					<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="232.5013" y1="84.5773" x2="233.5526" y2="121.2402">
-						<stop  offset="0" style="stop-color:#6B3CFF"/>
-						<stop  offset="1" style="stop-color:#6B3CFF;stop-opacity:0.2"/>
-					</linearGradient>
-					<path fill="url(#SVGID_4_)" d="M243.3,110.6c-0.6-0.6-1.4-1.1-1.9-1.7c-1.4-1.5-1.8-3.8-1.1-5.7c0.4-1,1-1.9,1.2-2.9
-						c0.4-2.1-1.1-4-2.3-5.8c-0.4-0.6-0.8-1.2-1.2-1.8c-0.5-1-0.6-2.1-0.3-3.1c0.3-0.9,0.2-1.9-0.2-2.8c-0.6-1.2-1.9-2.1-3.2-2.2
-						h-1.9c-1.4,0.1-2.6,1-3.2,2.2c-0.4,0.9-0.4,1.9-0.2,2.8c0.3,1,0.2,2.2-0.3,3.1c-0.3,0.6-0.7,1.3-1.2,1.8
-						c-1.3,1.7-2.7,3.7-2.3,5.8c0.2,1,0.8,1.9,1.2,2.9c0.7,1.9,0.3,4.2-1.1,5.7c-0.6,0.6-1.3,1.1-1.9,1.7c-2,1.9-3.1,5.2-1.6,7.5
-						c1.2,1.9,3.4,3,5.7,3h5.7h0.2h5.7c2.3,0,4.5-1.1,5.7-3C246.3,115.7,245.3,112.5,243.3,110.6z"/>
-				</g>
-				<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="233.0461" y1="111.4187" x2="233.735" y2="135.4462">
-					<stop  offset="0" style="stop-color:#4A00D0"/>
-					<stop  offset="1" style="stop-color:#6B3CFF;stop-opacity:0.2"/>
-				</linearGradient>
-				
-					<line fill="#5451B7" stroke="url(#SVGID_5_)" stroke-width="1.7023" stroke-linecap="round" stroke-miterlimit="10" x1="233.4" y1="112.3" x2="233.4" y2="134.6"/>
-				<path fill="none" stroke="#FFFFFF" stroke-width="0.4586" stroke-linecap="round" stroke-miterlimit="10" d="M230.4,89.6
-					c0,0-1.5-3.4,2.1-4.2"/>
-				
-					<line fill="none" stroke="#FFFFFF" stroke-width="0.4586" stroke-linecap="round" stroke-miterlimit="10" x1="233.1" y1="85.4" x2="233.5" y2="85.4"/>
-			</g>
-		</g>
-	</g>
 </g>
 <g id="Mask">
 	<path fill="#FFFFFF" d="M392.4,319.9V-11.4h-426v331.3H392.4z M89.8,69C187.2,43.9,267.3,39,328,114.3
@@ -236,7 +175,7 @@
 </g>
 <g id="Lines">
 </g>
-<g id="Text">
+<g id="Text" display="none">
 </g>
 <g id="Fog_Overlay">
 </g>
