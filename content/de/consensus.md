@@ -37,10 +37,12 @@ Kontakt und unerwünschte sexuelle Aufmerksamkeit.
 Teilnehmer\*innen, die wegen solchen Verhaltens ermahnt werden, haben dieses
 sofort einzustellen.
 
-Diese Verhaltensregeln gelten auch für Sponsor\*innen. Insbesondere sollten Sponsor\*innen darauf 
-achten, dass sie keine sexualisierenden Bilder, Aktivitäten oder andere sexualisierende Werbemittel 
-einsetzen. Standpersonal (auch Freiwillige) sollten darauf achten, keine sexualisierende Kleidung, 
-Uniformen oder Kostüme zu tragen, oder sonstwie ein sexualisiertes Umfeld zu gestalten.
+Diese Verhaltensregeln gelten auch für Sponsor\*innen. Insbesondere sollten
+Sponsor\*innen darauf achten, dass sie keine sexualisierenden Bilder,
+Aktivitäten oder andere sexualisierende Werbemittel einsetzen. Standpersonal
+(auch Freiwillige) sollten darauf achten, keine sexualisierende Kleidung,
+Uniformen oder Kostüme zu tragen, oder sonstwie ein sexualisiertes Umfeld zu
+gestalten.
 
 Sollten Teilnehmer\*innen durch belästigendes Verhalten auffallen, steht es den
 Awareness-Teams frei, entsprechende Maßnahmen zu ergreifen, die es für
@@ -57,9 +59,10 @@ Voraus hier veröffentlicht werden.  Wir erwarten von allen Teilnehmer\*innen
 die Einhaltung dieser Regeln auf der gesamten Konferenz und auf allen weiteren
 Zusammenkünften im Zusammenhang mit dieser Konferenz.
 
-Inspiriert durch: [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
+Inspiriert durch:
+[http://confcodeofconduct.com/](http://confcodeofconduct.com/)
 
-# Unsere Awareness-Teams und weitere Kontaktmöglichkeiten
+# Unsere Awareness-Teams und weitere Kontaktmöglichkeiten {#awareness}
 
 Um eine angenehme, sichere und respektvolle Atmosphäre für alle anwesenden
 Personen auf der Think About! conference zu ermöglichen, gibt es unsere
@@ -80,16 +83,18 @@ Alle Mitwirkenden an der Konferenz können ebenfalls den Kontakt herstellen.
 Das Awareness-Team kann Teilnehmende ermahnen oder von der Konferenz auch ohne
 Rückerstattung des Ticketpreises ausschließen!
 
-Weitere Details über unsere Awareness-Struktur und unser Vorgehensweisen bei Zwischenfällen 
-werden im Laufe der Zeit hier veröffentlicht.
+Weitere Details über unsere Awareness-Struktur und unser Vorgehensweisen bei
+Zwischenfällen werden im Laufe der Zeit hier veröffentlicht.
 
 Auch im voraus und nach der Konferenz kannst Du dich an uns wenden!
 
 Die Organisatoren können via Mail unter folgenden Adressen erreicht werden:
 
-[chrissi@think-about.io](mailto:chrissi@think-about.io) ([GPG](/assets/chrissi.asc))  
-[jakob@think-about.io](mailto:jakob@think-about.io) ([GPG](/assets/jakob.asc))  
-[andreas@think-about.io](mailto:andreas@think-about.io) ([GPG](/assets/andreas.asc))  
+[chrissi@think-about.io](mailto:chrissi@think-about.io)
+([GPG](/assets/chrissi.asc))
+[jakob@think-about.io](mailto:jakob@think-about.io) ([GPG](/assets/jakob.asc))
+[andreas@think-about.io](mailto:andreas@think-about.io)
+([GPG](/assets/andreas.asc))  
 
 Selbstverständlich können auch externe Organisationen angesprochen werden -
 eine Auflistung wird im Laufe der Zeit hier veröffentlicht.
@@ -117,7 +122,29 @@ Du hast das Recht, NEIN zu sagen und dich zu wehren, wenn jemand deine Grenzen
 NEIN sagen mit Blicken, Worten oder durch deine Körperhaltung. Auch, wenn du
 schon einmal JA gesagt hast.
 
-Nach Amyna eV., Institut zur Prävention sexuellen Missbrauchs, aufgefunden durch [Geheimorganisation](http://diversity.geheim.org/) auf dem 34C3.
+Nach Amyna eV., Institut zur Prävention sexuellen Missbrauchs, aufgefunden
+durch [Geheimorganisation](http://diversity.geheim.org/) auf dem 34C3.
+
+# Wir respektieren Daten Souveränität {#privacy}
+
+Um diese Konferenz auszutragen sind wir auf das Speichern einiger Daten von
+Teilnehmenden, Speakies sowie Sponsoren angewiesen. Wir sind der festen
+Überzeugung, dass die persönlichen Daten eines jeden Individuums als ein
+privates und schützenswertes Gut betrachtet werden müssen -- daher unser
+Versprechen, dass wir keinerlei persönlicher Daten über die technische
+notwendigkeit hinaus teilen. Das bedeutet konkret:
+
+* Speichern der Daten beim Ticket Provider ([Pretix](https://pretix.eu) in
+  Deutschland)
+* Weitergabe der Zahlungsinformationen beim Ticketkauf abhängig von der
+  ausgewählten Zahlmethode -- außer Du bezahlst via Überweisung
+* Speichern der Daten in unserem Konferenz Management Tool Frab (betrieben bei
+  [Hetzner](https://hetzner.de) in Deutschland)
+* Speichern der Daten in unserem Newsletter Management Tool Mailtrain (betrieben bei
+  [Hetzner](https://hetzner.de) in Deutschland)
+
+Wir werden eure Daten niemals ohne euer explizites Einverständnis verkaufen
+oder anderweitig an Dritte weitergeben, auch nicht an Sponsoren.
 
 # Disclaimer
 

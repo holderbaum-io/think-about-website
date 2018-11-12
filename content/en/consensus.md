@@ -50,7 +50,7 @@ venues and conference-related social events.
 
 Inspired by: [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
 
-# Our Awareness-Teams & further contacts
+# Our Awareness-Teams & further contacts {#awareness}
 
 To create a pleasant, safe and respectful Atmosphere for all participants of
 the Think About!  conference we have two Awareness-Teams available during the
@@ -103,7 +103,27 @@ You have the right to say NO and to resist when someone oversteps your borders,
 hurts your feelings or those of someone else! You can say NO with facial
 expressions, words or body language. Even if you have said YES before.
 
-Adapted from Amyna e.V., Institute for prevention of sexual abuse via [Geheimorganisation.org](http://diversity.geheim.org/) at the 34C3. 
+Adapted from Amyna e.V., Institute for prevention of sexual abuse via
+[Geheimorganisation.org](http://diversity.geheim.org/) at the 34C3. 
+
+# Respecting Data Sovereignty {#privacy}
+
+To conduct this conference, we have to store a certain amount of data about
+attendees, speakers and sponsors. We believe, that the personal data of
+individuals should be respected as a private good -- so our promise to you is
+that we will never share your personal data beyond the minimal technical
+necessity. That would be:
+
+* Storing it at out ticket provider ([Pretix](https://pretix.eu) in Germany)
+* Giving payment information to the payment provider selected during checkout
+  -- unless you wire the money via regular bank transaction
+* Storing it in our conference management tool Frab (hosted at
+  [Hetzner](https://hetzner.de) in Germany)
+* Storing it in our newsletter management tool Mailtrain if you subscribed to
+  our newsletter (hosted at [Hetzner](https://hetzner.de) in Germany)
+
+We will neither sell your data nor give it away to any third partner without
+your explicit consent, not even sponsors.
 
 # Disclaimer
 
