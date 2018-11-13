@@ -12,6 +12,18 @@ function task_prepare_ci {
     -out deploy/id_rsa \
     -d
   chmod 600 deploy/id_rsa
+
+  task_update_speakers
+  task_update_keynotes
+
+  if [[ "$(git diff --stat)" != '' ]];
+  then
+    eval "$(ssh-agent -s)"
+    ssh-add deploy/id_rsa
+
+    git commit -am '[travis] Update speakies and keynotes'
+    git push origin master
+  fi
 }
 
 task_serve() {
