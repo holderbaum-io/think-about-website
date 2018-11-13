@@ -13,6 +13,8 @@ function task_prepare_ci {
     -d
   chmod 600 deploy/ssh
 
+  git checkout master
+
   task_update_speakers
   task_update_keynotes
 
