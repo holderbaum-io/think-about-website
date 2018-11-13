@@ -786,5 +786,10 @@ body > header {
 body > header div.centered {
   max-width: 25rem;
 }
+a[button] {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  border-radius: 1.4rem;
+}
 }
 
