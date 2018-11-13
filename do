@@ -44,14 +44,20 @@ task_clean() {
 }
 
 task_update_speakers() {
+  ensure_ruby
+
   bundle exec ruby bin/speakies.rb > partials/speakers_list.html.erb
 }
 
 task_update_keynotes() {
+  ensure_ruby
+
   bundle exec ruby bin/keynotes.rb > partials/keynotes_list.html.erb
 }
 
 task_update_tickets() {
+  ensure_ruby
+
   bundle exec ruby bin/tickets.rb > data/tickets.json
 }
 
