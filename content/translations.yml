@@ -13,6 +13,8 @@ de:
     title: "Die Referent*innen"
     tba: "Noch ein bisschen Geduld, die Agenda wird bald veröffentlicht."
     more: "Und weitere..."
+  consensus:
+    more: "Mehr erfahren"
   tickets:
     title: "Think about buying a ticket?"
     tba: "Der Ticketverkauf startet bald!"
@@ -51,6 +53,8 @@ en:
     title: "Our Speakers"
     tba: " Speakers will be announced soon."
     more: "And some more..."
+  consensus:
+    more: "Read more"
   tickets:
     title: "Think about buying a ticket?"
     tba: "Ticket Sale starts soon!"
