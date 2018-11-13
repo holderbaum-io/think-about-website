@@ -581,6 +581,11 @@ section.speakers section p {
   margin-bottom: 0;
 }
 
+section.speakers section p em {
+  font-style: normal;
+  color: #9b9b9b;
+}
+
 section.speakers .keynotes section {
   background-image:
     linear-gradient(
