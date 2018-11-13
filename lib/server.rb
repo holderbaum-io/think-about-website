@@ -23,4 +23,12 @@ class Server < Sinatra::Application
       [e.type, e.text]
     end
   end
+
+  get '/:lang' do
+    redirect "/#{params[:lang]}/"
+  end
+
+  get '/' do
+    redirect '/en/'
+  end
 end
