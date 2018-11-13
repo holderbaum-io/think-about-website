@@ -3,6 +3,10 @@ require 'sinatra/reloader'
 require 'renderer'
 
 class Server < Sinatra::Application
+  get '/favicon.ico' do
+    status 404
+  end
+
   get '/assets/*' do
     renderer = Renderer.new
     file = params[:splat].first
