@@ -1,0 +1,16 @@
+{
+  "earlybird": {
+    "price": 380,
+    "available_number": 50,
+    "total_size": 50,
+    "available": true
+  },
+  "regular": {
+    "price": 500,
+    "available": false
+  },
+  "supporter": {
+    "price": 750,
+    "available": true
+  }
+}
