@@ -5,6 +5,8 @@ ensure_ruby() {
 }
 
 function task_prepare_ci {
+  git checkout -qf master
+
   openssl aes-256-cbc \
     -K "$encrypted_9e05e58bd4ea_key" \
     -iv "$encrypted_9e05e58bd4ea_iv" \
@@ -12,8 +14,6 @@ function task_prepare_ci {
     -out deploy/ssh \
     -d
   chmod 600 deploy/ssh
-
-  git checkout master
 
   task_update_speakers
   task_update_keynotes
