@@ -321,7 +321,8 @@ footer nav > a:first-child img {
 }
 
 footer nav img {
-  width: 150px;
+  width: 110px;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
