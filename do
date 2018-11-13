@@ -17,6 +17,7 @@ function task_prepare_ci {
 
   task_update_speakers
   task_update_keynotes
+  task_update_tickets
 
   if [[ "$(git diff --stat)" != '' ]];
   then
