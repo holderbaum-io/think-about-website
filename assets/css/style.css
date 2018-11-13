@@ -68,6 +68,10 @@ hr {
   margin-bottom: 1rem;
 }
 
+a {
+  outline : none;
+}
+
 article {
   margin: 2rem 0;
 }
@@ -701,7 +705,7 @@ footer nav > a:last-child {
   left: 25vw;
   width: 50vw;
   margin-left: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 section.speakers .talks section,
 section.speakers .keynotes section,
