@@ -42,10 +42,10 @@
           <li><a href="about-us.html"><%= t('nav.about-us') %></a></li>
           <li><a href="about.html"><%= t('nav.imprint') %></a>
           <li><a href="privacy.html"><%= t('nav.privacy') %></a>
-          <% if feature? :preview %>
-          <li><a button href="tickets.html"><%= t('nav.tickets') %></a></li>
-          <% end %>
         </ul>
+        <% if feature? :preview %>
+        <a button href="tickets.html"><%= t('nav.tickets') %></a>
+        <% end %>
       </nav>
     </footer>
   </body>
