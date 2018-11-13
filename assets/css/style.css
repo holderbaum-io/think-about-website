@@ -791,9 +791,9 @@ html {
   font-size: 18px;
 }
 body > header {
-  height: 442px;
+  height: 100vh;
   background-image: url("/assets/images/keyvisual-small.svg");
-  background-size: 700px 442px;
+  background-size: 700px 100vh;
   padding-top: 90px;
 }
 body > header div.centered {
