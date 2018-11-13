@@ -22,6 +22,7 @@ function task_prepare_ci {
     ssh-add deploy/ssh
 
     git commit -am '[travis] Update speakies and keynotes'
+    git remote set-url origin git@github.com:hrx-events/think-about.git
     git push origin master
   fi
 }
