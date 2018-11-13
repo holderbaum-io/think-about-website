@@ -20,6 +20,7 @@ function task_prepare_ci {
   then
     eval "$(ssh-agent -s)"
     ssh-add deploy/id_rsa
+    ssh-add -L
 
     git commit -am '[travis] Update speakies and keynotes'
     git push origin master
