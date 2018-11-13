@@ -62,7 +62,7 @@ Zusammenkünften im Zusammenhang mit dieser Konferenz.
 Inspiriert durch:
 [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
 
-# Unsere Awareness-Teams & weitere Kontaktmöglichkeiten {#awareness}
+# Unsere Awareness-Teams {#awareness}
 
 Um eine angenehme, sichere und respektvolle Atmosphäre für alle anwesenden
 Personen auf der Think About! conference zu ermöglichen, gibt es unsere

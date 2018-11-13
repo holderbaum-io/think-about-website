@@ -50,7 +50,7 @@ venues and conference-related social events.
 
 Inspired by: [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
 
-# Our Awareness-Teams & further contacts {#awareness}
+# Our Awareness-Teams {#awareness}
 
 To create a pleasant, safe and respectful Atmosphere for all participants of
 the Think About!  conference we have two Awareness-Teams available during the
