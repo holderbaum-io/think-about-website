@@ -1,4 +1,4 @@
-# Think About! Our Code of Conduct {#coc}
+# Unsere Verhaltensregeln {#coc}
 
 Alle Besucher\*innen, Redner\*innen, Sponsor\*innen, Organisator\*innen und
 Freiwilligen auf dieser Konferenz werden aufgefordert, sich an folgende

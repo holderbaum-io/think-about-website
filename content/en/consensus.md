@@ -1,4 +1,4 @@
-# Think About! Our Code of Conduct {#coc}
+# Our Code of Conduct {#coc}
 
 All attendees, speakers, sponsors, organizers and volunteers at our conference
 are required to agree with the following code of conduct. Our Awareness-Team
