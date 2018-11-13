@@ -8,10 +8,10 @@ function task_prepare_ci {
   openssl aes-256-cbc \
     -K "$encrypted_9e05e58bd4ea_key" \
     -iv "$encrypted_9e05e58bd4ea_iv" \
-    -in deploy/id_rsa.enc \
-    -out deploy/id_rsa \
+    -in deploy/ssh.enc \
+    -out deploy/ssh \
     -d
-  chmod 600 deploy/id_rsa
+  chmod 600 deploy/ssh
 
   task_update_speakers
   task_update_keynotes
@@ -19,8 +19,7 @@ function task_prepare_ci {
   if [[ "$(git diff --stat)" != '' ]];
   then
     eval "$(ssh-agent -s)"
-    ssh-add deploy/id_rsa
-    ssh-add -L
+    ssh-add deploy/ssh
 
     git commit -am '[travis] Update speakies and keynotes'
     git push origin master
@@ -66,10 +65,10 @@ task_update_tickets() {
 task_deploy() {
   local user="${1:-deploy-think-about}"
 
-  if [[ -f deploy/id_rsa ]];
+  if [[ -f deploy/ssh ]];
   then
     eval "$(ssh-agent -s)"
-    ssh-add deploy/id_rsa
+    ssh-add deploy/ssh
   fi
 
   rsync \
