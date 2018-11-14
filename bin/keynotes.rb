@@ -31,11 +31,16 @@ selection.each do |talk|
   link = speaker[:links].first
   url = link ? link[:url] : '#'
   company = link ? link[:title] : 'TODO'
+  lang = talk[:title].match(/(\(\w+\))/)
+  title = talk[:title].gsub(/\(\w+\)/, '').strip
+  lang = lang[1].tr('()', '') if lang
+  lang_string = lang ? " (#{lang})" : ''
+
   html = <<-HTML
           <section topic="#{talk[:track].downcase}">
             <h4>Keynote</h4>
             <article>
-              <p>"#{talk[:title]}"</p>
+              <p>"#{title}"<em>#{lang_string}</em></p>
               <hr/>
               <header>
                 <div>
