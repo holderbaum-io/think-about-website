@@ -83,6 +83,11 @@ task_deploy() {
 
   rsync \
     -ruvc \
+    root/* \
+    "${user}@turing.holderbaum.me:www/"
+
+  rsync \
+    -ruvc \
     --delete \
     deploy/conf.d/* \
     "${user}@turing.holderbaum.me:conf.d/"
