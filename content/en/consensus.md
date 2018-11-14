@@ -1,5 +1,7 @@
 # Our Code of Conduct {#coc}
 
+[Back to top](#backtotop)
+
 All attendees, speakers, sponsors, organizers and volunteers at our conference
 are required to agree with the following code of conduct. Our Awareness-Team
 will enforce this code throughout the event. We expect cooperation from all
@@ -52,6 +54,8 @@ Inspired by: [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
 
 # Our Awareness-Teams {#awareness}
 
+[Back to top](#backtotop)
+
 To create a pleasant, safe and respectful Atmosphere for all participants of
 the Think About!  conference we have two Awareness-Teams available during the
 conference.  Awareness in this case means the consciousness or perception of
@@ -84,6 +88,8 @@ be provided here soo
 
 # Message of Empowerment {#empowerment}
 
+[Back to top](#backtotop)
+
 You don't have to be able to hack NASA in order to be a part of the Think
 About! conference. As long as you are considerate of others and intend to
 learn, you have a place here..  You have the right to decide when, where and by
@@ -107,6 +113,8 @@ Adapted from Amyna e.V., Institute for prevention of sexual abuse via
 [Geheimorganisation.org](http://diversity.geheim.org/) at the 34C3. 
 
 # Respecting Data Sovereignty {#privacy}
+
+[Back to top](#backtotop)
 
 To conduct this conference, we have to store a certain amount of data about
 attendees, speakers and sponsors. We believe, that the personal data of

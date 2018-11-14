@@ -1,5 +1,7 @@
 # Unsere Verhaltensregeln {#coc}
 
+[Zum Seitenanfang](#seitenanfang)
+
 Alle Besucher\*innen, Redner\*innen, Sponsor\*innen, Organisator\*innen und
 Freiwilligen auf dieser Konferenz werden aufgefordert, sich an folgende
 Verhaltensregeln zu halten. Diese werden von den Awareness-Teams auf der
@@ -64,6 +66,8 @@ Inspiriert durch:
 
 # Unsere Awareness-Teams {#awareness}
 
+[Zum Seitenanfang](#seitenanfang)
+
 Um eine angenehme, sichere und respektvolle Atmosphäre für alle anwesenden
 Personen auf der Think About! conference zu ermöglichen, gibt es unsere
 Awareness-Teams. Awareness heißt so viel wie Bewusstsein für oder Wahrnehmung
@@ -101,6 +105,8 @@ eine Auflistung wird im Laufe der Zeit hier veröffentlicht.
 
 # Message of Empowerment {#empowerment}
 
+[Zum Seitenanfang](#seitenanfang)
+
 Du musst nicht die NASA hacken können, um zur Think About! Konferenz zu
 gehören. Solange du rücksichtsvoll mit anderen umgehst und die Absicht hast
 dazuzulernen, hast du hier einen Platz.  Du hast das Recht, selbst zu
@@ -126,6 +132,8 @@ Nach Amyna eV., Institut zur Prävention sexuellen Missbrauchs, aufgefunden
 durch [Geheimorganisation](http://diversity.geheim.org/) auf dem 34C3.
 
 # Wir respektieren Daten Souveränität {#privacy}
+
+[Zum Seitenanfang](#seitenanfang)
 
 Um diese Konferenz auszutragen sind wir auf das Speichern einiger Daten von
 Teilnehmenden, Speakies sowie Sponsoren angewiesen. Wir sind der festen
