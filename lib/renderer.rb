@@ -126,9 +126,9 @@ class Renderer
       nodes = key.split('.')
       filename = nodes.shift
       file = File.join 'data', filename + '.json'
-      result = JSON.parse File.read file
+      result = JSON.parse File.read(file), symbolize_names: true
       nodes.each do |k|
-        result = result.fetch(k)
+        result = result.fetch(k.to_sym)
       end
       result
     end

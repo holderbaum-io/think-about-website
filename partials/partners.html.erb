@@ -1,5 +1,12 @@
 <div>
   <h1><%= t('partners.title') %></h1>
-  <section class="partner"><a href="https://digitalmediawomen.de/"><figure><img src="/assets/images/partner/dmw.png"/></figure></a></section>
-  <section class="partner"><a href=""><figure><img src="/assets/images/partner/femtec.png"/></figure></a></section>
+  <% data('partners').each do |partner| %>
+    <section>
+      <a href="<%= partner[:link] %>">
+        <figure>
+          <img src="/assets/images/partner/<%= partner[:name] %>.png"/>
+        </figure>
+      </a>
+    </section>
+  <% end %>
 </div>
