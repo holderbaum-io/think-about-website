@@ -1,6 +1,6 @@
 <div>
   <h1><%= t('partners.title') %></h1>
-  <% data('partners').each do |partner| %>
+  <% data('partners').reject { |p| p[:hidden] }.each do |partner| %>
     <section>
       <a href="<%= partner[:link] %>">
         <figure>

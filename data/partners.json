@@ -1,7 +1,8 @@
 [
   {
     "name": "dmw",
-    "link": "https://digitalmediawomen.de/"
+    "link": "https://digitalmediawomen.de/",
+    "hidden": true
   },
   {
     "name": "femtec",
