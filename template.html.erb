@@ -15,9 +15,7 @@
         <ul>
           <li><a href="consensus.html"><%= t('nav.consensus') %></a></li>
           <li><a href="about-us.html"><%= t('nav.about-us') %></a></li>
-          <% if feature? :preview %>
           <li><a button href="tickets.html"><%= t('nav.tickets') %></a></li>
-          <% end %>
           <li><a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a></li>
         </ul>
       </div>
@@ -43,9 +41,7 @@
           <li><a href="about.html"><%= t('nav.imprint') %></a>
           <li><a href="privacy.html"><%= t('nav.privacy') %></a>
         </ul>
-        <% if feature? :preview %>
         <a button href="tickets.html"><%= t('nav.tickets') %></a>
-        <% end %>
       </nav>
     </footer>
   </body>

@@ -1,16 +1,9 @@
-<% if feature? :preview %>
-  <div class="keynotes">
-    <h1><%= t('keynotes.title') %></h1>
-    <%= partial 'keynotes_list' %>
-  </div>
-  <div class="talks">
-    <h1><%= t('speakers.title') %></h1>
-    <%= partial 'speakers_list' %>
-    <p><%= t('speakers.more') %></p>
-  </div>
-<% else %>
-  <div>
-    <h1><%= t('speakers.title') %></h1>
-    <p><%= t('speakers.tba') %></p>
-  </div>
-<% end %>
+<div class="keynotes">
+  <h1><%= t('keynotes.title') %></h1>
+  <%= partial 'keynotes_list' %>
+</div>
+<div class="talks">
+  <h1><%= t('speakers.title') %></h1>
+  <%= partial 'speakers_list' %>
+  <p><%= t('speakers.more') %></p>
+</div>
