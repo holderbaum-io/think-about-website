@@ -512,6 +512,25 @@ section.tickets section[ticket][disabled] * {
   color: #9b9b9b;
 }
 
+/* ================================ */
+/* Partners */
+
+section.partners {
+  text-align: center;
+}
+
+section.partners section {
+  display: inline-block;
+  margin: 2%;
+}
+
+section.partners section figure,
+section.partners section figure img {
+  height: 70px;
+  max-width: 100%;
+}
+
+
 
 /* ================================ */
 /* Speaker */
