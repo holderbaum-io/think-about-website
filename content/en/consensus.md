@@ -33,7 +33,7 @@ events, inappropriate physical contact, and unwelcome sexual attention.
 
 Participants asked to stop any harassing behavior are expected to comply immediately.
 
-Sponsors are also subject to the anti-harassment policy. In particular,
+Sponsors are also subject to this code. In particular,
 sponsors should not use sexualised images, activities, or other material. Booth
 staff (including volunteers) should not use sexualised
 clothing/uniforms/costumes, or otherwise create a sexualised environment.
@@ -52,13 +52,13 @@ venues and conference-related social events.
 
 Inspired by: [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
 
-# Our Awareness-Teams {#awareness}
+# Our Awareness Teams {#awareness}
 
 [Back to top](#backtotop)
 
-To create a pleasant, safe and respectful Atmosphere for all participants of
+To create a pleasant, safe and respectful atmosphere for all participants of
 the Think About!  conference we have two Awareness-Teams available during the
-conference.  Awareness in this case means the consciousness or perception of
+conference.  "Awareness" in this case means the recognition or perception of
 verbal, psychological or physical violations of personal boundaries.
 
 The Teams consist of two people of different genders and are experienced in the
@@ -67,46 +67,37 @@ situations.  One team will be moving freely on the location, another one can be
 reached at a fixed position which will be communicated in advance. They will
 also be available via a phone number which will be published here as well.
 
-All collaborators of the conference can enable the contact with them as well.
+One can also contact the Awareness Team through any of the other conference officials (people working at the conference).
 
-The awareness-team can warn offenders or exclude them from the conference with
-no refund!
+The Awareness Team may warn offenders or exclude them from the conference with no refund.
 
-Further details about our Awareness-Structure and our conduct during incidents
-will be published here in the future.
+Further details about our Awareness-Structure and our conduct during incidents will be published here in the future.
 
-You can contact us before or after the conference as well!
+You can contact us before or after the conference as well.
 
-The organization team can be reached via mail under the following addresses:
+The organization team may be reached via mail under the following addresses:
 
 [chrissi@think-about.io](mailto:chrissi@think-about.io) ([GPG](/assets/chrissi.asc))  
 [jakob@think-about.io](mailto:jakob@think-about.io) ([GPG](/assets/jakob.asc))  
 [andreas@think-about.io](mailto:andreas@think-about.io) ([GPG](/assets/andreas.asc))  
 
-External organizations can be reached as well – a list of recommendations will
-be provided here soo
-
+We shall soon be providing a list of external organizations you may also wish to contact.
+ 
 # Message of Empowerment {#empowerment}
 
 [Back to top](#backtotop)
 
-You don't have to be able to hack NASA in order to be a part of the Think
-About! conference. As long as you are considerate of others and intend to
-learn, you have a place here..  You have the right to decide when, where and by
-whom you want to be photographed or filmed.  If you prefer not to be
-photographed or filmed at all – we provide colour-coded conference lanyards to
-communicate your preferences.
+You don't have to be able to hack NASA in order to be a part of the Think About! conference. As long as you are considerate of others and intend to learn, you have a place here. 
 
-You have the right to be treated fairly. Nobody hast he right to threaten you
-or scare you. No matter how. Nobody is allowed to blackmail you, treat you
+You have the right to decide when, where and by
+whom you want to be photographed or filmed. We have available colour-coded conference lanyards for anyone who would prefer not to be photographed or filmed.
+
+You have the right to be treated fairly. Nobody has the right to threaten you or scare you. No matter how. Nobody is allowed to blackmail you, treat you
 poorly or hurt you. You decide what goes beyond your limits, nobody else.
 
-You have the right to decide how close people can be to you. Nobody is allowed
-to touch you, massage you, caress you, kiss you or push you to do so to someone
-else.
+You have the right to decide how close people can be to you. Nobody is allowed to touch you, massage you, caress you, kiss you without your consent, or push you to do so to someone else.
 
-You have the right to say NO and to resist when someone oversteps your borders,
-hurts your feelings or those of someone else! You can say NO with facial
+You have the right to say NO and to resist when someone oversteps your borders, hurts your feelings or those of someone else. You can say NO with facial
 expressions, words or body language. Even if you have said YES before.
 
 Adapted from Amyna e.V., Institute for prevention of sexual abuse via
@@ -117,21 +108,20 @@ Adapted from Amyna e.V., Institute for prevention of sexual abuse via
 [Back to top](#backtotop)
 
 To conduct this conference, we have to store a certain amount of data about
-attendees, speakers and sponsors. We believe, that the personal data of
-individuals should be respected as a private good -- so our promise to you is
+attendees, speakers and sponsors. We believe that the personal data of
+individuals should be respected as a private good - so our promise to you is
 that we will never share your personal data beyond the minimal technical
 necessity. That would be:
 
 * Storing it at out ticket provider ([Pretix](https://pretix.eu) in Germany)
 * Giving payment information to the payment provider selected during checkout
-  -- unless you wire the money via regular bank transaction
-* Storing it in our conference management tool Frab (hosted at
+  \- unless you wire the money via regular bank transaction
+* Storing it in our conference management tool Frab (hosted by
   [Hetzner](https://hetzner.de) in Germany)
 * Storing it in our newsletter management tool Mailtrain if you subscribed to
-  our newsletter (hosted at [Hetzner](https://hetzner.de) in Germany)
+  our newsletter (hosted by [Hetzner](https://hetzner.de) in Germany)
 
-We will neither sell your data nor give it away to any third partner without
-your explicit consent, not even sponsors.
+We will neither sell your data nor give it away to any third party without your explicit consent, not even sponsors.
 
 # Disclaimer
 

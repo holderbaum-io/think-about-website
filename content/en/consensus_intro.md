@@ -1,13 +1,16 @@
 # Our Consensus {#backtotop}
 
-To create a safe conference for everyone we implemented three different layers:
+To create a safe conference for everyone, we decided on three different layers:
 
-All participants have to agree on our [Code of Conduct](#coc).
+Using three different layers we are trying to 
 
-In our [Message of Empowerment](#empowerment) we want to encourage everyone to
+The approach we have chosen to create a safe conference for everyone is based on these three layers:
+
+1. All participants to agree on our [Code of Conduct](#coc).
+
+2. With our [Message of Empowerment](#empowerment) we want to encourage everyone to
 seize their rights!
 
-In case of harassment our on-site [Awareness-Team](#awareness) is available to
-support you and to enforce these rules.
+3. Our on-site [Awareness-Team](#awareness) is available to support you and keep everyone safe.
 
-Moreover do we want to promote an [ethical usage of personal Data](#privacy).
+We also would like to promote a policy of [ethical usage of personal data](#privacy).
