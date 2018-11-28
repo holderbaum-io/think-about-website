@@ -67,7 +67,7 @@ task_update_tickets() {
 
 
 task_deploy() {
-  local user="${1:-deploy-think-about}"
+  local user="${1:-u192263-sub1}"
 
   if [[ -f deploy/ssh ]];
   then
@@ -78,19 +78,17 @@ task_deploy() {
   rsync \
     -ruvc \
     --delete \
-    result/* \
-    "${user}@turing.holderbaum.me:www/"
-
-  rsync \
-    -ruvc \
-    root/* \
-    "${user}@turing.holderbaum.me:www/"
+    -e 'ssh -p23' \
+    result/ \
+    root/ \
+    "${user}@u192263.your-storagebox.de:www/"
 
   rsync \
     -ruvc \
     --delete \
-    deploy/conf.d/* \
-    "${user}@turing.holderbaum.me:conf.d/"
+    -e 'ssh -p23' \
+    deploy/conf.d/ \
+    "${user}@u192263.your-storagebox.de:nginx/"
 }
 
 usage() {
