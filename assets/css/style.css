@@ -277,7 +277,7 @@ body > nav[desktop] ul li a:not([button]) {
 }
 
 body > nav[desktop] ul li:not(:first-child) {
-  margin-left: 2rem;
+  margin-left: 0.6rem;
 }
 
 body > nav[desktop]:after {
