@@ -11,12 +11,23 @@ class Renderer
   def render(lang, url)
     file = resolve_path(url)
     type = resolve_type(file)
-    if type == 'text/html'
-      template = ERB.new(File.read('template.html.erb'))
-      values = TemplateValues.new(lang, url, file, render_page(lang, url, file))
+    if type == 'text/html' || type == 'text/markdown'
+      type = 'text/html'
+      template = ERB.new(File.read(template_for(file)))
+      page = render_page(lang, url, file)
+      values = TemplateValues.new(lang, url, file, page.content, page.meta)
       Result.new(template.result(values._context), url, type)
     else
-      Result.new(render_page(lang, url, file), url, type)
+      page = render_page(lang, url, file)
+      Result.new(page.content, url, type)
+    end
+  end
+
+  def template_for(file)
+    if file.start_with? 'blog/'
+      'template-blog.html.erb'
+    else
+      'template.html.erb'
     end
   end
 
@@ -41,6 +52,7 @@ class Renderer
 
   def resolve_path(file)
     return file if file?(path(file))
+    return file.gsub(/\.html$/, '.md') if file?(path(file).gsub(/\.html$/, '.md'))
     return resolve_path(file + '.erb') if file?(path(file + '.erb'))
     return resolve_path(File.join(file, 'index.html')) if dir?(path(file))
     raise RenderError.new(404, "File not found: #{file}")
@@ -54,18 +66,41 @@ class Renderer
       'image/svg+xml'
     when '.png'
       'image/png'
+    when '.md'
+      'text/markdown'
     else
       'text/html'
     end
   end
 
   def render_page(lang, url, file)
+    result = RenderedPage.new
+
     if File.extname(file) == '.erb'
       template = ERB.new(File.read(path(file)))
       values = PageValues.new(lang, url, file)
-      template.result(values._context)
+      result.content = template.result(values._context)
+    elsif File.extname(file) == '.md'
+      text = File.read(path(file))
+      doc = Kramdown::Document.new(text, input: 'MetadataKramdown')
+      result.content = doc.to_html
+      result.meta = doc.root.metadata
+      p result.meta
     else
-      File.read(path(file))
+      result.content = File.read(path(file))
+    end
+
+    result
+  end
+end
+
+class Renderer
+  class RenderedPage
+    attr_accessor :content
+    attr_writer :meta
+
+    def meta
+      @meta ||= {}
     end
   end
 end
@@ -145,11 +180,18 @@ end
 
 class Renderer
   class TemplateValues < Values
-    attr_reader :main
+    attr_reader :main, :meta
 
-    def initialize(lang, url, file, main)
+    def initialize(lang, url, file, main, meta = {})
       super lang, url, file
       @main = main
+      @meta = meta.each_with_object({}) do |(k, v), result|
+        result[k.to_sym] = v
+      end
+    end
+
+    def is_blog_post?
+      file.start_with?('blog/') && file.end_with?('md')
     end
   end
 end

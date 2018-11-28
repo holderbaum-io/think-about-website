@@ -12,7 +12,9 @@ class Builder
     languages = %w[en de]
 
     languages.each do |lang|
-      Dir['pages/**'].each do |page|
+      Dir['pages/**/*'].each do |page|
+        next if File.directory? page
+        p page
         file = page.gsub(/\.erb$/, '').gsub(%r{^pages/}, '')
         file = '' if file == 'index.html'
         result = renderer.render(lang, file)

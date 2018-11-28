@@ -15,11 +15,24 @@ class Server < Sinatra::Application
     result.content
   end
 
-  get '/:lang/*' do
+  get '/blog/**' do
+    begin
+      renderer = Renderer.new
+      lang = 'en'
+      file = 'blog' + params[:splat].join('/')
+      result = renderer.render(lang, file)
+      content_type result.type
+      result.content
+    rescue Renderer::RenderError => e
+      [e.type, e.text]
+    end
+  end
+
+  get '/:lang/**' do
     begin
       renderer = Renderer.new
       lang = params[:lang]
-      file = params[:splat].first
+      file = params[:splat].join('/')
       result = renderer.render(lang, file)
       content_type result.type
       result.content
