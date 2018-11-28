@@ -22,6 +22,10 @@ talks = schedule[:conference_events][:events].select do |talk|
   talk[:type] == 'lecture'
 end
 
+talks.each do |talk|
+  talk[:track] ||= 'none'
+end
+
 selection = talks.select { |t| t[:track].casecmp('keynote').zero? }.sort_by { |t| Date.parse(t[:start_time]) }.reverse
 
 selection.each do |talk|
