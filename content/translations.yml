@@ -3,9 +3,9 @@ de:
     imprint: "Impressum"
     privacy: "Datenschutz"
     home: "Startseite"
-    consensus: "Unser Konsens"
+    consensus: "Konsens"
     about-us: "Über Uns"
-    tickets: "Ticket kaufen"
+    tickets: "Tickets"
   partners:
     title: "Unsere Medienpartner"
   keynotes:
@@ -45,9 +45,9 @@ en:
     imprint: "Imprint"
     privacy: "Privacy"
     home: "Home"
-    consensus: "Our Consensus"
-    about-us: "About Us"
-    tickets: "Get Ticket"
+    consensus: "Consensus"
+    about-us: "About"
+    tickets: "Tickets"
   partners:
     title: "Our Media Partners"
   keynotes:
