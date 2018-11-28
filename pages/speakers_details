@@ -1,0 +1,7 @@
+<main>
+  <section>
+    <div class="centered">
+      <%= content "speakers_details" %>
+    </div>
+  </section>
+</main>
