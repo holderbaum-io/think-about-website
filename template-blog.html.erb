@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+  <head>
+    <%= partial 'header' %>
+  </head>
+  <body>
+    <%= partial 'navigation', language_switch: false %>
+    <% if is_blog_post? %>
+      <main>
+      <section>
+      <div>
+      <h1><%= meta[:title] %></h1>
+      <em>Published at 2018/12/02 by Jakob</em>
+      <%= main %>
+      </div>
+      </section>
+      </main>
+    <% else %>
+      <%= main %>
+    <% end %>
+    <%= partial 'footer' %>
+  </body>
+</html>
+
