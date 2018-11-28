@@ -2,5 +2,5 @@
 
 Subscribe to our newsletter and receive event updates on a regular basis.
 
-[Go to subscription](https://newsletter.hrx.events/subscription/DUogKTFJF){: button=""}
+[Go to subscription](/goto/newsletter){: button=""}
 

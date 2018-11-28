@@ -24,7 +24,7 @@ de:
     leftover: "(Noch %{amount} verfügbar)"
     shop_link:
       text: "Zum Ticket Shop"
-      link: "https://pretix.eu/locale/set?locale=de-informal&next=/hrx/think-about-2019/"
+      link: "/goto/pretix-de"
     solidarity_price_details: "(inkl. 250 € für Solidarische Tickets)"
     benefits:
       duration: "2-Tages-Ticket für 24 Talks"
@@ -66,7 +66,7 @@ en:
     leftover: "(Only %{amount} left)"
     shop_link:
       text: "To Ticket Shop"
-      link: "https://pretix.eu/locale/set?locale=en&next=/hrx/think-about-2019/"
+      link: "/goto/pretix-en"
     solidarity_price_details: "(incl. 250 € to make solidarity tickets possible)"
     benefits:
       duration: "2-Day ticket for 24 talks"
