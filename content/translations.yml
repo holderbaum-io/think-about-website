@@ -6,6 +6,9 @@ de:
     consensus: "Konsens"
     about-us: "Über Uns"
     tickets: "Tickets"
+  about-us:
+    contact-text: "Schreib uns"
+    contact-link: "mailto:kontakt@think-about.io?subject=Hallo!"
   partners:
     title: "Unsere Medienpartner"
   keynotes:
@@ -48,6 +51,9 @@ en:
     consensus: "Consensus"
     about-us: "About"
     tickets: "Tickets"
+  about-us:
+    contact-text: "Get in touch"
+    contact-link: "mailto:kontakt@think-about.io?subject=Hi there!"
   partners:
     title: "Our Media Partners"
   keynotes:
