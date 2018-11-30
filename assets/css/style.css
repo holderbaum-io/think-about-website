@@ -104,6 +104,10 @@ body div {
   margin-right: auto;
 }
 
+body section p {
+  line-height: 1.4rem;
+}
+
 body div.centered {
   max-width: 600px;
   text-align: center;
