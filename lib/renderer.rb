@@ -16,6 +16,7 @@ class Renderer
       template = ERB.new(File.read(template_for(file)))
       page = render_page(lang, url, file)
       values = TemplateValues.new(lang, url, file, page.content, page.meta)
+      values.renderer = self
       Result.new(template.result(values._context), url, type)
     else
       page = render_page(lang, url, file)
@@ -35,8 +36,6 @@ class Renderer
     type = resolve_type(file)
     Result.new(File.read(File.join('assets', file)), file, type)
   end
-
-  private
 
   def path(file)
     File.join('pages', file)
@@ -79,11 +78,14 @@ class Renderer
     if File.extname(file) == '.erb'
       template = ERB.new(File.read(path(file)))
       values = PageValues.new(lang, url, file)
+      values.renderer = self
       result.content = template.result(values._context)
     elsif File.extname(file) == '.md'
       text = File.read(path(file))
       doc = Kramdown::Document.new(text, input: 'MetadataKramdown')
       result.content = doc.to_html
+      result.abstract = "This is a blog post"
+      result.link = "#"
       result.meta = doc.root.metadata
     else
       result.content = File.read(path(file))
@@ -95,7 +97,7 @@ end
 
 class Renderer
   class RenderedPage
-    attr_accessor :content
+    attr_accessor :content, :abstract, :link
     attr_writer :meta
 
     def meta
@@ -127,7 +129,7 @@ end
 class Renderer
   class Values
     attr_reader :lang, :url, :file
-    attr_accessor :locals
+    attr_accessor :locals, :renderer
 
     def initialize(lang, url, file)
       @lang = lang
@@ -145,6 +147,16 @@ class Renderer
     def content(key)
       text = File.read("content/#{lang}/#{key}.md")
       Kramdown::Document.new(text).to_html
+    end
+
+    def blog_posts
+      Dir['pages/blog/*.md'].map do |page|
+        renderer.render_page(
+          'en',
+          page.gsub(/\.md$/, '.html'),
+          page.gsub(%r{^pages/}, '')
+        )
+      end
     end
 
     def t(key, values = {})

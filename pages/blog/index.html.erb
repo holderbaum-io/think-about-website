@@ -1,44 +1,16 @@
 <main>
-  <section class="image-with-text">
+  <section class="blog">
     <div>
-      <article>
-        <%= content 'blog' %>
-      </article>
-      <figure>
-        <img src="/assets/images/consensus.svg" alt="People having a consent">
-      </figure>
-    </div>
-  </section>
-  <section>
-    <div>
-      <article>
-        <h1>This is a blog post</h1>
-        <p>
-All attendees, speakers, sponsors, organizers and volunteers at our conference are required to agree with the following code of conduct.
-        </p>
-        <a href="#">Read more</a>
-      </article>
-      <article>
-        <h1>This is a blog post</h1>
-        <p>
-All attendees, speakers, sponsors, organizers and volunteers at our conference are required to agree with the following code of conduct.
-        </p>
-        <a href="#">Read more</a>
-      </article>
-      <article>
-        <h1>This is a blog post</h1>
-        <p>
-All attendees, speakers, sponsors, organizers and volunteers at our conference are required to agree with the following code of conduct.
-        </p>
-        <a href="#">Read more</a>
-      </article>
-      <article>
-        <h1>This is a blog post</h1>
-        <p>
-All attendees, speakers, sponsors, organizers and volunteers at our conference are required to agree with the following code of conduct.
-        </p>
-        <a href="#">Read more</a>
-      </article>
+      <h1>Think About! Reading a Blog</h1>
+      <% blog_posts.each do |post| %><a href="#"><section>
+          <div><img alt="" src="/assets/images/blog/first-post/thumbnail.png" /></div>
+          <div>
+            <span>Chrissi / November 12</span>
+            <h1><%= post.meta['title'] %></h1>
+            <p>TDD - especially Unit Testing - has evolved to a known and accepted paradigm in software development. But nevertheless, the test-first approach behind TDD can quickly lead to brittle test code which is hard to understand and to maintain.</p>
+            <span>Read more</span>
+          </div>
+        </section></a><% end %>
     </div>
   </section>
 </main>
