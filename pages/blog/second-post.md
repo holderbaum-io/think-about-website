@@ -1,7 +1,7 @@
 ---
-title: "Voxxed Days: Managing Team Secrets Effectively"
-date: 2018-12-02
-author: Jakob
+title: Blafasel Foobar is taking two line
+sate: 2018-12-04
+author: Chrissi
 ---
 
 All attendees, speakers, sponsors, organizers and volunteers at our conference
