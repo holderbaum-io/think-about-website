@@ -861,6 +861,10 @@ section.blog section div:last-child {
   padding: 30px;
 }
 
+body section.blogpost div {
+  max-width: 700px;
+}
+
 @media (max-width: 979px) {
 section.blog section {
   min-height: 33rem;
