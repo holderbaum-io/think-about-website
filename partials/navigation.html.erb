@@ -18,6 +18,8 @@
       <div>
         <% if language_switch %>
           <a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a>
+        <% else %>
+          <a/>
         <% end %>
         <% if !url.empty? && url != 'index.html' %>
           <a href="#footer"><img src="/assets/images/menu-dark.svg"/></a>
