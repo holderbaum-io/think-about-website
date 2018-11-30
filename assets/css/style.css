@@ -797,7 +797,6 @@ section.image-with-text:after {
 /* Blog Overview */
 
 section.blog section {
-  width: 48%;
   border-radius: 5px;
   background-color: white;
   border: 1px solid #e9e9e9;
@@ -813,6 +812,7 @@ section.blog section {
 }
 
 section.blog div > a {
+  width: 48%;
   display: inline-block;
   text-decoration: none;
   margin: 0;
@@ -826,8 +826,7 @@ section.blog section h1 {
   min-height: 3rem;
 }
 
-section.blog section span:first-of-type {
-  color: #9b9b9b;
+section.blog span:first-of-type {
   display: inline-block;
   margin-bottom: 0.4rem;
 }
@@ -865,6 +864,71 @@ body section.blogpost div {
   max-width: 700px;
 }
 
+body section.blogpost hr {
+  margin: 3rem 0;
+  height: 1px;
+  background-color: #9b9b9b;
+}
+
+section.blogpost > div > img:first-of-type {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+section.blogpost h1:first-of-type {
+  margin-bottom: 0;
+}
+
+section.blogpost h1,
+section.blogpost h2,
+section.blogpost h3,
+section.blogpost h4 {
+  text-align: left;
+}
+
+section.blogpost span:first-of-type {
+  color: #9b9b9b;
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+body section.blogauthor div > img {
+  width: 15%;
+  margin-right: 4%;
+  display: inline-block;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+body section.blogauthor div > div {
+  width: 81%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (max-width: 600px) {
+body section.blogauthor div > img {
+  width: 20%;
+}
+body section.blogauthor div > div {
+  width: 76%;
+}
+}
+
+body section.blogauthor h1 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+body section.blogauthor p {
+  margin-top: 0.2rem;
+}
+
+body section.blogauthor * {
+  font-size: 0.7rem;
+}
+
 @media (max-width: 979px) {
 section.blog section {
   min-height: 33rem;
@@ -878,8 +942,10 @@ section.blog section {
 }
 
 @media (max-width: 699px) {
-section.blog section {
+section.blog div > a {
   width: 98%;
+}
+section.blog section {
   min-height: 0;
 }
 section.blog section h1 {
