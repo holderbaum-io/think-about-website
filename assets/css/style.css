@@ -147,7 +147,8 @@ a[button] {
 }
 
 a[button]:hover {
-  text-decoration: underline;
+  background-color: #470076;
+  text-decoration: none;
 }
 
 a[button][light] {
@@ -157,8 +158,10 @@ a[button][light] {
   margin: 0.5rem;
 }
 
-header a[button] {
-  background-color: #eb18ff;
+a[button][light]:hover {
+  background-color: #470076;
+  color: white;
+  text-decoration: none;
 }
 
 /* ================================ */
@@ -233,6 +236,12 @@ body > nav a[button] {
   margin: 0;
   background-color: #eb18ff;
 }
+
+body > nav a[button]:hover {
+  margin: 0;
+  background-color: #bf18ce;
+}
+
 
 body > nav[mobile] > div > * {
   position: absolute;
