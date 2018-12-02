@@ -10,8 +10,8 @@
       <section class="blogpost">
         <div>
           <h1><%= meta[:title] %></h1>
-          <span>Published at December 2nd by Jakob</span>
-          <img src="/assets/images/blog/launching-a-conference/header.png" />
+          <span>Published at <%= meta[:date] %> by <%= meta[:author] %></span>
+          <img src="/assets/images/blog/<%= meta[:slug] %>/header.svg" />
           <%= main %>
           <div class="centered">
             <p>Share this article:</p>

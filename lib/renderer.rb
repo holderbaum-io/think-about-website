@@ -1,5 +1,6 @@
 require 'erb'
 require 'kramdown'
+require 'oga'
 require 'yaml'
 require 'json'
 
@@ -84,9 +85,14 @@ class Renderer
       text = File.read(path(file))
       doc = Kramdown::Document.new(text, input: 'MetadataKramdown')
       result.content = doc.to_html
-      result.abstract = "This is a blog post"
-      result.link = "#"
-      result.meta = doc.root.metadata
+      result.meta = {}
+      parsed = Oga.parse_html(result.content)
+      result.meta[:abstract] = parsed.xpath('p[1]').text
+      result.meta[:slug] = File.basename(file, '.md')
+      doc.root.metadata.each do |k, v|
+        result.meta[k.to_sym] = v
+      end
+      result.meta[:date] = result.meta[:date].strftime('%B %-d')
     else
       result.content = File.read(path(file))
     end
@@ -97,7 +103,7 @@ end
 
 class Renderer
   class RenderedPage
-    attr_accessor :content, :abstract, :link
+    attr_accessor :content
     attr_writer :meta
 
     def meta
@@ -200,9 +206,7 @@ class Renderer
     def initialize(lang, url, file, main, meta = {})
       super lang, url, file
       @main = main
-      @meta = meta.each_with_object({}) do |(k, v), result|
-        result[k.to_sym] = v
-      end
+      @meta = meta
     end
 
     def is_blog_post?
