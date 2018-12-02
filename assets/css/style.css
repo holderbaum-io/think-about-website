@@ -150,6 +150,13 @@ a[button]:hover {
   text-decoration: underline;
 }
 
+a[button][light] {
+  background-color: white;
+  color: #470076;
+  border: 2px solid #470076;
+  margin: 0.5rem;
+}
+
 header a[button] {
   background-color: #eb18ff;
 }
@@ -844,6 +851,10 @@ section.blog section * {
   line-height: 1.2rem;
 }
 
+section.blogpost a[button] {
+  line-height: 1rem;
+}
+
 section.blog section div:first-child {
   width: 100%;
   height: 200px;
@@ -891,6 +902,10 @@ section.blogpost span:first-of-type {
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 2rem;
+}
+
+section.blogpost p a > img {
+  height: 1rem;
 }
 
 body section.blogauthor div > img {
