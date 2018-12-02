@@ -21,13 +21,13 @@ we wanted to know their reasons.
 
 ## The main Theme
 
-It became quite clear that the ticket price is too high for a newcomer
-conference -- not for such a conference in general. But putting down several
-hundred Euros for a conference organized by unknown individuals for the first
-time takes a lot of trust.
+It became quite clear that the ticket price is appropriate for such a
+conference in general -- but too high for a newcomer conference. Putting down
+several hundred Euros for a conference organized by unknown individuals for the
+first time takes a lot of trust.
 
 This lead us to the decision of rethinking our pricing structure in order to
-find a more suitable pricing-model for a newcomer conference. Below is a
+find a more suitable pricing-model for our newcomer conference. Below is a
 breakdown and summary of our cost structure, how we changed it and our thinking
 process along the way.
 
@@ -38,16 +38,16 @@ during the ramp up. It is a tug war between planning for safety, providing a
 great experience for all attendees and keeping the price low to be open to a
 more diverse crowd of people.
 
-The biggest cost-factor (nearly **half of the ticket revenue**) is spent on lease
-for the [Cinema](https://www.cinenova.de/) and food including beverages.
+The biggest cost-factor (nearly half of the ticket revenue) is spent on **lease
+for the [location](https://www.cinenova.de/) and food including beverages**.
 
 We want to have healthy and genuinely good food for all attendees, which is why
 we picked a caterer that provides us with regional and organic food throughout
 the event. Therefore the biggest chunk in our budget is at the same time the
 single most fixed item that can barely be changed.
 
-Digging deeper into the budget we encountered the **second biggest chunk**:
-compensation of speakies and helpies. We decided on a solidarity compensation
+Digging deeper into the budget we encountered the second biggest chunk:
+**compensation of speakies and helpies**. We decided on a solidarity compensation
 for everyone who helps us to make the conference possible, be it a  speakie, a
 keynote speakie or a person helping with the doors.
 
@@ -65,10 +65,10 @@ the pricing:
 
 ### 1) Reducing Advertisement and Decorations
 
-We simply **cut this budget by 50%**. Especially reducing on print media and
+We simply **cut this budget by 50%**. Especially reduction of print media and
 online marketing gives us a lot of cost saving. The consequence is that we will
 have to do much more legwork ourselves. This includes manually distributing
-flyers and posters ourselves, investing more time in Twitter and in general be
+flyers and posters ourselves, spending more time on Twitter and in general be
 more creative with the resources we already have in our hands.
 
 ### 2) Rethinking our approach to Merchandise
@@ -80,7 +80,7 @@ While we still stick to that idea, we **reduced the amount of merch** and
 changed the pricing structure.
 
 Instead of assuming that everyone needs a shirt, you can pick a shirt while
-buying a ticket. Shirt cost 15 Euro each. By focusing on this approach, we gain
+buying a ticket. Shirt cost 15 EUR each. By focusing on this approach, we gain
 several benefits:
 
 * Cost for merchandise production is shifted towards the individuals that
@@ -100,7 +100,7 @@ where already calculated on a worst-case assumption. Because of this, we can
 safely **reduce on our safety buffer, without compromising** the positive
 outcome of our little venture too drastically.
 
-### Bonus: Getting Money through another Channel
+### Bonus: Our Approach to Sponsoring
 
 We will have some sponsors on our conference. These sponsors pay a certain
 amount of money and in exchange get the chance to use our channels to advertise
@@ -120,9 +120,10 @@ After spending a fair share of our time with our heads down on the budget we
 arrived at the conclusion that the cost factors mentioned above can be
 leveraged to reduce the overall admission fee.
 
-**This lead to a ticket price reduction of roughly 30%** which will be
-effective starting December 3rd. All tickets sold so far will be partially
-reimbursed to make up the difference to the new ticket prices.
+**This lead to a ticket price reduction of more than 20% (starting at 290
+EUR)** which will be effective starting December 3rd. All tickets sold so far
+will be partially reimbursed to make up the difference to the new ticket
+prices.
 
 ## On the importance of User Feedback
 
@@ -131,4 +132,7 @@ the fantastic feedback that reached us so far. Our hope is to get more and more
 feedback throughout the road that lays ahead of us.
 
 So in the spirit of user feedback, don't hesitate to drop us [a
-message](mailto:kontakt@think-about.io) and let us know what you think.
+message](mailto:kontakt@think-about.io) and let us know what you think. In
+addition to that, you can [follow us on twitter](/goto/twitter), become a
+member of [our meetup group](/goto/meetup) or [star us on
+github](/goto/github).
