@@ -38,14 +38,14 @@ body {
 h1, h2, h3, h1 *, h2 *, h3 * {
   font-weight: 700;
   letter-spacing: 0.05rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-style: normal;
   margin-top: 0;
   color: #0e003b;
 }
 
 h2, h2 * {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 h3, h3 * {
