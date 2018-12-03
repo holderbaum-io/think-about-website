@@ -4,12 +4,21 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#280050">
 
+    <% if is_blog_post? %>
+    <meta property="og:image" content="/og-image.jpg">
+    <meta property="og:image:height" content="521">
+    <meta property="og:image:width" content="995">
+    <meta property="og:title" content="<%= meta[:title] %>">
+    <meta property="og:description" content="<%= meta[:abstract] %>">
+    <meta property="og:url" content="<%= meta[:url] %>">
+    <% else %>
     <meta property="og:image" content="/og-image.jpg">
     <meta property="og:image:height" content="521">
     <meta property="og:image:width" content="995">
     <meta property="og:title" content="Think About! Conference">
     <meta property="og:description" content="We believe that society needs diversity for a healthy and critical dialogue. For that reason we want to bring together diverse individuals and enable them to challenge themselves and each other.">
     <meta property="og:url" content="https://think-about.io/">
+    <% end %>
 
     <meta name="msapplication-TileColor" content="#280050">
     <meta name="theme-color" content="#280050">
