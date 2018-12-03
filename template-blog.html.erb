@@ -11,7 +11,7 @@
         <div>
           <h1><%= meta[:title] %></h1>
           <span>Published at <%= meta[:date] %> by <%= meta[:author] %></span>
-          <img src="/assets/images/blog/<%= meta[:slug] %>/header.svg" />
+          <img src="<%= meta[:img] %>" />
           <%= main %>
           <div class="centered">
             <p>Share this article:</p>

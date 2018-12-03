@@ -2,8 +2,8 @@
   <section class="blog">
     <div>
       <h1>Think About! Blog</h1>
-      <% blog_posts.each do |post| %><a href="/blog/<%= post.meta[:slug] %>.html"><section>
-          <div><img alt="" src="/assets/images/blog/<%= post.meta[:slug] %>/header.svg" /></div>
+      <% blog_posts.each do |post| %><a href="<%= post.meta[:link] %>"><section>
+          <div><img src="<%= post.meta[:img] %>" /></div>
           <div>
             <span><%= post.meta[:author] %> / <%= post.meta[:date] %></span>
             <h1><%= post.meta[:title] %></h1>

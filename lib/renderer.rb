@@ -1,6 +1,7 @@
 require 'erb'
 require 'kramdown'
 require 'oga'
+require 'uri'
 require 'yaml'
 require 'json'
 
@@ -31,6 +32,10 @@ class Renderer
     else
       'template.html.erb'
     end
+  end
+
+  def base_url
+    'https://think-about.io'
   end
 
   def render_asset(file)
@@ -89,6 +94,9 @@ class Renderer
       parsed = Oga.parse_html(result.content)
       result.meta[:abstract] = parsed.xpath('p[1]').text
       result.meta[:slug] = File.basename(file, '.md')
+      result.meta[:img] = "/assets/images/blog/#{result.meta[:slug]}/header.svg"
+      result.meta[:link] = "/blog/#{result.meta[:slug]}.html"
+      result.meta[:url] = "#{base_url}/blog/#{result.meta[:slug]}.html"
       doc.root.metadata.each do |k, v|
         result.meta[k.to_sym] = v
       end
@@ -195,6 +203,10 @@ class Renderer
 
     def _context
       binding
+    end
+
+    def encode(string)
+      URI::encode string
     end
   end
 end
