@@ -22,7 +22,7 @@ E-Mail: kontakt@hrx.events
 ## Umsatzsteuer
 
 Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:  
-In Beantragung
+DE319672148
 
 ## Streitschlichtung
 

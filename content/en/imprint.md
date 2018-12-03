@@ -22,7 +22,7 @@ E-mail: kontakt@hrx.events
 ## VAT ID
 
 Sales tax identification number according to § 27 a of the Sales Tax Law:  
-Requested
+DE319672148
 
 ## EU dispute resolution
 
