@@ -16,7 +16,7 @@
           <div class="centered">
             <p>Share this article:</p>
             <p>
-            <a href="https://twitter.com/intent/tweet?url=<%= meta[:url] %>" button light>Twitter</a>
+            <a href="https://twitter.com/intent/tweet?text=<%= encode(meta[:tweet]) %>&url=<%= encode(meta[:url]) %>" button light>Twitter</a>
             <a href="https://facebook.com/sharer.php?u=<%= encode(meta[:url]) %>" button light>Facebook</a>
             <a href="http://news.ycombinator.com/submitlink?u=<%= encode(meta[:url]) %>" button light>Hackernews</a>
             </p>
