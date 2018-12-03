@@ -1,6 +1,7 @@
 ---
 title: "Learning from a Ticket Price Adventure"
 date: 2018-12-02
+tweet: "Great article about the ticket price challenges for a newcomer conference @ThinkAboutConf"
 author_twitter: "@hldrbm"
 author: Jakob
 
