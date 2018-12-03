@@ -11,6 +11,14 @@
     <meta property="og:title" content="<%= meta[:title] %>">
     <meta property="og:description" content="<%= meta[:abstract] %>">
     <meta property="og:url" content="<%= meta[:url] %>">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@thinkaboutconf">
+    <meta name="twitter:title" content="<%= meta[:title] %>">
+    <meta name="twitter:description" content="Up than 200 characters.">
+    <meta name="twitter:creator" content="<%= meta[:author_twitter] %>">
+    <meta name="twitter:image" content="<%= meta[:img] %>">
+    <meta name="twitter:domain" content="think-about.io">
     <% else %>
     <meta property="og:image" content="/og-image.jpg">
     <meta property="og:image:height" content="521">

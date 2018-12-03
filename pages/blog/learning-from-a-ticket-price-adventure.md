@@ -1,7 +1,9 @@
 ---
 title: "Learning from a Ticket Price Adventure"
 date: 2018-12-02
+author_twitter: "@hldrbm"
 author: Jakob
+
 ---
 
 November 15th we officially launched the [ticket sales](/en/tickets.html) of
