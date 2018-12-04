@@ -15,9 +15,9 @@ function task_prepare_ci {
     -d
   chmod 600 deploy/ssh
 
-  task_update_speakers
-  task_update_keynotes
-  task_update_tickets
+  task_update_tickets || exit 1
+  task_update_speakers || exit 1
+  task_update_keynotes || exit 1
 
   if [[ "$(git diff --stat)" != '' ]];
   then
@@ -51,18 +51,21 @@ task_update_speakers() {
   ensure_ruby
 
   bundle exec ruby bin/speakies.rb > partials/speakers_list.html.erb
+  return $?
 }
 
 task_update_keynotes() {
   ensure_ruby
 
   bundle exec ruby bin/keynotes.rb > partials/keynotes_list.html.erb
+  return $?
 }
 
 task_update_tickets() {
   ensure_ruby
 
   bundle exec ruby bin/tickets.rb > data/tickets.json
+  return $?
 }
 
 
