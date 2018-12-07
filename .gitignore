@@ -1,3 +1,4 @@
 vendor/*
 .bundle/
 result/*
+.DS_Store
