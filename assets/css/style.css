@@ -693,6 +693,7 @@ section.speakers article {
 
 section.speakers article header * {
   font-size: 0.7rem;
+  line-height: 1rem;
 }
 
 section.speakers section hr {
@@ -700,7 +701,7 @@ section.speakers section hr {
 }
 
 section.speakers section article > p {
-  min-height: 5rem;
+  min-height: 6rem;
 }
 
 section.speakers section header h1 {
