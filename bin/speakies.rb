@@ -14,6 +14,14 @@ def slug(string)
   end
 end
 
+def track_order(track)
+  %w[
+    tech
+    design
+    society
+  ].index((track || '').downcase) || 4
+end
+
 uri = URI('https://orga.hrx.events/en/thinkabout2019/public/events.json')
 response = Net::HTTP.get(uri)
 schedule = JSON.parse(response, symbolize_names: true)
@@ -26,7 +34,9 @@ talks.each do |talk|
   talk[:track] ||= 'none'
 end
 
-talks.reject { |t| t[:track].casecmp('keynote').zero? }.sort_by { |t| Date.parse(t[:start_time]) }.reverse.each do |talk|
+talks.reject { |t| t[:track].casecmp('keynote').zero? }
+     .sort_by { |t| track_order(t[:track]) }
+     .each do |talk|
   speaker = talk[:speakers][0]
   person = speaker[:full_public_name]
   person_slug = slug(person)
