@@ -25,7 +25,7 @@
             <del><%= data('tickets.regular.price') %> €</del>
             <price><%= data('tickets.earlybird.price') %> €</price>
             <% if data('tickets.earlybird.available') %>
-            <p><%= t('tickets.leftover', amount: data('tickets.earlybird.available_number')) %></p>
+            <p><%= t('tickets.types.earlybird.deadline') %></p>
             <% else %>
             <p><%= t('tickets.sold_out') %></p>
             <% end %>

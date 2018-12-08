@@ -37,6 +37,7 @@ de:
     types:
       earlybird:
         title: "Early Bird Ticket"
+        deadline: "Earlybird endet am 15.02.2019"
       regular:
         title: "Regular Ticket"
       supporter:
@@ -82,6 +83,7 @@ en:
     types:
       earlybird:
         title: "Early Bird Ticket"
+        deadline: "Earlybird ends on 15/02/2019"
       regular:
         title: "Regular Ticket"
       supporter:
