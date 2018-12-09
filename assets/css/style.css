@@ -784,6 +784,9 @@ section.speakers .keynotes section,
 section.tickets section {
   width: 98%;
 }
+section.speakers section article > p {
+  min-height: 0;
+}
 }
 
 /* ================================ */
