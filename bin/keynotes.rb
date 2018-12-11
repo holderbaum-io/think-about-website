@@ -29,18 +29,23 @@ end
 selection = talks.select { |t| t[:track].casecmp('keynote').zero? }.sort_by { |t| Date.parse(t[:start_time]) }.reverse
 
 selection.each do |talk|
-  speaker = talk[:speakers][0]
-  person = speaker[:full_public_name]
-  person_slug = slug(person)
-  link = speaker[:links].first
-  url = link ? link[:url] : '#'
-  company = link ? link[:title] : 'TODO'
   lang = talk[:title].match(/(\(\w+\))/)
   title = talk[:title].gsub(/\(\w+\)/, '').strip
   lang = lang[1].tr('()', '') if lang
   lang_string = lang ? " (#{lang})" : ''
 
-  html = <<-HTML
+  people = talk[:speakers].map do |speaker|
+    person = speaker[:full_public_name]
+    link = speaker[:links].first
+    {
+      person: person,
+      person_slug: slug(person),
+      url: link ? link[:url] : '#',
+      link_title: link ? link[:title] : 'TODO'
+    }
+  end
+
+  html = <<-HTML.strip
           <section topic="#{talk[:track].downcase}">
             <h4>Keynote</h4>
             <article>
@@ -48,16 +53,22 @@ selection.each do |talk|
               <hr/>
               <header>
                 <div>
-                  <h1>#{person}</h1>
-                  <p><a href="#{url}">#{company}</a></p>
-                </div><figure>
-                  <img src="/assets/images/speaker/#{person_slug}.png" />
-                </figure></header>
+                  <h1>#{people.map { |p| p[:person] }.join(' &shy;&amp; ')}</h1>
+                  <p><a href="#{people.first[:url]}">#{people.first[:link_title]}</a></p>
+                </div>
+  HTML
+
+  people.each do |person|
+    html += "<figure><img src=\"/assets/images/speaker/#{person[:person_slug]}.png\" /></figure>"
+  end
+
+  html += <<-HTML.strip
+                </header>
               </article>
           </section>
   HTML
   indentation = html.lines.first[/^ */].size
-  puts html.lines.map { |l| l.gsub(/^ {#{indentation}}/, '') }.join
+  puts html.lines.map { |l| l.gsub(/^ {#{indentation}}/, '') }.join('')
 end
 
 if selection.size < 4

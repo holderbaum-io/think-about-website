@@ -603,12 +603,18 @@ section.speakers .keynotes article > p {
   min-height: 3rem;
 }
 
+section.speakers .keynotes section header {
+  display: flex;
+  justify-content: space-between;
+}
+
 section.speakers .keynotes section header div {
-  width: 80%;
 }
 
 section.speakers .keynotes section header figure {
-  width: 20%;
+  width: 80px;
+  margin-left: 10px;
+  flex: none;
 }
 
 section.speakers section {
@@ -744,6 +750,9 @@ section.speakers .talks section,
 section.tickets section {
   width: 47%;
 }
+section.speakers .keynotes section header figure {
+  width: 60px;
+}
 }
 @media (max-width: 699px) {
 body > nav[desktop] {
@@ -786,6 +795,14 @@ section.tickets section {
 }
 section.speakers section article > p {
   min-height: 0;
+}
+section.speakers .keynotes section header figure {
+  width: 70px;
+}
+}
+@media (max-width: 499px) {
+section.speakers .keynotes section header figure {
+  width: 60px;
 }
 }
 
