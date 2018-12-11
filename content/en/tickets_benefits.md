@@ -1,4 +1,4 @@
-With buying a ticket you enable us to:
+By buying a ticket you enable us to:
 
 - have a full-time [awareness team](consensus.html#awareness) on site
 - provide child-care for attending parents
