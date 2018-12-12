@@ -1,5 +1,5 @@
 Think About! ist eine Tech-Konferenz die ihren Fokus nicht nur auf Technologie
-legt sondern auch Design und unseren Einfluss auf die Gesellschaft betrachtet.
+legt, sondern auch Design und unseren Einfluss auf die Gesellschaft betrachtet.
 
 Sie steht für Inspiration, Rückzugsort und Willkommenskultur gleichermaßen.
 
