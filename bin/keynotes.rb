@@ -26,7 +26,7 @@ talks.each do |talk|
   talk[:track] ||= 'none'
 end
 
-selection = talks.select { |t| t[:track].casecmp('keynote').zero? }.sort_by { |t| Date.parse(t[:start_time]) }.reverse
+selection = talks.select { |t| t[:track].casecmp('keynote').zero? }.sort_by { |t| DateTime.parse(t[:start_time]) }
 
 selection.each do |talk|
   lang = talk[:title].match(/(\(\w+\))/)
