@@ -832,6 +832,88 @@ section.image-with-text:after {
 }
 
 /* ================================ */
+/* Speaker Details */
+
+section.speaker-details > div {
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+section.speaker-details:first-of-type {
+  padding-bottom: 1rem;
+}
+
+section.speaker-details + section.speaker-details {
+  padding-top: 0;
+}
+
+section.speaker-details em {
+  font-style: normal;
+  text-transform: uppercase;
+  color: #eb18ff;
+}
+
+section.speaker-details ul {
+  margin: 0;
+  padding: 0;
+}
+
+section.speaker-details ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 1rem;
+}
+
+section.speaker-details ul li,
+section.speaker-details ul li * {
+  font-size: 0.8rem;
+}
+
+section.speaker-details > div > h1 {
+  margin-bottom: 0.3rem;
+}
+
+section.speaker-details article.bio {
+  background-color: white;
+  align-items: center;
+  max-width: 600px;
+  margin: 3rem auto 0 auto;
+}
+
+section.speaker-details article.bio > figure {
+  text-align: center;
+  max-width: none;
+  margin: 0;
+}
+
+section.speaker-details article.bio > figure img {
+  border-radius: 50%;
+  width: 180px;
+}
+
+section.speaker-details article.bio > div {
+  display: inline-block;
+}
+
+section.speaker-details article.bio > div * {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  text-align: center;
+}
+
+section.speaker-details article.bio > div h1 {
+  font-size: 1rem;
+  margin: 0;
+  margin-top: 1.3rem;
+}
+
+section.speaker-details article.bio > div p:first-of-type {
+  margin-top: 0.3rem;
+  margin-bottom: 1.3rem;
+  text-align: center;
+}
+
+/* ================================ */
 /* Blog Overview */
 
 section.blog section {
@@ -1019,10 +1101,6 @@ section.blog section div span:last-of-type {
 }
 
 @media (max-width: 979px) {
-h1, h4 {
-  text-align: center;
-}
-
 section.image-with-text figure {
   margin: 2rem auto;
   float: none;
