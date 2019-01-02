@@ -94,7 +94,7 @@ class Renderer
       parsed = Oga.parse_html(result.content)
       result.meta[:abstract] = parsed.xpath('p[1]').text
       result.meta[:slug] = File.basename(file, '.md')
-      result.meta[:img] = "/assets/images/blog/#{result.meta[:slug]}/header.svg"
+      result.meta[:img] = "/assets/images/blog/#{result.meta[:slug]}/header.png"
       result.meta[:link] = "/blog/#{result.meta[:slug]}.html"
       result.meta[:url] = "#{base_url}/blog/#{result.meta[:slug]}.html"
       doc.root.metadata.each do |k, v|

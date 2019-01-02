@@ -5,7 +5,7 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#280050">
 
     <% if is_blog_post? %>
-    <meta property="og:image" content="https://think-about.io<%= meta[:img].gsub(/svg$/, 'png') %>">
+    <meta property="og:image" content="https://think-about.io<%= meta[:img] %>">
     <meta property="og:title" content="<%= meta[:title] %>">
     <meta property="og:description" content="<%= meta[:abstract] %>">
     <meta property="og:url" content="<%= meta[:url] %>">
@@ -16,7 +16,7 @@
     <meta name="twitter:title" content="<%= meta[:title] %>">
     <meta name="twitter:description" content="<%= meta[:abstract] %>">
     <meta name="twitter:creator" content="<%= meta[:author_twitter] %>">
-    <meta name="twitter:image" content="https://think-about.io<%= meta[:img].gsub(/svg$/, 'png') %>">
+    <meta name="twitter:image" content="https://think-about.io<%= meta[:img] %>">
     <meta name="twitter:domain" content="think-about.io">
     <% else %>
     <meta property="og:image" content="/og-image.jpg">
