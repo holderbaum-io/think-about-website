@@ -4,7 +4,7 @@
     <section>
       <a href="<%= partner[:link] %>">
         <figure>
-          <img src="/assets/images/partner/<%= partner[:name] %>.png"/>
+          <img style="height: <%= partner.fetch(:height, 50) %>px" src="/assets/images/partner/<%= partner[:name] %>.png"/>
         </figure>
       </a>
     </section>
