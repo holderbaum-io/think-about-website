@@ -6,8 +6,6 @@
 
     <% if is_blog_post? %>
     <meta property="og:image" content="https://think-about.io<%= meta[:img].gsub(/svg$/, 'png') %>">
-    <!--<meta property="og:image:height" content="521">
-    <meta property="og:image:width" content="995">-->
     <meta property="og:title" content="<%= meta[:title] %>">
     <meta property="og:description" content="<%= meta[:abstract] %>">
     <meta property="og:url" content="<%= meta[:url] %>">
@@ -22,11 +20,16 @@
     <meta name="twitter:domain" content="think-about.io">
     <% else %>
     <meta property="og:image" content="/og-image.jpg">
-    <meta property="og:image:height" content="521">
-    <meta property="og:image:width" content="995">
     <meta property="og:title" content="Think About! Conference">
-    <meta property="og:description" content="We believe that society needs diversity for a healthy and critical dialogue. For that reason we want to bring together diverse individuals and enable them to challenge themselves and each other.">
+    <meta property="og:description" content="Think About! is a tech conference which focuses not only on technology but also on design and their social impact. It creates a safe and inspirational space for everyone, and we really mean everyone.">
     <meta property="og:url" content="https://think-about.io/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@thinkaboutconf">
+    <meta name="twitter:title" content="Think About! Conference">
+    <meta name="twitter:description" content="Think About! is a tech conference which focuses not only on technology but also on design and their social impact. It creates a safe and inspirational space for everyone, and we really mean everyone.">
+    <meta name="twitter:image" content="https://think-about.io/og-image.jpg">
+    <meta name="twitter:domain" content="think-about.io">
     <% end %>
 
     <meta name="msapplication-TileColor" content="#280050">
