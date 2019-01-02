@@ -1020,6 +1020,7 @@ section.blogpost span:first-of-type {
   display: inline-block;
   margin-top: 0.5rem;
   margin-bottom: 2rem;
+  font-size: 0.9rem;
 }
 
 section.blogpost p a > img {

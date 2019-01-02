@@ -10,7 +10,7 @@
       <section class="blogpost">
         <div>
           <h1><%= meta[:title] %></h1>
-          <span>Published at <%= meta[:date] %> by <%= meta[:author] %></span>
+          <span>Published <%= meta[:date] %> by <%= meta[:author] %>, Reading time <%= meta[:minutes] %> Minutes</span>
           <img src="<%= meta[:img] %>" />
           <%= main %>
           <div class="centered">

@@ -6,6 +6,8 @@ require 'yaml'
 require 'json'
 
 class Renderer
+  AVG_WPS = 200.0
+
   def initialize(source_dir = nil)
     @source_dir = source_dir
   end
@@ -92,6 +94,7 @@ class Renderer
       result.content = doc.to_html
       result.meta = {}
       parsed = Oga.parse_html(result.content)
+      result.meta[:minutes] = (text.scan(/[[:alnum:]]+/).count / AVG_WPS).ceil
       result.meta[:abstract] = parsed.xpath('p[1]').text
       result.meta[:slug] = File.basename(file, '.md')
       result.meta[:img] = "/assets/images/blog/#{result.meta[:slug]}/header.png"
