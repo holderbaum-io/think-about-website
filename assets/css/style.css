@@ -1000,7 +1000,7 @@ section.blogpost > div img {
   margin-bottom: 1rem;
 }
 
-section.blogpost > div img:not(first-of-type) {
+section.blogpost > div > p img {
   display: block;
   max-width: 600px;
   margin-left: auto;
