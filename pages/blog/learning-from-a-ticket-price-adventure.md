@@ -11,12 +11,15 @@ November 15th we officially launched the [ticket sales](/en/tickets.html) of
 the first installment of the Think About! Conference. This is a summary of our
 journey towards finding the "right" ticket price.
 
+Think About! is a two day tech conference about technology, design and their
+impact on society. It will take place in a cozy cinema in Cologne, Germany.
+
 ## The Challenge
 
 Calculating the price for a conference ticket is an awkward task. On the one
 hand, a higher price means less risk and more flexibility for the organizer. On
-the other, the lower the price, the more accessible the conference is to a
-diverse crowd.
+the other, a lower price leads to a more accessible conference and by this to a
+more diverse crowd.
 
 **"How expensive should a ticket for my conference be?"**
 
@@ -25,64 +28,80 @@ multitude of factors have to be considered in order to reach a satisfying
 answer.
 
 This question shall be the starting point of our journey towards a reasonable
-ticket price.
+ticket price. First and foremost, the price is determined by the costs caused
+by the event. Those costs have to be covered by the entry fee and sponsor
+payments. So in order to understand the price of a conference ticket, one has
+to take a look at the underlying cost structure.
 
-## The Budget Baseline
+## The Budget
 
-If you take a closer look on the budget that is the foundation of our price
-calculations, there are three positions that make up more than two thirds of
-all costs:
+From a birds eye perspective, our budget is roughly made up by two sections.
+The first section consists of three positions that make up more than two thirds
+(roughly 80%) of our total cost:
 
-### 1) Location Lease
+### 1. Location Lease
 
-*15%*
+The location is fundamental to a successful conference. We chose an [old
+cinema](https://www.cinenova.de/) as it is cozy and at the same time provides
+amazing acoustics and a great atmosphere for talks. Who wouldn't want to sit in
+a puffy cinema seat, eating popcorn and watching amazing human beings talking
+about interesting topics?
 
-### 2) Food and Beverages
+The lease is negotiated upfront and independent of the actual amount of
+attendees visiting the conference.
 
-*40%*
+### 2. Food and Beverages
 
-### 3) Compensation
+Food is an important aspect of a conference. We decided, that good and healthy
+food is important -- there is already too much greasy trade fair quality food
+at events. That's why we picked a caterer that can provide us with regional and
+organic food for two days.
 
-*30%*
+As with the location, the price per day per person is negotiated upfront.
+Unfortunately, unlike location lease, there is a minimum quantity of people for
+which we have to pay, independent of the actual amount of attendees.
+
+### 3. Compensation
+
+Another considerable position is the **compensation of speakies and helpies**.
+We decided on a solidarity compensation for everyone who helps us to make the
+conference possible. That means, everyone gets the same compensation, be it a
+speakie, a keynote speakie or a person helping with the doors or doing child
+care. In addition to that, all attending speakies get a hotel room and we pay
+for their travel to Cologne.
+
+This is unusual for a conference, most events simply pay for their keynotes or a
+few very high profile speakies.
+
+As stated above, those three positions make up nearly 80% of the total cost. In
+a graphical representation, this would look roughly like this:
+
+![Graph that shows a bar filled by 80%](/assets/images/blog/learning-from-a-ticket-price-adventure/stats.png)
 
 ## Additional Costs
 
-### 1) Merchandise
+The second section of our budget (the remaining 20%) are made up of different
+smaller positions, be it merchandise, advertisement, technical support,
+solidarity tickets or a safety buffer in case of gross miscalcuations.
 
-### 2) Safety Buffer
+In order to keep the ticket price low, we thought a lot about ways to reduce
+parts of the budget. It became pretty clear early on, that the first section of
+the budget has barely room for cost reduction. Compensation of people
+participating in the event as well as healthy food are core values through
+which we want to differentiate us from the regular tech conference. So both are
+fixed.
 
----
+And at the same time, the location is part of what makes Think About! something
+speacial: being in a cozy cinema and having popcorn is non-negotiable, so to
+speak!
 
-<marquee>**OLD LOL!**</marquee>
+That left us with the remaining 20% to find ways of keeping the cost at a
+reasonable level. Unfortunately, the impact of these measures is not too big,
+since they affect such a small part of the budget.
 
----
+Nevertheless, we reduced two major aspects of this second section:
 
-## The Journey towards the right Ticket Price
-
-Surprisingly, pricing is one of the most complex conceptual problems we faced
-during the ramp up. It is a tug war between planning for safety, providing a
-great experience for all attendees and keeping the price low to be open to a
-more diverse crowd of people.
-
-The biggest cost-factor (nearly half of the ticket revenue) is spent on **lease
-for the [location](https://www.cinenova.de/) and food including beverages**.
-
-There should be healthy and genuinely good food for all attendees, which is why
-we picked a caterer that provides us with regional and organic food throughout
-the event. Therefore the biggest chunk in our budget is at the same time the
-single most fixed item that can barely be scaled.
-
-The second biggest position is **compensation of speakies and helpies**. We
-decided on a solidarity compensation for everyone who helps us to make the
-conference possible. That means, everyone gets the same compensation, be it a
-speakie, a keynote speakie or a person helping with the doors.
-
-The mentioned positions are tough to change since they represent core values of
-our team and play an important aspect in the overall concept of the Think
-About! Conference. At the same time do they cover over two thirds of the overal
-cost.
-
-## Rethinking our approach to Merchandise
+### 1. Merchandise
 
 As you might have noticed through a casual look on our [landing page](/en/), we
 are huge fans of fancy and colorful illustrations. Naturally we have the urge
@@ -98,6 +117,15 @@ several benefits:
 really want it instead of distributing it on the shoulders of everyone.
 * We produce **less waste**. The probability is quite high that if someone
 wants a shirt and pays for it that they will wear it in the future.
+
+### 2. Safety Buffer
+
+Part of every budget should be a safety buffer. It is pretty unlikely, that the
+estimated cost will match the actual cost exactly. While we assumed worst case
+scenarios in most positions, having a buffer gives you peace of mind.
+
+We still stand by the idea and the usefulness of such buffer but decreased it
+in order to further reduce cost.
 
 ## Our Approach to Sponsoring
 
@@ -117,24 +145,28 @@ away from the admission fee.
 ## Reaching the Destination of our Journey
 
 After spending a fair share of our time with our heads down on the budget we
-arrived at the conclusion that 
+arrived at the conclusion that we reached a pretty good optimum between
+affordable tickets and a pleasing experience with a fair treatment of everyone
+involved.
 
-that the cost factors mentioned above can be
-leveraged to reduce the overall admission fee.
+Regular tickets will cost 500 EUR each, Early Bird only 380 EUR. The latter is
+limited until February 15th 2019. We also offer Ssupporter tickets which cost
+750 EUR. For each Supporter ticket, 250 EUR go into our solidarity ticket fund
+so that we can offer free or reduced tickets to people that can not afford a
+ticket but want come anyway.
 
-**This lead to a ticket price reduction of more than 20% (starting at 290
-EUR)** which will be effective starting December 3rd. All tickets sold so far
-will be partially reimbursed to make up the difference to the new ticket
-prices.
+In case you want to but a ticket, head over to our [Ticket Sales
+Page](/en/tickets.html).
 
 ## On the importance of User Feedback
 
-To conclude we must say that those improvements where only possible because of
-the fantastic feedback that reached us so far. Our hope is to get more and more
-feedback throughout the road that lays ahead of us.
+To conclude we must say that those calculations and decisions where only
+possible because of the fantastic feedback that reached us so far. Our hope is
+to get more and more feedback throughout the road that lays ahead of us.
 
 So in the spirit of user feedback, don't hesitate to drop us [a
 message](mailto:kontakt@think-about.io) and let us know what you think. In
 addition to that, you can [follow us on twitter](/goto/twitter), become a
 member of [our meetup group](/goto/meetup) or [star us on
 github](/goto/github).
+

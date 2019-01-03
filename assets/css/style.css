@@ -995,9 +995,16 @@ body section.blogpost hr {
   background-color: #9b9b9b;
 }
 
-section.blogpost > div > img:first-of-type {
+section.blogpost > div img {
   width: 100%;
   margin-bottom: 1rem;
+}
+
+section.blogpost > div img:not(first-of-type) {
+  display: block;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section.blogpost > div div:last-of-type {
