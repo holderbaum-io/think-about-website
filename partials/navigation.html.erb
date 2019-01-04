@@ -17,14 +17,14 @@
         </ul>
       </div>
     </nav>
-    <nav mobile <%= !url.empty? && url != 'index.html' ? 'dark' : ''%>>
+    <nav mobile <%= !url.empty? && url != 'index.html' && url != '/' ? 'dark' : ''%>>
       <div>
         <% if language_switch %>
           <a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a>
         <% else %>
           <a/>
         <% end %>
-        <% if !url.empty? && url != 'index.html' %>
+        <% if !url.empty? && url != 'index.html' && url != '/' %>
           <a href="#footer"><img src="/assets/images/menu-dark.svg"/></a>
         <% else %>
           <a href="#footer"><img src="/assets/images/menu.svg"/></a>
