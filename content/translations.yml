@@ -9,6 +9,7 @@ de:
   newsletter:
     anchor-link-title: "Newsletter abonnieren"
     placeholder: "du@example.org"
+    software: "* Wir nutzen die Open Source Software"
   about-us:
     contact-text: "Schreib uns"
     contact-link: "mailto:kontakt@think-about.io?subject=Hallo!"
@@ -58,6 +59,7 @@ en:
   newsletter:
     anchor-link-title: "Subscribe to newsletter"
     placeholder: "you@example.org"
+    software: "* We use the Open Source Software"
   about-us:
     contact-text: "Get in touch"
     contact-link: "mailto:kontakt@think-about.io?subject=Hi there!"
