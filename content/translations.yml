@@ -6,6 +6,8 @@ de:
     consensus: "Konsens"
     about-us: "Über Uns"
     tickets: "Tickets"
+  newsletter:
+    anchor-link-title: "TODO newsletter button"
   about-us:
     contact-text: "Schreib uns"
     contact-link: "mailto:kontakt@think-about.io?subject=Hallo!"
@@ -52,6 +54,8 @@ en:
     consensus: "Consensus"
     about-us: "About"
     tickets: "Tickets"
+  newsletter:
+    anchor-link-title: "TODO newsletter button"
   about-us:
     contact-text: "Get in touch"
     contact-link: "mailto:kontakt@think-about.io?subject=Hi there!"

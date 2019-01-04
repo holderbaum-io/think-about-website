@@ -403,6 +403,10 @@ section.topics section:after {
   clear: both;
 }
 
+section.topics div section:last-of-type {
+  text-align: center;
+}
+
 /* ================================ */
 /* Tickets */
 
