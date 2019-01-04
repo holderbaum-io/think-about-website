@@ -82,7 +82,7 @@ a graphical representation, this would look roughly like this:
 
 The second section of our budget (the remaining 20%) are made up of different
 smaller positions, be it merchandise, advertisement, technical support,
-solidarity tickets or a safety buffer in case of gross miscalcuations.
+solidarity tickets or a safety buffer in case of gross miscalculations.
 
 In order to keep the ticket price low, we thought a lot about ways to reduce
 parts of the budget. It became pretty clear early on, that the first section of
@@ -92,7 +92,7 @@ which we want to differentiate us from the regular tech conference. So both are
 fixed.
 
 And at the same time, the location is part of what makes Think About! something
-speacial: being in a cozy cinema and having popcorn is non-negotiable, so to
+special: being in a cozy cinema and having popcorn is non-negotiable, so to
 speak!
 
 That left us with the remaining 20% to find ways of keeping the cost at a
@@ -150,7 +150,7 @@ affordable tickets and a pleasing experience with a fair treatment of everyone
 involved.
 
 Regular tickets will cost 500 EUR each, Early Bird only 380 EUR. The latter is
-limited until February 15th 2019. We also offer Ssupporter tickets which cost
+limited until February 15th 2019. We also offer Supporter tickets which cost
 750 EUR. For each Supporter ticket, 250 EUR go into our solidarity ticket fund
 so that we can offer free or reduced tickets to people that can not afford a
 ticket but want come anyway.
