@@ -3,3 +3,4 @@ vendor/*
 result/*
 .DS_Store
 /.idea/*
+*.iml
