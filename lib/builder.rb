@@ -12,7 +12,8 @@ class Builder
     languages = %w[en de]
 
     languages.each do |lang|
-      Dir['pages/*'].each do |page|
+      Dir['pages/**/*'].each do |page|
+        next if page.start_with? 'pages/blog'
         next if File.directory? page
         build_page File.join(@target_dir, lang), lang, page
       end
