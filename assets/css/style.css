@@ -132,7 +132,8 @@ main > section > h1 {
 /* ================================ */
 /* Buttons */
 
-a[button] {
+a[button] ,
+form input[type=submit] {
   background-color: #6b3cff;
   border: 0;
   color: white;
@@ -147,7 +148,21 @@ a[button] {
   line-height: 1rem;
 }
 
-a[button]:hover {
+form input {
+  border: 1px solid #6b3cff;
+  color: #4a4a4a;
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1rem;
+}
+
+a[button]:hover ,
+form input[type=submit]:hover {
   background-color: #4a00d0;
   text-decoration: none;
 }
@@ -401,10 +416,6 @@ section.topics section:after {
   content: '';
   display: block;
   clear: both;
-}
-
-section.topics div section:last-of-type {
-  text-align: center;
 }
 
 /* ================================ */

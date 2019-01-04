@@ -6,6 +6,7 @@
         <img width="130px" src="/assets/images/logo.svg" alt="Think About! Logo">
       </figure>
       <%= content 'our_conference' %>
+      <a href="#newsletter" button><%= t('newsletter.anchor-link-title') %></a>
     </div>
   </section>
   <section class="topics">
@@ -34,9 +35,6 @@
           <%= content 'topic_society' %>
         </article>
       </section>
-      <section>
-        <a href="#newsletter" button><%= t('newsletter.anchor-link-title') %></a>
-      </section>
     </div>
   </section>
   <section class="speakers">
@@ -58,6 +56,10 @@
   <section>
     <div class="centered">
     <%= content 'updates' %>
+    <form method="get" action="/goto/newsletter">
+      <input type="email" name="email" placeholder="<%= t('newsletter.placeholder') %>"/>
+      <input type="submit" value="Subscribe"/>
+    </form>
     <figure>
       <img src="/assets/images/buddies.svg" alt="Think About! Monsters">
     </figure>

@@ -7,7 +7,8 @@ de:
     about-us: "Über Uns"
     tickets: "Tickets"
   newsletter:
-    anchor-link-title: "TODO newsletter button"
+    anchor-link-title: "Newsletter abonnieren"
+    placeholder: "du@example.org"
   about-us:
     contact-text: "Schreib uns"
     contact-link: "mailto:kontakt@think-about.io?subject=Hallo!"
@@ -55,7 +56,8 @@ en:
     about-us: "About"
     tickets: "Tickets"
   newsletter:
-    anchor-link-title: "TODO newsletter button"
+    anchor-link-title: "Subscribe to newsletter"
+    placeholder: "you@example.org"
   about-us:
     contact-text: "Get in touch"
     contact-link: "mailto:kontakt@think-about.io?subject=Hi there!"
