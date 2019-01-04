@@ -29,6 +29,7 @@ de:
     tba: "Der Ticketverkauf startet bald!"
     sold_out: "Ausverkauft!"
     leftover: "(Noch %{amount} verfügbar)"
+    software: "Wir nutzen eine gehostete Variante der Open Source Software"
     shop_link:
       text: "Zum Ticket Shop"
       link: "/goto/pretix-de"
@@ -79,6 +80,7 @@ en:
     tba: "Ticket Sale starts soon!"
     sold_out: "Sold Out!"
     leftover: "(Only %{amount} left)"
+    software: "We use a hosted version of the Open Source Software"
     shop_link:
       text: "To Ticket Shop"
       link: "/goto/pretix-en"
