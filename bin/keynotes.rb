@@ -36,12 +36,12 @@ selection.each do |talk|
 
   people = talk[:speakers].map do |speaker|
     person = speaker[:full_public_name]
-    link = speaker[:links].first
+    link = speaker[:links].last
     {
       person: person,
       person_slug: slug(person),
       url: link ? link[:url] : '#',
-      link_title: link ? link[:title] : 'TODO'
+      link_title: link ? link[:title].split(' @ ').last : 'TODO'
     }
   end
 
