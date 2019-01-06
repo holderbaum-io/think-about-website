@@ -52,7 +52,7 @@ talks.each do |talk|
                "<%= t('speaker-details.abstract-missing') %>"
              end
 
-  images = people.map{ |p| "<img src=\"/assets/images/speaker/#{slug(p[:full_public_name])}.png\" />" }.join('')
+  images = people.map{ |p| "<img src=\"/assets/images/speaker/#{slug(p[:full_public_name])}_big.png\" />" }.join('')
   links = people[0][:links].map { |l| "<a href=\"#{l[:url]}\">#{link_text l[:title]}</a>"}.join(' | ')
   html = <<-HTML
     <main>
