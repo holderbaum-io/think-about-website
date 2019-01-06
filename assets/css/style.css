@@ -727,6 +727,11 @@ section.speakers article {
   margin: 0;
 }
 
+section.speakers a,
+section.speakers article * {
+  text-decoration: none;
+}
+
 section.speakers article header * {
   font-size: 0.7rem;
   line-height: 1rem;
@@ -742,10 +747,6 @@ section.speakers section article > p {
 
 section.speakers section header h1 {
   font-weight: 400;
-}
-
-section.speakers section header a {
-  color: #9b9b9b;
 }
 
 section.speakers section header div {
@@ -920,10 +921,6 @@ section.speaker-details article.bio > figure img {
   border-radius: 50%;
   width: 180px;
   margin: 0.5rem;
-}
-
-section.speaker-details article.bio > div {
-  display: inline-block;
 }
 
 section.speaker-details article.bio > div * {

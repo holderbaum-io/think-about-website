@@ -36,7 +36,7 @@ selection.each do |talk|
 
   people = talk[:speakers].map do |speaker|
     person = speaker[:full_public_name]
-    link = speaker[:links].last
+    link = speaker[:links].first
     {
       person: person,
       person_slug: slug(person),
@@ -45,8 +45,11 @@ selection.each do |talk|
     }
   end
 
+  person_slug = people.map { |p| p[:person_slug] }.join('_and_')
+  link_open = "<% if feature? :preview %><a href=\"/<%= lang %>/speakies/#{person_slug}.html\"><% end %>"
+  link_close = '<% if feature? :preview %></a><% end %>'
   html = <<-HTML.strip
-          <section topic="#{talk[:track].downcase}">
+          #{link_open}<section topic="#{talk[:track].downcase}">
             <h4>Keynote</h4>
             <article>
               <p>"#{title}"<em>#{lang_string}</em></p>
@@ -54,7 +57,7 @@ selection.each do |talk|
               <header>
                 <div>
                   <h1>#{people.map { |p| p[:person] }.join(' &shy;&amp; ')}</h1>
-                  <p><a href="#{people.first[:url]}">#{people.first[:link_title]}</a></p>
+                  <p>#{people.first[:link_title]}</p>
                 </div>
   HTML
 
@@ -65,7 +68,7 @@ selection.each do |talk|
   html += <<-HTML.strip
                 </header>
               </article>
-          </section>
+          </section>#{link_close}
   HTML
   indentation = html.lines.first[/^ */].size
   puts html.lines.map { |l| l.gsub(/^ {#{indentation}}/, '') }.join('')

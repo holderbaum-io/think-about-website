@@ -53,7 +53,7 @@ talks.each do |talk|
              end
 
   images = people.map{ |p| "<img src=\"/assets/images/speaker/#{slug(p[:full_public_name])}.png\" />" }.join('')
-  links = people[0][:links].reverse.map { |l| "<a href=\"#{l[:url]}\">#{link_text l[:title]}</a>"}.join(' | ')
+  links = people[0][:links].map { |l| "<a href=\"#{l[:url]}\">#{link_text l[:title]}</a>"}.join(' | ')
   html = <<-HTML
     <main>
       <section class="speaker-details">
@@ -75,7 +75,7 @@ talks.each do |talk|
             </figure>
             <div>
               <h1>#{people.map {|p| p[:full_public_name] }.join(' &amp; ')}</h1>
-              <p>#{people[0][:links].last[:title]}<p>
+              <p>#{people[0][:links].first[:title]}<p>
               <p><%= content('speakies/#{slug(joined_names)}') %></p>
               <p>#{links}</p>
             </div>

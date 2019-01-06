@@ -40,7 +40,7 @@ talks.reject { |t| t[:track].casecmp('keynote').zero? }
   speaker = talk[:speakers][0]
   person = speaker[:full_public_name]
   person_slug = slug(person)
-  link = speaker[:links].last
+  link = speaker[:links].first
   url = link ? link[:url] : '#'
   company = link ? link[:title].split(' @ ').last : 'TODO'
   lang = talk[:title].match(/(\(\w+\))/)
@@ -48,20 +48,22 @@ talks.reject { |t| t[:track].casecmp('keynote').zero? }
   lang = lang[1].tr('()', '') if lang
   lang_string = lang ? " (#{lang})" : ''
 
+  link_open = "<% if feature? :preview %><a href=\"/<%= lang %>/speakies/#{person_slug}.html\"><% end %>"
+  link_close = '<% if feature? :preview %></a><% end %>'
   html = <<-HTML
           <section topic="#{talk[:track].downcase}">
-            <article>
+            #{link_open}<article>
               <h4>#{talk[:track].capitalize} Talk</h4>
               <p>"#{title}"<em>#{lang_string}</em></p>
               <hr/>
               <header>
                 <div>
                   <h1>#{person}</h1>
-                  <p><a href="#{url}">#{company}</a>
+                  <p>#{company}</p>
                 </div><figure>
                   <img src="/assets/images/speaker/#{person_slug}.png" />
                 </figure></header>
-            </article>
+            </article>#{link_close}
           </section>
   HTML
   indentation = html.lines.first[/^ */].size
