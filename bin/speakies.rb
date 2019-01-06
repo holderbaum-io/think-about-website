@@ -40,9 +40,9 @@ talks.reject { |t| t[:track].casecmp('keynote').zero? }
   speaker = talk[:speakers][0]
   person = speaker[:full_public_name]
   person_slug = slug(person)
-  link = speaker[:links].first
+  link = speaker[:links].last
   url = link ? link[:url] : '#'
-  company = link ? link[:title] : 'TODO'
+  company = link ? link[:title].split(' @ ').last : 'TODO'
   lang = talk[:title].match(/(\(\w+\))/)
   title = talk[:title].gsub(/\(\w+\)/, '').strip
   lang = lang[1].tr('()', '') if lang
