@@ -919,6 +919,7 @@ section.speaker-details article.bio > figure {
 section.speaker-details article.bio > figure img {
   border-radius: 50%;
   width: 180px;
+  margin: 0.5rem;
 }
 
 section.speaker-details article.bio > div {

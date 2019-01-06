@@ -1,6 +1,15 @@
 require 'net/http'
 require 'json'
 require 'date'
+require 'kramdown'
+
+def link_text(title)
+  if title == 'Independent Consultant'
+    'Website'
+  else
+    title.split(' @ ').last
+  end
+end
 
 def slug(string)
   string.downcase.gsub!(/[ äöüß]/) do |match|
@@ -25,12 +34,26 @@ end
 talks.each do |talk|
   joined_names = talk[:speakers].map { |s| s[:full_public_name] }.join(' and ')
   filename = "pages/speakies/#{slug(joined_names)}.html.erb"
+  people = talk[:speakers]
+
+  bios = talk[:speakers][0][:abstract].split("\r\n\r\n\r\n")
+  File.write("content/en/speakies/#{slug(joined_names)}.md", bios[0])
+  File.write("content/de/speakies/#{slug(joined_names)}.md", bios[1])
 
   track = talk[:track].capitalize
   title = talk[:title].gsub(/\(\w+\)/, '').strip
   lang = talk[:title].match(/(\(\w+\))/)
   lang = lang ? lang[1].tr('()', '') : 'EN'
 
+  text = talk[:abstract]
+  abstract = if text.size > 10
+               Kramdown::Document.new(text).to_html
+             else
+               "<%= t('speaker-details.abstract-missing') %>"
+             end
+
+  images = people.map{ |p| "<img src=\"/assets/images/speaker/#{slug(p[:full_public_name])}.png\" />" }.join('')
+  links = people[0][:links].reverse.map { |l| "<a href=\"#{l[:url]}\">#{link_text l[:title]}</a>"}.join(' | ')
   html = <<-HTML
     <main>
       <section class="speaker-details">
@@ -38,37 +61,23 @@ talks.each do |talk|
           <h1>#{title}</h1>
           <ul>
             <li><em>#{track}</em></li>
-            <li>Length: 45 Minutes</li>
-            <li>Language: #{lang}</li>
+            <li><%= t('speaker-details.length') %>: 45 Min</li>
+            <li><%= t('speaker-details.language') %>: #{lang}</li>
           </ul>
-          <article>
-            <p>
-              Research has identified what I like to call "an agile mindset," an attitude that equates failure and problems with opportunities for learning, a belief that we can all improve over time, that our abilities are not fixed but evolve with effort.
-            <p>
-              What's surprising about this research is the impact of our mindset on creativity and innovation, estimation, and collaboration in and out of the workplace.
-            </p>
-            <p>
-              I'll share what we know so far about this mindset and offer some practical suggestions to help all of us become even more agile.
-            </p>
-          </article>
+          <article>#{abstract}</article>
         </div>
       </section>
       <section class="speaker-details">
         <div>
           <article class="bio">
             <figure>
-              <img src="/assets/images/speaker/linda_rising.png" />
+              #{images}
             </figure>
             <div>
-              <h1>Linda Rising</h1>
-              <p>Independent Consultant<p>
-              <p>
-                With a Ph.D. from Arizona State University in object-based design metrics, Linda’s background includes university teaching and industry work. An internationally known presenter on topics related to patterns, agile development, the change process, and how your brain works, Linda is the author of numerous articles and five books. The latest: More Fearless Change, written with Mary Lynn Manns.
-              </p>
-              <p>
-              <a href="#">Website</a> |
-              <a href="#">Twitter</a>
-              </p>
+              <h1>#{people.map {|p| p[:full_public_name] }.join(' &amp; ')}</h1>
+              <p>#{people[0][:links].last[:title]}<p>
+              <p><%= content('speakies/#{slug(joined_names)}') %></p>
+              <p>#{links}</p>
             </div>
           </article>
         </div>

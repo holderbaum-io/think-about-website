@@ -47,6 +47,14 @@ task_clean() {
   rm -rf result/
 }
 
+task_update_speakies_details() {
+  ensure_ruby
+
+  bundle exec ruby bin/speakies-details.rb
+  return $?
+}
+
+
 task_update_speakers() {
   ensure_ruby
 
@@ -97,7 +105,7 @@ task_deploy() {
 }
 
 usage() {
-  echo "$0 serve | build | update_keynotes | update_speakers | update_tickets | deploy | clean"
+  echo "$0 serve | build | update_keynotes | update_speakers | update_speakies_details | update_tickets | deploy | clean"
   exit 1
 }
 
@@ -110,6 +118,7 @@ case "$cmd" in
   build) task_build ;;
   update_keynotes) task_update_keynotes ;;
   update_speakers) task_update_speakers ;;
+  update_speakies_details) task_update_speakies_details ;;
   update_tickets) task_update_tickets ;;
   deploy) task_deploy "$@" ;;
   *) usage ;;

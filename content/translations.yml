@@ -10,6 +10,10 @@ de:
     anchor-link-title: "Newsletter abonnieren"
     placeholder: "du@example.org"
     software: "* Wir nutzen die Open Source Software"
+  speaker-details:
+    abstract-missing: "Den Abstract des Talks veröffentlichen wir ganz bald hier.."
+    language: "Sprache"
+    length: "Länge"
   about-us:
     contact-text: "Schreib uns"
     contact-link: "mailto:kontakt@think-about.io?subject=Hallo!"
@@ -61,6 +65,10 @@ en:
     anchor-link-title: "Subscribe to newsletter"
     placeholder: "you@example.org"
     software: "* We use the Open Source Software"
+  speaker-details:
+    abstract-missing: "The talk abstract will be published here soon.."
+    language: "Language"
+    length: "Length"
   about-us:
     contact-text: "Get in touch"
     contact-link: "mailto:kontakt@think-about.io?subject=Hi there!"
