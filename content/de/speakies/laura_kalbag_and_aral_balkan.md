@@ -1,0 +1,1 @@
+Aral Balkan and Laura Kalbag are Ind.ie, a not-for-profit striving for social justice in the digital age. They design and build ethical alternatives to mainstream technology, wrote the Ethical Design Manifesto, and built Better—a tracker blocker for the web.

@@ -1,0 +1,2 @@
+ Wilhelm ist Head of Design Thinking des Berliner Ideenlabors. Er studierte Biologie und Ökologie (B.Sc. TU Darmstadt, M.Sc. HU Berlin), Fotografie (Ostkreuzschule für
++Fotografie), Design Thinking (HPI DSchool) und lehrt an der HTW Berlin.

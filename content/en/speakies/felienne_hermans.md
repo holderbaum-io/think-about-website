@@ -1,0 +1,1 @@
+Felienne is associate professor at the Leiden Institute of Advanced Computer Science at Leiden University, where she heads a research group on programming education. What cognitive skills are needed for programming? What misconceptions   can occur when children are learning to program? These are some of the questions that intrigue Felienne.

@@ -1,0 +1,1 @@
+I am a Senior Product Designer and Co-lead of a new initiative called Pivotal Act, a program focused on partnering with those addressing social, humanitarian, environmental challenges with technology. I would describe myself as a systems thinker with a curious soul, who is passionate about using design as a vehicle to drive social change. 

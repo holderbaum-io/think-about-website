@@ -1,0 +1,1 @@
+Als Mathematikerin und IT-Beraterin arbeite ich in den Bereichen Data Science und Künstliche Intelligenz. Schon mein ganzes Leben lang setze ich mich für Vielfalt und Gleichberechtigung ein. Im Moment interessiere ich mich vor allem für Diskriminierung durch Algorithmen: Wie sie entsteht, welche Auswirkungen sie hat und wie man sie verhindern kann.

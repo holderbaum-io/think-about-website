@@ -1,0 +1,1 @@
+Maren Heltsche ist Programmiererin bei der Stiftung myclimate und Mit-Gründerin und Maintainerin der Open-Source Plattform speakerinnen.org. Außerdem ist sie im Vorstand der Digital Media Women aktiv. Privat strickt sie gerne, liebt Yoga und DIY.

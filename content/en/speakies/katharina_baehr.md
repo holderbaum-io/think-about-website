@@ -1,0 +1,1 @@
+I am a web-loving software engineer currently working at Zuehlke Engineering in Germany. After studying Computer Science and Media I am now doing primarily web related stuff and developing single page applications. When I have the time I like to try out new promising technologies and keep on track with the fast moving and exciting web.

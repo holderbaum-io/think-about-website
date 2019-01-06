@@ -1,0 +1,1 @@
+Der 1988 in Oberösterreich geborene Gerhard Buchegger ist selbständiger Designer und Illustrator. 2014 gründete er das Visual Studio DIE MÜHLE. Als Lektor am Studiengang Design und Produktmanagement an der FH Salzburg unterrichtet und betreut er wissenschaftliche Arbeiten zum Thema Moral im Produktdesign.

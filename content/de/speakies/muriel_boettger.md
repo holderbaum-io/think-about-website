@@ -1,0 +1,1 @@
+Muriel Böttger, founder of Share & Grow, is a psychologist and  specialised in Positive Psychology. Her work supports people to achieve more clarity, ease and energy throughout their lives.

@@ -1,0 +1,1 @@
+UX Consultant and Lead for Social and Economic Justice at Thoughtworks, working in the field of design since the early 2000, active in the struggle against racism and capitalist exploitation since the 90th. Thinking a lot about the future of work and the role technology might take to free or condemn society.
