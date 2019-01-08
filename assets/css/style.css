@@ -1062,6 +1062,11 @@ section.blogpost p a > img {
   height: 1rem;
 }
 
+section.blogpost li {
+  margin-bottom: 0.5rem;
+}
+
+
 body section.blogauthor div > img {
   width: 15%;
   margin-right: 4%;
