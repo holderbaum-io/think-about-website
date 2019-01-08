@@ -167,13 +167,22 @@ class Renderer
     end
 
     def blog_posts
-      Dir['pages/blog/*.md'].map do |page|
-        renderer.render_page(
+      results = []
+      Dir['pages/blog/*.md'].each do |page|
+        result = renderer.render_page(
           'en',
           page.gsub(/\.md$/, '.html'),
           page.gsub(%r{^pages/}, '')
         )
+        is_draft = !result.meta[:draft].nil?
+
+        if feature? :preview
+          results << result
+        elsif !is_draft
+          results << result
+        end
       end
+      results
     end
 
     def t(key, values = {})
