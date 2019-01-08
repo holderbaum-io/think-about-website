@@ -8,21 +8,19 @@ draft: true
 
 ---
 
-On Monday the 7th of January it happend. Over night we had more than 300
-additional Twitter followers. Sound cool right?
+On Monday the 7th of January it happened: Over night we had more than 300
+additional Twitter followers. Sounds cool, right? Well, unfortunately it is not. 
 
-Unfortunately, it is not. We were not praised by sudden fame. All of those 300
-new followers where ghost followers: fake accounts that only exist to increase
-the reach of another account.
+We were not praised by sudden fame. All of those 300 new followers were ghost followers: fake accounts that only exist to increase the reach of another account. But where did they come from all of a sudden?
 
 ## The Short Version
 
 Our account is haunted. Since the 7th of January we had 300 more followers and
 since then we get a few new ghost followers every other minute. Just when I
-checked this morning there where again over 300 more followers then last
+checked this morning there were again over 300 more followers than last
 evening.
 
-Meet [Ghostbuster](https://github.com/hrx-events/ghostbuster), the friendly
+Because we were annoyed to remove every new ghost follower manually I came up with this tool that I would like to introduce to you in this article: Meet [Ghostbuster](https://github.com/hrx-events/ghostbuster) - the friendly
 commandline app to automatically delete all those nasty twitter ghost
 followers. Running it looks kind of like this:
 
@@ -37,18 +35,18 @@ drawbacks:
 1. Credibility: your account can be perceived as one of those shady twitter
 citicens who pay money to gain extra followers
 2. Ranking: Twitter may detect this behaviour and reduce your visibility
-3. Ban: Twitter may even decide to ban you account because the suspect a fraud
+3. Ban: Twitter may even decide to ban your account because they suspect a fraud
 scheme
 
 To me personally, the weirdest thing about this situation is that we never
-payed anyone to give us hundreds of fake followers. It kind of just popped into
-existance out of the blue. If anybody knows how such a thing can happen, please
-give me a tweet ([@thinkaboutconf](https://twitter.com/thinkaboutconf)) or a
+payed anyone to give us hundreds of fake followers. It just popped into
+existence out of the blue. If anybody knows how such a thing can happen please
+give us a tweet ([@thinkaboutconf](https://twitter.com/thinkaboutconf)) or a
 mail ([kontakt@think-about.io](mailto:kontakt@think-about.io)).
 
 ### The Solution
 
-I wrote a simple piece of code, that utilizes the twitter API to detect ghost
+I wrote a simple piece of code that utilizes the twitter API to detect ghost
 followers and automatically bans them. If you ban a follower, they are removed
 from your list of followers and may never follow or contact you again. Quite
 drastic, but very efficient against automated fake accounts.
@@ -77,20 +75,20 @@ to gain access.
 Head over to the [Twitter API application
 form](https://developer.twitter.com/en/apply) and request access as a
 developer. You will have to provide your phone number and a reason why you want
-access. I specifically typed there, that I encountered many fake followers, and
+access. I specifically typed there that I encountered many fake followers, and that
 I want to use the API to detect and block them automatically.
 
-Twitter will accept the request imidiately by sending you an e-mail.
+Twitter will accept the request immediately by sending you an email.
 
 ### 2. Create a Twitter App
 
-If you want to interact with the Twitter API, you have to do this in the
+If you want to interact with the Twitter API you have to do this in the
 context of a so called "Twitter App". An app does not have to be a big
 application running on phones or in a browser. It is merely a context, in which
 you can make calls to the API.
 
 Open the [Twitter App Manager](#) and create a new app. You can call it
-whatever you want. After doing so, open the App Settings and go to the secrets
+whatever you want. After doing so open the App Settings and go to the secrets
 keys blabla
 
 ### 3. Install Ghostbuster
@@ -124,16 +122,15 @@ API Key and Secret which we have discovered above at step two.
 Paste those keys into your terminal (usually with `[CTRL]+[SHIFT]+[V]` or
 `[CMD]+[SHIFT]+[V]` or simply with right click and paste.
 
-After supplying both information, a twitter URL as displayed. Please open this
+After supplying both information a twitter URL as displayed. Please open this
 URL in the browser where you are logged into Twitter. After opening this URL, a
 PIN code consisting of several numbers is displayed. Copy this PIN code, go
 back to the terminal and paste it into the waiting Ghostbuster. Now press
 enter.
 
 Ghostbuster will now start busting ghost followers and blocking them
-automatically. It will run indefinetely and look at your newest 100 followers
-every five minutes. If it detects a ghost in those 100 followers, they are
-blocked automatically.
+automatically. It will run indefinitely and look at your newest 100 followers
+every five minutes. If it detects a ghost in those 100 followers, they will be blocked automatically.
 
 ## The Resume
 
@@ -144,3 +141,7 @@ The five-minute break between runs is important, since the Twitter API has a
 rate limiter. That means, if you ask too frequently for your own followers,
 your API access will be temporarily disabled. Asking for 100 followers every
 five minutes is exactly inside their maximum limits, so you should be fine.
+
+And as mentioned earlier: If anybody knows how such a thing can happen please
+give us a tweet ([@thinkaboutconf](https://twitter.com/thinkaboutconf)) or a
+mail ([kontakt@think-about.io](mailto:kontakt@think-about.io)).
