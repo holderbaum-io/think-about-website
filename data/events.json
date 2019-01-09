@@ -1,1 +1,899 @@
-{"conference_events":{"version":"1","events":[{"id":8,"guid":"324b1f0a-7db3-4a07-bce8-2f95180b55c1","title":"Algorithmic Bias – Diskriminierung durch Algorithmen erkennen und vermeiden (DE)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Tech","abstract":"","speakers":[{"id":16,"image":"/system/people/avatars/000/000/016/original/AZEIDLER2.jpg?1542021152","full_public_name":"Anika Zeidler","abstract":"","description":"Graduated in Mathematics, I am working as an IT consultant in the field of Data Science and Artificial Intelligence. Having been a fighter for diversity and equal rights all my lifetime, today one of my main interests is how to make sure that techniques and algorithms do not discriminate against race or gender and to awake awareness on this topic and its effects on society.\r\n\r\nAls Mathematikerin und IT-Beraterin arbeite ich in den Bereichen Data Science und Künstliche Intelligenz. Schon mein ganzes Leben lang setze ich mich für Vielfalt und Gleichberechtigung ein. Im Moment interessiere ich mich vor allem für Diskriminierung durch Algorithmen: Wie sie entsteht, welche Auswirkungen sie hat und wie man sie verhindern kann.","links":[{"url":"https://www.capgemini.com/de-de/service/digital-services/insights-data/","title":"Capgemini"}]}],"start_time":"2019-05-23T16:15:00.000+02:00","end_time":"2019-05-23T17:00:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":5,"guid":"125e9d26-c10a-4d1d-a13a-cedd968efc49","title":"Automation and the impact on the working class (EN)","subtitle":"","description":"","logo":"/system/events/logos/000/000/005/original/BLACK-TW-Logo-copy.png?1538407482","type":"lecture","do_not_record":false,"track":"Society","abstract":"Technological innovation has lead so to a remarkable rise of productivity. How does our current state of progress differentiates from the beginnings during the first industrial revolution and what is the impact that automation has on the working class and what are the implications for the future of work and society? ","speakers":[{"id":13,"image":"/system/people/avatars/000/000/013/original/45f92018-55a0-4629-9d91-8b7552ea76df.JPG?1538407636","full_public_name":"Christoph Hassler","abstract":"UX Consultant and Lead for Social and Economic Justice at Thoughtworks, working in the field of design since the early 2000, active in the struggle against racism and capitalist exploitation since the 90th. Thinking a lot about the future of work and the role technology might take to free or condemn society. ","description":"","links":[{"url":"https://www.thoughtworks.com/","title":"ThoughtWorks"}]}],"start_time":"2019-05-23T10:45:00.000+02:00","end_time":"2019-05-23T11:30:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":9,"guid":"42af5f21-25c0-4c82-ad42-e852acc7bc13","title":"Breakfast [Day 1]","subtitle":"","description":"","logo":null,"type":"performance","do_not_record":false,"track":null,"abstract":"","speakers":[],"start_time":"2019-05-23T08:30:00.000+02:00","end_time":"2019-05-23T09:00:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":25,"guid":"917ed13f-af55-4d77-9804-26f85c531b00","title":"Breakfast [Day 2]","subtitle":"","description":"","logo":null,"type":"performance","do_not_record":false,"track":null,"abstract":"","speakers":[],"start_time":"2019-05-24T08:30:00.000+02:00","end_time":"2019-05-24T09:00:00.000+02:00","room":{"name":"Hall 2","id":2}},{"id":24,"guid":"d4b94885-5d36-4966-89fb-94389ddaf114","title":"Breakfast [Day 2]","subtitle":"","description":"","logo":null,"type":"performance","do_not_record":false,"track":null,"abstract":"","speakers":[],"start_time":"2019-05-24T08:30:00.000+02:00","end_time":"2019-05-24T09:00:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":35,"guid":"afc28eaf-dc86-4772-ba8b-a53d92fa2e95","title":"CI/CD: More than Just Code (EN)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Tech","abstract":"","speakers":[{"id":32,"image":"/system/people/avatars/000/000/032/original/ryn.jpg?1544354988","full_public_name":"Ryn Daniels","abstract":"Ryn Daniels is an infrastructure engineer at Travis CI whose work has\r\nfocused on operability, observability, sustainable on-call practices, and\r\ndesigning effective engineering cultures. They co-authored O’Reilly’s\r\nEffective DevOps and have spoken on a variety of devops engineering and\r\nculture topics.","description":"","links":[{"url":"https://travis-ci.org/","title":"Travis CI"}]}],"start_time":"2019-05-24T11:30:00.000+02:00","end_time":"2019-05-24T12:15:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":11,"guid":"4c94e89f-3e8b-41fc-a8eb-50db0ce65d88","title":"Coffee Break [Day 1]","subtitle":"","description":"","logo":null,"type":"performance","do_not_record":false,"track":null,"abstract":"","speakers":[],"start_time":"2019-05-23T15:30:00.000+02:00","end_time":"2019-05-23T16:00:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":28,"guid":"073fd077-300e-4959-b1a6-fdba603affdf","title":"Coffee Break [Day 2]","subtitle":"","description":"","logo":null,"type":"performance","do_not_record":false,"track":null,"abstract":"","speakers":[],"start_time":"2019-05-24T15:30:00.000+02:00","end_time":"2019-05-24T16:00:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":29,"guid":"e41d01c1-2fb9-4b21-9e20-19d7bdb6ce0b","title":"Coffee Break [Day 2]","subtitle":"","description":"","logo":null,"type":"performance","do_not_record":false,"track":null,"abstract":"","speakers":[],"start_time":"2019-05-24T15:30:00.000+02:00","end_time":"2019-05-24T16:00:00.000+02:00","room":{"name":"Hall 2","id":2}},{"id":22,"guid":"4b4ae87e-8f6d-457e-af4b-91bbf5e9751d","title":"Designing for Security (EN)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Design","abstract":"","speakers":[{"id":25,"image":"/system/people/avatars/000/000/025/original/protagoras_s.jpg?1544195966","full_public_name":"Eileen Wagner","abstract":"Eileen leverages human-centered design and open digital technologies to empower people online. Besides a keen interest in security and privacy issues, she brings her research\r\n+and analytical skills to lead programs at Simply Secure, a non-profit that brings experience design to open source projects.","description":"","links":[{"url":"https://bumble.blue/","title":"Simply Secure"}]}],"start_time":"2019-05-23T15:45:00.000+02:00","end_time":"2019-05-23T16:30:00.000+02:00","room":{"name":"Hall 2","id":2}},{"id":30,"guid":"ee5494f7-138a-4a46-90d7-aa46681d1ccf","title":"Diverse representations in design and awkward conversations with colleagues (EN)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Design","abstract":"","speakers":[{"id":28,"image":"/system/people/avatars/000/000/028/original/eriol_fox.png?1542222528","full_public_name":"Eriol Fox","abstract":"Eriol has worked in the design industry for 8+ years. They work as a designer for Ushahidi a Kenyan humanitarian technology non-profit developing open-source tools to help marginalised people raise their voices and those who serve them to listen and respond better.\r\n\r\nEriol talks about diversity from an LGBTQ+ perspective particularly the representation in visual design.","description":"","links":[{"url":"http://erioldoesdesign.com/","title":"Eriol Does Design"}]}],"start_time":"2019-05-23T13:30:00.000+02:00","end_time":"2019-05-23T14:15:00.000+02:00","room":{"name":"Hall 2","id":2}},{"id":3,"guid":"1846bfaa-e832-4613-9777-1780a0da9629","title":"Hack Society - Wie wir mit Code gesellschaftliche Probleme lösen können (DE)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Society","abstract":"","speakers":[{"id":11,"image":"/system/people/avatars/000/000/011/original/maren-heltsche-by-rieka-anscheit-02.jpg?1536593964","full_public_name":"Maren Heltsche","abstract":"Maren Heltsche ist Programmiererin bei der Stiftung myclimate und Mit-Gründerin und Maintainerin der Open-Source Plattform speakerinnen.org. Außerdem ist sie im Vorstand der Digital Media Women aktiv. Privat strickt sie gerne, liebt Yoga und DIY.\r\n\r\nMaren Heltsche is a programmer at the myclimate foundation. She is co-founder and maintainer of the open source platform speakerinnen.org. Apart from that she volunteers as board member of Digital Media Women. She loves knitting, yoga and DIY.","description":"","links":[{"url":"https://speakerinnen.org","title":"Speakerinnen.org"}]}],"start_time":"2019-05-23T11:45:00.000+02:00","end_time":"2019-05-23T12:30:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":12,"guid":"945ba52c-b0ce-43fa-9a8a-7d1d7480269e","title":"How to read code? (EN)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Keynote","abstract":"","speakers":[{"id":18,"image":"/system/people/avatars/000/000/018/original/fhermans02072018_groot-10.jpg?1540274125","full_public_name":"Felienne Hermans","abstract":"Felienne is associate professor at the Leiden Institute of Advanced Computer       Science at Leiden University, where she heads a research group on programming      education. What cognitive skills are needed for programming? What misconceptions   can occur when children are learning to program?\r\nThese are some of the questions that intrigue Felienne.","description":"","links":[{"url":"http://www.felienne.com/","title":"Leiden Institute of Adv. Computer Science"}]}],"start_time":"2019-05-24T16:15:00.000+02:00","end_time":"2019-05-24T17:15:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":38,"guid":"b5400ca5-8d9b-4dfa-8352-12c3ada99765","title":"Innovation under the GDPR (EN)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Tech","abstract":"The GDPR came into force in 2018 and left many entrepreneurs panicking, not only about their compliance but also about their ability to keep innovating. We live in a data economy and not \r\ncollecting data to understand your customers may leave you with a serious competitive disadvantage. Nevertheless, there are enough ways to respect your users privacy and rights while \r\ncontinuing to innovate. Welcome to the era of privacy conscious products and services. This talk is not only about how to keep innovating despite the GDPR, but also how to use privacy as a way to stand out from your competition and build better experiences for your audience.","speakers":[{"id":35,"image":"/system/people/avatars/000/000/035/original/silvan_jongerius.png?1546607363","full_public_name":"Silvan Jongerius","abstract":"Silvan Jongerius (CIPP/e, Datenschutzbeauftragter (TÜV)) is the Managing Partner and Founder of \r\nTechGDPR and has led numerous data protection and security efforts in his previous roles as CTO \r\nand divisional CIO for multinational media educators. He is a regular speaker, consultant, and \r\neducator in blockchain, innovation and technology, and is author and co-author of several papers \r\nabout GDPR compliance and privacy in blockchain. Silvan has over 13 years of senior leadership \r\nand founding experience in corporate and startup environments and is an advisor on several \r\nblockchain related projects. ","description":"","links":[{"url":"https://techgdpr.com/","title":"TechGDPR"}]}],"start_time":"2019-05-24T11:00:00.000+02:00","end_time":"2019-05-24T11:45:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":6,"guid":"2d2dea1e-09d0-4eef-9114-398571b7c269","title":"Intranet of Things (EN)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Tech","abstract":"Ever backed an amazing smart home tech gadget on Kickstarter and ended up with a useless piece\r\nof techno garbage 6 months later?\r\nJust because that amazing start up ran out of money and needed to shut down the servers?\r\nWelcome to the wonderful cloud centric world we call the \"Internet of Things\".\r\nBut does it always need to be that way? I say No!\r\n\r\nThanks to the wonders of WebRTC, Service Workers and Node.js, we can create a world\r\nin where todays consumer IoT hardware can be controlled using a P2P model.\r\n\r\nI´ll demo a WebRTC based Smart Home Hub concept that interacts with ZigBee devices,\r\nWiFi Cameras and locally available voice and face recognition systems, without sacrificing comfort, security \u0026 privacy.","speakers":[{"id":14,"image":"/system/people/avatars/000/000/014/original/sebastian_1.png?1538468763","full_public_name":"Sebastian Golasch","abstract":"Sebastian works as a “Specialist Senior Manager Software Developer” at Deutsche Telekom. For the last seven years Sebastian tries to improve our lives, working on the Smart\r\n+Home platform Qivicon.\r\nFamous last words: “If I would’ve wanted to work in ‘Enterprise’, I’d have joined Starfleet…”\r\n\r\nSebastian arbeitet als \"Specialist Senior Manager Software Developer\" bei der Deutschen Telekom.\r\nSeit 7 Jahren entwickelt er an der IoT Plattform Qivicon und versucht so unser aller Leben etwas besser zu machen.\r\nFamous last words: “If I would’ve wanted to work in ‘Enterprise’, I’d have joined Starfleet…”","description":"","links":[{"url":"https://telekom.de/","title":"Telekom"},{"url":"https://twitter.com/asciidisco","title":"Twitter"},{"url":"https://github.com/asciidisco","title":"GitHub"},{"url":"https://asciidisco.com","title":"Homepage"}]}],"start_time":"2019-05-23T13:45:00.000+02:00","end_time":"2019-05-23T14:30:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":26,"guid":"048a4b89-4094-4f67-bdc1-7c299b2f7829","title":"Lunch [Day 2]","subtitle":"","description":"","logo":null,"type":"performance","do_not_record":false,"track":null,"abstract":"","speakers":[],"start_time":"2019-05-24T12:45:00.000+02:00","end_time":"2019-05-24T13:45:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":27,"guid":"78a91fcc-62cd-4f2d-8d13-453ab50be980","title":"Lunch [Day 2]","subtitle":"","description":"","logo":null,"type":"performance","do_not_record":false,"track":null,"abstract":"","speakers":[],"start_time":"2019-05-24T12:30:00.000+02:00","end_time":"2019-05-24T13:30:00.000+02:00","room":{"name":"Hall 2","id":2}},{"id":36,"guid":"2218db8a-a1a6-45bd-b3db-35bb9a9b388e","title":"Mapping the problem: Understanding the unintended consequences of our designs (EN)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Design","abstract":"","speakers":[{"id":33,"image":"/system/people/avatars/000/000/033/original/Forbes_Under_30_photo.jpg?1544533559","full_public_name":"Aly Blenkin","abstract":"","description":"","links":[{"url":"https://pivotal.io/act","title":"Pivotal Act"}]}],"start_time":"2019-05-23T09:30:00.000+02:00","end_time":"2019-05-23T10:15:00.000+02:00","room":{"name":"Hall 2","id":2}},{"id":18,"guid":"8c7d1fbc-de17-48e2-9204-ed37af34e61e","title":"Peerocracy (EN)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Keynote","abstract":"","speakers":[{"id":27,"image":"/system/people/avatars/000/000/027/original/laura-big.jpg?1544476189","full_public_name":"Laura Kalbag","abstract":"Aral Balkan and Laura Kalbag are Ind.ie, a not-for-profit striving for social justice in the digital age. They design and build ethical alternatives to mainstream technology, wrote the Ethical Design Manifesto, and built Better—a tracker blocker for the web.","description":"","links":[{"url":"https://ind.ie/","title":"Ind.ie"}]},{"id":22,"image":"/system/people/avatars/000/000/022/original/aral-headshot-high-res.jpg?1544475970","full_public_name":"Aral Balkan","abstract":"\r\nAral Balkan and Laura Kalbag are Ind.ie, a not-for-profit striving for social justice in the digital age. They design and build ethical alternatives to mainstream technology, wrote the Ethical Design Manifesto, and built Better—a tracker blocker for the web.","description":"","links":[{"url":"https://ind.ie","title":"Ind.ie"}]}],"start_time":"2019-05-24T09:15:00.000+02:00","end_time":"2019-05-24T10:15:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":37,"guid":"8c740281-2025-48da-9f28-15a8cf1e9dfb","title":"Preparing For a Future Microservices Journey (EN)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Keynote","abstract":"","speakers":[{"id":34,"image":"/system/people/avatars/000/000/034/original/susanne.png?1545401868","full_public_name":"Susanne Kaiser","abstract":"","description":"","links":[{"url":"https://twitter.com/suksr","title":"Independent Consultant"}]}],"start_time":"2019-05-23T18:30:00.000+02:00","end_time":"2019-05-23T19:15:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":31,"guid":"e459e0ed-f93e-41d6-acaf-4249e263eb15","title":"Privacy in Software: How to design and implement privacy by default (EN)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Tech","abstract":"","speakers":[{"id":29,"image":"/system/people/avatars/000/000/029/original/Emma_Arfelt.JPG?1541158862","full_public_name":"Emma Arfelt","abstract":"Emma Arfelt is an MSc student in Computer Science at the IT University of Copenhagen. Prior she finished her bachelor degree in Software Development, which sparked her interest in IT Security and spun an adventure into Security research. Outside study hours, Emma works as a privacy advocate in high schools, where she teaches young adults about digital footprints and digital rights on the Internet.\r\nFurther, she’s a self-taught DJ (not Spotify-like, but a truly spinning-scratching-fancy-headphone type of DJ) with a pumping heart for groovy 70’s disco, and loves hipster-friendly Cortados.","description":"","links":[{"url":"https://twitter.com/emmaarfelt","title":"IT University of Copenhagen"}]}],"start_time":"2019-05-24T10:30:00.000+02:00","end_time":"2019-05-24T11:15:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":17,"guid":"92e589cb-263d-4847-9c94-d54ae71703fd","title":"Produkte gegen die eigene Moral - Über kognitive Dissonanz im Produktdesign (DE)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Design","abstract":"test summary","speakers":[{"id":19,"image":"/system/people/avatars/000/000/019/original/Buchegger_Bild.jpg?1540556344","full_public_name":"Gerri Buchegger","abstract":"Der 1988 in Oberösterreich geborene Gerhard Buchegger ist selbständiger Designer und Illustrator. 2014 gründete er das Visual Studio DIE MÜHLE. Als Lektor am Studiengang Design und Produktmanagement an der FH Salzburg unterrichtet und betreut er wissenschaftliche Arbeiten zum Thema Moral im Produktdesign.\r\n\r\n\r\n\r\nBorn in 1988 in Upper Austria, Gerhard Buchegger is a designer and illustrator. In 2014 he founded the Visual Studio DIE MÜHLE. As a lecturer in  Design and Product Management at FH Salzburg, he teaches and supervises scientific work on the topic of morality in product design. ","description":"","links":[{"url":"https://muehle-design.com/","title":"Mühle Design"}]}],"start_time":"2019-05-24T16:00:00.000+02:00","end_time":"2019-05-24T16:45:00.000+02:00","room":{"name":"Hall 2","id":2}},{"id":13,"guid":"2e496e8c-2652-45e1-9a9d-0bd5c47af1bb","title":"The Power of an Agile Mindset (EN)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Keynote","abstract":"Research has identified what I like to call \"an agile mindset,\" an attitude that equates failure and problems with opportunities for learning, a belief that we can all improve over time, that our abilities are not fixed but evolve with effort. What's surprising about this research is the impact of our mindset on creativity and innovation, estimation, and collaboration in and out of the workplace. I'll share what we know so far about this mindset and offer some practical suggestions to help all of us become even more agile.","speakers":[{"id":21,"image":"/system/people/avatars/000/000/021/original/Agile_Russia.jpg?1540557186","full_public_name":"Linda Rising","abstract":"With a Ph.D. from Arizona State University in object-based design metrics,\r\nLinda’s background includes university teaching and industry work. An\r\ninternationally known presenter on topics related to patterns, agile\r\ndevelopment, the change process, and how your brain works, Linda is the author\r\nof numerous articles and five books. The latest: More Fearless Change, written\r\nwith Mary Lynn Manns.","description":"","links":[{"url":"http://lindarising.org/","title":"Independent Consultant"}]}],"start_time":"2019-05-23T09:30:00.000+02:00","end_time":"2019-05-23T10:30:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":34,"guid":"4baac924-7a27-4472-89cc-da683110b6b7","title":"The Power of Web Components (DE)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Tech","abstract":"","speakers":[{"id":31,"image":"/system/people/avatars/000/000/031/original/20170624_193146.jpg?1543409982","full_public_name":"Katharina Bähr","abstract":"","description":"","links":[{"url":"https://www.zuehlke.com/de/de/","title":"Zühlke"}]}],"start_time":"2019-05-24T13:45:00.000+02:00","end_time":"2019-05-24T14:30:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":1,"guid":"6b97c30c-f4cf-4067-b49e-03a1624b34d7","title":"think.about: Wie beeinflusst das Smartphone unsere Psyche und wie können wir lernen besser damit umzugehen? (DE)","subtitle":"","description":"TBD","logo":null,"type":"lecture","do_not_record":false,"track":"Society","abstract":"TBD","speakers":[{"id":9,"image":"/system/people/avatars/000/000/009/original/muriel.jpg?1536308410","full_public_name":"Muriel Böttger","abstract":"Muriel Böttger, Gründerin von Share \u0026 Grow, ist Psychologin, spezialisiert auf Positive Psychologie. Durch ihre Arbeit unterstützt sie Menschen mit Entschlossenheit, Leichtigkeit und mehr Energie durchs Leben zu gehen.\r\n\r\nMuriel Böttger is founder of Share \u0026 Grow is a psychologist and  specialised in Positive Psychology. Her work supports people to achieve more clarity, ease and energy throughout their lives.","description":"","links":[{"url":"https://murielboettger.com/","title":"Share \u0026 Grow"}]}],"start_time":"2019-05-23T14:45:00.000+02:00","end_time":"2019-05-23T15:30:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":32,"guid":"33b57ece-43d0-4635-bb93-8963ad5626e8","title":"Welcome","subtitle":"","description":"","logo":null,"type":"performance","do_not_record":false,"track":null,"abstract":"","speakers":[],"start_time":"2019-05-23T09:00:00.000+02:00","end_time":"2019-05-23T09:15:00.000+02:00","room":{"name":"Hall 1","id":1}},{"id":7,"guid":"b561c1ef-43a2-46f3-9468-1c86f989d293","title":"Zukunftsbilder und menschzentriertes Design (DE)","subtitle":"","description":"","logo":null,"type":"lecture","do_not_record":false,"track":"Design","abstract":"","speakers":[{"id":15,"image":"/system/people/avatars/000/000/015/original/Wilhelm_by_HannesGade_HE2B6775.jpeg?1539355525","full_public_name":"Wilhelm Rinke","abstract":"Wilhelm acts as Head of Design Thinking at Berliner Ideenlabor. He studied Biology and Ecology (B.Sc. TU Darmstadt, M.Sc. HU Berlin), Photography (Ostkreuzschule für\r\n+Fotografie), Design Thinking (HPI DSchool) and teaches at HTW Berlin.\r\n\r\n Wilhelm ist Head of Design Thinking des Berliner Ideenlabors. Er studierte Biologie und Ökologie (B.Sc. TU Darmstadt, M.Sc. HU Berlin), Fotografie (Ostkreuzschule für\r\n+Fotografie), Design Thinking (HPI DSchool) und lehrt an der HTW Berlin.","description":"","links":[{"url":"https://www.berliner-ideenlabor.de/","title":"Berliner Ideenlabor"}]}],"start_time":"2019-05-24T11:30:00.000+02:00","end_time":"2019-05-24T12:15:00.000+02:00","room":{"name":"Hall 2","id":2}}]}}
+{
+  "conference_events": {
+    "version": "1",
+    "events": [
+      {
+        "id": 8,
+        "guid": "324b1f0a-7db3-4a07-bce8-2f95180b55c1",
+        "title": "Algorithmic Bias – Diskriminierung durch Algorithmen erkennen und vermeiden (DE)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Tech",
+        "abstract": "",
+        "speakers": [
+          {
+            "id": 16,
+            "image": "/system/people/avatars/000/000/016/original/AZEIDLER2.jpg?1542021152",
+            "full_public_name": "Anika Zeidler",
+            "abstract": "Graduated in Mathematics, I am working as an IT consultant in the field of Data Science and Artificial Intelligence. Having been a fighter for diversity and equal rights all my lifetime, today one of my main interests is how to make sure that techniques and algorithms do not discriminate against race or gender and to awake awareness on this topic and its effects on society.\r\n\r\n\r\nAls Mathematikerin und IT-Beraterin arbeite ich in den Bereichen Data Science und Künstliche Intelligenz. Schon mein ganzes Leben lang setze ich mich für Vielfalt und Gleichberechtigung ein. Im Moment interessiere ich mich vor allem für Diskriminierung durch Algorithmen: Wie sie entsteht, welche Auswirkungen sie hat und wie man sie verhindern kann.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://www.capgemini.com/de-de/service/digital-services/insights-data/",
+                "title": "IT Consultant @ Capgemini"
+              },
+              {
+                "url": "https://www.think-ing.de/neues-aus-wissenschaft-und-praxis/cybermentor-die-mint-plattform-fuer-maedchen",
+                "title": "Mentor @ CyberMentor"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T16:15:00.000+02:00",
+        "end_time": "2019-05-23T17:00:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 5,
+        "guid": "125e9d26-c10a-4d1d-a13a-cedd968efc49",
+        "title": "Automation and the impact on the working class (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": "/system/events/logos/000/000/005/original/BLACK-TW-Logo-copy.png?1538407482",
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Society",
+        "abstract": "Technological innovation has lead so to a remarkable rise of productivity. How does our current state of progress differentiates from the beginnings during the first industrial revolution and what is the impact that automation has on the working class and what are the implications for the future of work and society? ",
+        "speakers": [
+          {
+            "id": 13,
+            "image": "/system/people/avatars/000/000/013/original/45f92018-55a0-4629-9d91-8b7552ea76df.JPG?1538407636",
+            "full_public_name": "Christoph Hassler",
+            "abstract": "UX Consultant and Lead for Social and Economic Justice at Thoughtworks, working in the field of design since the early 2000, active in the struggle against racism and capitalist exploitation since the 90th. Thinking a lot about the future of work and the role technology might take to free or condemn society.\r\n\r\n\r\nUX Consultant and Lead for Social and Economic Justice at Thoughtworks, working in the field of design since the early 2000, active in the struggle against racism and capitalist exploitation since the 90th. Thinking a lot about the future of work and the role technology might take to free or condemn society. ",
+            "description": "",
+            "links": [
+              {
+                "url": "https://www.thoughtworks.com/",
+                "title": "UX Consultant and Lead for Social and Economic Justice @ ThoughtWorks"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T10:45:00.000+02:00",
+        "end_time": "2019-05-23T11:30:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 9,
+        "guid": "42af5f21-25c0-4c82-ad42-e852acc7bc13",
+        "title": "Breakfast [Day 1]",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "performance",
+        "do_not_record": false,
+        "track": null,
+        "abstract": "",
+        "speakers": [
+
+        ],
+        "start_time": "2019-05-23T08:30:00.000+02:00",
+        "end_time": "2019-05-23T09:00:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 25,
+        "guid": "917ed13f-af55-4d77-9804-26f85c531b00",
+        "title": "Breakfast [Day 2]",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "performance",
+        "do_not_record": false,
+        "track": null,
+        "abstract": "",
+        "speakers": [
+
+        ],
+        "start_time": "2019-05-24T08:30:00.000+02:00",
+        "end_time": "2019-05-24T09:00:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      },
+      {
+        "id": 24,
+        "guid": "d4b94885-5d36-4966-89fb-94389ddaf114",
+        "title": "Breakfast [Day 2]",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "performance",
+        "do_not_record": false,
+        "track": null,
+        "abstract": "",
+        "speakers": [
+
+        ],
+        "start_time": "2019-05-24T08:30:00.000+02:00",
+        "end_time": "2019-05-24T09:00:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 35,
+        "guid": "afc28eaf-dc86-4772-ba8b-a53d92fa2e95",
+        "title": "CI/CD: More than Just Code (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Tech",
+        "abstract": "Devops started as a movement designed to bridge the gaps between development and operations practices. Since then, we’ve seen trends like having devs be on call for code that they write and having operability reviews before new features ship to production - both positive ways that operational thinking has impacted development work. There is plenty that can be learned from the dev side of things as well. This talk will look at ways that development best practices can be applied to work that has traditionally fallen in the realm of operations, using server provisioning as an example. We’ll also look at the underlying principles behind CI/CD and how those can become a key part of an ongoing culture of organizational learning.",
+        "speakers": [
+          {
+            "id": 32,
+            "image": "/system/people/avatars/000/000/032/original/ryn.jpg?1544354988",
+            "full_public_name": "Ryn Daniels",
+            "abstract": "Ryn Daniels is an infrastructure engineer at Travis CI whose work has\r\nfocused on operability, observability, sustainable on-call practices, and\r\ndesigning effective engineering cultures. They co-authored O’Reilly’s\r\nEffective DevOps and have spoken on a variety of devops engineering and culture topics.\r\n\r\n\r\nRyn Daniels is an infrastructure engineer at Travis CI whose work has\r\nfocused on operability, observability, sustainable on-call practices, and\r\ndesigning effective engineering cultures. They co-authored O’Reilly’s\r\nEffective DevOps and have spoken on a variety of devops engineering and culture topics.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://travis-ci.org/",
+                "title": "Infrastructure Engineer @ Travis CI"
+              },
+              {
+                "url": "https://ryn.works/",
+                "title": "Website"
+              },
+              {
+                "url": "https://twitter.com/rynchantress",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-24T14:45:00.000+02:00",
+        "end_time": "2019-05-24T15:30:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 11,
+        "guid": "4c94e89f-3e8b-41fc-a8eb-50db0ce65d88",
+        "title": "Coffee Break [Day 1]",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "performance",
+        "do_not_record": false,
+        "track": null,
+        "abstract": "",
+        "speakers": [
+
+        ],
+        "start_time": "2019-05-23T15:30:00.000+02:00",
+        "end_time": "2019-05-23T16:00:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 28,
+        "guid": "073fd077-300e-4959-b1a6-fdba603affdf",
+        "title": "Coffee Break [Day 2]",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "performance",
+        "do_not_record": false,
+        "track": null,
+        "abstract": "",
+        "speakers": [
+
+        ],
+        "start_time": "2019-05-24T15:30:00.000+02:00",
+        "end_time": "2019-05-24T16:00:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 29,
+        "guid": "e41d01c1-2fb9-4b21-9e20-19d7bdb6ce0b",
+        "title": "Coffee Break [Day 2]",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "performance",
+        "do_not_record": false,
+        "track": null,
+        "abstract": "",
+        "speakers": [
+
+        ],
+        "start_time": "2019-05-24T15:30:00.000+02:00",
+        "end_time": "2019-05-24T16:00:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      },
+      {
+        "id": 22,
+        "guid": "4b4ae87e-8f6d-457e-af4b-91bbf5e9751d",
+        "title": "Designing for Security (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Design",
+        "abstract": "",
+        "speakers": [
+          {
+            "id": 25,
+            "image": "/system/people/avatars/000/000/025/original/protagoras_s.jpg?1544195966",
+            "full_public_name": "Eileen Wagner",
+            "abstract": "Eileen leverages human-centered design and open digital technologies to empower people online. Besides a keen interest in security and privacy issues, she brings her research and analytical skills to lead programs at Simply Secure, a non-profit that brings experience design to open source projects.\r\n\r\n\r\nEileen leverages human-centered design and open digital technologies to empower people online. Besides a keen interest in security and privacy issues, she brings her research and analytical skills to lead programs at Simply Secure, a non-profit that brings experience design to open source projects.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://bumble.blue/",
+                "title": "UX Designer @ Simply Secure"
+              },
+              {
+                "url": "https://bumble.blue/",
+                "title": "Website"
+              },
+              {
+                "url": "https://twitter.com/bumblblu",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T15:45:00.000+02:00",
+        "end_time": "2019-05-23T16:30:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      },
+      {
+        "id": 30,
+        "guid": "ee5494f7-138a-4a46-90d7-aa46681d1ccf",
+        "title": "Diverse representations in design and awkward conversations with colleagues (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Design",
+        "abstract": "When working in design and user experience, people that need accessible and inclusive products of experiences often get referred to as ‘edge cases’ and subsequently pushed out of scope. It’s never easy to convince bosses or colleagues that aren’t themselves ‘edge cases ‘themselves to take the time and spend the resource caring for those that need more diverse design and representation in our visuals.\r\n\r\nCovering real-life past examples of frustrations from projects that didn’t go so well, ones that did go well and how I work as much diversity and inclusivity into my work as I can possibly get away with now with the hope to not only make it the standard approach from the companies and people that I work with, but also for the customers and end-users that are not marginalised, to consider that products, services and marketing should be representative for and of everyone, not just them.",
+        "speakers": [
+          {
+            "id": 28,
+            "image": "/system/people/avatars/000/000/028/original/eriol_fox.png?1542222528",
+            "full_public_name": "Eriol Fox",
+            "abstract": "Eriol has worked in the design industry for 8+ years. They work as a designer for Ushahidi a Kenyan humanitarian technology non-profit developing open-source tools to help marginalised people raise their voices and those who serve them to listen and respond better.\r\n\r\nEriol talks about diversity from an LGBTQ+ perspective particularly the representation in visual design.\r\n\r\n\r\nEriol has worked in the design industry for 8+ years. They work as a designer for Ushahidi a Kenyan humanitarian technology non-profit developing open-source tools to help marginalised people raise their voices and those who serve them to listen and respond better.\r\n\r\nEriol talks about diversity from an LGBTQ+ perspective particularly the representation in visual design.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://www.ushahidi.com/",
+                "title": "Designer @ Ushahidi"
+              },
+              {
+                "url": "http://erioldoesdesign.com/",
+                "title": "Website"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T13:30:00.000+02:00",
+        "end_time": "2019-05-23T14:15:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      },
+      {
+        "id": 3,
+        "guid": "1846bfaa-e832-4613-9777-1780a0da9629",
+        "title": "Hack Society - Wie wir mit Code gesellschaftliche Probleme lösen können (DE)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Society",
+        "abstract": "",
+        "speakers": [
+          {
+            "id": 11,
+            "image": "/system/people/avatars/000/000/011/original/maren-heltsche-by-rieka-anscheit-02.jpg?1536593964",
+            "full_public_name": "Maren Heltsche",
+            "abstract": "Maren Heltsche is a programmer at the myclimate foundation. She is co-founder and maintainer of the open source platform speakerinnen.org. Apart from that she volunteers as board member of Digital Media Women. She loves knitting, yoga and DIY.\r\n\r\n\r\nMaren Heltsche ist Programmiererin bei der Stiftung myclimate und Mit-Gründerin und Maintainerin der Open-Source Plattform speakerinnen.org. Außerdem ist sie im Vorstand der Digital Media Women aktiv. Privat strickt sie gerne, liebt Yoga und DIY.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://speakerinnen.org",
+                "title": "Co-Founder @ Speakerinnen.org"
+              },
+              {
+                "url": "https://twitter.com/zaziemo",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T11:45:00.000+02:00",
+        "end_time": "2019-05-23T12:30:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 12,
+        "guid": "945ba52c-b0ce-43fa-9a8a-7d1d7480269e",
+        "title": "How to read code? (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Keynote",
+        "abstract": "",
+        "speakers": [
+          {
+            "id": 18,
+            "image": "/system/people/avatars/000/000/018/original/fhermans02072018_groot-10.jpg?1540274125",
+            "full_public_name": "Felienne Hermans",
+            "abstract": "Felienne is associate professor at the Leiden Institute of Advanced Computer Science at Leiden University, where she heads a research group on programming education. What cognitive skills are needed for programming? What misconceptions   can occur when children are learning to program? These are some of the questions that intrigue Felienne.\r\n\r\n\r\nFelienne is associate professor at the Leiden Institute of Advanced Computer Science at Leiden University, where she heads a research group on programming education. What cognitive skills are needed for programming? What misconceptions   can occur when children are learning to program? These are some of the questions that intrigue Felienne.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://liacs.leidenuniv.nl/",
+                "title": " Associate Professor @ Leiden Institute of Adv. Computer Science"
+              },
+              {
+                "url": "http://www.felienne.com/",
+                "title": "Website"
+              },
+              {
+                "url": "https://twitter.com/felienne",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-24T16:15:00.000+02:00",
+        "end_time": "2019-05-24T17:15:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 38,
+        "guid": "b5400ca5-8d9b-4dfa-8352-12c3ada99765",
+        "title": "Innovation under the GDPR (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Tech",
+        "abstract": "The GDPR came into force in 2018 and left many entrepreneurs panicking, not only about their compliance but also about their ability to keep innovating. We live in a data economy and not \r\ncollecting data to understand your customers may leave you with a serious competitive disadvantage. Nevertheless, there are enough ways to respect your users privacy and rights while \r\ncontinuing to innovate. Welcome to the era of privacy conscious products and services. This talk is not only about how to keep innovating despite the GDPR, but also how to use privacy as a way to stand out from your competition and build better experiences for your audience.",
+        "speakers": [
+          {
+            "id": 35,
+            "image": "/system/people/avatars/000/000/035/original/silvan_jongerius.png?1546607363",
+            "full_public_name": "Silvan Jongerius",
+            "abstract": "Silvan Jongerius (CIPP/e, Datenschutzbeauftragter (TÜV)) is the Managing Partner and Founder of TechGDPR and has led numerous data protection and security efforts in his previous roles as CTO \r\nand divisional CIO for multinational media educators. He is a regular speaker, consultant, and educator in blockchain, innovation and technology, and is author and co-author of several papers about GDPR compliance and privacy in blockchain. Silvan has over 13 years of senior leadership and founding experience in corporate and startup environments and is an advisor on several blockchain related projects.\r\n\r\n\r\nSilvan Jongerius (CIPP/e, Datenschutzbeauftragter (TÜV)) is the Managing Partner and Founder of TechGDPR and has led numerous data protection and security efforts in his previous roles as CTO \r\nand divisional CIO for multinational media educators. He is a regular speaker, consultant, and educator in blockchain, innovation and technology, and is author and co-author of several papers about GDPR compliance and privacy in blockchain. Silvan has over 13 years of senior leadership and founding experience in corporate and startup environments and is an advisor on several blockchain related projects.  ",
+            "description": "",
+            "links": [
+              {
+                "url": "https://techgdpr.com/",
+                "title": "Founder @ TechGDPR"
+              },
+              {
+                "url": "https://twitter.com/silvanjongerius",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-24T11:30:00.000+02:00",
+        "end_time": "2019-05-24T12:15:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 6,
+        "guid": "2d2dea1e-09d0-4eef-9114-398571b7c269",
+        "title": "Intranet of Things (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Tech",
+        "abstract": "Ever backed an amazing smart home tech gadget on Kickstarter and ended up with a useless piece\r\nof techno garbage 6 months later?\r\nJust because that amazing start up ran out of money and needed to shut down the servers?\r\nWelcome to the wonderful cloud centric world we call the \"Internet of Things\".\r\nBut does it always need to be that way? I say No!\r\n\r\nThanks to the wonders of WebRTC, Service Workers and Node.js, we can create a world\r\nin where todays consumer IoT hardware can be controlled using a P2P model.\r\n\r\nI´ll demo a WebRTC based Smart Home Hub concept that interacts with ZigBee devices,\r\nWiFi Cameras and locally available voice and face recognition systems, without sacrificing comfort, security & privacy.",
+        "speakers": [
+          {
+            "id": 14,
+            "image": "/system/people/avatars/000/000/014/original/sebastian_1.png?1538468763",
+            "full_public_name": "Sebastian Golasch",
+            "abstract": "Sebastian works as a “Specialist Senior Manager Software Developer” at Deutsche Telekom.For the last seven years Sebastian tries to improve our lives, working on the Smart Home platform Qivicon.\r\n\r\nFamous last words: “If I would’ve wanted to work in ‘Enterprise’, I’d have joined Starfleet…”\r\n\r\n\r\nSebastian arbeitet als \"Specialist Senior Manager Software Developer\" bei der Deutschen Telekom.Seit 7 Jahren entwickelt er an der IoT Plattform Qivicon und versucht so unser aller Leben etwas besser zu machen.\r\n\r\nFamous last words: “If I would’ve wanted to work in ‘Enterprise’, I’d have joined Starfleet…”",
+            "description": "",
+            "links": [
+              {
+                "url": "https://telekom.de/",
+                "title": "Specialist Senior Manager Software Developer @ Telekom"
+              },
+              {
+                "url": "https://twitter.com/asciidisco",
+                "title": "Twitter"
+              },
+              {
+                "url": "https://asciidisco.com/",
+                "title": "Website"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T13:45:00.000+02:00",
+        "end_time": "2019-05-23T14:30:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 26,
+        "guid": "048a4b89-4094-4f67-bdc1-7c299b2f7829",
+        "title": "Lunch [Day 2]",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "performance",
+        "do_not_record": false,
+        "track": null,
+        "abstract": "",
+        "speakers": [
+
+        ],
+        "start_time": "2019-05-24T12:45:00.000+02:00",
+        "end_time": "2019-05-24T13:45:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 27,
+        "guid": "78a91fcc-62cd-4f2d-8d13-453ab50be980",
+        "title": "Lunch [Day 2]",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "performance",
+        "do_not_record": false,
+        "track": null,
+        "abstract": "",
+        "speakers": [
+
+        ],
+        "start_time": "2019-05-24T12:30:00.000+02:00",
+        "end_time": "2019-05-24T13:30:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      },
+      {
+        "id": 36,
+        "guid": "2218db8a-a1a6-45bd-b3db-35bb9a9b388e",
+        "title": "Mapping the problem: Understanding the unintended consequences of our designs (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Design",
+        "abstract": "",
+        "speakers": [
+          {
+            "id": 33,
+            "image": "/system/people/avatars/000/000/033/original/Forbes_Under_30_photo.jpg?1544533559",
+            "full_public_name": "Aly Blenkin",
+            "abstract": "I am a Senior Product Designer and Co-lead of a new initiative called Pivotal Act, a program focused on partnering with those addressing social, humanitarian, environmental challenges with technology. I would describe myself as a systems thinker with a curious soul, who is passionate about using design as a vehicle to drive social change. \r\n\r\n\r\nI am a Senior Product Designer and Co-lead of a new initiative called Pivotal Act, a program focused on partnering with those addressing social, humanitarian, environmental challenges with technology. I would describe myself as a systems thinker with a curious soul, who is passionate about using design as a vehicle to drive social change. ",
+            "description": "",
+            "links": [
+              {
+                "url": "https://pivotal.io/act",
+                "title": "Co-Lead & Senior Product Designer @ Pivotal Act"
+              },
+              {
+                "url": "http://alyblenkin.com/",
+                "title": "Website"
+              },
+              {
+                "url": "https://twitter.com/alyblenkin",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T09:30:00.000+02:00",
+        "end_time": "2019-05-23T10:15:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      },
+      {
+        "id": 18,
+        "guid": "8c7d1fbc-de17-48e2-9204-ed37af34e61e",
+        "title": "Peerocracy (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Keynote",
+        "abstract": "",
+        "speakers": [
+          {
+            "id": 27,
+            "image": "/system/people/avatars/000/000/027/original/laura-big.jpg?1544476189",
+            "full_public_name": "Laura Kalbag",
+            "abstract": "Aral Balkan and Laura Kalbag are Ind.ie, a not-for-profit striving for social justice in the digital age. They design and build ethical alternatives to mainstream technology, wrote the Ethical Design Manifesto, and built Better—a tracker blocker for the web.\r\n\r\n\r\nAral Balkan and Laura Kalbag are Ind.ie, a not-for-profit striving for social justice in the digital age. They design and build ethical alternatives to mainstream technology, wrote the Ethical Design Manifesto, and built Better—a tracker blocker for the web.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://ind.ie/",
+                "title": "Founder @ Ind.ie"
+              },
+              {
+                "url": "https://twitter.com/laurakalbag",
+                "title": "Twitter"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "image": "/system/people/avatars/000/000/022/original/aral-headshot-high-res.jpg?1544475970",
+            "full_public_name": "Aral Balkan",
+            "abstract": "Aral Balkan and Laura Kalbag are Ind.ie, a not-for-profit striving for social justice in the digital age. They design and build ethical alternatives to mainstream technology, wrote the Ethical Design Manifesto, and built Better—a tracker blocker for the web.\r\n\r\n\r\nAral Balkan and Laura Kalbag are Ind.ie, a not-for-profit striving for social justice in the digital age. They design and build ethical alternatives to mainstream technology, wrote the Ethical Design Manifesto, and built Better—a tracker blocker for the web.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://ind.ie",
+                "title": "Founder @ Ind.ie"
+              },
+              {
+                "url": "https://twitter.com/aral",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-24T09:15:00.000+02:00",
+        "end_time": "2019-05-24T10:15:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 37,
+        "guid": "8c740281-2025-48da-9f28-15a8cf1e9dfb",
+        "title": "Preparing For a Future Microservices Journey (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Keynote",
+        "abstract": "",
+        "speakers": [
+          {
+            "id": 34,
+            "image": "/system/people/avatars/000/000/034/original/susanne.png?1545401868",
+            "full_public_name": "Susanne Kaiser",
+            "abstract": "Bio follows soon.\r\n\r\n\r\nBio kommt bald.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://kaiser-consulting.net/",
+                "title": "Independent Consultant"
+              },
+              {
+                "url": "https://twitter.com/suksr",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T18:30:00.000+02:00",
+        "end_time": "2019-05-23T19:15:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 31,
+        "guid": "e459e0ed-f93e-41d6-acaf-4249e263eb15",
+        "title": "Privacy in Software: How to design and implement privacy by default (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Tech",
+        "abstract": "",
+        "speakers": [
+          {
+            "id": 29,
+            "image": "/system/people/avatars/000/000/029/original/Emma_Arfelt.JPG?1541158862",
+            "full_public_name": "Emma Arfelt",
+            "abstract": "Emma Arfelt is an MSc student in Computer Science at the IT University of Copenhagen. Prior she finished her bachelor degree in Software Development, which sparked her interest in IT Security and spun an adventure into Security research. Outside study hours, Emma works as a privacy advocate in high schools, where she teaches young adults about digital footprints and digital rights on the Internet.\r\nFurther, she’s a self-taught DJ (not Spotify-like, but a truly spinning-scratching-fancy-headphone type of DJ) with a pumping heart for groovy 70’s disco, and loves hipster-friendly Cortados.\r\n\r\n\r\nEmma Arfelt is an MSc student in Computer Science at the IT University of Copenhagen. Prior she finished her bachelor degree in Software Development, which sparked her interest in IT Security and spun an adventure into Security research. Outside study hours, Emma works as a privacy advocate in high schools, where she teaches young adults about digital footprints and digital rights on the Internet.\r\nFurther, she’s a self-taught DJ (not Spotify-like, but a truly spinning-scratching-fancy-headphone type of DJ) with a pumping heart for groovy 70’s disco, and loves hipster-friendly Cortados.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://en.itu.dk/",
+                "title": "MSc Student @ IT University of Copenhagen"
+              },
+              {
+                "url": "https://twitter.com/emmaarfelt",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-24T10:30:00.000+02:00",
+        "end_time": "2019-05-24T11:15:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 17,
+        "guid": "92e589cb-263d-4847-9c94-d54ae71703fd",
+        "title": "Produkte gegen die eigene Moral - Über kognitive Dissonanz im Produktdesign (DE)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Design",
+        "abstract": "Als Designer*in ist es unsere Aufgabe, die Bedürfnisse des Marktes zu verstehen und in Produkte zu übersetzen, die dem Menschen und seinem Umfeld in positiver Weise dienen. Dennoch sind wir von Dingen umgeben, die diesen Anspruch nicht erfüllen und uns, sowie unserer Umwelt sogar schaden. Die Forschung zur kognitiven Dissonanz im Produktdesign versucht zu erklären, warum wir beim Entwickeln neuer Designs oftmals gegen unsere eigenen moralischen Werte handeln und wie wir das Spannungsfeld zwischen Individualmoral und Innovationszwang lösen können.\r\n",
+        "speakers": [
+          {
+            "id": 19,
+            "image": "/system/people/avatars/000/000/019/original/Buchegger_Bild.jpg?1540556344",
+            "full_public_name": "Gerri Buchegger",
+            "abstract": "Der 1988 in Oberösterreich geborene Gerhard Buchegger ist selbständiger Designer und Illustrator. 2014 gründete er das Visual Studio DIE MÜHLE. Als Lektor am Studiengang Design und Produktmanagement an der FH Salzburg unterrichtet und betreut er wissenschaftliche Arbeiten zum Thema Moral im Produktdesign.\r\n\r\n\r\nBorn in 1988 in Upper Austria, Gerhard Buchegger is a designer and illustrator. In 2014 he founded the Visual Studio DIE MÜHLE. As a lecturer in  Design and Product Management at FH Salzburg, he teaches and supervises scientific work on the topic of morality in product design. ",
+            "description": "",
+            "links": [
+              {
+                "url": "https://muehle-design.com/",
+                "title": "Mühle Design"
+              },
+              {
+                "url": "https://www.instagram.com/die_muehle/",
+                "title": "Instagram"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-24T16:00:00.000+02:00",
+        "end_time": "2019-05-24T16:45:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      },
+      {
+        "id": 13,
+        "guid": "2e496e8c-2652-45e1-9a9d-0bd5c47af1bb",
+        "title": "The Power of an Agile Mindset (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Keynote",
+        "abstract": "Research has identified what I like to call \"an agile mindset,\" an attitude that equates failure and problems with opportunities for learning, a belief that we can all improve over time, that our abilities are not fixed but evolve with effort. What's surprising about this research is the impact of our mindset on creativity and innovation, estimation, and collaboration in and out of the workplace. I'll share what we know so far about this mindset and offer some practical suggestions to help all of us become even more agile.",
+        "speakers": [
+          {
+            "id": 21,
+            "image": "/system/people/avatars/000/000/021/original/Agile_Russia.jpg?1540557186",
+            "full_public_name": "Linda Rising",
+            "abstract": "With a Ph.D. from Arizona State University in object-based design metrics, Linda’s background includes university teaching and industry work. An internationally known presenter on topics related to patterns, agile development, the change process, and how your brain works, Linda is the author of numerous articles and five books. The latest: More Fearless Change, written with Mary Lynn Manns.\r\n\r\n\r\nWith a Ph.D. from Arizona State University in object-based design metrics, Linda’s background includes university teaching and industry work. An internationally known presenter on topics related to patterns, agile development, the change process, and how your brain works, Linda is the author of numerous articles and five books. The latest: More Fearless Change, written with Mary Lynn Manns.",
+            "description": "",
+            "links": [
+              {
+                "url": "http://lindarising.org/",
+                "title": "Independent Consultant"
+              },
+              {
+                "url": "https://twitter.com/RisingLinda",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T09:30:00.000+02:00",
+        "end_time": "2019-05-23T10:30:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 34,
+        "guid": "4baac924-7a27-4472-89cc-da683110b6b7",
+        "title": "The Power of Web Components (DE)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Tech",
+        "abstract": "",
+        "speakers": [
+          {
+            "id": 31,
+            "image": "/system/people/avatars/000/000/031/original/20170624_193146.jpg?1543409982",
+            "full_public_name": "Katharina Bähr",
+            "abstract": "I am a web-loving software engineer currently working at Zuehlke Engineering in Germany. After studying Computer Science and Media I am now doing primarily web related stuff and developing single page applications. When I have the time I like to try out new promising technologies and keep on track with the fast moving and exciting web.\r\n\r\n\r\nI am a web-loving software engineer currently working at Zuehlke Engineering in Germany. After studying Computer Science and Media I am now doing primarily web related stuff and developing single page applications. When I have the time I like to try out new promising technologies and keep on track with the fast moving and exciting web.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://www.zuehlke.com/de/de/",
+                "title": "Web-Loving Software Engineer @ Zühlke Engineering"
+              },
+              {
+                "url": "https://kabaehr.de",
+                "title": "Website"
+              },
+              {
+                "url": "https://twitter.com/kabaehr",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-24T13:45:00.000+02:00",
+        "end_time": "2019-05-24T14:30:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 1,
+        "guid": "6b97c30c-f4cf-4067-b49e-03a1624b34d7",
+        "title": "think.about: Wie beeinflusst das Smartphone unsere Psyche und wie können wir lernen besser damit umzugehen? (DE)",
+        "subtitle": "",
+        "description": "TBD",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Society",
+        "abstract": "TBD",
+        "speakers": [
+          {
+            "id": 9,
+            "image": "/system/people/avatars/000/000/009/original/muriel.jpg?1536308410",
+            "full_public_name": "Muriel Böttger",
+            "abstract": "Muriel Böttger, Gründerin von Share & Grow, ist Psychologin, spezialisiert auf Positive Psychologie. Durch ihre Arbeit unterstützt sie Menschen mit Entschlossenheit, Leichtigkeit und mehr Energie durchs Leben zu gehen.\r\n\r\n\r\nMuriel Böttger, founder of Share & Grow, is a psychologist and  specialised in Positive Psychology. Her work supports people to achieve more clarity, ease and energy throughout their lives.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://murielboettger.com/",
+                "title": "Founder @ Share & Grow"
+              },
+              {
+                "url": "https://www.instagram.com/murielboettger/",
+                "title": "Instagram"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T14:45:00.000+02:00",
+        "end_time": "2019-05-23T15:30:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 32,
+        "guid": "33b57ece-43d0-4635-bb93-8963ad5626e8",
+        "title": "Welcome",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "performance",
+        "do_not_record": false,
+        "track": null,
+        "abstract": "",
+        "speakers": [
+
+        ],
+        "start_time": "2019-05-23T09:00:00.000+02:00",
+        "end_time": "2019-05-23T09:15:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
+        "id": 7,
+        "guid": "b561c1ef-43a2-46f3-9468-1c86f989d293",
+        "title": "Zukunftsbilder und menschzentriertes Design (DE)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Design",
+        "abstract": "",
+        "speakers": [
+          {
+            "id": 15,
+            "image": "/system/people/avatars/000/000/015/original/Wilhelm_by_HannesGade_HE2B6775.jpeg?1539355525",
+            "full_public_name": "Wilhelm Rinke",
+            "abstract": "Wilhelm acts as Head of Design Thinking at Berliner Ideenlabor. He studied Biology and Ecology (B.Sc. TU Darmstadt, M.Sc. HU Berlin), Photography (Ostkreuzschule für\r\n+Fotografie), Design Thinking (HPI DSchool) and teaches at HTW Berlin.\r\n\r\n\r\n Wilhelm ist Head of Design Thinking des Berliner Ideenlabors. Er studierte Biologie und Ökologie (B.Sc. TU Darmstadt, M.Sc. HU Berlin), Fotografie (Ostkreuzschule für\r\n+Fotografie), Design Thinking (HPI DSchool) und lehrt an der HTW Berlin.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://www.berliner-ideenlabor.de/",
+                "title": "Head of Design Thinking @ Berliner Ideenlabor"
+              },
+              {
+                "url": "https://wilhelmrinke.com/",
+                "title": "Website"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-24T11:30:00.000+02:00",
+        "end_time": "2019-05-24T12:15:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      }
+    ]
+  }
+}
