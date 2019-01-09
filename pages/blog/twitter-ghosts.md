@@ -1,7 +1,7 @@
 ---
 title: "The Haunted Twitter Account"
 date: 2019-01-08
-tweet: TODO "@ThinkAboutConf #thinkabout19"
+tweet: "Our twitter account is haunted by ghost followers 👻. We grabbed our mad computer skills and went on a ghost hunt. This is a story on how we got rid of our fake followers. @ThinkAboutConf #thinkabout19"
 author_twitter: "@hldrbm"
 author: Jakob
 draft: true
