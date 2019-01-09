@@ -26,7 +26,7 @@ function task_prepare_ci {
     eval "$(ssh-agent -s)"
     ssh-add deploy/ssh
 
-    git commit -am '[travis] Update speakies, keynotes and tickets [ci skip]'
+    git commit -am '[travis] Update frab data [ci skip]'
     git remote set-url origin git@github.com:hrx-events/think-about.git
     git push origin master
   fi
