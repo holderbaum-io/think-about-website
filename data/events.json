@@ -516,6 +516,43 @@
         }
       },
       {
+        "id": 39,
+        "guid": "f2a82010-7f82-44d9-b3fa-c359d1b470e7",
+        "title": "Maintain your ancient projects without getting lost (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Tech",
+        "abstract": "[Mozilla Addons](https://addons.mozilla.org/) - one of the oldest websites @ Mozilla has gone through major changes throughout its lifetime. Starting in ~2005, the site as been more or less maintained. Only in recent years, it got much more traction because of Firefox Quantum and Mozilla's move to WebExtensions.",
+        "speakers": [
+          {
+            "id": 36,
+            "image": "/system/people/avatars/000/000/036/original/bierwanderung_20160923_7021(2).jpg?1547028863",
+            "full_public_name": "Chris Grebs",
+            "abstract": "I'm Chris, currently working as a Senior Web Engineer at Mozilla for addons.mozilla.org. I've been working for lots of smaller and bigger companies throughout the years. I'm also actively working on many web-related open source projects.\r\n\r\n\r\nI'm Chris, currently working as a Senior Web Engineer at Mozilla for addons.mozilla.org. I've been working for lots of smaller and bigger companies throughout the years. I'm also actively working on many web-related open source projects.\r\n",
+            "description": "",
+            "links": [
+              {
+                "url": "https://addons.mozilla.org",
+                "title": "Senior Web Engineer @ Mozilla"
+              },
+              {
+                "url": "http://twitter.com/entequak",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T11:30:00.000+02:00",
+        "end_time": "2019-05-23T12:15:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
         "id": 36,
         "guid": "2218db8a-a1a6-45bd-b3db-35bb9a9b388e",
         "title": "Mapping the problem: Understanding the unintended consequences of our designs (EN)",
