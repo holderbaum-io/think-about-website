@@ -1013,12 +1013,13 @@ body section.blogauthor div {
 }
 
 body section.blogpost code {
-  background-color: #0e003b;
-  color: white;
+  color: #0e003b;
   font-family: monospace;
 }
 
 body section.blogpost code:only-child {
+  background-color: #0e003b;
+  color: white;
   padding: 1rem;
   display: inline-block;
   width: 100%;
