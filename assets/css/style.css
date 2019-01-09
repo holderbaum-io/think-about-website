@@ -1038,6 +1038,7 @@ section.blogpost > div img {
 }
 
 section.blogpost > div > p img {
+  width: auto;
   display: block;
   max-width: 700px;
   margin-left: auto;
