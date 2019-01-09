@@ -236,6 +236,14 @@ class Renderer
     def is_blog_post?
       file.start_with?('blog/') && file.end_with?('md')
     end
+
+    def is_talk_details?
+      file.start_with?('/speakies/') && file.end_with?('.html.erb')
+    end
+
+    def filename
+      File.basename file
+    end
   end
 end
 
