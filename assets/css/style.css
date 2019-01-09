@@ -1017,7 +1017,7 @@ body section.blogpost code {
   font-family: monospace;
 }
 
-body section.blogpost code:only-child {
+body section.blogpost pre code {
   background-color: #0e003b;
   color: white;
   padding: 1rem;
@@ -1040,7 +1040,7 @@ section.blogpost > div img {
 section.blogpost > div > p img {
   width: auto;
   display: block;
-  max-width: 700px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;

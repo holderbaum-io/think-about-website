@@ -118,9 +118,9 @@ Installing Ghostbuster is quite easy. Since it is a commandline application,
 you will have to install and run it from the commandline. So open up the
 terminal and type this
 
-```
+~~~
 curl -sSL git.io/ghostbuster |bash
-```
+~~~
 
 This will install ghostbuster and make it available for usage.
 
@@ -133,9 +133,9 @@ app keys.
 
 Now to start Ghostbuster, fire up your terminal and run:
 
-```
+~~~
 ghostbuster
-```
+~~~
 
 This will launch Ghostbuster and the first thing it will do is ask you for the
 API Key and Secret which we have discovered above at step two.
