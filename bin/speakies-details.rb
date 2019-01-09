@@ -1,4 +1,3 @@
-require 'net/http'
 require 'json'
 require 'date'
 require 'kramdown'
@@ -23,9 +22,7 @@ def slug(string)
   end
 end
 
-uri = URI('https://orga.hrx.events/en/thinkabout2019/public/events.json')
-response = Net::HTTP.get(uri)
-schedule = JSON.parse(response, symbolize_names: true)
+schedule = JSON.parse(File.read('data/events.json'), symbolize_names: true)
 
 talks = schedule[:conference_events][:events].select do |talk|
   talk[:type] == 'lecture'
