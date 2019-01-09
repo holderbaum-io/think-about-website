@@ -11,16 +11,21 @@ draft: true
 On Monday the 7th of January it happened: Over night we had more than 300
 additional Twitter followers. Sounds cool, right? Well, unfortunately it is not. 
 
-We were not praised by sudden fame. All of those 300 new followers were ghost followers: fake accounts that only exist to increase the reach of another account. But where did they come from all of a sudden?
+We were not praised by sudden fame. All of those 300 new followers were ghost
+followers: fake accounts that only exist to increase the reach of another
+account. But where did they come from all of a sudden?
 
 ## The Short Version
 
 Our account is haunted. Since the 7th of January we had 300 more followers and
 since then we get a few new ghost followers every other minute. Just when I
 checked this morning there were again over 300 more followers than last
-evening.
+evening. And it is not stopping. As of today (9th of January, we gain fake
+accounts as ghost followers every minute).
 
-Because we were annoyed to remove every new ghost follower manually I came up with this tool that I would like to introduce to you in this article: Meet [Ghostbuster](https://github.com/hrx-events/ghostbuster) - the friendly
+Because we were annoyed to remove every new ghost follower manually I came up
+with this tool that I would like to introduce to you in this article: Meet
+[Ghostbuster](https://github.com/hrx-events/ghostbuster) - the friendly
 commandline app to automatically delete all those nasty twitter ghost
 followers. Running it looks kind of like this:
 
@@ -63,7 +68,7 @@ no post at all.
 Head over to Github and download
 [Ghostbuster](https://github.com/hrx-events/ghostbuster). In order to use it,
 you have to enable API access on twitter and create a twitter app. Both are
-quire easy to do in a few steps which I will outline here.
+quite easy to do in a few steps which I will outline here.
 
 ## The longer Version
 
@@ -87,9 +92,26 @@ context of a so called "Twitter App". An app does not have to be a big
 application running on phones or in a browser. It is merely a context, in which
 you can make calls to the API.
 
-Open the [Twitter App Manager](#) and create a new app. You can call it
-whatever you want. After doing so open the App Settings and go to the secrets
-keys blabla
+Open the [Twitter App Manager](https://developer.twitter.com/en/apps) and
+create a new app by clicking on the **create** button. You can call it whatever
+you want. You only have to fill in the field marked as **required**, especially
+all those technical URLs can be omitted. As long as your app is not a user
+facing one (which is the case here), this is totally fine. After doing so open
+the App Settings by clicking on the **details** button beside the app as
+outlined in this screenshot:
+
+![A screenshot of the button to create a twitter app](/assets/images/blog/twitter-ghosts/twitter-app-details.png)
+
+Now navigate to the tab "Keys and Tokens", there you will encounter two very
+important secret keys. Both keys, the "API Key" and the "API Secret Key" should
+be kept very secret. Here is a screenshot how it might look (the keys in the
+screenshot are fake ones, for obvious reasons):
+
+![A screenshot of the twitter app secret keys](/assets/images/blog/twitter-ghosts/twitter-app-keys.png)
+
+Keep this tab open for the next step, since you will need both keys for
+Ghostbuster. It will use them to create an API token. This API token will then
+be used to query and block ghost followers.
 
 ### 3. Install Ghostbuster
 
@@ -98,7 +120,7 @@ you will have to install and run it from the commandline. So open up the
 terminal and type this
 
 ```
-curl -L https://git.io/ghostbuster/install.sh | bash
+curl -sSL git.io/ghostbuster |bash
 ```
 
 This will install ghostbuster for you and make it available for usage.
