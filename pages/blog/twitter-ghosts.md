@@ -38,7 +38,7 @@ Twitter, having a lot of ghost followers is not. This can have several severe
 drawbacks:
 
 1. Credibility: your account can be perceived as one of those shady twitter
-citicens who pay money to gain extra followers
+citizens who pay money to gain extra followers
 2. Ranking: Twitter may detect this behaviour and reduce your visibility
 3. Ban: Twitter may even decide to ban your account because they suspect a fraud
 scheme
@@ -123,7 +123,7 @@ terminal and type this
 curl -sSL git.io/ghostbuster |bash
 ```
 
-This will install ghostbuster for you and make it available for usage.
+This will install ghostbuster and make it available for usage.
 
 ### 4. Start Ghostbuster
 
@@ -146,23 +146,34 @@ Paste those keys into your terminal (usually with `[CTRL]+[SHIFT]+[V]` or
 
 After supplying both information a twitter URL as displayed. Please open this
 URL in the browser where you are logged into Twitter. After opening this URL, a
-PIN code consisting of several numbers is displayed. Copy this PIN code, go
-back to the terminal and paste it into the waiting Ghostbuster. Now press
-enter.
+button labeled "Authorize App" is displayed. After clicking it the website will
+display a PIN code consisting of several numbers. Copy this PIN code, go back
+to the terminal and paste it into the waiting Ghostbuster. Now press enter.
 
 Ghostbuster will now start busting ghost followers and blocking them
 automatically. It will run indefinitely and look at your newest 100 followers
-every five minutes. If it detects a ghost in those 100 followers, they will be blocked automatically.
-
-## The Resume
+every five minutes. If it detects a ghost in those 100 followers, they will be
+blocked automatically. You can abort it anytime using `[CTRL]+[C]`.
 
 Whenever you are haunted by an army of ghosts that swarm into your account,
 just fire up Ghostbuster in your terminal and watch them disappear.
+
+To run it again, simply type `ghostbuster`. Since it stored your apps
+credentials, on future runs it will just start hunting without the annoying
+questions.
 
 The five-minute break between runs is important, since the Twitter API has a
 rate limiter. That means, if you ask too frequently for your own followers,
 your API access will be temporarily disabled. Asking for 100 followers every
 five minutes is exactly inside their maximum limits, so you should be fine.
+
+## The End
+
+Since the 7th of January, our Twitter Account is bombarded by ghost followers
+and we have to run our Ghostbuster continuously to get rid of them. It is a
+complete riddle to us where those fake accounts come from but we are happy that
+it inspired us to write Ghostbuster and maybe help others to clean their
+accounts.
 
 And as mentioned earlier: If anybody knows how such a thing can happen please
 give us a tweet ([@thinkaboutconf](https://twitter.com/thinkaboutconf)) or a
