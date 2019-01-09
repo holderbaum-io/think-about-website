@@ -182,7 +182,7 @@ class Renderer
           results << result
         end
       end
-      results
+      results.sort_by { |p| p.meta[:date] }.reverse
     end
 
     def t(key, values = {})
