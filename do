@@ -15,6 +15,7 @@ function task_prepare_ci {
     -d
   chmod 600 deploy/ssh
 
+  task_update_event_data || exit 1
   task_update_tickets || exit 1
   task_update_speakers || exit 1
   task_update_keynotes || exit 1
@@ -48,13 +49,27 @@ task_clean() {
   rm -rf result/
 }
 
+task_update_event_data() {
+  local url='https://orga.hrx.events/en/thinkabout2019/public/events.json'
+  curl \
+    -L \
+    "$url" \
+      |ruby -rjson -e 'puts JSON.pretty_generate(JSON.parse(STDIN.read))' \
+      >data/events-new.json
+  if [ -s data/events-new.json ];
+  then
+    mv data/events-new.json data/events.json
+  else
+    rm -f data/events-new.json
+  fi
+}
+
 task_update_speakies_details() {
   ensure_ruby
 
   bundle exec ruby bin/speakies-details.rb
   return $?
 }
-
 
 task_update_speakers() {
   ensure_ruby
@@ -106,7 +121,7 @@ task_deploy() {
 }
 
 usage() {
-  echo "$0 serve | build | update_keynotes | update_speakers | update_speakies_details | update_tickets | deploy | clean"
+  echo "$0 serve | build | update_event_data | update_keynotes | update_speakers | update_speakies_details | update_tickets | deploy | clean"
   exit 1
 }
 
@@ -117,6 +132,7 @@ case "$cmd" in
   clean) task_clean ;;
   serve) task_serve "$@" ;;
   build) task_build ;;
+  update_event_data) task_update_event_data ;;
   update_keynotes) task_update_keynotes ;;
   update_speakers) task_update_speakers ;;
   update_speakies_details) task_update_speakies_details ;;
