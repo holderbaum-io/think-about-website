@@ -12,7 +12,7 @@
         "type": "lecture",
         "do_not_record": false,
         "track": "Tech",
-        "abstract": "",
+        "abstract": "Misogynist chatbots, racist image classification, discriminating recruiting tools: Despite being based on mathematical logic, AI applications have shown a significant amount of bias. With the rise of AI we have the chance to make implicit bias visible and measurable. In this talk, I will present the most common issues and discuss some ways to overcome bias.",
         "speakers": [
           {
             "id": 16,
