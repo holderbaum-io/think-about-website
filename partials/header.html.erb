@@ -24,9 +24,12 @@
     <% title = CGI.escapeHTML(data("speakies/#{speakie}")[:title]) %>
     <% abstract = CGI.escapeHTML(data("speakies/#{speakie}")[:abstract]) %>
     <meta property="og:image" content="<%= image %>">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:title" content="<%= title %>">
     <meta property="og:description" content="<%= abstract %>">
-    <meta property="og:type"   content="article" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="<%= "https://think-about.io/#{url}".gsub('//', '/') %>" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@thinkaboutconf">
     <meta name="twitter:title" content="<%= title %>">
