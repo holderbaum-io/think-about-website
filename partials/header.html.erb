@@ -19,12 +19,19 @@
     <meta name="twitter:image" content="https://think-about.io<%= meta[:img] %>">
     <meta name="twitter:domain" content="think-about.io">
     <% elsif is_talk_details? %>
-
+    <% speakie = File.basename filename, '.html.erb' %>
+    <% image = "https://think-about.io/assets/images/speaker/share/#{speakie}_card.png" %>
+    <% title = data("speakies/#{speakie}")[:title] %>
+    <% abstract = data("speakies/#{speakie}")[:abstract] %>
+    <meta property="og:image" content="<%= image %>">
+    <meta property="og:title" content="<%= title %>">
+    <meta property="og:description" content="<%= abstract %>">
+    <meta property="og:type"   content="article" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@thinkaboutconf">
-    <meta name="twitter:title" content="TODO">
-    <meta name="twitter:description" content="TODO">
-    <meta name="twitter:image" content="https://think-about.io/assets/images/speaker/share/<%= File.basename filename, '.html.erb' %>_card.png">
+    <meta name="twitter:title" content="<%= title %>">
+    <meta name="twitter:description" content="<%= abstract %>">
+    <meta name="twitter:image" content="<%= image %>">
     <meta name="twitter:domain" content="think-about.io">
     <% else %>
     <meta property="og:image" content="/og-image.jpg">

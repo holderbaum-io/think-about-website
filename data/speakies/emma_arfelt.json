@@ -1,0 +1,5 @@
+{
+  "title": "Privacy in Software: How to design and implement privacy by default",
+  "track": "Tech",
+  "abstract": "<%= t('speaker-details.abstract-missing') %>"
+}

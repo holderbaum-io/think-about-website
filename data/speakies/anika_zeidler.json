@@ -1,0 +1,5 @@
+{
+  "title": "Algorithmic Bias – Diskriminierung durch Algorithmen erkennen und vermeiden",
+  "track": "Tech",
+  "abstract": "<%= t('speaker-details.abstract-missing') %>"
+}

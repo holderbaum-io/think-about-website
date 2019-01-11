@@ -1,0 +1,5 @@
+{
+  "title": "Hack Society - Wie wir mit Code gesellschaftliche Probleme lösen können",
+  "track": "Society",
+  "abstract": "<%= t('speaker-details.abstract-missing') %>"
+}

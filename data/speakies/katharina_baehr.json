@@ -1,0 +1,5 @@
+{
+  "title": "The Power of Web Components",
+  "track": "Tech",
+  "abstract": "<%= t('speaker-details.abstract-missing') %>"
+}
