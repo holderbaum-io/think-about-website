@@ -21,8 +21,8 @@
     <% elsif is_talk_details? %>
     <% speakie = File.basename filename, '.html.erb' %>
     <% image = "https://think-about.io/assets/images/speaker/share/#{speakie}_card.png" %>
-    <% title = data("speakies/#{speakie}")[:title] %>
-    <% abstract = data("speakies/#{speakie}")[:abstract] %>
+    <% title = CGI.escapeHTML(data("speakies/#{speakie}")[:title]) %>
+    <% abstract = CGI.escapeHTML(data("speakies/#{speakie}")[:abstract]) %>
     <meta property="og:image" content="<%= image %>">
     <meta property="og:title" content="<%= title %>">
     <meta property="og:description" content="<%= abstract %>">

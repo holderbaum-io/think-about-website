@@ -4,6 +4,7 @@ require 'oga'
 require 'uri'
 require 'yaml'
 require 'json'
+require 'cgi'
 
 class Renderer
   AVG_WPS = 200.0
