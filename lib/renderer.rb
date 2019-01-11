@@ -238,7 +238,7 @@ class Renderer
     end
 
     def is_talk_details?
-      file.start_with?('/speakies/') && file.end_with?('.html.erb')
+      file.match(%r{speakies/[a-zA-Z0-9_]+\.html\.erb$})
     end
 
     def filename
