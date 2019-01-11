@@ -34,6 +34,7 @@ de:
     sold_out: "Ausverkauft!"
     leftover: "(Noch %{amount} verfügbar)"
     software: "Wir nutzen eine gehostete Variante der Open Source Software"
+    elevator: "Think About! ist eine 2 tägige Tech-Konferenz rund um Technologie, Design und deren Einfluss auf unsere Gesellschaft. Sie wird in einem gemülichen Kino in Köln stattfinden."
     shop_link:
       text: "Zum Ticket Shop"
       link: "/goto/pretix-de"
@@ -89,6 +90,7 @@ en:
     sold_out: "Sold Out!"
     leftover: "(Only %{amount} left)"
     software: "We use a hosted version of the Open Source Software"
+    elevator: "Think About! is a two day tech conference about technology, design and their impact on society. It will take place in a cozy cinema in Cologne, Germany."
     shop_link:
       text: "To Ticket Shop"
       link: "/goto/pretix-en"

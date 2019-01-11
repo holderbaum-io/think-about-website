@@ -79,6 +79,12 @@ talks.each do |talk|
           </article>
         </div>
       </section>
+      <section>
+        <%= partial 'tickets_footer' %>
+      </section>
+      <section>
+        <%= partial 'updates' %>
+      </section>
     </main>
   HTML
   indentation = html.lines.first[/^ */].size
