@@ -45,8 +45,8 @@ talks.reject { |t| t[:track].casecmp('keynote').zero? }
   lang = lang[1].tr('()', '') if lang
   lang_string = lang ? " (#{lang})" : ''
 
-  link_open = "<% if feature? :preview %><a href=\"/<%= lang %>/speakies/#{person_slug}.html\"><% end %>"
-  link_close = '<% if feature? :preview %></a><% end %>'
+  link_open = "<a href=\"/<%= lang %>/speakies/#{person_slug}.html\">"
+  link_close = '</a>'
   html = <<-HTML
           <section topic="#{talk[:track].downcase}">
             #{link_open}<article>
