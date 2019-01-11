@@ -1,5 +1,5 @@
 {
   "title": "Intranet of Things",
   "track": "Tech",
-  "abstract": "Ever backed an amazing smart home tech gadget on Kickstarter and ended up with a useless piece\r\nof techno garbage 6 months later?\r\nJust because that amazing start up ran out of money and needed to shut down the servers?\r\nWelcome to the wonderful cloud centric world we call the \"Internet of Things\".\r\nBut does it always need to be that way? I say No!\r\n\r\nThanks to the wonders of WebRTC, Service Workers and Node.js, we can create a world\r\nin where todays consumer IoT hardware can be controlled using a P2P model.\r\n\r\nI´ll demo a WebRTC based Smart Home Hub concept that interacts with ZigBee devices,\r\nWiFi Cameras and locally available voice and face recognition systems, without sacrificing comfort, security & privacy."
+  "abstract": "Ever backed an amazing smart home tech gadget on Kickstarter and ended up with a useless piece\nof techno garbage 6 months later?\nJust because that amazing start up ran out of money and needed to shut down the servers?\nWelcome to the wonderful cloud centric world we call the “Internet of Things”.\nBut does it always need to be that way? I say No! ..."
 }
