@@ -756,6 +756,10 @@ section.speakers section header div {
   vertical-align: top;
 }
 
+section.speakers section header div p {
+  color: #9b9b9b;
+}
+
 section.speakers section header figure {
   margin: 0;
   width: 30%;
