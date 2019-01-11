@@ -43,8 +43,8 @@ selection.each do |talk|
   end
 
   person_slug = people.map { |p| p[:person_slug] }.join('_and_')
-  link_open = "<% if feature? :preview %><a href=\"/<%= lang %>/speakies/#{person_slug}.html\"><% end %>"
-  link_close = '<% if feature? :preview %></a><% end %>'
+  link_open = "<a href=\"/<%= lang %>/speakies/#{person_slug}.html\">"
+  link_close = '</a>'
   html = <<-HTML.strip
           #{link_open}<section topic="#{talk[:track].downcase}">
             <h4>Keynote</h4>
