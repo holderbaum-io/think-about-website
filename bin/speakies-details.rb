@@ -1,6 +1,7 @@
 require 'json'
 require 'date'
 require 'kramdown'
+require 'oga'
 
 def link_text(title)
   if title == 'Independent Consultant'
@@ -50,10 +51,12 @@ talks.each do |talk|
              end
 
   text_abstract = if text.size > 10
-               text
-             else
-               "<%= t('speaker-details.abstract-missing') %>"
-             end
+                    html = Kramdown::Document.new(text).to_html
+                    parsed = Oga.parse_html(html)
+                    parsed.xpath('p[1]').text + ' ...'
+                  else
+                    "<%= t('speaker-details.abstract-missing') %>"
+                  end
 
   images = people.map{ |p| "<img src=\"/assets/images/speaker/#{slug(p[:full_public_name])}_big.png\" />" }.join('')
   links = people[0][:links].map { |l| "<a href=\"#{l[:url]}\">#{link_text l[:title]}</a>"}.join(' | ')
