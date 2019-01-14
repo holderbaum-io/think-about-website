@@ -36,7 +36,11 @@ talks.each do |talk|
 
   bios = talk[:speakers][0][:abstract].split("\r\n\r\n\r\n")
   File.write("content/en/speakies/#{slug(joined_names)}.md", bios[0])
-  File.write("content/de/speakies/#{slug(joined_names)}.md", bios[1])
+  if bios.size > 1
+    File.write("content/de/speakies/#{slug(joined_names)}.md", bios[1])
+  else
+    File.write("content/de/speakies/#{slug(joined_names)}.md", bios[0])
+  end
 
   track = talk[:track].capitalize
   title = talk[:title].gsub(/\(\w+\)/, '').strip
