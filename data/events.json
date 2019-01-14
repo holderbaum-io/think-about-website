@@ -525,7 +525,7 @@
         "type": "lecture",
         "do_not_record": false,
         "track": "Tech",
-        "abstract": "[Mozilla Addons](https://addons.mozilla.org/) - one of the oldest websites @ Mozilla has gone through major changes throughout its lifetime. Starting in ~2005, the site as been more or less maintained. Only in recent years, it got much more traction because of Firefox Quantum and Mozilla's move to WebExtensions.",
+        "abstract": "[Mozilla Addons](https://addons.mozilla.org/) - one of the oldest websites @ Mozilla has gone through major changes throughout its lifetime. Starting in ~2005, the site as been more or less maintained. Only in recent years, it got much more traction because of Firefox Quantum and Mozilla's move to WebExtensions.\r\n\r\nThe talk will show our approach to maintaining very old code, balancing new features against code quality as well as technical debt.",
         "speakers": [
           {
             "id": 36,
