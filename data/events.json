@@ -12,7 +12,7 @@
         "type": "lecture",
         "do_not_record": false,
         "track": "Tech",
-        "abstract": "Misogynist chatbots, racist image classification, discriminating recruiting tools: Despite being based on mathematical logic, AI applications have shown a significant amount of bias. With the rise of AI we have the chance to make implicit bias visible and measurable. In this talk, I will present the most common issues and discuss some ways to overcome bias.",
+        "abstract": "Misogyne Chatbots, rassistische Bilderkennung, diskriminierende Recruitingsoftware: In der Vergangenheit haben KI-Anwendungen immer wieder erheblichen Bias gezeigt – und das obwohl sie auf mathematischer Logik beruhen. Mit dem Durchbruch von KI ist es nun möglich, menschlichen Bias sichtbar und messbar zu machen. In diesem Talk stelle ich die häufigsten Probleme und ihre Ursachen vor und diskutiere einige Wege um Bias zu reduzieren und zu überwinden.",
         "speakers": [
           {
             "id": 16,
@@ -312,6 +312,43 @@
         ],
         "start_time": "2019-05-23T13:30:00.000+02:00",
         "end_time": "2019-05-23T14:15:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      },
+      {
+        "id": 40,
+        "guid": "ad70e637-e0c3-47c1-80d5-ffa98e813ca2",
+        "title": "GraphQL: Gotta Query `Em All! - In one go! (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Tech",
+        "abstract": "GraphQL is a new approach to communication between systems. It is a standard that's highly praised by its advocates and many web developers.  Aside from established protocols like REST and SOAP it promises effective and elegant access to data. In my talk, I give a quick introduction into how to use GraphQL and which problems it solves that justify the cheers for it. What new challenges arise by using it, where you have to find solutions for? What are the risks? Short: where it shines and where it has its shortcomings. What are the risks? Does it fit my project? Or do I stay with REST? Is it time to make a switch?",
+        "speakers": [
+          {
+            "id": 37,
+            "image": "/system/people/avatars/000/000/037/original/tobi.jpg?1547494801",
+            "full_public_name": "Tobias Struckmeier",
+            "abstract": "Tobias (he/him) is developer since the year 2000 and is happy working in frontend and also backend. He works for adesso as a senior software engineer in Dortmund, Germany.\r\n\r\nIt makes no difference to him whether NodeJS or PHP, Angular or React, Typescript or Vanilla JS. He believes that turning away from technical dogmas makes everyone a more effective, innovative and above all friendlier developer.\r\n\r\nHis goal is to increase his own knowledge and to improve the exchange between people. Be it by organizing Meetups, Conferences or Usergroups.  As a former career changer it is his concern today to make it easier for other beginners to get started. He tries to add his stake into improving the diversity of the tech industry, learning more every day.\r\n\r\n\r\n\r\nTobias (he/him) is developer since the year 2000 and is happy working in frontend and also backend. He works for adesso as a senior software engineer in Dortmund, Germany.\r\n\r\nIt makes no difference to him whether NodeJS or PHP, Angular or React, Typescript or Vanilla JS. He believes that turning away from technical dogmas makes everyone a more effective, innovative and above all friendlier developer.\r\n\r\nHis goal is to increase his own knowledge and to improve the exchange between people. Be it by organizing Meetups, Conferences or Usergroups.  As a former career changer it is his concern today to make it easier for other beginners to get started. He tries to add his stake into improving the diversity of the tech industry, learning more every day.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://twitter.com/tobmaster",
+                "title": "Twitter"
+              },
+              {
+                "url": "https://www.adesso.de/de/",
+                "title": "Polyvalent Developer @ Adesso"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T10:15:00.000+02:00",
+        "end_time": "2019-05-23T11:00:00.000+02:00",
         "room": {
           "name": "Hall 2",
           "id": 2
@@ -841,12 +878,12 @@
         "guid": "6b97c30c-f4cf-4067-b49e-03a1624b34d7",
         "title": "think.about: Wie beeinflusst das Smartphone unsere Psyche und wie können wir lernen besser damit umzugehen? (DE)",
         "subtitle": "",
-        "description": "TBD",
+        "description": "",
         "logo": null,
         "type": "lecture",
         "do_not_record": false,
         "track": "Society",
-        "abstract": "TBD",
+        "abstract": "Technik ist ein wichtiger Bestandteil unseres Lebens geworden. Schließlich ist das Smartphone unser ständiger Begleiter geworden.  Aber was macht das mit uns als Mensch und mit unseren zwischenmenschlichen Beziehungen? Wie verändert sich dadurch unsere Gesellschaft?  Die aktuelle Wissenschaft zeigt, dass es an der Zeit ist, sich mit diesen Veränderungen auseinanderzusetzen.  Zum einen, um ein Bewusstsein zu schaffen und weiter noch, um Strategien zu entwickeln, wie wir die Technik zu unserem Besten einsetzen können und unsere Lebensqualität steigern und unsere Beziehungen stärken können.",
         "speakers": [
           {
             "id": 9,

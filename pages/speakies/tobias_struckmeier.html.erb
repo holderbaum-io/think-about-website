@@ -1,0 +1,35 @@
+<main>
+  <section class="speaker-details">
+    <div>
+      <h1>GraphQL: Gotta Query `Em All! - In one go!</h1>
+      <ul>
+        <li><em>Tech</em></li>
+        <li><%= t('speaker-details.length') %>: 45 Min</li>
+        <li><%= t('speaker-details.language') %>: EN</li>
+      </ul>
+      <article><p>GraphQL is a new approach to communication between systems. It is a standard that’s highly praised by its advocates and many web developers.  Aside from established protocols like REST and SOAP it promises effective and elegant access to data. In my talk, I give a quick introduction into how to use GraphQL and which problems it solves that justify the cheers for it. What new challenges arise by using it, where you have to find solutions for? What are the risks? Short: where it shines and where it has its shortcomings. What are the risks? Does it fit my project? Or do I stay with REST? Is it time to make a switch?</p>
+</article>
+    </div>
+  </section>
+  <section class="speaker-details">
+    <div>
+      <article class="bio">
+        <figure>
+          <img src="/assets/images/speaker/tobias_struckmeier_big.png" />
+        </figure>
+        <div>
+          <h1>Tobias Struckmeier</h1>
+          <p>Twitter<p>
+          <p><%= content('speakies/tobias_struckmeier') %></p>
+          <p><a href="https://twitter.com/tobmaster">Twitter</a> | <a href="https://www.adesso.de/de/">Adesso</a></p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section>
+    <%= partial 'tickets_footer' %>
+  </section>
+  <section>
+    <%= partial 'updates' %>
+  </section>
+</main>
