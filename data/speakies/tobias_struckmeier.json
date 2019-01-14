@@ -1,5 +1,5 @@
 {
-  "title": "GraphQL: Gotta Query `Em All! - In one go!",
+  "title": "GraphQL: Gotta Query 'Em All! - In one go!",
   "track": "Tech",
   "abstract": "GraphQL is a new approach to communication between systems. It is a standard that’s highly praised by its advocates and many web developers.  Aside from established protocols like REST and SOAP it promises effective and elegant access to data. In my talk, I give a quick introduction into how to use GraphQL and which problems it solves that justify the cheers for it. What new challenges arise by using it, where you have to find solutions for? What are the risks? Short: where it shines and where it has its shortcomings. What are the risks? Does it fit my project? Or do I stay with REST? Is it time to make a switch? ..."
 }
