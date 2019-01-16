@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ensure_ruby() {
+  gem install bundler:$(tail -n1 Gemfile.lock |tr -d ' ')
   bundle install --path vendor/bundle --binstubs vendor/bin
 }
 
