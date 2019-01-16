@@ -1,7 +1,11 @@
 #!/bin/bash
 
 ensure_ruby() {
-  gem install bundler:$(tail -n1 Gemfile.lock |tr -d ' ')
+  local bundler_version="$(tail -n1 Gemfile.lock |tr -d ' ')"
+  if ! gem list -q bundler |grep -q "$bundler_version" >/dev/null;
+  then
+    gem install "bundler:$bundler_version"
+  fi
   bundle install --path vendor/bundle --binstubs vendor/bin
 }
 
