@@ -337,12 +337,12 @@
             "description": "",
             "links": [
               {
-                "url": "https://twitter.com/tobmaster",
-                "title": "Twitter"
-              },
-              {
                 "url": "https://www.adesso.de/de/",
                 "title": "Polyvalent Developer @ Adesso"
+              },
+              {
+                "url": "https://twitter.com/tobmaster",
+                "title": "Twitter"
               }
             ]
           }
