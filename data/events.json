@@ -842,7 +842,7 @@
         "type": "lecture",
         "do_not_record": false,
         "track": "Tech",
-        "abstract": "The idea of Web Components is not new. Everytime you are writing an HTML <button> or <input> element you are utilising the basic concept.\r\nNowadays it's possible that everyone creates encapsulated components to share their functionality with others. By reusing them, you can reduce development and maintenance cost.\r\nEven today's most popular frameworks like Angular and React are based on them. Web Components have a significant impact on modern web development and changed how we design and structure applications.\r\n\r\nAfter getting started with the basics, I will talk about different ways of writing Web Components as well as challenges and architectural considerations.",
+        "abstract": "The idea of Web Components is not new. Everytime you are writing an HTML button or input element you are utilising the basic concept.\r\nNowadays it's possible that everyone creates encapsulated components to share their functionality with others. By reusing them, you can reduce development and maintenance cost.\r\nEven today's most popular frameworks like Angular and React are based on them. Web Components have a significant impact on modern web development and changed how we design and structure applications.\r\n\r\nAfter getting started with the basics, I will talk about different ways of writing Web Components as well as challenges and architectural considerations.",
         "speakers": [
           {
             "id": 31,
