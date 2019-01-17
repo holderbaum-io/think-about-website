@@ -1,5 +1,5 @@
 {
   "title": "The Power of Web Components",
   "track": "Tech",
-  "abstract": "<%= t('speaker-details.abstract-missing') %>"
+  "abstract": "The idea of Web Components is not new. Everytime you are writing an HTML  or  element you are utilising the basic concept.\nNowadays it’s possible that everyone creates encapsulated components to share their functionality with others. By reusing them, you can reduce development and maintenance cost.\nEven today’s most popular frameworks like Angular and React are based on them. Web Components have a significant impact on modern web development and changed how we design and structure applications. ..."
 }

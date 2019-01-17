@@ -842,13 +842,13 @@
         "type": "lecture",
         "do_not_record": false,
         "track": "Tech",
-        "abstract": "",
+        "abstract": "The idea of Web Components is not new. Everytime you are writing an HTML <button> or <input> element you are utilising the basic concept.\r\nNowadays it's possible that everyone creates encapsulated components to share their functionality with others. By reusing them, you can reduce development and maintenance cost.\r\nEven today's most popular frameworks like Angular and React are based on them. Web Components have a significant impact on modern web development and changed how we design and structure applications.\r\n\r\nAfter getting started with the basics, I will talk about different ways of writing Web Components as well as challenges and architectural considerations.",
         "speakers": [
           {
             "id": 31,
             "image": "/system/people/avatars/000/000/031/original/20170624_193146.jpg?1543409982",
             "full_public_name": "Katharina Bähr",
-            "abstract": "I am a web-loving software engineer currently working at Zuehlke Engineering in Germany. After studying Computer Science and Media I am now doing primarily web related stuff and developing single page applications. When I have the time I like to try out new promising technologies and keep on track with the fast moving and exciting web.\r\n\r\n\r\nI am a web-loving software engineer currently working at Zuehlke Engineering in Germany. After studying Computer Science and Media I am now doing primarily web related stuff and developing single page applications. When I have the time I like to try out new promising technologies and keep on track with the fast moving and exciting web.",
+            "abstract": "I am working at Zühlke Engineering as a software engineer and focus on web technologies including cross-platform applications. Mostly I work in projects in the IoT context and love the combination of different technologies, cloud and connected devices. Besides this, I write about aurelia on my blog.",
             "description": "",
             "links": [
               {
@@ -856,12 +856,12 @@
                 "title": "Web-Loving Software Engineer @ Zühlke Engineering"
               },
               {
-                "url": "https://kabaehr.de",
-                "title": "Website"
-              },
-              {
                 "url": "https://twitter.com/kabaehr",
                 "title": "Twitter"
+              },
+              {
+                "url": "http://kabaehr.de/",
+                "title": "Website/Blog"
               }
             ]
           }
