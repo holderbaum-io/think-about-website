@@ -581,12 +581,11 @@ section.partners {
 
 section.partners section {
   display: inline-block;
-  margin: 2%;
+  margin: 0.4rem 2.3rem;
 }
 
 section.partners section figure {
   max-width: 100%;
-  margin: 1.1rem;
 }
 
 section.partners section figure img {
