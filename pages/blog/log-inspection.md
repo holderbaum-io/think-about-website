@@ -216,3 +216,23 @@ This will create a file called `report.html` which contains all statistics
 stored in the database as a self-contained website. Ideally you generate this
 file onto a path which is served by your webserver. By doing so, you can access
 it from the web whenever you want.
+
+## Summary
+
+With refraining from any client side user tracking we got several benefits in
+one go:
+
+* Our website adheres to ethical standards by no tracking individuals and their
+online behaviour
+* Our website loads quicker since no tracking content is loaded
+
+Using the webserver logs for a basic usage analytics is not as detailed and
+sophisticated as for example Google Analytics, but nevertheless does it help us
+quite a lot in understanding where our users are coming from, how our twitter
+activities influence our visibility and how frequently different webpages are
+visited.
+
+How are you protecting your visitors privacy while keeping the possibility to
+understand your website's usage? We would love to have your feedback, please
+give us a shout out on [Twitter](https://twitter.com/ThinkAboutConf) or write
+us an [E-Mail](mailto:kontakt@think-about.io).
