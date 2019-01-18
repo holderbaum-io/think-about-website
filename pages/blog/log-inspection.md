@@ -84,9 +84,7 @@ In it's easiest form, GoAccess simply takes any webserver log file as an input
 and produces a static HTML page with your statistics as an output. So simply
 run this command on your server to produce some statistics:
 
-~~~
-goaccess access.log -o report.html
-~~~
+    goaccess access.log -o report.html
 
 The resulting report file is a self-contained HTML page which can be served or
 just downloaded and opened in your browser. It will look more or less exactly
@@ -97,9 +95,7 @@ like the screenshot you saw a bit up further.
 As mentioned further up, you can configure GoAccess to anonymize the user IPs
 it stores. Simply provide this flag when executing GoAccess:
 
-~~~
-goaccess --anonymize-ip [..]
-~~~
+    goaccess --anonymize-ip [..]
 
 This will replace the last segment of each occuring IP to zero. For example
 `123.45.93.12` and `123.45.93.77` both become `123.45.93.0`.
@@ -123,23 +119,21 @@ rotated by the end of the day.
 In the case of `nginx` there is a configuration file at
 `/etc/logrotate.d/nginx`looking like this or similar:
 
-~~~
-/var/log/nginx/*.log {
-  daily
-  missingok
-  rotate 52
-  compress
-  delaycompress
-  notifempty
-  create 640 nginx adm
-  sharedscripts
-  postrotate
-    if [ -f /var/run/nginx.pid ]; then
-      kill -USR1 `cat /var/run/nginx.pid`
-    fi
-  endscript
-}
-~~~
+    /var/log/nginx/*.log {
+      daily
+      missingok
+      rotate 52
+      compress
+      delaycompress
+      notifempty
+      create 640 nginx adm
+      sharedscripts
+      postrotate
+        if [ -f /var/run/nginx.pid ]; then
+          kill -USR1 `cat /var/run/nginx.pid`
+        fi
+      endscript
+    }
 
 This configuration file determines how those logs are rotated. Take a closer
 look at the `postrotate` section. It contains a shell script that will be
@@ -151,16 +145,14 @@ Besides creating an immediate report HTML, `GoAccess` can also create a
 database for its statistics to which logs can be appended. Creating such a
 database instead of creating an immediate report can be done like this:
 
-~~~
-mkdir -p /var/log/goaccessdb
-goaccess \
-  access.log \
-  --db-path /var/log/goaccessdb \
-  --keep-db-files \
-  --load-from-disk \
-  --process-and-exit \
-  --log-format=COMBINED
-~~~
+    mkdir -p /var/log/goaccessdb
+    goaccess \
+      access.log \
+      --db-path /var/log/goaccessdb \
+      --keep-db-files \
+      --load-from-disk \
+      --process-and-exit \
+      --log-format=COMBINED
 
 *Important Sidenote:* In order to be able to create such a database, you need
 to have TokyoCabinet support in your `GoAccess` version. The `GoAccess`
@@ -173,27 +165,25 @@ again with another log file, and the statistics will be appended accordingly.
 
 So simply update your `logrotate` configuration from above to look like this:
 
-~~~
-/var/log/nginx/*.log {
-  daily
-  [...]
-  postrotate
-    if [ -f /var/run/nginx.pid ]; then
-      kill -USR1 `cat /var/run/nginx.pid`
-    fi
-    mkdir -p /var/log/goaccessdb
-    goaccess \
-      /var/log/nginx/access.log.1 \
-      --anonymize-ip \
-      --ignore-crawlers\
-      --db-path /var/log/goaccessdb \
-      --keep-db-files \
-      --load-from-disk \
-      --process-and-exit \
-      --log-format=COMBINED
-  endscript
-}
-~~~
+    /var/log/nginx/*.log {
+      daily
+      [...]
+      postrotate
+        if [ -f /var/run/nginx.pid ]; then
+          kill -USR1 `cat /var/run/nginx.pid`
+        fi
+        mkdir -p /var/log/goaccessdb
+        goaccess \
+          /var/log/nginx/access.log.1 \
+          --anonymize-ip \
+          --ignore-crawlers\
+          --db-path /var/log/goaccessdb \
+          --keep-db-files \
+          --load-from-disk \
+          --process-and-exit \
+          --log-format=COMBINED
+      endscript
+    }
 
 Now with every log rotation, `logrotate` will call `GoAccess` and feed it the
 newly archived logfile (`access.log.1`). So day by day, the statistics about
@@ -213,16 +203,14 @@ As mentioned, the configurations above will continuously create a database of
 anonymized website statistics in the configured folder. You can then use
 `GoAccess` again to create an HTML report out of this database:
 
-~~~
-goaccess \
-  --anonymize-ip \
-  --ignore-crawlers\
-  --db-path /var/log/goaccessdb \
-  --keep-db-files \
-  --load-from-disk \
-  --log-format=COMBINED \
-  -o report.html
-~~~
+    goaccess \
+      --anonymize-ip \
+      --ignore-crawlers\
+      --db-path /var/log/goaccessdb \
+      --keep-db-files \
+      --load-from-disk \
+      --log-format=COMBINED \
+      -o report.html
 
 This will create a file called `report.html` which contains all statistics
 stored in the database as a self-contained website. Ideally you generate this
