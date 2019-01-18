@@ -973,6 +973,47 @@
         }
       },
       {
+        "id": 41,
+        "guid": "1d173927-cdda-435f-9f4c-cb86b1febeef",
+        "title": "Wiring the Spark (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Society",
+        "abstract": "",
+        "speakers": [
+          {
+            "id": 38,
+            "image": "/system/people/avatars/000/000/038/original/dmytri_kleiner.png?1547821722",
+            "full_public_name": "Dmytri Kleiner",
+            "abstract": "Dmytri Kleiner is a software developer working on projects that investigate the political economy of the internet, and the ideal of workers’ self-organization of production as a form of class struggle. Born in the USSR, Dmytri grew up in Toronto and now lives in Berlin. He is a founder of the Telekommunisten Collective, which undertakes artistic projects that explore the way communications technologies have social relations embedded within them, such as deadSwap (2009) and Thimbl (2010).",
+            "description": "",
+            "links": [
+              {
+                "url": "http://telekommunisten.net/",
+                "title": "Venture Communist @ Telekommunisten"
+              },
+              {
+                "url": "https://twitter.com/dmytri",
+                "title": "Twitter"
+              },
+              {
+                "url": "https://github.com/dmytri",
+                "title": "GitHub"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-24T11:15:00.000+02:00",
+        "end_time": "2019-05-24T12:00:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
+        }
+      },
+      {
         "id": 7,
         "guid": "b561c1ef-43a2-46f3-9468-1c86f989d293",
         "title": "Zukunftsbilder und menschzentriertes Design (DE)",

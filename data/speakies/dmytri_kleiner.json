@@ -1,0 +1,5 @@
+{
+  "title": "Wiring the Spark",
+  "track": "Society",
+  "abstract": "<%= t('speaker-details.abstract-missing') %>"
+}
