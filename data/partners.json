@@ -1,8 +1,7 @@
 [
   {
     "name": "dmw",
-    "link": "https://digitalmediawomen.de/",
-    "hidden": true
+    "link": "https://digitalmediawomen.de/"
   },
   {
     "name": "beyondtellerrand",
@@ -13,11 +12,6 @@
     "link": "https://www.femtec-alumnae.org/"
   },
   {
-    "name": "workingdraft",
-    "height": 30,
-    "link": "https://workingdraft.de/"
-  },
-  {
     "name": "spacepilots",
     "link": "https://spacepilots.co/"
   },
@@ -25,5 +19,10 @@
     "name": "dasguteruft",
      "height": 65,
     "link": "https://dasguteruft.de/"
+  },
+  {
+    "name": "workingdraft",
+    "height": 30,
+    "link": "https://workingdraft.de/"
   }
 ]
