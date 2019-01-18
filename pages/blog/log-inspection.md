@@ -8,12 +8,12 @@ draft: true
 
 ---
 
-Organizing a conference requires marketing. And marketing requires website
-usage statistics in order to determine effectiveness. But how can user privacy
-be ensured?
+How can user privacy be ensured when website owners want statistics about their
+website usage? Common tools like Google Analytics are unethical and expose all
+website visitors to corporate spying.
 
-We wanted to enable us to understand how our website is used. How many clicks
-are we generating, where are the users coming from and how frequently are the
+We wanted to be able to understand how our website is used. How many clicks are
+we generating, where are the users coming from and how frequently are the
 different pages beside the landing page visited.
 
 The typical marketing recommendation would be to install Google Analytics or a
@@ -31,7 +31,7 @@ many more dirty tricks) and store and observe their behaviour on the website.
 And this works well and gives the owners a deep insight into ways the website
 is used.
 
-We believe this approach to be deeply unethical. Individual should not be
+We believe this approach to be deeply unethical. Individuals should not be
 observed while using random websites on the internet.
 
 That's why we focused on something else: Server Statistics. The following
@@ -40,13 +40,18 @@ information really matter to us from a marketing research perspective:
 * How many people are visiting our website daily
 * When are the traffic peaks
 * Where are people coming from (e.g. Twitter or Xing)
-* How frequently are pages beside the landing page visited
+* How frequently are pages visited beside the landing page
 
 All those questions can either be answered by spying on individuals or by
-simply analyzing the server statistics. We don't know which session went to the
-tickets page after looking at our keynotes. But we can say that statistically a
-certain percentage of users visits the tickets page after looking at the
-landing page.
+simply analyzing the server statistics. 
+
+All those questions can be answered without spying on individual user sessions
+and instead simply analyzing the webserver logs. With this approach, we can not
+say which particular user went to the tickets page after looking at our
+keynotes. But we can say that statistically a certain percentage of users
+visits the tickets page after looking at the landing page. Which is more then
+good enough for marketing research. And it never exposes an individual and
+their online behaviour.
 
 We use the open source software [GoAccess](https://goaccess.io/), they have an
 example on their website that shows a live snapshot of their traffic. Take a
@@ -66,7 +71,7 @@ it.
 
 On a side note: If you go with such a statistical approach combined with IP
 masking, you don't even need to display a consent button. Because you just
-really don't track your users at all.
+really don't track your users at all, not even by storing IP addresses.
 
 ## The Technical Explanation
 
