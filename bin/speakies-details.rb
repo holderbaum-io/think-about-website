@@ -59,7 +59,7 @@ talks.each do |talk|
                     parsed = Oga.parse_html(html)
                     parsed.xpath('p[1]').text + ' ...'
                   else
-                    "<%= t('speaker-details.abstract-missing') %>"
+                    "The talk abstract will be published soon."
                   end
 
   images = people.map{ |p| "<img src=\"/assets/images/speaker/#{slug(p[:full_public_name])}_big.png\" />" }.join('')
