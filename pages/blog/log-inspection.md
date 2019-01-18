@@ -152,9 +152,10 @@ database instead of creating an immediate report can be done like this:
       --log-format=COMBINED
 
 *Important Sidenote:* In order to be able to create such a database, you need
-to have TokyoCabinet support in your `GoAccess` version. The `GoAccess`
-website has an extensive list how to install the software for different Linux
-distributions: [https://goaccess.io/download](https://goaccess.io/download).
+to have TokyoCabinet support in your `GoAccess` version. The `GoAccess` website
+has an extensive explanation on how to install the software including
+`TokyoCabinet` support for different Linux distributions:
+[https://goaccess.io/download](https://goaccess.io/download).
 
 Now the command above creates a directory `/var/log/goaccessdb` and fills it
 with statistics from the provided log file. This command can then be executed
@@ -186,8 +187,8 @@ Now with every log rotation, `logrotate` will call `GoAccess` and feed it the
 newly archived logfile (`access.log.1`). So day by day, the statistics about
 your website traffic will be stored in the database at `/var/log/goaccessdb`.
 
-Note the `--anonymize-ip` option. It will make sure, that all IPs are stored
-anonymized which is advisable for privacy reasons.
+Note the `--anonymize-ip` option. It will make sure, that **all IPs are stored
+anonymized** which is advisable for privacy reasons.
 
 Additionally there is an option `--ignore-crawlers` which will ignore all type
 of crawlers. I usually like to use this flag, since the statistics will then
@@ -219,8 +220,8 @@ it from the web whenever you want.
 With refraining from any client side user tracking we got several benefits in
 one go:
 
-* Our website adheres to ethical standards by no tracking individuals and their
-online behaviour
+* Our website adheres to ethical standards by not tracking individuals and
+their online behaviour
 * Our website loads quicker since no tracking content is loaded
 
 Using the webserver logs for a basic usage analytics is not as detailed and
@@ -229,7 +230,8 @@ quite a lot in understanding where our users are coming from, how our twitter
 activities influence our visibility and how frequently different webpages are
 visited.
 
-How are you protecting your visitors privacy while keeping the possibility to
-understand your website's usage? We would love to have **your feedback**,
-please give us a shout out on [Twitter](https://twitter.com/ThinkAboutConf) or
-write us an [E-Mail](mailto:kontakt@think-about.io).
+In what ways are you protecting your visitors privacy while keeping the
+possibility to understand your website's usage? We would love to have **your
+feedback**, please give us a shout out on
+[Twitter](https://twitter.com/ThinkAboutConf) or write us an
+[E-Mail](mailto:kontakt@think-about.io).
