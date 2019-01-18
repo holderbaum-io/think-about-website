@@ -585,13 +585,11 @@ section.partners section {
 }
 
 section.partners section figure {
-  height: 50px;
   max-width: 100%;
 }
 
 section.partners section figure img {
   vertical-align: middle;
-  max-height: 50px;
   max-width: 100%;
 }
 
