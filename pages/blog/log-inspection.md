@@ -1,5 +1,5 @@
 ---
-title: "An Ethical Approach to Inspecting Website Traffic"
+title: "How to not spy on your Users!"
 date: 2020-01-16
 tweet: "TODO @ThinkAboutConf #thinkabout19"
 author_twitter: "@hldrbm"
