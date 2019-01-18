@@ -85,7 +85,7 @@ and produces a static HTML page with your statistics as an output. So simply
 run this command on your server to produce some statistics:
 
 ~~~
-goaccess access.log -a -o report.html
+goaccess access.log -o report.html
 ~~~
 
 The resulting report file is a self-contained HTML page which can be served or
@@ -102,7 +102,7 @@ goaccess --anonymize-ip [..]
 ~~~
 
 This will replace the last segment of each occuring IP to zero. For example
-`123.45.93.12` and `123.45.93.77` both become `123.45.93.00`.
+`123.45.93.12` and `123.45.93.77` both become `123.45.93.0`.
 
 ### Building Statistics on rotating Logs
 
@@ -148,8 +148,8 @@ first line that would mean exactly once a day. We can use this hook to include
 our `GoAccess` call.
 
 Besides creating an immediate report HTML, `GoAccess` can also create a
-database for its statistics to which logs can be appended. The call would then
-look like this:
+database for its statistics to which logs can be appended. Creating such a
+database instead of creating an immediate report can be done like this:
 
 ~~~
 mkdir -p /var/log/goaccessdb
@@ -163,14 +163,15 @@ goaccess \
 ~~~
 
 *Important Sidenote:* In order to be able to create such a database, you need
-to have TokyoCabinet support in your goaccess version. The goaccess deb
-repositories provide this version of goaccess via the package `goaccess-tcb`.
+to have TokyoCabinet support in your `GoAccess` version. The `GoAccess`
+website has an extensive list how to install the software for different Linux
+distributions: [https://goaccess.io/download](https://goaccess.io/download).
 
 Now the command above creates a directory `/var/log/goaccessdb` and fills it
-with statistics from the provided log file. This command can then be reexecuted
-with another log file, and the statistics will be extended accordingly.
+with statistics from the provided log file. This command can then be executed
+again with another log file, and the statistics will be appended accordingly.
 
-So simply update your logrotate config from above to look like this:
+So simply update your `logrotate` configuration from above to look like this:
 
 ~~~
 /var/log/nginx/*.log {
@@ -194,7 +195,7 @@ So simply update your logrotate config from above to look like this:
 }
 ~~~
 
-Now with every log rotations, `logrotate` will call `GoAccess` and feed it the
+Now with every log rotation, `logrotate` will call `GoAccess` and feed it the
 newly archived logfile (`access.log.1`). So day by day, the statistics about
 your website traffic will be stored in the database at `/var/log/goaccessdb`.
 
@@ -209,8 +210,8 @@ for which we are optimizing the website.
 ### Displaying Statistics from the Database
 
 As mentioned, the configurations above will continuously create a database of
-anonymized website statistics in the configured folder. You can than use
-`GoAccess` again, to create an HTML report out of this database:
+anonymized website statistics in the configured folder. You can then use
+`GoAccess` again to create an HTML report out of this database:
 
 ~~~
 goaccess \
@@ -226,4 +227,4 @@ goaccess \
 This will create a file called `report.html` which contains all statistics
 stored in the database as a self-contained website. Ideally you generate this
 file onto a path which is served by your webserver. By doing so, you can access
-is from the web whenever you want.
+it from the web whenever you want.
