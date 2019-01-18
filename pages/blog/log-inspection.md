@@ -31,8 +31,8 @@ many more dirty tricks) and store and observe their behaviour on the website.
 And this works well and gives the owners a deep insight into ways the website
 is used.
 
-We believe this approach to be deeply unethical. Individuals should not be
-observed while using random websites on the internet.
+**We believe this approach to be deeply unethical. Individuals should not be
+observed while using random websites on the internet.**
 
 That's why we focused on something else: Server Statistics. The following
 information really matter to us from a marketing research perspective:
@@ -41,9 +41,6 @@ information really matter to us from a marketing research perspective:
 * When are the traffic peaks
 * Where are people coming from (e.g. Twitter or Xing)
 * How frequently are pages visited beside the landing page
-
-All those questions can either be answered by spying on individuals or by
-simply analyzing the server statistics. 
 
 All those questions can be answered without spying on individual user sessions
 and instead simply analyzing the webserver logs. With this approach, we can not
@@ -60,8 +57,8 @@ look:
 ![Example website statistic generated using GoAccess](/assets/images/blog/log-inspection/example-graph.png)
 
 Those statistical perspectives are more than enough to adapt marketing
-strategies and web layouts to optimize your conversion. And all those answers
-can be had without ever looking at an individual user.
+strategies and web layouts to optimize your conversion. **And all those answers
+can be had without ever looking at an individual user.**
 
 And to understand how users behave or where the website is frustrating, there
 is a method called "User Testing". You sit down with a potential user
@@ -70,7 +67,7 @@ insight on how your product is perceived without spying on every person using
 it.
 
 On a side note: If you go with such a statistical approach combined with IP
-masking, you don't even need to display a consent button. Because you just
+masking you don't even need to display a consent button. Because you just
 really don't track your users at all, not even by storing IP addresses.
 
 ## The Technical Explanation
@@ -233,6 +230,6 @@ activities influence our visibility and how frequently different webpages are
 visited.
 
 How are you protecting your visitors privacy while keeping the possibility to
-understand your website's usage? We would love to have your feedback, please
-give us a shout out on [Twitter](https://twitter.com/ThinkAboutConf) or write
-us an [E-Mail](mailto:kontakt@think-about.io).
+understand your website's usage? We would love to have **your feedback**,
+please give us a shout out on [Twitter](https://twitter.com/ThinkAboutConf) or
+write us an [E-Mail](mailto:kontakt@think-about.io).
