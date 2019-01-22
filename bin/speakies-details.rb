@@ -106,6 +106,11 @@ talks.each do |talk|
       <section>
         <%= partial 'tickets_footer' %>
       </section>
+      <% if feature? :preview %>
+      <section class="universe-sponsors">
+        <%= partial 'universe_sponsors' %>
+      </section>
+      <% end %>
       <section>
         <%= partial 'updates' %>
       </section>
