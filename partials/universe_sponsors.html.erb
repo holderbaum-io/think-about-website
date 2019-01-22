@@ -1,7 +1,11 @@
 <div>
   <h1>Our Universe Sponsors</h1>
   <div>
-    <a href="#"><figure><img src="/assets/images/partner/beyondtellerrand.png"/></figure></a>
-    <a href="#"><figure><img src="/assets/images/partner/spacepilots.png"/></figure></a>
+    <% data('universe-sponsors').each do |sponsor| %>
+    <% path = "/assets/images/partner/#{sponsor[:name]}.png" %>
+    <% height = sponsor.fetch :height, 70 %>
+    <% href = sponsor[:link] %>
+    <a href="<%= href %>"><figure><img style="height: <%= height %>px" src="<%= path %>"/></figure></a>
+    <% end %>
   </div>
 </div>
