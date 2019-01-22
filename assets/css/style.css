@@ -395,6 +395,24 @@ footer nav > div a img {
 }
 
 /* ================================ */
+/* Universe Sponsors */
+
+section.universe-sponsors * {
+  text-align: center;
+}
+
+section.universe-sponsors a ,
+section.universe-sponsors figure {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+section.universe-sponsors figure img {
+  margin: 2rem 1rem;
+}
+
+/* ================================ */
 /* Topics */
 
 section.topics section:nth-child(even) figure {
