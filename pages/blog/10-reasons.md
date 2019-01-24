@@ -1,7 +1,7 @@
 ---
 title: "10 Reasons"
-date: 2020-01-24	
-tweet: "TODO @ThinkAboutConf #thinkabout19"
+date: 2020-01-25	
+tweet: "Many amazing tech conferences are happening in 2019 which makes it difficult to decide which one to attend. Here are 10 reasons why you should come to @ThinkAboutConf this year #thinkabout19"
 author_twitter: "@Chrissi_Hldrbm"
 author: Chrissi
 draft: true
