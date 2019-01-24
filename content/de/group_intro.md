@@ -1,4 +1,4 @@
-# Pakete für Gruppen
+# Gruppen Pakete
 
 Ihr seid eine Gruppe von mindestens 5 Personen und wollt zusammen auf die Think About! Konferenz kommen? Großartig! 
 
