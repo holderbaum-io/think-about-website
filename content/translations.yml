@@ -38,7 +38,7 @@ de:
     software: "Wir nutzen eine gehostete Variante der Open Source Software"
     elevator: "Think About! ist eine 2 tägige Tech-Konferenz rund um Technologie, Design und deren Einfluss auf unsere Gesellschaft. Sie wird in einem gemülichen Kino in Köln stattfinden."
     shop_link:
-      text: "Zum Ticket Shop"
+      text: "Kauf dein Ticket"
       link: "/goto/pretix-de"
     solidarity_price_details: "(inkl. 250 € für Solidarische Tickets)"
     benefits:
@@ -96,7 +96,7 @@ en:
     software: "We use a hosted version of the Open Source Software"
     elevator: "Think About! is a two day tech conference about technology, design and their impact on society. It will take place in a cozy cinema in Cologne, Germany."
     shop_link:
-      text: "To Ticket Shop"
+      text: "Get Your Ticket"
       link: "/goto/pretix-en"
     solidarity_price_details: "(incl. 250 € to make solidarity tickets possible)"
     benefits:
