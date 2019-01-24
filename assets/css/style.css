@@ -591,6 +591,15 @@ section.tickets section[ticket][disabled] * {
 }
 
 /* ================================ */
+/* Group Tickets */
+
+section.grouptickets {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #ededed;
+}
+
+/* ================================ */
 /* Partners */
 
 section.partners {
