@@ -392,6 +392,43 @@
         }
       },
       {
+        "id": 20,
+        "guid": "c7ff265b-0d93-4b6f-9e76-cbd97140f3b5",
+        "title": "Highway to the Dangerzone - Wieso es notwendig ist die Comfortzone zu verlassen. (DE)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Society",
+        "abstract": "In diesem Talk geht es um das übertreten von Grenzen. Auf persönlicher, gesellschaftlicher und künstlerischer Ebene. \r\nJenz Mau ist Grenzgängerin. Wenn einer ihrer Freund_innen sie in einem Wort beschreiben müsste, wäre es `Mut`. Und Mut braucht man bei Angst. Angst entsteht, wenn man sich dort hin begibt, wo man sich nicht auskennt. Und das sind die spannensten Orte. Dort lernen wir neues. Dort geschieht Wachstum. \r\nAngst ist nichts perse negatives sondern ein Begleiter, der dir ein Kompass sein kann.\r\nEs gibt die panische Angst, die dich warnt und dir das Leben rettet, es gibt die Angst vor Zukünftigem, die dir hilft entscheidungen für dein Leben zu treffen und es gibt die gute kribbelnde Angst, die man verspürt, wenn das eigene Innere Potential herrausgefordert wird.\r\nDieser Angst sollte man nach gehen und ihrem Sog folgen. \r\nSie ist beängstigend schön!\r\nAls Gefahrensucherin berichtet Jenz Mau von genau dieser Suche nach diesem Kribbeln. Anhand eigener Erfahrungen. Von Pornodrehs, unerklärlichen Phobien, ihrem Menstruations Malbuch, dem  Aussteigerleben und wieso wir als Gesellschaft die tabulosen Küntler_innen brauchen.\r\nVerlasse deine Comfortzone und Wachse über dich selbst hinaus!",
+        "speakers": [
+          {
+            "id": 24,
+            "image": "/system/people/avatars/000/000/024/original/JenzMau2.jpg?1548437188",
+            "full_public_name": "Jenz Mau",
+            "abstract": "Visual Artist (FH)\r\n\r\nShe studied fine arts with a focus on painting and graphics and graduated with a street art project. She was active in feminist groups and the squatter scene. She writes short stories and articles on the subject of sexuality, is an performer in feminist porn productions and has published a menstrual coloring book on her own last year.\r\n\r\n\r\n\r\nBildende Künstlerin (FH)\r\n\r\nSie studierte Bildende Kunst mit den Schwerpunkten Malerei und Grafik \r\nund machte ihr Diplom mit einem Street Art Projekt. \r\nSie War in feministischen Gruppen und der Hausbesetzer Szene aktiv. \r\nSie schreibt Kurzgeschichten und Artikel zum Thema Sexualität, \r\nist Darstellerin in feministischen Pornoproduktionen und hat \r\nim letzten Jahr ein Menstruations Malbuch im Eigenverlag rausgebracht.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://maubeschau.de/",
+                "title": "Founderin @ Maubeschau"
+              },
+              {
+                "url": "https://www.instagram.com/maubeschau/",
+                "title": "Instagram"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-24T10:30:00.000+02:00",
+        "end_time": "2019-05-24T11:15:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      },
+      {
         "id": 12,
         "guid": "945ba52c-b0ce-43fa-9a8a-7d1d7480269e",
         "title": "How to read code? (EN)",
