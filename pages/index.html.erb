@@ -37,19 +37,10 @@
       </section>
     </div>
   </section>
-  <% if feature? :preview %>
-  <section class="speakers">
-    <%= partial 'keynotes' %>
-  </section>
-  <section class="speakers">
-    <%= partial 'speakers' %>
-  </section>
-  <% else %>
   <section class="speakers">
     <%= partial 'keynotes' %>
     <%= partial 'speakers' %>
   </section>
-  <% end %>
   <section class="universe-sponsors">
     <%= partial 'universe_sponsors' %>
   </section>
