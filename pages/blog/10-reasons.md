@@ -4,11 +4,10 @@ date: 2020-01-25
 tweet: "Many amazing tech conferences are happening in 2019 which makes it difficult to decide which one to attend. Here are 10 reasons why you should come to @ThinkAboutConf this year #thinkabout19"
 author_twitter: "@Chrissi_Hldrbm"
 author: Chrissi
-draft: true
 
 ---
 
-Many amazing tech conferences are happening in 2019. The oversupply can make it difficult to decide which one to attend. That is why we came up with **10 simple reasons** for you to [buy a ticket](/en/tickets.html) today.
+Many amazing tech conferences are happening in 2019. The sheer amount can make it difficult to decide which one to attend. Here are **10 simple reasons** why you should come to the Think About! Conference this year.
 
 ##1. Our Unique Combination of Tracks {#reason1}
 ![Illustration for Reason 1](/assets/images/blog/10-reasons/reason-01.png)
@@ -33,7 +32,7 @@ Selecting people ourselves allowed us to ensure **a balance between familiar exp
 ##3. The Technical Focus {#reason3}
 ![Illustration for Reason 3](/assets/images/blog/10-reasons/reason-03.png)
 
-**More than two-thirds of our talks will focus on technology-related topics** additionally to contemplating the effects tech and design can have on our society. Our speakers cover topics from front- and back-end technologies via infrastructure through to IOT and security. 
+**More than two-thirds of our talks will focus on technology-related topics** additionally to contemplating the effects tech and design can have on our society. Our speakers cover topics from front- and back-end technologies via DevOps through to IOT and security. 
 
 We are delighted to host speakers from companies such as Mozilla, Travis CI, Adesso, ThoughtWorks, Capgemini, Deutsche Telekom and many more.
 <br />
@@ -42,16 +41,16 @@ We are delighted to host speakers from companies such as Mozilla, Travis CI, Ade
 
 ##4. Fight for Diversity in Tech {#reason4}
 ![Illustration for Reason 4](/assets/images/blog/10-reasons/reason-04.png)
-Our belief is that the tech industry - among others - needs more diversity in order to continue a healthy and critical dialog. As we are focusing on gender diversity in the first edition of our conference we are happy to announce that **60% of our speakers are female/non-binary and 40% are male**.
+Our belief is that the tech industry - among others - needs more diversity in order to continue a healthy and critical dialog. As we are focusing on gender diversity in the first edition of our conference we are happy to announce that **60% of our speakers are female/non-binary**.
 
-Simultaneously we are working together with communities such as the Digital Media Women, speakerinnen.org, FemTec, and others to strengthen the network of women in the technology industry.
+Simultaneously we are working together with communities such as the Digital Media Women, speakerinnen.org, FemTec, and others to strengthen the network of women and LGBT+ communities in the technology industry.
 <br />
 <br />
 <br />
 
 ##5. Amazing Organic Food {#reason5}
 ![Illustration for Reason 5](/assets/images/blog/10-reasons/reason-05.png)
-There is already too much greasy trade fair quality food at events. As food is supposed to be one of the most important things in our lives we picked a caterer that can provide us with **amazing regional and organic food** for two days.
+There is already enough greasy trade fair food at conferences. As food is supposed to be one of the most important things in our lives we picked a caterer that can provide us with **amazing regional and organic food** for two days.
 
 We tested this caterer over and over again and the results were always the same: **exceptionally yummy** and tenderly cooked meals.
 
@@ -80,7 +79,7 @@ To create a pleasant, safe and respectful atmosphere for all participants of our
 ![Illustration for Reason 8](/assets/images/blog/10-reasons/reason-08.png)
 To make it easier for parents to attend the conference we will offer **child-care** for the duration of the event. We will have a dedicated area where children can play, paint and nap. 
 
-Additionally we plan to locate a **comfortable nursing area** as well as installing **baby change units** in all of the restrooms.
+Additionally we plan to locate a **comfortable nursing area** as well as installing **baby change units** in the restrooms.
 <br />
 <br />
 <br />
