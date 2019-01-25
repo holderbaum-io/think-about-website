@@ -4,7 +4,6 @@ date: 2020-01-16
 tweet: "TODO @ThinkAboutConf #thinkabout19"
 author_twitter: "@hldrbm"
 author: Jakob
-draft: true
 
 ---
 
