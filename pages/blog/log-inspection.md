@@ -1,5 +1,5 @@
 ---
-title: "How to not spy on your Users!"
+title: "How not to spy on your Users!"
 date: 2020-01-16
 tweet: "TODO @ThinkAboutConf #thinkabout19"
 author_twitter: "@hldrbm"
@@ -9,8 +9,8 @@ draft: true
 ---
 
 How can user privacy be ensured when website owners want statistics about their
-website usage? Common tools like Google Analytics are unethical and expose all
-website visitors to corporate spying.
+website usage? Common tools like Google Analytics expose your website visitor's
+data to huge corporations, we find this to be unethical.
 
 We wanted to be able to understand how our website is used. How many clicks are
 we generating, where are the users coming from and how frequently are the
@@ -114,7 +114,7 @@ this, we have to extend `logrotate` to call `GoAccess` whenever a log is
 rotated by the end of the day.
 
 In the case of `nginx` there is a configuration file at
-`/etc/logrotate.d/nginx`looking like this or similar:
+`/etc/logrotate.d/nginx` looking like this or similar:
 
     /var/log/nginx/*.log {
       daily
