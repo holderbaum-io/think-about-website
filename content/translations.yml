@@ -30,6 +30,11 @@ de:
     more: "Und viele mehr..."
   consensus:
     more: "Mehr erfahren"
+  grouptickets:
+    diversity: 
+      title: "To Do Deutsch"
+    supporter:
+      title: "To Do Deutsch"
   tickets:
     title: "Think about buying a ticket?"
     tba: "Der Ticketverkauf startet bald!"
@@ -88,6 +93,11 @@ en:
     more: "And many more..."
   consensus:
     more: "Read more"
+  grouptickets:
+    diversity: 
+      title: "Diversity Challenge"
+    supporter:
+      title: "Supporter Package"
   tickets:
     title: "Think about buying a ticket?"
     tba: "Ticket Sale starts soon!"
