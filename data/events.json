@@ -281,6 +281,47 @@
         }
       },
       {
+        "id": 42,
+        "guid": "7c2a050c-d828-40a7-9c6c-addf14be191f",
+        "title": "DevOps: Why the Startup CEO Should Care (and you should too) (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Tech",
+        "abstract": "You run a startup. You’ve just raised your first serious money, and need to start spending it wisely to hit your goals you promised to your investor.\r\n\r\nYou’re hiring developers like crazy, but going slower than ever! What’s gone wrong?\r\n\r\nYour Lead Developer keeps saying “we need to build a CD/CI pipeline, so I’m going to take one developer away to focus on that, it’ll make life better in the long run”.\r\n\r\nAnd you go “No! We need all hands on getting the next Shiny New Feature out, we have no time for whatever you just said..”\r\n\r\nSound familiar? We, as a profession, need to get better at explaining what we do in terms that a non-technical startup CEO can understand.\r\n\r\nWhy doesn't the manager understand the developer? and vice versa.\r\n\r\nI'm going to talk about what DevOps is, and how adopting a DevOps mindset can help you deliver better software faster with a happier team.",
+        "speakers": [
+          {
+            "id": 40,
+            "image": "/system/people/avatars/000/000/040/original/Rachel_Willmer.jpg?1548706942",
+            "full_public_name": "Rachel Willmer",
+            "abstract": "Rachel Willmer has been working at the “bleeding edge” of technology for more than 3 decades, as a programmer, network engineer, manager, startup founder. She remains insatiably curious about how today’s new technology gives birth to tomorrow’s new business opportunity.\r\n\r\nShe is currently under contract with the Scottish Government as an\r\nInfrastructure Engineer, and also finds time for Luzme, the ebook search site which she developed.",
+            "description": "",
+            "links": [
+              {
+                "url": "https://hobthross.com/",
+                "title": "Independent Consultant"
+              },
+              {
+                "url": "https://twitter.com/rwillmer",
+                "title": "Twitter"
+              },
+              {
+                "url": "https://github.com/rwillmer",
+                "title": "GitHub"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T13:15:00.000+02:00",
+        "end_time": "2019-05-23T14:00:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      },
+      {
         "id": 30,
         "guid": "ee5494f7-138a-4a46-90d7-aa46681d1ccf",
         "title": "Diverse representations in design and awkward conversations with colleagues (EN)",
