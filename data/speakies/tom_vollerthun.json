@@ -1,0 +1,5 @@
+{
+  "title": "CDCs für otto.de - Continuous Everything (jetzt mit Cloud™)",
+  "track": "Tech",
+  "abstract": "Seit OTTO vor gut sieben Jahren eine monolithische E-Commerce-Software von der Stange durch ein agil entwickeltes System aus eigenem Hause ersetzt hat, gehören CDC-Tests zu den Werkzeugen, durch die wir auf über 20 unabhängige Teams mit 300 Live-Deployments täglich zu skalieren. Heutzutage sind wir mit Microservices, agilen/cross-funktionalen Teams, Continuous Everything, DevOps und Cloud-Nativeness weitgehend buzzword-kompatibel. ..."
+}
