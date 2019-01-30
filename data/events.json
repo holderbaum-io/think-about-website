@@ -136,6 +136,43 @@
         }
       },
       {
+        "id": 43,
+        "guid": "6cd3233f-13ea-4d47-8c84-422b218c320e",
+        "title": "CDCs für otto.de - Continuous Everything (jetzt mit Cloud™) (DE)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Tech",
+        "abstract": "Seit OTTO vor gut sieben Jahren eine monolithische E-Commerce-Software von der Stange durch ein agil entwickeltes System aus eigenem Hause ersetzt hat, gehören CDC-Tests zu den Werkzeugen, durch die wir auf über 20 unabhängige Teams mit 300 Live-Deployments täglich zu skalieren. Heutzutage sind wir mit Microservices, agilen/cross-funktionalen Teams, Continuous Everything, DevOps und Cloud-Nativeness weitgehend buzzword-kompatibel.\r\n\r\nIn dieser Session wirst du hören, wie die Sicht auf und die Implementierung von CDC-Tests bei uns sich im Laufe der Jahre geändert hat, warum wir Pact nicht einsetzen, welchen Problemen wir begegnet sind und welche Antworten wir darauf gefunden haben.\r\n\r\nWir werden uns damit beschäftigen, inwiefern die Migration aus einem dedizierten Rechenzentrum in die Cloud unsere Annahmen über Schnittstellentests verändert hat und auf welche Probleme wir noch immer keine gute Antwort gefunden haben. Und am Ende werden wir uns mit den Fragen beschäftigen, die du mitbringst :)\r\n",
+        "speakers": [
+          {
+            "id": 41,
+            "image": "/system/people/avatars/000/000/041/original/tom.jpeg?1548849002",
+            "full_public_name": "Tom Vollerthun",
+            "abstract": "Tom Vollerthun hat über 10 Jahre Erfahrung mit Entwicklung und Betrieb kleiner und großer E-Commerce-Systeme.\r\n\r\nSoftware-Entwickler haben inzwischen so viel mehr Freiheiten und Aufgaben über die reine Software-Entwicklung hinaus, dass der Begriff eigentlich völlig sinnlos geworden ist.\r\n\r\nDaher arbeitet er als Hacker / Agilist / Prozessmasseur / Kommunikator für otto.de in Hamburg. ",
+            "description": "",
+            "links": [
+              {
+                "url": "https://www.otto.de",
+                "title": "Hacker @ OTTO"
+              },
+              {
+                "url": "https://github.com/TomVollerthun1337",
+                "title": "GitHub"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T09:30:00.000+02:00",
+        "end_time": "2019-05-23T10:15:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      },
+      {
         "id": 35,
         "guid": "afc28eaf-dc86-4772-ba8b-a53d92fa2e95",
         "title": "CI/CD: More than Just Code (EN)",
