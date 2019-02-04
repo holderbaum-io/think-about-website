@@ -22,21 +22,21 @@ function task_prepare_ci {
     -d
   chmod 600 deploy/ssh
 
-  task_update_event_data || exit 1
-  task_update_tickets || exit 1
-  task_update_speakers || exit 1
-  task_update_keynotes || exit 1
-  task_update_speakies_details || exit 1
+  # task_update_event_data || exit 1
+  # task_update_tickets || exit 1
+  # task_update_speakers || exit 1
+  # task_update_keynotes || exit 1
+  # task_update_speakies_details || exit 1
 
-  if [[ "$(git diff --stat)" != '' ]];
-  then
-    eval "$(ssh-agent -s)"
-    ssh-add deploy/ssh
+  # if [[ "$(git diff --stat)" != '' ]];
+  # then
+  #   eval "$(ssh-agent -s)"
+  #   ssh-add deploy/ssh
 
-    git commit -am '[travis] Update frab data [ci skip]'
-    git remote set-url origin git@github.com:hrx-events/think-about.git
-    git push origin master
-  fi
+  #   git commit -am '[travis] Update frab data [ci skip]'
+  #   git remote set-url origin git@github.com:hrx-events/think-about.git
+  #   git push origin master
+  # fi
 }
 
 task_serve() {

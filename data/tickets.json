@@ -3,11 +3,11 @@
     "price": 380,
     "available_number": null,
     "total_size": null,
-    "available": null
+    "available": true
   },
   "regular": {
     "price": 500,
-    "available": true
+    "available": false
   },
   "supporter": {
     "price": 750,
