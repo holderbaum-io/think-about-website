@@ -1,8 +1,6 @@
 {
   "earlybird": {
     "price": 380,
-    "available_number": null,
-    "total_size": null,
     "available": true
   },
   "regular": {
