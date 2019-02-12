@@ -66,6 +66,14 @@ We chose a program cinema in Cologne Ehrenfeld as it is **cozy** and at the same
 Additionally the Cinenova provides us with an outdoor area and offers plenty of possibilities for seating and socializing.
 
 ![A picture of the front of the event location "Cinenova"](/assets/images/blog/10-reasons/cinenova-01.png)
+
+![Another picture of the front of the event location "Cinenova"](/assets/images/blog/10-reasons/cinenova-04.png)
+
+![A picture from the inside of the event location "Cinenova" ](/assets/images/blog/10-reasons/cinenova-02.png)
+
+![A picture from the inside of the event location "Cinenova" ](/assets/images/blog/10-reasons/cinenova-05.png)
+Entwurf: Kalhöfer-Korschildgen, Köln; Foto: Carsten Gliese, Köln
+<br />
 <br />
 
 ##7. A Full-Time Awareness Team {#reason7}
