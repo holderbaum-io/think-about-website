@@ -6,6 +6,7 @@ de:
     consensus: "Konsens"
     about-us: "Über Uns"
     tickets: "Tickets"
+    mediapackage: "Medienpaket"
   universe-sponsors:
     title: "Unsere Universe Sponsoren"
   newsletter:
@@ -69,6 +70,7 @@ en:
     consensus: "Consensus"
     about-us: "About"
     tickets: "Tickets"
+    mediapackage: "Medienpaket"
   universe-sponsors:
     title: "Our Universe Sponsors"
   newsletter:
