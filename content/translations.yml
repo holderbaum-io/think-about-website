@@ -5,7 +5,7 @@ de:
     home: "Startseite"
     consensus: "Konsens"
     about-us: "Über Uns"
-    tickets: "Tickets"
+    tickets: "Ticket kaufen"
     mediapackage: "Medienpaket"
   universe-sponsors:
     title: "Unsere Universe Sponsoren"
@@ -69,7 +69,7 @@ en:
     home: "Home"
     consensus: "Consensus"
     about-us: "About"
-    tickets: "Tickets"
+    tickets: "Get Ticket"
     mediapackage: "Medienpaket"
   universe-sponsors:
     title: "Our Universe Sponsors"
