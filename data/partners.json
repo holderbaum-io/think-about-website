@@ -1,38 +1,38 @@
 [
   {
     "name": "dmw",
-    "link": "https://digitalmediawomen.de/"
+    "link": "/goto/dmw"
   },
   {
     "name": "beyondtellerrand",
-    "link": "https://beyondtellerrand.com/"
+    "link": "/goto/beyondtellerrand"
   },
   {
     "name": "femtec",
-    "link": "https://www.femtec-alumnae.org/"
+    "link": "/goto/femtec"
   },
   {
     "name": "spacepilots",
-    "link": "https://spacepilots.co/"
+    "link": "/goto/spacepilots"
   },
   {
     "name": "makuyuni",
      "height": 55,
-    "link": "https://makuyuni.org/"
+    "link": "/goto/makuyuni"
   },
   {
     "name": "dasguteruft",
      "height": 65,
-    "link": "https://dasguteruft.de/"
+    "link": "/goto/dasguteruft"
   },
   {
     "name": "workingdraft",
     "height": 30,
-    "link": "https://workingdraft.de/"
+    "link": "/goto/workingdraft"
   },
   {
     "name": "womenwhocode",
     "height": 53,
-    "link": "https://www.womenwhocode.com/"
+    "link": "/goto/womenwhocode"
   }
 ]
