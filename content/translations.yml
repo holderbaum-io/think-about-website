@@ -1,6 +1,6 @@
 de:
   nav:
-    imprint: "Impressum"
+    legal: "Impressum"
     privacy: "Datenschutz"
     home: "Startseite"
     consensus: "Konsens"
@@ -64,7 +64,7 @@ de:
 
 en:
   nav:
-    imprint: "Imprint"
+    legal: "Legal Notice"
     privacy: "Privacy"
     home: "Home"
     consensus: "Consensus"
