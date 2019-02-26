@@ -1,1 +1,1 @@
-Bio follows soon.
+Susanne Kaiser works as an independent Tech Consultant and was previously working as a startup CTO transforming their SaaS solution from monolith to microservices. She has a background in computer sciences and experience in software development & architecture for more than 15 years and regularly presents at international tech conferences.

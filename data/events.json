@@ -809,13 +809,13 @@
         "type": "lecture",
         "do_not_record": false,
         "track": "Keynote",
-        "abstract": "",
+        "abstract": "In the light of rapidly changing market requirements organizations must\r\naccelerate to excel in the market. A 4-years research (by Nicole Forsgren, Jez Humble and Gene Kim) has revealed that software delivery performance has a strong impact on profitability, productivity and market share of technology organizations. Loosely coupled architecture, such as promoted by microservices, and empowered teams are some of the capabilities to improve software delivery performance.\r\n\r\nBut when introducing microservices you are confronted with a variety of infrastructure and operational complexities. Tackling these complexities not only requires different tools and skills, but also diverts your focus\r\nfrom delivering business value and - especially in the beginning of your journey - might slow down your software delivery performance.\r\n\r\nAfter having already introduced microservices in a startup context I would like to share some thoughts what to do differently when introducing microservices next time in the future.",
         "speakers": [
           {
             "id": 34,
             "image": "/system/people/avatars/000/000/034/original/susanne.png?1545401868",
             "full_public_name": "Susanne Kaiser",
-            "abstract": "Bio follows soon.\r\n\r\n\r\nBio kommt bald.",
+            "abstract": "Susanne Kaiser works as an independent Tech Consultant and was previously working as a startup CTO transforming their SaaS solution from monolith to microservices. She has a background in computer sciences and experience in software development & architecture for more than 15 years and regularly presents at international tech conferences.",
             "description": "",
             "links": [
               {
