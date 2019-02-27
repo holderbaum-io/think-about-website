@@ -41,6 +41,19 @@
         <article>
           <header>
             <price><%= data('tickets.regular.price') %> €</price>
+            <p><%= t('tickets.types.regular.deadline') %></p>
+          </header>
+          <ul>
+            <li><%= t('tickets.benefits.duration') %></li>
+            <li><%= t('tickets.benefits.food') %></li>
+            <li><%= t('tickets.benefits.beverages') %></li>
+          </ul>
+        </article>
+      </section></a><a <%= data('tickets.supporter.available') ? "href=#{t('tickets.shop_link.link')}" : '' %>><section ticket="latebird" <%= data('tickets.latebird.available') ? '' : 'disabled' %>>
+        <h1><%= t('tickets.types.latebird.title') %></h1>
+        <article>
+          <header>
+            <price><%= data('tickets.latebird.price') %> €</price>
           </header>
           <ul>
             <li><%= t('tickets.benefits.duration') %></li>

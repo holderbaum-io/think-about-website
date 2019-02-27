@@ -58,6 +58,8 @@ de:
         deadline: "Earlybird endet am 15.02.2019"
       regular:
         title: "Regular Ticket"
+      latebird:
+        title: "Late Bird Ticket"
       supporter:
         title: "Supporter Ticket"
 
@@ -122,6 +124,9 @@ en:
         deadline: "Earlybird ends on 15/02/2019"
       regular:
         title: "Regular Ticket"
+        deadline: "Sale ends on 15/04/2019"
+      latebird:
+        title: "Late Bird Ticket"
       supporter:
         title: "Supporter Ticket"
 

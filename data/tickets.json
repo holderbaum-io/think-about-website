@@ -7,6 +7,10 @@
     "price": 500,
     "available": true
   },
+  "latebird": {
+    "price": 600,
+    "available": true
+  },
   "supporter": {
     "price": 750,
     "available": true
