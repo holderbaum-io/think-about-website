@@ -41,7 +41,11 @@
         <article>
           <header>
             <price><%= data('tickets.regular.price') %> €</price>
+            <% if data('tickets.regular.available') %>
             <p><%= t('tickets.types.regular.deadline') %></p>
+            <% else %>
+            <p><%= t('tickets.sold_out') %></p>
+            <% end %>
           </header>
           <ul>
             <li><%= t('tickets.benefits.duration') %></li>
@@ -49,11 +53,16 @@
             <li><%= t('tickets.benefits.beverages') %></li>
           </ul>
         </article>
-      </section></a><a <%= data('tickets.supporter.available') ? "href=#{t('tickets.shop_link.link')}" : '' %>><section ticket="latebird" <%= data('tickets.latebird.available') ? '' : 'disabled' %>>
+      </section></a><a <%= data('tickets.latebird.available') ? "href=#{t('tickets.shop_link.link')}" : '' %>><section ticket="latebird" <%= data('tickets.latebird.available') ? '' : 'disabled' %>>
         <h1><%= t('tickets.types.latebird.title') %></h1>
         <article>
           <header>
             <price><%= data('tickets.latebird.price') %> €</price>
+            <% if data('tickets.latebird.available') %>
+            <p><%= t('tickets.sold_out') %></p>
+            <% else %>
+            <p><%= t('tickets.types.latebird.deadline') %></p>
+            <% end %>
           </header>
           <ul>
             <li><%= t('tickets.benefits.duration') %></li>
