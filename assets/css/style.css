@@ -586,12 +586,12 @@ section.tickets section[ticket="supporter"] h1 {
 }
 
 section.tickets section[ticket][disabled] {
-  background-color: #ededed;
+  background-color: #f4f4f4;
 }
 
 section.tickets section[ticket][disabled] h1 {
-  background-color: #9b9b9b;
-  color: white;
+  background-color: #ededed;
+  color: #9b9b9b;
 }
 
 section.tickets section[ticket][disabled] * {
