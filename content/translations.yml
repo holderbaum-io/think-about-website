@@ -46,6 +46,7 @@ de:
     shop_link:
       text: "Kauf dein Ticket"
       link: "/goto/pretix-de"
+    reasons_button_text: "Erfahre mehr ..."
     solidarity_price_details: "(inkl. 250 € für Solidarische Tickets)"
     benefits:
       duration: "2-Tages-Ticket für 24 Talks"
@@ -114,6 +115,7 @@ en:
     shop_link:
       text: "Get Your Ticket"
       link: "/goto/pretix-en"
+    reasons_button_text: "Learn more ..."
     solidarity_price_details: "(incl. 250 € to make solidarity tickets possible)"
     benefits:
       duration: "2-Day ticket for 24 talks"

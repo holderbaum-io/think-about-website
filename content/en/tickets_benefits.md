@@ -1,8 +1,8 @@
-**By buying a ticket you enable us to:**
+### Each ticket enables:
 
-- have a full-time [awareness team](consensus.html#awareness) on site
-- provide child-care for attending parents
-- give away at least 15 [solidarity tickets](#solidarity) **&#42;**
-- pay **every** helper & speaker equally
-- record the talks
-- handle personal data [responsibly](consensus.html#privacy)
+- a full-time [awareness team](consensus.html#awareness) on site
+- child-care for attending parents
+- at least 15 [solidarity tickets](#solidarity) **&#42;**
+- equal payment for helpers & speakers
+- recording of talks
+- [responsible](consensus.html#privacy) handling of user data

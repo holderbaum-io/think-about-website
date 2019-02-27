@@ -129,6 +129,12 @@ main > section > h1 {
   text-align: center;
 }
 
+main > section > a:last-child {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
 /* ================================ */
 /* Buttons */
 
@@ -929,7 +935,7 @@ section.image-with-text article {
   padding-right: 2rem;
 }
 
-section.image-with-text:after {
+section.image-with-text > div:after {
   content: '';
   display: block;
   clear: both;

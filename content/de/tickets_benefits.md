@@ -1,8 +1,8 @@
-Mit dem Ticketkauf ermöglichst Du:
+### Jedes Ticket ermöglicht:
 
 - Ein [Awareness-Team](consensus.html#awareness) vor Ort
 - Kinderbetreuung für Eltern
-- Vergabe von mindestens 15 [Solidarischen Tickets](#solidarity) **&#42;**
-- Gleiche Entlohnung für **alle** Helfenden & Speaker
+- Vergabe von 15+ [Soli Tickets](#solidarity) **&#42;**
+- Gleiche Entlohnung **aller** Helfenden & Speaker
 - Aufzeichnen der Talks
 - [Verantwortungsbewussten Umgang](consensus.html#privacy) mit persönlichen Daten
