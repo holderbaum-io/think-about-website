@@ -41,10 +41,12 @@
         <article>
           <header>
             <price><%= data('tickets.regular.price') %> €</price>
+            <% if feature? :preview %>
             <% if data('tickets.regular.available') %>
             <p><%= t('tickets.types.regular.deadline') %></p>
             <% else %>
             <p><%= t('tickets.sold_out') %></p>
+            <% end %>
             <% end %>
           </header>
           <ul>
@@ -53,7 +55,7 @@
             <li><%= t('tickets.benefits.beverages') %></li>
           </ul>
         </article>
-      </section></a><a <%= data('tickets.latebird.available') ? "href=#{t('tickets.shop_link.link')}" : '' %>><section ticket="latebird" <%= data('tickets.latebird.available') ? '' : 'disabled' %>>
+      </section></a><% if feature? :preview %><a <%= data('tickets.latebird.available') ? "href=#{t('tickets.shop_link.link')}" : '' %>><section ticket="latebird" <%= data('tickets.latebird.available') ? '' : 'disabled' %>>
         <h1><%= t('tickets.types.latebird.title') %></h1>
         <article>
           <header>
@@ -70,7 +72,7 @@
             <li><%= t('tickets.benefits.beverages') %></li>
           </ul>
         </article>
-      </section></a><a <%= data('tickets.supporter.available') ? "href=#{t('tickets.shop_link.link')}" : '' %>><section ticket="supporter" <%= data('tickets.supporter.available') ? '' : 'disabled' %>>
+      </section><% end %></a><a <%= data('tickets.supporter.available') ? "href=#{t('tickets.shop_link.link')}" : '' %>><section ticket="supporter" <%= data('tickets.supporter.available') ? '' : 'disabled' %>>
         <h1><%= t('tickets.types.supporter.title') %></h1>
         <article>
           <header>
