@@ -32,22 +32,14 @@ community's interest in an event like Think About!.
 
 Of course, bootstrapping a conference makes you learn a million things along
 the way. But in regard to ticket pricing and ticket sales we learned some
-pretty interesting things:
+pretty interesting things, and one of those surprised us most:
 
-### 1. People buy as late as possible
+> People buy as late as possible
 
 Amazingly, most of the early birds tickets were sold in the last
 one-and-a-half weeks before the deadline. While this does not sound surprising
 in retrospect, we did not anticipate this at such a scale.
 to the deadline).
-
-### 2. Conference Business is a Cash Flow Business
-
-???
-
-### 3. Scale of Mass is a Thing
-
-???
 
 ## Show me the Data!
 
@@ -113,7 +105,7 @@ generated scarcity to coerce people into buying. This slightly cheesy feeling
 was the main reason why we initially stepped away from late bird entirely.
 
 We needed the experience of early bird sales distribution to really understand,
-why so many conferences go for more than one deadline while selling there
+why so many conferences go for more than one deadline while selling their
 tickets.
 
 ![A guinea pig learning new things](/assets/images/blog/late-bird/learning.gif)
@@ -121,7 +113,7 @@ tickets.
 ## Reaching the Destination of our second Journey
 
 It goes without saying, we are not happy with introducing a late bird deadline
-after early bird and regular sales already have started a few month ago. But
+after early bird and regular sales already have started a few months ago. But
 our forecast showed that it is either this or a huge financial risk on our
 side. And instead of risking a fantastic Think About! Conference we decided to
 go for the lesser of those two evils.
