@@ -54,6 +54,10 @@
     <meta name="theme-color" content="#280050">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <% if feature? :preview %>
+    <title>[PREVIEW] Think About! Conference 2019</title>
+    <% else %>
     <title>Think About! Conference 2019</title>
+    <% end %>
     <link rel="stylesheet" href="/assets/css/fonts.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
