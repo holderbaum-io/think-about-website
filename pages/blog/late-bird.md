@@ -1,7 +1,7 @@
 ---
 title: "On being late for Late Bird"
 date: 2019-02-28
-tweet: "@ThinkAboutConf #thinkabout19"
+tweet: "Take a look at how @ThinkAboutConf learned from their first Early Bird Sale ever! #thinkabout19"
 author_twitter: "@hldrbm"
 author: Jakob
 draft: true
