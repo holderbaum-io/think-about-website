@@ -46,5 +46,35 @@ to the deadline).
 
 ???
 
-## How is our Budget impacted?
+## Show me the Data!
 
+The net numbers are by no means affected. We sold about a third of our sales goal in the first third of our ticket sales campaign. Could not be better. But we did not anticipate the time distribution of those sales. A simplified forecast based on the early birds would look roughly like this:
+
+![Graph that depicts ticket sales over time](/assets/images/blog/late-bird/diagram.png)
+
+This basically translates into the fact that we will only sell a few tickets
+until the beginning of May when the final run starts (the conference takes
+place at the 23rd and 24th of May).
+
+## How are we affected by this?
+
+The actual costs for making the Think About! happen are unfortunately distributed in an unpleasantly different shape:
+
+![Graph that depicts ticket sales over time](/assets/images/blog/late-bird/diagram2.png)
+
+By the end of April, we will have several deposit payments (besides others for
+the caterer, the venue and the speaker hotels) that sum up to five figures.
+
+Our current forecast basically tells us, that we will have to advance this
+payment from mid of April until end of May, which is a formidable challenge for
+a bootstrapped startup without any venture capital.
+
+## Well then?
+
+
+
+![Graph that depicts ticket sales over time](/assets/images/blog/late-bird/diagram3.png)
+
+## On Dark Marketing Patterns
+
+## Reaching the Destination of our second Journey
