@@ -507,47 +507,6 @@
         }
       },
       {
-        "id": 12,
-        "guid": "945ba52c-b0ce-43fa-9a8a-7d1d7480269e",
-        "title": "How to read code? (EN)",
-        "subtitle": "",
-        "description": "",
-        "logo": null,
-        "type": "lecture",
-        "do_not_record": false,
-        "track": "Keynote",
-        "abstract": "In education, there is and has always been debate about how to teach. One of these debates centers around the role of the teacher: should their role be minimal, allowing students to find and classify knowledge independently, or should the teacher be in charge of what happens in the classroom, explaining students all they need to know? These forms of teaching have many names, but the most common ones are exploratory learning and direct instruction. While the debate is not settled, more and more evidence is presented by researchers that explaining is more effective than exploring in teaching language and mathematics and science.\r\n\r\nSo... might this true for programming education too? This talk outlines this history of programming education and additional beliefs in programming that lead to the prevalence of exploratory forms of teaching.",
-        "speakers": [
-          {
-            "id": 18,
-            "image": "/system/people/avatars/000/000/018/original/fhermans02072018_groot-10.jpg?1540274125",
-            "full_public_name": "Felienne Hermans",
-            "abstract": "Felienne is associate professor at the Leiden Institute of Advanced Computer Science at Leiden University, where she heads a research group on programming education. What cognitive skills are needed for programming? What misconceptions   can occur when children are learning to program? These are some of the questions that intrigue Felienne.\r\n\r\n\r\nFelienne is associate professor at the Leiden Institute of Advanced Computer Science at Leiden University, where she heads a research group on programming education. What cognitive skills are needed for programming? What misconceptions   can occur when children are learning to program? These are some of the questions that intrigue Felienne.",
-            "description": "",
-            "links": [
-              {
-                "url": "https://liacs.leidenuniv.nl/",
-                "title": " Associate Professor @ Leiden Institute of Adv. Computer Science"
-              },
-              {
-                "url": "http://www.felienne.com/",
-                "title": "Website"
-              },
-              {
-                "url": "https://twitter.com/felienne",
-                "title": "Twitter"
-              }
-            ]
-          }
-        ],
-        "start_time": "2019-05-24T16:15:00.000+02:00",
-        "end_time": "2019-05-24T17:15:00.000+02:00",
-        "room": {
-          "name": "Hall 1",
-          "id": 1
-        }
-      },
-      {
         "id": 38,
         "guid": "b5400ca5-8d9b-4dfa-8352-12c3ada99765",
         "title": "Innovation under the GDPR (EN)",
