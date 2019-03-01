@@ -123,6 +123,8 @@ can not be changed anymore. Instead we opted for a price increase from 500 EUR
 to 600 EUR on the 16th of April. So until and including the 15th of April you
 can get your ticket for the regular price of 500 EUR.
 
+![Screenshot of the new ticket price structure](/assets/images/blog/late-bird/new-structure.png)
+
 We are happy about all the amazing people that believe in our cause to make not
 only the tech industry but also a part of our society a better and more
 inclusive place. **Thank you** so much for supporting us by buying tickets, telling
