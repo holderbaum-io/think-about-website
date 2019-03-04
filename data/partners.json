@@ -34,5 +34,10 @@
     "name": "womenwhocode",
     "height": 53,
     "link": "/goto/womenwhocode"
+  },
+    {
+    "name": "startplatz",
+    "height": 65,
+    "link": "/goto/startplatz"
   }
 ]
