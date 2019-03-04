@@ -1,7 +1,7 @@
 <div>
   <h1><%= t('rocket-sponsors.title') %></h1>
   <div>
-    <% data('universe-sponsors').each do |sponsor| %>
+    <% data('rocket-sponsors').each do |sponsor| %>
     <% path = "/assets/images/partner/#{sponsor[:name]}.png" %>
     <% height = sponsor.fetch :height, 70 %>
     <% href = sponsor[:link] %>
