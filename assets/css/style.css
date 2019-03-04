@@ -419,6 +419,24 @@ section.universe-sponsors figure img {
 }
 
 /* ================================ */
+/* Rocket Sponsors */
+
+section.rocket-sponsors * {
+  text-align: center;
+}
+
+section.rocket-sponsors a ,
+section.rocket-sponsors figure {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+section.rocket-sponsors figure img {
+  margin: 2rem 1rem;
+}
+
+/* ================================ */
 /* Topics */
 
 section.topics section:nth-child(even) figure {
