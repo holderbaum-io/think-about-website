@@ -9,6 +9,8 @@ de:
     mediapackage: "Medienpaket"
   universe-sponsors:
     title: "Unsere Universe Sponsoren"
+  rocket-sponsors:
+    title: "Unsere Rocket Sponsoren"
   newsletter:
     anchor-link-title: "Newsletter abonnieren"
     placeholder: "du@example.org"
@@ -78,6 +80,8 @@ en:
     mediapackage: "Medienpaket"
   universe-sponsors:
     title: "Our Universe Sponsors"
+  rocket-sponsors:
+    title: "Our Rocket Sponsors"
   newsletter:
     anchor-link-title: "Subscribe to newsletter"
     placeholder: "you@example.org"
