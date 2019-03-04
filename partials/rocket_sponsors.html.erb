@@ -3,10 +3,9 @@
   <div>
     <% data('rocket-sponsors').each do |sponsor| %>
     <% path = "/assets/images/partner/#{sponsor[:name]}.png" %>
-    <% height = sponsor.fetch :height, 70 %>
+    <% height = sponsor.fetch :height, 50 %>
     <% href = sponsor[:link] %>
     <a href="<%= href %>"><figure><img style="height: <%= height %>px" src="<%= path %>"/></figure></a>
     <% end %>
-    <span note>Interested in becoming a sponsor? More info <a href="/assets/docs/think-about-sponsoring.pdf">here</a></span>
   </div>
 </div>
