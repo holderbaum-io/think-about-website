@@ -39,5 +39,9 @@
     "name": "startplatz",
     "height": 65,
     "link": "https://www.startplatz.de/"
+  },
+  {
+    "name": "wlanfuerevents",
+    "link": "https://www.wlan-fuer-events.de/"
   }
 ]
