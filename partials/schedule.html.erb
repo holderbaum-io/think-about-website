@@ -24,11 +24,15 @@
               <span><%= talk[:track] %></span>
             </header>
             <p>"<%= talk[:title]%>" <em><%= talk[:lang] %></em></p>
+            <% if talk[:has_person] %>
             <hr/>
             <footer>
               <div><h1><%= talk[:person] %></h1><p><%= talk[:company] %></p></div>
-              <figure><img src="/assets/images/speaker/<%= talk[:person_slug] %>.png" /></figure>
+              <% talk[:images].each do |path| %>
+                <figure><img src="<%= path %>" /></figure>
+              <% end %>
             </footer>
+            <% end %>
           </article></a>
         </section>
         <% end %>

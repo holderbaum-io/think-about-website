@@ -374,6 +374,9 @@
     },
     {
       "has_person": false,
+      "images": [
+
+      ],
       "lang": "",
       "title": "Closing Keynote",
       "track": "Keynote",

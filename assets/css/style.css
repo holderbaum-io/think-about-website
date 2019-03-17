@@ -921,6 +921,10 @@ section.schedule section footer * {
   padding: 0;
 }
 
+section.schedule section footer div {
+  flex-grow: 2;
+}
+
 section.schedule section footer h1 {
   font-weight: 400;
   font-size: 0.8rem;

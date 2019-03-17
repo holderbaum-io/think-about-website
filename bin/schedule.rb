@@ -43,7 +43,7 @@ def process_speaker(talk)
       company: speakers_company(talk),
       images: speaker_image_pathes(talk) }
   else
-    { has_person: false }
+    { has_person: false, images: [] }
   end
 end
 
