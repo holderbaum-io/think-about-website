@@ -26,7 +26,7 @@ end
 schedule = JSON.parse(File.read('data/events.json'), symbolize_names: true)
 
 talks = schedule[:conference_events][:events].select do |talk|
-  talk[:type] == 'lecture'
+  talk[:type] == 'lecture' && !talk[:speakers].empty?
 end
 
 talks.each do |talk|
@@ -34,7 +34,7 @@ talks.each do |talk|
   filename = "pages/speakies/#{slug(joined_names)}.html.erb"
   people = talk[:speakers]
 
-  bios = talk[:speakers][0][:abstract].split("\r\n\r\n\r\n")
+  bios = people[0][:abstract].split("\r\n\r\n\r\n")
   File.write("content/en/speakies/#{slug(joined_names)}.md", bios[0])
   if bios.size > 1
     File.write("content/de/speakies/#{slug(joined_names)}.md", bios[1])
