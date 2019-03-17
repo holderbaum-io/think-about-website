@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8"> <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+    <title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+    <!-- Web Font / @font-face : BEGIN -->
+    <!-- NOTE: If web fonts are not required, lines 10 - 27 can be safely removed. -->
+
+    <!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
+    <!--[if mso]>
+        <style>
+            * {
+                font-family: 'Montserrat', sans-serif !important;
+            }
+        </style>
+    <![endif]-->
+
+    <!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
+    <!--[if !mso]><!-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+    <!--<![endif]-->
+
+    <!-- Web Font / @font-face : END -->
+
+    <!-- CSS Reset : BEGIN -->
+    <style>
+
+        /* What it does: Remove spaces around the email design added by some email clients. */
+        /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+        html,
+        body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+
+        /* What it does: Stops email clients resizing small text. */
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        /* What it does: Centers email on Android 4.4 */
+        div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
+
+        /* What it does: Stops Outlook from adding extra spacing to tables. */
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+
+        /* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            margin: 0 auto !important;
+        }
+        table table table {
+            table-layout: auto;
+        }
+
+        /* What it does: Prevents Windows 10 Mail from underlining links despite inline CSS. Styles for underlined links should be inline. */
+        a {
+            text-decoration: none;
+        }
+
+        /* What it does: Uses a better rendering method when resizing images in IE. */
+        img {
+            -ms-interpolation-mode:bicubic;
+        }
+
+        /* What it does: A work-around for email clients meddling in triggered links. */
+        *[x-apple-data-detectors],  /* iOS */
+        .unstyle-auto-detected-links *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* What it does: Prevents Gmail from changing the text color in conversation threads. */
+        .im {
+            color: inherit !important;
+        }
+
+        /* What it does: Prevents Gmail from displaying a download button on large, non-linked images. */
+        .a6S {
+           display: none !important;
+           opacity: 0.01 !important;
+		}
+		/* If the above doesn't work, add a .g-img class to any image in question. */
+		img.g-img + div {
+		   display: none !important;
+		}
+
+        /* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89  */
+        /* Create one of these media queries for each additional viewport size you'd like to fix */
+
+        /* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+        @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+            u ~ div .email-container {
+                min-width: 320px !important;
+            }
+        }
+        /* iPhone 6, 6S, 7, 8, and X */
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+            u ~ div .email-container {
+                min-width: 375px !important;
+            }
+        }
+        /* iPhone 6+, 7+, and 8+ */
+        @media only screen and (min-device-width: 414px) {
+            u ~ div .email-container {
+                min-width: 414px !important;
+            }
+        }
+
+    </style>
+    <!-- CSS Reset : END -->
+	<!-- Reset list spacing because Outlook ignores much of our inline CSS. -->
+	<!--[if mso]>
+	<style type="text/css">
+		ul,
+		ol {
+			margin: 0 !important;
+		}
+		li {
+			margin-left: 30px !important;
+		}
+		li.list-item-first {
+			margin-top: 0 !important;
+		}
+		li.list-item-last {
+			margin-bottom: 10px !important;
+		}
+	</style>
+	<![endif]-->
+
+    <!-- Progressive Enhancements : BEGIN -->
+    <style>
+
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+	    .button-td-primary:hover,
+	    .button-a-primary:hover {
+	        background: #4926b7 !important;
+	        border-color: #4926b7 !important;
+	    }
+
+        /* Media Queries */
+        @media screen and (max-width: 600px) {
+
+            .email-container {
+                width: 100% !important;
+                margin: auto !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid {
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+
+            /* What it does: Adjust typography on small screens to improve readability */
+            .email-container p {
+                font-size: 17px !important;
+            }
+        }
+
+    </style>
+    <!-- Progressive Enhancements : END -->
+
+    <!-- What it does: Makes background images in 72ppi Outlook render at correct size. -->
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+</head>
+<!--
+	The email background color (#222222) is defined in three places:
+	1. body tag: for most email clients
+	2. center tag: for Gmail and Inbox mobile apps and web versions of Gmail, GSuite, Inbox, Yahoo, AOL, Libero, Comcast, freenet, Mail.ru, Orange.fr
+	3. mso conditional: For Windows 10 Mail
+-->
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #222222;">
+	<center style="width: 100%; background-color: #e7ecf6;">
+    <!--[if mso | IE]>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #e7ecf6;">
+    <tr>
+    <td>
+    <![endif]-->
+
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+        <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: 'Montserrat', sans-serif;">
+            (Optional) This text will appear in the inbox preview, but not the email body. It can be used to supplement the email subject line or even summarize the email's contents. Extended text preheaders (~490 characters) seems like a better UX for anyone using a screenreader or voice-command apps like Siri to dictate the contents of an email. If this text is not included, email clients will automatically populate it using the text (including image alt text) at the start of the email's body.
+        </div>
+        <!-- Visually Hidden Preheader Text : END -->
+
+        <!-- Create white space after the desired preview text so email clients don’t pull other distracting text into the inbox preview. Extend as necessary. -->
+        <!-- Preview Text Spacing Hack : BEGIN -->
+        <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: 'Montserrat', sans-serif;">
+	        &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+        </div>
+        <!-- Preview Text Spacing Hack : END -->
+
+        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: 0 auto;" class="email-container">
+            <tr>
+                <td style="padding: 20px; font-family: 'Montserrat', sans-serif;    font-size: 12px; line-height: 15px; text-align: center; color: #888888;">
+                    <a href="[LINK_BROWSER]" style="color: #888888; text-decoration: underline; font-weight: bold;">View in browser</a>
+                </td>
+            </tr>
+
+            <!-- Header : BEGIN -->
+            <tr>
+                <td dir="ltr" valign="top" width="100%" style="padding: 10px; background-color: #ffffff; padding: 20px;">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <!-- Column : BEGIN -->
+                            <td width="33.33%" class="stack-column-center">
+                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td dir="ltr" valign="top" style="padding: 0 10px;">
+                                            <a href="https://think-about.io/en/">
+                                                <img src="https://think-about.io/assets/docs/newsletter/2019/3/logo-pink.png" width="100" alt="Think About! Logo" border="0" class="center-on-narrow" style="height: auto; background: #dddddd; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- Column : END -->
+                            <!-- Column : BEGIN -->
+                            <td width="66.66%" class="stack-column-center">
+                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td dir="ltr" valign="top" style="font-family: 'Montserrat', sans-serif; font-size: 12px; line-height: 15px; color: #555555; padding: 10px; text-align: right;" class="center-on-narrow">
+                                            <p style="margin: 0 0 0 0;">Newsletter #5</p>
+                                            <p style="margin: 0 0 10px 0;">March 2019</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- Column : END -->
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- Header : END -->
+
+            <!-- Hero Image, Flush : BEGIN -->
+            <tr>
+                <td style="background-color: #ffffff;">
+                    <a href="https://think-about.io/en/">
+                        <img src="https://think-about.io/assets/docs/newsletter/2019/5/header.png" width="600" height="" alt="Header Illustration for special newsletter" border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto;" class="g-img">
+                    </a>
+                </td>
+            </tr>
+            <!-- Hero Image, Flush : END -->
+
+            <!-- Welcome Text : BEGIN -->
+            <tr>
+                <td style="background-color: #ffffff; padding: 20px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding: 20px; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                <h1 style="margin: 0 0 30px; font-size: 25px; line-height: 30px; color: #333333; font-weight: bold;">Our Early Bird sale has ended and we are overwhelmed!</h1>
+
+                                <p>Our early bird phase is over and we are overwhelmed: Not only did we reach our early bird goal but sold even more tickets - wow!</p>
+
+                                <p>HUGE thanks to everyone who bought a ticket and who believes in the Think About! conference – we are truly grateful for your support! Without people such as yourselves we could never manage to make this conference happen in the first place.</p>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            <!-- Welcome Text : END -->
+
+            <!-- Separation between sections -->
+            <tr><td style="font-size: 8px;">&nbsp;</td></tr>
+
+            <!-- Solidarity Ticket Image : BEGIN -->
+            <tr>
+                <td style="background-color: #ffffff;">
+                    <a href="https://think-about.io/en/">
+                        <img src="https://think-about.io/assets/docs/newsletter/2019/5/solidarity.png" width="600" height="" alt="Illustration a monster offering a free ticket" border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto;" class="g-img">
+                    </a>
+                </td>
+            </tr>
+            <!-- Solidarity Ticket : END -->
+
+            <!-- Solidarity Ticket : BEGIN -->
+            <tr>
+                <td style="background-color: #ffffff; padding: 20px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding: 20px; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                <h1 style="margin: 0 0 30px; font-size: 25px; line-height: 30px; color: #333333; font-weight: bold;">Our Solidarity Tickets Concept</h1>
+
+                                <p>We are able to offer free or reduced solidarity tickets for the Think About! Conference. Those important tickets support the overall diversity of our event as people from “outside the tech industry bubble” get access to the conference as well.</p>
+
+                                <p>Offering a basic stock of solidarity tickets is a distinct position in our budget. Additionally every supporter ticket we sell enables us to offer even more solidarity tickets. </p>
+
+                                <p>If you can't afford a ticket yourself please reach out to us!.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Button : BEGIN -->
+                                <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
+                                    <tr>
+                                        <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
+                                            <a class="button-a button-a-primary" href="mailto:kontakt@think-about.io" style="background: #6b3cff; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Get in touch</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- Button : END -->
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            <!-- Solidarity Ticket : END -->
+
+            <!-- Separation between sections -->
+            <tr><td style="font-size: 8px;">&nbsp;</td></tr>
+
+            <!-- Cinenova Section : BEGIN -->
+            <tr>
+                <td style="background-color: #ffffff;">
+                    <a href="https://think-about.io/en/">
+                        <img src="https://think-about.io/assets/docs/newsletter/2019/5/cinenova-01.png" width="600" height="" alt="Picture of Cinenova" border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto;" class="g-img">
+                    </a>
+                </td>
+            </tr>
+            <!-- Hero Image, Flush : END -->
+
+            <!-- Welcome Text : BEGIN -->
+            <tr>
+                <td style="background-color: #ffffff; padding: 20px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding: 20px; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                <h1 style="margin: 0 0 30px; font-size: 25px; line-height: 30px; color: #333333; font-weight: bold;">Our amazing event location: The Cinenova</h1>
+
+                                <p>We are excited to host the Think About! in the lovely arthouse cinema Cinenova in the popular district 'Ehrenfeld' in Cologne. The cinema is cozy and at the same time provides amazing acoustics and a great atmosphere for talks.</p>
+
+                                <p>Who wouldn’t want to sit in a puffy cinema seat, eating popcorn (yes - we have a popcorn-flat-rate) and watching amazing human beings talking about interesting topics?</p>
+                            </td>
+                        </tr>
+
+            <tr>
+                <td valign="top" style="padding: 10px; background-color: #ffffff;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <!-- Column : BEGIN -->
+                            <td class="stack-column-center" valign="top" style="vertical-align: top;">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 10px; text-align: center">
+                                            <img src="https://think-about.io/assets/docs/newsletter/2019/5/cinenova-02.png" width="260" height="270" alt="Picture of Cinenova" border="0" class="fluid" style="height: auto; background: #dddddd; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- Column : END -->
+                            <!-- Column : BEGIN -->
+                            <td class="stack-column-center" valign="top" style="vertical-align: top;">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 10px; text-align: center">
+                                            <img src="https://think-about.io/assets/docs/newsletter/2019/5/cinenova-03.png" width="260" height="270" alt="Picture of Cinenova" border="0" class="fluid" style="height: auto; background: #dddddd; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- Column : END -->
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- Keynote: Linda & Susanne : END -->
+
+            <tr>
+                <td valign="top" style="padding: 10px; background-color: #ffffff;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <!-- Column : BEGIN -->
+                            <td class="stack-column-center" valign="top" style="vertical-align: top;">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 10px; text-align: center">
+                                            <img src="https://think-about.io/assets/docs/newsletter/2019/5/cinenova-05.png" width="260" height="270" alt="Picture of Cinenova" border="0" class="fluid" style="height: auto; background: #dddddd; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- Column : END -->
+                            <!-- Column : BEGIN -->
+                            <td class="stack-column-center" valign="top" style="vertical-align: top;">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 10px; text-align: center">
+                                            <img src="https://think-about.io/assets/docs/newsletter/2019/5/cinenova-04.png" width="260" height="270" alt="Picture of Cinenova" border="0" class="fluid" style="height: auto; background: #dddddd; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- Column : END -->
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- Keynote: Linda & Susanne : END -->
+
+
+                        <tr>
+                            <td style="padding: 20px; font-family: 'Montserrat', sans-serif; font-size: 12px; line-height: 15px; text-right: center; color: #888888;">
+                                <p>Picture Credits: Design by Kalhöfer-Korschildgen, Köln; Picture by Carsten Gliese, Köln</p>
+                            </td>
+                         </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- Cinenova Section : END -->
+
+            <!-- Separation between sections -->
+            <tr><td style="font-size: 8px;">&nbsp;</td></tr>
+
+            <!-- Meet Up : BEGIN -->
+            <tr>
+                <td style="background-color: #ffffff;">
+                    <a href="https://think-about.io/en/">
+                        <img src="https://think-about.io/assets/docs/newsletter/2019/5/header-meetup.png" width="600" height="" alt="Illustration of monster giving a talk" border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto;" class="g-img">
+                    </a>
+                </td>
+            </tr>
+            <!-- Meet Up  : END -->
+
+            <!-- Meet Up  : BEGIN -->
+            <tr>
+                <td style="background-color: #ffffff; padding: 20px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding: 20px; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                <h1 style="margin: 0 0 30px; font-size: 25px; line-height: 30px; color: #333333; font-weight: bold;">Join our next Think About! Tech Meet Up in March</h1>
+
+                                <p>To further build our community around Cologne we are establishing the Think About! Stammtisch which will happen every other month. Join us for great and healthy food with drinks, interesting talks and wonderful attendees.</p>
+
+                                <p>Our first iteration on the 7th of March will have two talks:</p>
+                            </td>
+                        </tr>
+                        <tr>
+
+            <!-- Talks Renato & Sebastian: BEGIN -->
+            <tr>
+                <td valign="top" style="padding: 10px; background-color: #ffffff; padding-left: 20px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <!-- Column : BEGIN -->
+                            <td class="stack-column-center" valign="top" style="vertical-align: top;">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 10px; text-align: center">
+                                            <a href="https://www.meetup.com/Think-About-about-Tech-Design-and-their-impact-on-Society/events/bhhvrqyzfbkb/">
+                                               <img src="https://think-about.io/assets/docs/newsletter/2019/5/renato_losio.png" width="260" height="270" alt="Picture of Renato Losio" border="0" class="fluid" style="height: auto; background: #dddddd; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
+                                            <h2 style="margin: 0 0 10px 0; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 22px; color: #555555; font-weight: bold;"><b>Hey, where is my country? Software development and territorial disputes</b></h2>
+                                            <p style="margin: 0;">Renato Losio<p>
+                                                <a href="https://www.meetup.com/Think-About-about-Tech-Design-and-their-impact-on-Society/events/bhhvrqyzfbkb/" 
+                                                style="color: #eb18ff; text-decoration: underline;">Read more</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- Column : END -->
+                            <!-- Column : BEGIN -->
+                            <td class="stack-column-center" valign="top" style="vertical-align: top;">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="padding: 10px; text-align: center">
+                                        <a href="https://www.meetup.com/Think-About-about-Tech-Design-and-their-impact-on-Society/events/bhhvrqyzfbkb/">
+                                            <img src="https://think-about.io/assets/docs/newsletter/2019/5/sebastian_golasch_big.png" width="260" height="270" alt="Picture of Sebastian Golasch" border="0" class="fluid" style="height: auto; background: #dddddd; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; color: #555555;
+                                            ">
+                                        </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding: 0 10px 10px; text-align: left;" class="center-on-narrow">
+                                            <h2 style="margin: 0 0 10px 0; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 22px; color: #555555; font-weight: bold;"><b>The Universal Serial Web</b></h2>
+                                            <p style="margin: 0;">Sebastian Golasch</p>
+                                            <p>
+                                                <a href="https://www.meetup.com/Think-About-about-Tech-Design-and-their-impact-on-Society/events/bhhvrqyzfbkb/" style="color: #eb18ff; text-decoration: underline;">Read more</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- Column : END -->
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- Talks Renato & Sebastian : END -->
+
+                        <tr>
+                            <td>
+                                <!-- Button : BEGIN -->
+                                <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
+                                    <tr>
+                                        <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
+                                            <a class="button-a button-a-primary" href="https://www.meetup.com/Think-About-about-Tech-Design-and-their-impact-on-Society/events/bhhvrqyzfbkb/" style="background: #6b3cff; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Join the MeetUp</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- Button : END -->
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            <!-- Meet Up  : END -->
+
+            <!-- Separation between sections -->
+            <tr><td style="font-size: 8px;">&nbsp;</td></tr>
+
+            <!-- Late Bird : BEGIN -->
+            <tr>
+                <td style="background-color: #ffffff;">
+                    <a href="https://think-about.io/en/">
+                        <img src="https://think-about.io/assets/docs/newsletter/2019/5/late-bird.png" width="600" height="" alt="Illustration for late bird blog article" border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto;" class="g-img">
+                    </a>
+                </td>
+            </tr>
+            <!-- Hero Image, Flush : END -->
+
+            <!-- Welcome Text : BEGIN -->
+            <tr>
+                <td style="background-color: #ffffff; padding: 20px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding: 20px; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                <h1 style="margin: 0 0 30px; font-size: 25px; line-height: 30px; color: #333333; font-weight: bold;">On being late for Late Bird</h1>
+
+                                <p>Beginning of January we published our first blog post about finding the right ticket price. Now, after the end of early bird sales, we learned some new things.</p>
+                                <p>This blog post explains what those things are and to which changes in our future ticket sales those learnings led.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Button : BEGIN -->
+                                <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
+                                    <tr>
+                                        <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
+                                            <a class="button-a button-a-primary" href="https://think-about.io/blog/late-bird.html" style="background: #6b3cff; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Read more</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- Button : END -->
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            <!-- Late Bird : END -->
+
+            <!-- Separation between sections -->
+            <tr><td style="font-size: 8px;">&nbsp;</td></tr>
+
+            <!-- Upcoming : BEGIN -->
+            <tr>
+                <td style="background-color: #ffffff; padding: 20px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding: 20px; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                <h1 style="margin: 0 0 30px; font-size: 25px; line-height: 30px; color: #333333; font-weight: bold;">Upcoming happenings in March</h1>
+
+                                <p><b>March 8: International Women's Day.</b> This year's theme is #BalanceforBetter. If you want to plan something for this day <a href="https://www.internationalwomensday.com/Theme" style="color: #eb18ff; text-decoration: underline;">here is the link</a> for the offical campaign.</p>
+
+                                <p><b>March 16: #MarchAgainstRacism.</b> Join your local community in the fight against racism and find the planned protests <a href="https://www.aufstehen-gegen-rassismus.de/marchagainstracism2019-termine/" style="color: #eb18ff; text-decoration: underline;">here</a>.</p>
+
+                                <p><b>March 23: Protests Against Article 13.</b> While there are <a href="https://netzpolitik.org/2019/immer-mehr-demonstrationen-gegen-uploadfilter-schon-vor-dem-grossen-aktionstag/" style="color: #eb18ff; text-decoration: underline;">several protests</a> planned to stop article 13 you can also take action <a href="https://saveyourinternet.eu/" style="color: #eb18ff; text-decoration: underline;">here</a>.</p>
+
+                                <p><b>March 23-25: Hackdays in Moers.</b> Join the free hackdays and <a href="https://www.codeforniederrhein.de/hackday-2019/" style="color: #eb18ff; text-decoration: underline;">register here</a>.</p>
+                            </td>
+                        </tr>
+                </tr>
+            </table>
+
+            <!-- Separation between sections -->
+            <tr><td style="font-size: 8px;">&nbsp;</td></tr>
+
+            <!-- Goodbye Text : BEGIN -->
+            <tr>
+                <td style="background-color: #ffffff; padding: 20px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding: 20px; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                <h1 style="margin: 0 0 30px; font-size: 25px; line-height: 30px; color: #333333; font-weight: bold;">See you later, alligator!</h1>
+
+                                <p>We hope that you look forward to the next newsletter as much as we do. If you don't want to miss an update in the meantime, why don't you join us on <a href="https://twitter.com/thinkaboutconf" style="color: #eb18ff; text-decoration: underline;">Twitter</a>? #thinkabout19</p>
+
+                                <p>Chrissi, Andreas and Jakob</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Button : BEGIN -->
+                                <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
+                                    <tr>
+                                        <td class="button-td button-td-primary" style="border-radius: 4px; background: #222222;">
+                                            <a class="button-a button-a-primary" href="https://think-about.io/en/tickets.html" style="background: #6b3cff; font-family: 'Montserrat', sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #ffffff; display: block; border-radius: 4px;">Get your ticket today</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- Button : END -->
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <!-- Column : BEGIN -->
+                            <td class="stack-column-center" valign="top" style="padding: 40px 0; vertical-align: top; text-align: center">
+                                <a href="https://twitter.com/thinkaboutconf">
+                                    <img src="https://think-about.io/assets/docs/newsletter/2019/5/twitter.png"/>
+                                </a>
+                                <a href="https://github.com/hrx-events/think-about">
+                                    <img src="https://think-about.io/assets/docs/newsletter/2019/5/github.png"/>
+                                </a>
+                                <a href="https://www.meetup.com/de-DE/Think-About-about-Tech-Design-and-their-impact-on-Society/">
+                                    <img src="https://think-about.io/assets/docs/newsletter/2019/5/meetup.png"/>
+                                </a>
+                                <a href="https://www.xing.com/events/think-about-konferenz-tech-design-society-2028212">
+                                    <img src="https://think-about.io/assets/docs/newsletter/2019/5/xing.png"/>
+                                </a>
+                                <a href="mailto:kontakt@think-about.io">
+                                    <img src="https://think-about.io/assets/docs/newsletter/2019/5/mail.png"/>
+                                </a>
+                            </td>
+                            <!-- Column : END -->
+                        </tr>
+                    </table>
+
+
+                </td>
+            </tr>
+            <!-- Goodbye Text : END -->
+
+            <!-- Separation between sections -->
+            <tr><td style="font-size: 8px;">&nbsp;</td></tr>
+
+	    </table>
+	    <!-- Email Body : END -->
+
+	    <!-- Email Footer : BEGIN -->
+        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: 0 auto;" class="email-container">
+	        <tr>
+	            <td style="padding: 20px; font-family: 'Montserrat', sans-serif; font-size: 12px; line-height: 15px; text-align: center; color: #888888;">
+	                <a href="[LINK_UNSUBSCRIBE]" style="color: #888888; text-decoration: underline;">unsubscribe</a>
+                    <br>
+                        <br>HRX Veranstaltungen GmbH<br>
+                            <span >Kaiserwerther Straße 8, 50739 Köln // Ust-ID-Nr.: DE319672148 // Steuer-Nr.: 271/5745/1648 // Handelsregisternummer: HRB 94561 // Registergericht: Amtsgericht Köln // Geschäftsführer/-innen: Christina Holderbaum, Andreas Rosing. Jakob Holderbaum<br>
+                            </span>
+                        <br> 
+                            <a href="https://think-about.io/en/privacy.html" style="color: #888888; text-decoration: underline;">Privacy Policy</a>
+                        <br>        
+                    <br><br>
+	            </td>
+	        </tr>
+	    </table>
+	    <!-- Email Footer : END -->
+
+    <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+    </center>
+</body>
+</html>
