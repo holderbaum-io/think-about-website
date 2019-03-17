@@ -32,8 +32,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T16:15:00.000+02:00",
-        "end_time": "2019-05-23T17:00:00.000+02:00",
+        "start_time": "2019-05-23T15:15:00.000+02:00",
+        "end_time": "2019-05-23T16:00:00.000+02:00",
         "room": {
           "name": "Hall 1",
           "id": 1
@@ -65,74 +65,11 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T10:45:00.000+02:00",
-        "end_time": "2019-05-23T11:30:00.000+02:00",
-        "room": {
-          "name": "Hall 1",
-          "id": 1
-        }
-      },
-      {
-        "id": 9,
-        "guid": "42af5f21-25c0-4c82-ad42-e852acc7bc13",
-        "title": "Breakfast [Day 1]",
-        "subtitle": "",
-        "description": "",
-        "logo": null,
-        "type": "performance",
-        "do_not_record": false,
-        "track": null,
-        "abstract": "",
-        "speakers": [
-
-        ],
-        "start_time": "2019-05-23T08:30:00.000+02:00",
-        "end_time": "2019-05-23T09:00:00.000+02:00",
-        "room": {
-          "name": "Hall 1",
-          "id": 1
-        }
-      },
-      {
-        "id": 25,
-        "guid": "917ed13f-af55-4d77-9804-26f85c531b00",
-        "title": "Breakfast [Day 2]",
-        "subtitle": "",
-        "description": "",
-        "logo": null,
-        "type": "performance",
-        "do_not_record": false,
-        "track": null,
-        "abstract": "",
-        "speakers": [
-
-        ],
-        "start_time": "2019-05-24T08:30:00.000+02:00",
-        "end_time": "2019-05-24T09:00:00.000+02:00",
+        "start_time": "2019-05-23T14:15:00.000+02:00",
+        "end_time": "2019-05-23T15:00:00.000+02:00",
         "room": {
           "name": "Hall 2",
           "id": 2
-        }
-      },
-      {
-        "id": 24,
-        "guid": "d4b94885-5d36-4966-89fb-94389ddaf114",
-        "title": "Breakfast [Day 2]",
-        "subtitle": "",
-        "description": "",
-        "logo": null,
-        "type": "performance",
-        "do_not_record": false,
-        "track": null,
-        "abstract": "",
-        "speakers": [
-
-        ],
-        "start_time": "2019-05-24T08:30:00.000+02:00",
-        "end_time": "2019-05-24T09:00:00.000+02:00",
-        "room": {
-          "name": "Hall 1",
-          "id": 1
         }
       },
       {
@@ -165,11 +102,11 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T09:30:00.000+02:00",
-        "end_time": "2019-05-23T10:15:00.000+02:00",
+        "start_time": "2019-05-24T12:15:00.000+02:00",
+        "end_time": "2019-05-24T13:00:00.000+02:00",
         "room": {
-          "name": "Hall 2",
-          "id": 2
+          "name": "Hall 1",
+          "id": 1
         }
       },
       {
@@ -206,74 +143,74 @@
             ]
           }
         ],
-        "start_time": "2019-05-24T14:45:00.000+02:00",
-        "end_time": "2019-05-24T15:30:00.000+02:00",
+        "start_time": "2019-05-24T15:15:00.000+02:00",
+        "end_time": "2019-05-24T16:00:00.000+02:00",
         "room": {
           "name": "Hall 1",
           "id": 1
         }
       },
       {
-        "id": 11,
-        "guid": "4c94e89f-3e8b-41fc-a8eb-50db0ce65d88",
-        "title": "Coffee Break [Day 1]",
+        "id": 44,
+        "guid": "2c04d90d-a5b2-4c67-b31c-042914726889",
+        "title": "Closing Keynote",
         "subtitle": "",
         "description": "",
         "logo": null,
-        "type": "performance",
+        "type": "lecture",
         "do_not_record": false,
-        "track": null,
+        "track": "Keynote",
         "abstract": "",
         "speakers": [
 
         ],
-        "start_time": "2019-05-23T15:30:00.000+02:00",
-        "end_time": "2019-05-23T16:00:00.000+02:00",
+        "start_time": "2019-05-24T17:15:00.000+02:00",
+        "end_time": "2019-05-24T18:00:00.000+02:00",
         "room": {
           "name": "Hall 1",
           "id": 1
+        }
+      },
+      {
+        "id": 16,
+        "guid": "dbe27125-e61d-4892-b919-cb7877337aab",
+        "title": "Coffee Break",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "",
+        "do_not_record": false,
+        "track": "Orga",
+        "abstract": "",
+        "speakers": [
+
+        ],
+        "start_time": "2019-05-23T10:30:00.000+02:00",
+        "end_time": "2019-05-23T11:00:00.000+02:00",
+        "room": {
+          "name": "Orga",
+          "id": 3
         }
       },
       {
         "id": 28,
         "guid": "073fd077-300e-4959-b1a6-fdba603affdf",
-        "title": "Coffee Break [Day 2]",
+        "title": "Coffee Break",
         "subtitle": "",
         "description": "",
         "logo": null,
-        "type": "performance",
+        "type": "",
         "do_not_record": false,
-        "track": null,
+        "track": "Orga",
         "abstract": "",
         "speakers": [
 
         ],
-        "start_time": "2019-05-24T15:30:00.000+02:00",
-        "end_time": "2019-05-24T16:00:00.000+02:00",
+        "start_time": "2019-05-24T10:30:00.000+02:00",
+        "end_time": "2019-05-24T11:00:00.000+02:00",
         "room": {
-          "name": "Hall 1",
-          "id": 1
-        }
-      },
-      {
-        "id": 29,
-        "guid": "e41d01c1-2fb9-4b21-9e20-19d7bdb6ce0b",
-        "title": "Coffee Break [Day 2]",
-        "subtitle": "",
-        "description": "",
-        "logo": null,
-        "type": "performance",
-        "do_not_record": false,
-        "track": null,
-        "abstract": "",
-        "speakers": [
-
-        ],
-        "start_time": "2019-05-24T15:30:00.000+02:00",
-        "end_time": "2019-05-24T16:00:00.000+02:00",
-        "room": {
-          "name": "Hall 2",
-          "id": 2
+          "name": "Orga",
+          "id": 3
         }
       },
       {
@@ -310,8 +247,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T15:45:00.000+02:00",
-        "end_time": "2019-05-23T16:30:00.000+02:00",
+        "start_time": "2019-05-23T15:15:00.000+02:00",
+        "end_time": "2019-05-23T16:00:00.000+02:00",
         "room": {
           "name": "Hall 2",
           "id": 2
@@ -351,11 +288,11 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T13:30:00.000+02:00",
-        "end_time": "2019-05-23T14:15:00.000+02:00",
+        "start_time": "2019-05-23T12:15:00.000+02:00",
+        "end_time": "2019-05-23T13:00:00.000+02:00",
         "room": {
-          "name": "Hall 2",
-          "id": 2
+          "name": "Hall 1",
+          "id": 1
         }
       },
       {
@@ -388,8 +325,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T16:45:00.000+02:00",
-        "end_time": "2019-05-23T17:30:00.000+02:00",
+        "start_time": "2019-05-23T16:15:00.000+02:00",
+        "end_time": "2019-05-23T17:00:00.000+02:00",
         "room": {
           "name": "Hall 2",
           "id": 2
@@ -425,11 +362,11 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T11:00:00.000+02:00",
-        "end_time": "2019-05-23T11:45:00.000+02:00",
+        "start_time": "2019-05-23T11:15:00.000+02:00",
+        "end_time": "2019-05-23T12:00:00.000+02:00",
         "room": {
-          "name": "Hall 2",
-          "id": 2
+          "name": "Hall 1",
+          "id": 1
         }
       },
       {
@@ -462,11 +399,11 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T11:45:00.000+02:00",
-        "end_time": "2019-05-23T12:30:00.000+02:00",
+        "start_time": "2019-05-23T12:15:00.000+02:00",
+        "end_time": "2019-05-23T13:00:00.000+02:00",
         "room": {
-          "name": "Hall 1",
-          "id": 1
+          "name": "Hall 2",
+          "id": 2
         }
       },
       {
@@ -499,8 +436,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-24T10:30:00.000+02:00",
-        "end_time": "2019-05-24T11:15:00.000+02:00",
+        "start_time": "2019-05-24T14:15:00.000+02:00",
+        "end_time": "2019-05-24T15:00:00.000+02:00",
         "room": {
           "name": "Hall 2",
           "id": 2
@@ -536,8 +473,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-24T11:30:00.000+02:00",
-        "end_time": "2019-05-24T12:15:00.000+02:00",
+        "start_time": "2019-05-24T16:15:00.000+02:00",
+        "end_time": "2019-05-24T17:00:00.000+02:00",
         "room": {
           "name": "Hall 1",
           "id": 1
@@ -577,53 +514,53 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T13:45:00.000+02:00",
-        "end_time": "2019-05-23T14:30:00.000+02:00",
+        "start_time": "2019-05-23T16:15:00.000+02:00",
+        "end_time": "2019-05-23T17:00:00.000+02:00",
         "room": {
           "name": "Hall 1",
           "id": 1
         }
       },
       {
-        "id": 26,
-        "guid": "048a4b89-4094-4f67-bdc1-7c299b2f7829",
-        "title": "Lunch [Day 2]",
+        "id": 10,
+        "guid": "9131836b-5430-45e3-9923-52b0efc8c414",
+        "title": "Lunch",
         "subtitle": "",
         "description": "",
         "logo": null,
-        "type": "performance",
+        "type": "",
         "do_not_record": false,
-        "track": null,
+        "track": "Orga",
         "abstract": "",
         "speakers": [
 
         ],
-        "start_time": "2019-05-24T12:45:00.000+02:00",
-        "end_time": "2019-05-24T13:45:00.000+02:00",
+        "start_time": "2019-05-23T13:00:00.000+02:00",
+        "end_time": "2019-05-23T14:00:00.000+02:00",
         "room": {
-          "name": "Hall 1",
-          "id": 1
+          "name": "Orga",
+          "id": 3
         }
       },
       {
         "id": 27,
         "guid": "78a91fcc-62cd-4f2d-8d13-453ab50be980",
-        "title": "Lunch [Day 2]",
+        "title": "Lunch",
         "subtitle": "",
         "description": "",
         "logo": null,
-        "type": "performance",
+        "type": "",
         "do_not_record": false,
-        "track": null,
+        "track": "Orga",
         "abstract": "",
         "speakers": [
 
         ],
-        "start_time": "2019-05-24T12:30:00.000+02:00",
-        "end_time": "2019-05-24T13:30:00.000+02:00",
+        "start_time": "2019-05-24T13:00:00.000+02:00",
+        "end_time": "2019-05-24T14:00:00.000+02:00",
         "room": {
-          "name": "Hall 2",
-          "id": 2
+          "name": "Orga",
+          "id": 3
         }
       },
       {
@@ -656,8 +593,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T11:30:00.000+02:00",
-        "end_time": "2019-05-23T12:15:00.000+02:00",
+        "start_time": "2019-05-23T14:15:00.000+02:00",
+        "end_time": "2019-05-23T15:00:00.000+02:00",
         "room": {
           "name": "Hall 1",
           "id": 1
@@ -697,8 +634,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T10:15:00.000+02:00",
-        "end_time": "2019-05-23T11:00:00.000+02:00",
+        "start_time": "2019-05-23T11:15:00.000+02:00",
+        "end_time": "2019-05-23T12:00:00.000+02:00",
         "room": {
           "name": "Hall 2",
           "id": 2
@@ -751,8 +688,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-24T09:15:00.000+02:00",
-        "end_time": "2019-05-24T10:15:00.000+02:00",
+        "start_time": "2019-05-24T09:30:00.000+02:00",
+        "end_time": "2019-05-24T10:30:00.000+02:00",
         "room": {
           "name": "Hall 1",
           "id": 1
@@ -788,8 +725,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T18:30:00.000+02:00",
-        "end_time": "2019-05-23T19:15:00.000+02:00",
+        "start_time": "2019-05-23T17:15:00.000+02:00",
+        "end_time": "2019-05-23T18:00:00.000+02:00",
         "room": {
           "name": "Hall 1",
           "id": 1
@@ -825,8 +762,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-24T10:30:00.000+02:00",
-        "end_time": "2019-05-24T11:15:00.000+02:00",
+        "start_time": "2019-05-24T11:15:00.000+02:00",
+        "end_time": "2019-05-24T12:00:00.000+02:00",
         "room": {
           "name": "Hall 1",
           "id": 1
@@ -862,8 +799,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-24T16:00:00.000+02:00",
-        "end_time": "2019-05-24T16:45:00.000+02:00",
+        "start_time": "2019-05-24T15:15:00.000+02:00",
+        "end_time": "2019-05-24T16:00:00.000+02:00",
         "room": {
           "name": "Hall 2",
           "id": 2
@@ -940,8 +877,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-24T13:45:00.000+02:00",
-        "end_time": "2019-05-24T14:30:00.000+02:00",
+        "start_time": "2019-05-24T14:15:00.000+02:00",
+        "end_time": "2019-05-24T15:00:00.000+02:00",
         "room": {
           "name": "Hall 1",
           "id": 1
@@ -977,32 +914,11 @@
             ]
           }
         ],
-        "start_time": "2019-05-23T14:45:00.000+02:00",
-        "end_time": "2019-05-23T15:30:00.000+02:00",
+        "start_time": "2019-05-24T12:15:00.000+02:00",
+        "end_time": "2019-05-24T13:00:00.000+02:00",
         "room": {
-          "name": "Hall 1",
-          "id": 1
-        }
-      },
-      {
-        "id": 32,
-        "guid": "33b57ece-43d0-4635-bb93-8963ad5626e8",
-        "title": "Welcome",
-        "subtitle": "",
-        "description": "",
-        "logo": null,
-        "type": "performance",
-        "do_not_record": false,
-        "track": null,
-        "abstract": "",
-        "speakers": [
-
-        ],
-        "start_time": "2019-05-23T09:15:00.000+02:00",
-        "end_time": "2019-05-23T09:30:00.000+02:00",
-        "room": {
-          "name": "Hall 1",
-          "id": 1
+          "name": "Hall 2",
+          "id": 2
         }
       },
       {
@@ -1039,11 +955,11 @@
             ]
           }
         ],
-        "start_time": "2019-05-24T11:15:00.000+02:00",
-        "end_time": "2019-05-24T12:00:00.000+02:00",
+        "start_time": "2019-05-24T16:15:00.000+02:00",
+        "end_time": "2019-05-24T17:00:00.000+02:00",
         "room": {
-          "name": "Hall 1",
-          "id": 1
+          "name": "Hall 2",
+          "id": 2
         }
       },
       {
@@ -1076,8 +992,8 @@
             ]
           }
         ],
-        "start_time": "2019-05-24T11:30:00.000+02:00",
-        "end_time": "2019-05-24T12:15:00.000+02:00",
+        "start_time": "2019-05-24T11:15:00.000+02:00",
+        "end_time": "2019-05-24T12:00:00.000+02:00",
         "room": {
           "name": "Hall 2",
           "id": 2
