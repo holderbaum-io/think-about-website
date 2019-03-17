@@ -341,7 +341,7 @@ body > nav[desktop]:after {
 /* ================================ */
 /* Footer */
 
-footer {
+body > footer {
   text-align: center;
   color: white;
   padding-top: 1rem;
@@ -350,43 +350,43 @@ footer {
   position: relative;
 }
 
-footer a {
+body > footer a {
   color: white;
   text-decoration: none;
   font-size: 0.8rem;
 }
 
-footer nav {
+body > footer nav {
   background-color: #470076;
   color: white;
 }
 
-footer nav * {
+body > footer nav * {
   color: white;
 }
 
-footer nav > a:first-child {
+body > footer nav > a:first-child {
   display: none;
   position: absolute;
   right: 1rem;
   top: 1rem;
 }
 
-footer nav > a:first-child img {
+body > footer nav > a:first-child img {
   width: 1.2rem;
 }
 
-footer nav img {
+body > footer nav img {
   width: 110px;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-footer nav ul {
+body > footer nav ul {
   list-style: none;
 }
 
-footer nav > div a {
+body > footer nav > div a {
   box-sizing: border-box;
   margin: 0;
   padding-top: 1rem;
@@ -394,7 +394,7 @@ footer nav > div a {
   padding-right: 0.5rem;
 }
 
-footer nav > div a img {
+body > footer nav > div a img {
   width: 1.2rem;
   height: 1.2rem;
   margin: 0;
@@ -685,6 +685,265 @@ section.partners section figure img {
 }
 
 
+/* ================================ */
+/* Schedule */
+
+section.schedule * {
+  text-align: center;
+}
+
+section.schedule div.slot,
+section.schedule div.header,
+section.schedule div.orga {
+  margin-bottom: 2rem;
+}
+
+section.schedule div.slot,
+section.schedule div.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section.schedule div.slot > span {
+  display: none;
+}
+
+section.schedule div.slot > section,
+section.schedule div.header > span {
+  width: 470px;
+}
+
+section.schedule div.slot > section + section {
+  margin: 0;
+  margin-left: 20px;
+}
+
+section.schedule div.orga {
+  position: relative;
+  border-radius: 10px;
+  background-color: #ededed;
+  padding: 1.5rem;
+}
+
+section.schedule div.orga span {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+section.schedule div.orga span:first-child {
+  position: absolute;
+  left: 1.5rem;
+  color: #9b9b9b;
+}
+
+section.schedule div.orga span:last-child {
+  width: 100%;
+}
+
+@media (max-width: 1039px) {
+section.schedule div.header {
+  display: none;
+}
+section.schedule div.slot,
+section.schedule div.orga {
+  display: block;
+  margin-bottom: 3rem;
+}
+section.schedule div.slot > span {
+  display: block;
+  padding: 1rem;
+  color: #9b9b9b;
+}
+section.schedule div.slot > section {
+  margin-left: auto;
+  margin-right: auto;
+}
+section.schedule div.slot > section + section {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.schedule div.orga {
+  max-width: 470px;
+}
+section.schedule div.orga span:first-child {
+  left: 0;
+  position: relative;
+  color: #9b9b9b;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+section.schedule section header span:first-child {
+  display: none;
+}
+}
+
+section.schedule div.header > * {
+  text-align: center;
+  text-transform: uppercase;
+  color: #9b9b9b;
+}
+
+section.schedule section {
+  text-align: left;
+  border-radius: 10px;
+  border: 1px solid #e9e9e9;
+  background-color: white;
+  vertical-align: top;
+  position: relative;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+
+section.schedule section * {
+  text-align: left;
+}
+
+section.schedule section[topic=keynote] {
+  background-image:
+    linear-gradient(
+      to bottom,
+      #00c29f,
+      #00c29f 3rem,
+      white 3rem,
+      white 100%
+    );
+}
+
+section.schedule section[topic=tech] {
+  background-image:
+    linear-gradient(
+      to bottom,
+      #eb18ff,
+      #eb18ff 7px,
+      white 7px,
+      white 100%
+    );
+}
+
+section.schedule section[topic=design] {
+  background-image:
+    linear-gradient(
+      to bottom,
+      #00a0df,
+      #00a0df 7px,
+      white 7px,
+      white 100%
+    );
+}
+
+section.schedule section[topic=society] {
+  background-image:
+    linear-gradient(
+      to bottom,
+      #6b3cff,
+      #6b3cff 7px,
+      white 7px,
+      white 100%
+    );
+}
+
+section.schedule section[topic=keynote] h4 {
+  margin-top: -0.4rem;
+  margin-bottom: 2.6rem;
+  color: white;
+}
+
+section.schedule section[topic=keynote] header span:last-child {
+  visibility:hidden;
+}
+
+section.schedule section article {
+  margin: 0;
+}
+
+section.schedule section header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.schedule section header span:not(last-child) {
+  font-size: 0.8rem;
+  color: #9b9b9b;
+}
+
+section.schedule section header span:last-child {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  border: 2px solid;
+  border-radius: 1rem;
+  padding: 0.2rem 1rem;
+  font-weight: 700;
+}
+
+section.schedule section[topic=tech] header span:last-child {
+  color: #eb18ff;
+  border-color: #eb18ff;
+}
+section.schedule section[topic=design] header span:last-child {
+  color: #00a0df;
+  border-color: #00a0df;
+}
+section.schedule section[topic=society] header span:last-child {
+  color: #6b3cff;
+  border-color: #6b3cff;
+}
+
+section.schedule section > a {
+  text-decoration: none;
+}
+
+section.schedule section article > p {
+  min-height: 6rem;
+  display: block;
+}
+
+section.schedule section p em {
+  font-style: normal;
+  color: #9b9b9b;
+}
+
+section.schedule section hr {
+  background-color: #9b9b9b;
+}
+
+section.schedule section footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.schedule section footer * {
+  margin: 0;
+  padding: 0;
+}
+
+section.schedule section footer h1 {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #4a4a4a;
+}
+
+section.schedule section footer p {
+  font-size: 0.8rem;
+  color: #9b9b9b;
+}
+
+section.schedule section footer figure {
+  width: 70px;
+  margin-left: 10px;
+  flex: none;
+}
+
+section.schedule section footer figure img {
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+}
+
 
 /* ================================ */
 /* Speaker */
@@ -889,14 +1148,14 @@ body > nav[desktop] {
 body > nav[mobile] {
   display: block;
 }
-footer {
+body > footer {
   min-height: 100vh;
   position: relative;
 }
-footer nav > a:first-child {
+body > footer nav > a:first-child {
   display: inline-block;
 }
-footer nav > a:last-of-type {
+body > footer nav > a:last-of-type {
   position: absolute;
   bottom: 40px;
   left: 25vw;
@@ -904,7 +1163,7 @@ footer nav > a:last-of-type {
   margin-left: 0;
   margin-bottom: 5rem;
 }
-footer nav > div:last-of-type {
+body > footer nav > div:last-of-type {
   position: absolute;
   bottom: 40px;
   left: 0;
@@ -912,7 +1171,7 @@ footer nav > div:last-of-type {
   margin-left: 0;
   margin-bottom: 1rem;
 }
-footer nav > div a img {
+body > footer nav > div a img {
   width: 2.2rem;
   height: 2.2rem;
 }

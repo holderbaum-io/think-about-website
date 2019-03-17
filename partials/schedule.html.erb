@@ -1,0 +1,40 @@
+<div>
+<h1>Our Schedule</h1>
+<% data('schedule').each do |day, events| %>
+<div>
+  <h2><%= day %></h2>
+  <div class="header"><span>Hall 1</span><span>Hall 2</span></div>
+  <% events.group_by { |e| e[:start_time] }.each do |_, parallel_events| %>
+      <% sorted_events = parallel_events.sort_by { |e| e[:stage] } %>
+      <% if sorted_events[0][:track] == 'Orga' %>
+      <div class="orga">
+        <span><%= sorted_events[0][:start_time] %> - <%= sorted_events[0][:end_time] %></span>
+        <span><%= sorted_events[0][:title] %></span>
+      </div>
+      <% else %>
+      <div class="slot">
+        <span><%= sorted_events[0][:start_time] %> - <%= sorted_events[0][:end_time] %></span>
+        <% sorted_events.each do |talk| %>
+        <section topic="<%= talk[:track].downcase %>">
+          <% if talk[:track].downcase == 'keynote' %><h4><%= talk[:track] %></h4><% end %>
+          <a href="/<%= lang %>/speakies/<%= talk[:person_slug] %>.html"><article>
+            <header>
+              <span><%= talk[:start_time] %> - <%= talk[:end_time] %></span>
+              <span><%= talk[:stage] %></span>
+              <span><%= talk[:track] %></span>
+            </header>
+            <p>"<%= talk[:title]%>" <em><%= talk[:lang] %></em></p>
+            <hr/>
+            <footer>
+              <div><h1><%= talk[:person] %></h1><p><%= talk[:company] %></p></div>
+              <figure><img src="/assets/images/speaker/<%= talk[:person_slug] %>.png" /></figure>
+            </footer>
+          </article></a>
+        </section>
+        <% end %>
+      </div>
+      <% end %>
+  <% end %>
+</div>
+<% end %>
+</div>
