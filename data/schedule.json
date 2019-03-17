@@ -5,6 +5,9 @@
       "person": "Linda Rising",
       "person_slug": "linda_rising",
       "company": "Independent Consultant",
+      "images": [
+        "/assets/images/speaker/linda_rising.png"
+      ],
       "lang": " (EN)",
       "title": "The Power of an Agile Mindset",
       "track": "Keynote",
@@ -23,6 +26,9 @@
       "person": "Tobias Struckmeier",
       "person_slug": "tobias_struckmeier",
       "company": "Adesso",
+      "images": [
+        "/assets/images/speaker/tobias_struckmeier.png"
+      ],
       "lang": " (EN)",
       "title": "GraphQL: Gotta Query 'Em All! - In one go!",
       "track": "Tech",
@@ -35,6 +41,9 @@
       "person": "Aly Blenkin",
       "person_slug": "aly_blenkin",
       "company": "Pivotal Act",
+      "images": [
+        "/assets/images/speaker/aly_blenkin.png"
+      ],
       "lang": " (EN)",
       "title": "Mapping the problem: Understanding the consequences of our design choices",
       "track": "Design",
@@ -47,6 +56,9 @@
       "person": "Rachel Willmer",
       "person_slug": "rachel_willmer",
       "company": "Independent Consultant",
+      "images": [
+        "/assets/images/speaker/rachel_willmer.png"
+      ],
       "lang": " (EN)",
       "title": "DevOps: Why the Startup CEO Should Care (and you should too)",
       "track": "Tech",
@@ -59,6 +71,9 @@
       "person": "Maren Heltsche",
       "person_slug": "maren_heltsche",
       "company": "Speakerinnen.org",
+      "images": [
+        "/assets/images/speaker/maren_heltsche.png"
+      ],
       "lang": " (DE)",
       "title": "Hack Society - Wie wir mit Code gesellschaftliche Probleme lösen können",
       "track": "Society",
@@ -77,6 +92,9 @@
       "person": "Christoph Hassler",
       "person_slug": "christoph_hassler",
       "company": "ThoughtWorks",
+      "images": [
+        "/assets/images/speaker/christoph_hassler.png"
+      ],
       "lang": " (EN)",
       "title": "Automation and the impact on the working class",
       "track": "Society",
@@ -89,6 +107,9 @@
       "person": "Christopher Grebs",
       "person_slug": "christopher_grebs",
       "company": "Mozilla",
+      "images": [
+        "/assets/images/speaker/christopher_grebs.png"
+      ],
       "lang": " (EN)",
       "title": "Maintain your ancient projects without getting lost",
       "track": "Tech",
@@ -101,6 +122,9 @@
       "person": "Anika Zeidler",
       "person_slug": "anika_zeidler",
       "company": "Capgemini",
+      "images": [
+        "/assets/images/speaker/anika_zeidler.png"
+      ],
       "lang": " (DE)",
       "title": "Algorithmic Bias – Diskriminierung durch Algorithmen erkennen und vermeiden",
       "track": "Tech",
@@ -113,6 +137,9 @@
       "person": "Eileen Wagner",
       "person_slug": "eileen_wagner",
       "company": "Simply Secure",
+      "images": [
+        "/assets/images/speaker/eileen_wagner.png"
+      ],
       "lang": " (EN)",
       "title": "Designing for Security",
       "track": "Design",
@@ -125,6 +152,9 @@
       "person": "Eriol Fox",
       "person_slug": "eriol_fox",
       "company": "Ushahidi",
+      "images": [
+        "/assets/images/speaker/eriol_fox.png"
+      ],
       "lang": " (EN)",
       "title": "Diverse representations in design and awkward conversations with colleagues",
       "track": "Design",
@@ -137,6 +167,9 @@
       "person": "Sebastian Golasch",
       "person_slug": "sebastian_golasch",
       "company": "Telekom",
+      "images": [
+        "/assets/images/speaker/sebastian_golasch.png"
+      ],
       "lang": " (EN)",
       "title": "Intranet of Things",
       "track": "Tech",
@@ -149,6 +182,9 @@
       "person": "Susanne Kaiser",
       "person_slug": "susanne_kaiser",
       "company": "Independent Consultant",
+      "images": [
+        "/assets/images/speaker/susanne_kaiser.png"
+      ],
       "lang": " (EN)",
       "title": "Preparing For a Future Microservices Journey",
       "track": "Keynote",
@@ -160,9 +196,13 @@
   "2019-05-24": [
     {
       "has_person": true,
-      "person": "Laura Kalbag",
-      "person_slug": "laura_kalbag",
+      "person": "Laura Kalbag & Aral Balkan",
+      "person_slug": "laura_kalbag_and_aral_balkan",
       "company": "Ind.ie",
+      "images": [
+        "/assets/images/speaker/laura_kalbag.png",
+        "/assets/images/speaker/aral_balkan.png"
+      ],
       "lang": " (EN)",
       "title": "Peerocracy",
       "track": "Keynote",
@@ -181,6 +221,9 @@
       "person": "Emma Arfelt",
       "person_slug": "emma_arfelt",
       "company": "IT University of Copenhagen",
+      "images": [
+        "/assets/images/speaker/emma_arfelt.png"
+      ],
       "lang": " (EN)",
       "title": "Privacy in Software: How to design and implement privacy by default",
       "track": "Tech",
@@ -193,6 +236,9 @@
       "person": "Wilhelm Rinke",
       "person_slug": "wilhelm_rinke",
       "company": "Berliner Ideenlabor",
+      "images": [
+        "/assets/images/speaker/wilhelm_rinke.png"
+      ],
       "lang": " (DE)",
       "title": "Zukunftsbilder und menschzentriertes Design",
       "track": "Design",
@@ -205,6 +251,9 @@
       "person": "Tom Vollerthun",
       "person_slug": "tom_vollerthun",
       "company": "OTTO",
+      "images": [
+        "/assets/images/speaker/tom_vollerthun.png"
+      ],
       "lang": " (DE)",
       "title": "CDCs für otto.de - Continuous Everything (jetzt mit Cloud™)",
       "track": "Tech",
@@ -217,6 +266,9 @@
       "person": "Muriel Böttger",
       "person_slug": "muriel_boettger",
       "company": "Share & Grow",
+      "images": [
+        "/assets/images/speaker/muriel_boettger.png"
+      ],
       "lang": " (DE)",
       "title": "think.about: Wie beeinflusst das Smartphone unsere Psyche und wie können wir lernen besser damit umzugehen?",
       "track": "Society",
@@ -235,6 +287,9 @@
       "person": "Jenz Mau",
       "person_slug": "jenz_mau",
       "company": "Maubeschau",
+      "images": [
+        "/assets/images/speaker/jenz_mau.png"
+      ],
       "lang": " (DE)",
       "title": "Highway to the Dangerzone - Wieso es notwendig ist die Comfortzone zu verlassen.",
       "track": "Society",
@@ -247,6 +302,9 @@
       "person": "Katharina Bähr",
       "person_slug": "katharina_baehr",
       "company": "Zühlke Engineering",
+      "images": [
+        "/assets/images/speaker/katharina_baehr.png"
+      ],
       "lang": " (DE)",
       "title": "The Power of Web Components",
       "track": "Tech",
@@ -259,6 +317,9 @@
       "person": "Ryn Daniels",
       "person_slug": "ryn_daniels",
       "company": "Travis CI",
+      "images": [
+        "/assets/images/speaker/ryn_daniels.png"
+      ],
       "lang": " (EN)",
       "title": "CI/CD: More than Just Code",
       "track": "Tech",
@@ -271,6 +332,9 @@
       "person": "Gerri Buchegger",
       "person_slug": "gerri_buchegger",
       "company": "Mühle Design",
+      "images": [
+        "/assets/images/speaker/gerri_buchegger.png"
+      ],
       "lang": " (DE)",
       "title": "Produkte gegen die eigene Moral - Über kognitive Dissonanz im Produktdesign",
       "track": "Design",
@@ -283,6 +347,9 @@
       "person": "Silvan Jongerius",
       "person_slug": "silvan_jongerius",
       "company": "TechGDPR",
+      "images": [
+        "/assets/images/speaker/silvan_jongerius.png"
+      ],
       "lang": " (EN)",
       "title": "Innovation under the GDPR",
       "track": "Tech",
@@ -295,6 +362,9 @@
       "person": "Dmytri Kleiner",
       "person_slug": "dmytri_kleiner",
       "company": "Telekommunisten",
+      "images": [
+        "/assets/images/speaker/dmytri_kleiner.png"
+      ],
       "lang": " (EN)",
       "title": "Wiring the Spark",
       "track": "Society",

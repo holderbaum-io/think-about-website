@@ -16,14 +16,32 @@ def slug(string)
   end
 end
 
+def printable_person_name(talk)
+  talk[:speakers].map { |s| s[:full_public_name] }.join(' & ')
+end
+
+def printable_person_slug(talk)
+  talk[:speakers].map { |s| slug(s[:full_public_name]) }.join('_and_')
+end
+
+def speaker_image_pathes(talk)
+  talk[:speakers].map do |s|
+    '/assets/images/speaker/' + slug(s[:full_public_name]) + '.png'
+  end
+end
+
+def speakers_company(talk)
+  link = talk[:speakers].first[:links].first
+  link ? link[:title].split(' @ ').last : 'TODO'
+end
+
 def process_speaker(talk)
-  speaker = talk[:speakers][0]
-  if speaker
-    link = speaker[:links].first
+  if !talk[:speakers].empty?
     { has_person: true,
-      person: speaker[:full_public_name],
-      person_slug: slug(speaker[:full_public_name]),
-      company: link ? link[:title].split(' @ ').last : 'TODO' }
+      person: printable_person_name(talk),
+      person_slug: printable_person_slug(talk),
+      company: speakers_company(talk),
+      images: speaker_image_pathes(talk) }
   else
     { has_person: false }
   end
@@ -76,4 +94,3 @@ end
 
 json = JSON.pretty_generate(events)
 File.write('data/schedule.json', json)
-exit 0
