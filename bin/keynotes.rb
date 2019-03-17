@@ -1,5 +1,6 @@
 require 'json'
 require 'date'
+require 'time'
 
 def slug(string)
   string.downcase.gsub!(/[ äöüß]/) do |match|
@@ -23,7 +24,10 @@ talks.each do |talk|
   talk[:track] ||= 'none'
 end
 
-selection = talks.select { |t| t[:track].casecmp('keynote').zero? }.sort_by { |t| DateTime.parse(t[:start_time]) }
+selection = talks
+            .select { |t| t[:track].casecmp('keynote').zero? }
+            .reject { |t| t[:speakers].empty? }
+            .sort_by { |t| Time.parse(t[:start_time]) }
 
 selection.each do |talk|
   lang = talk[:title].match(/(\(\w+\))/)
