@@ -742,43 +742,6 @@ section.schedule div.orga span:last-child {
   width: 100%;
 }
 
-@media (max-width: 1039px) {
-section.schedule div.header {
-  display: none;
-}
-section.schedule div.slot,
-section.schedule div.orga {
-  display: block;
-  margin-bottom: 3rem;
-}
-section.schedule div.slot > span {
-  display: block;
-  padding: 1rem;
-  color: #9b9b9b;
-}
-section.schedule div.slot > section {
-  margin-left: auto;
-  margin-right: auto;
-}
-section.schedule div.slot > section + section {
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-section.schedule div.orga {
-  max-width: 470px;
-}
-section.schedule div.orga span:first-child {
-  left: 0;
-  position: relative;
-  color: #9b9b9b;
-  width: 100%;
-  margin-bottom: 0.5rem;
-}
-section.schedule section header span:first-child {
-  display: none;
-}
-}
 
 section.schedule div.header > * {
   text-align: center;
@@ -948,6 +911,57 @@ section.schedule section footer figure img {
   display: block;
 }
 
+@media (max-width: 540px) {
+section.schedule div.slot > section {
+  width: 100%;
+}
+
+section.schedule div.slot > section + section {
+  margin: 0;
+  margin-left: 0;
+}
+}
+
+@media (max-width: 1039px) {
+section.schedule div.header {
+  display: none;
+}
+section.schedule div.slot,
+section.schedule div.orga {
+  display: block;
+  margin-bottom: 3rem;
+}
+section.schedule div.slot > span {
+  display: block;
+  padding: 1rem;
+  color: #9b9b9b;
+}
+section.schedule div.slot > section {
+  margin-left: auto;
+  margin-right: auto;
+}
+section.schedule div.slot > section + section {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.schedule div.orga {
+  max-width: 470px;
+}
+section.schedule div.orga span:first-child {
+  left: 0;
+  position: relative;
+  color: #9b9b9b;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+section.schedule section article > p {
+  min-height: 0px;
+}
+section.schedule section header span:first-child {
+  display: none;
+}
+}
 
 /* ================================ */
 /* Speaker */
