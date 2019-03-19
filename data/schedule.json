@@ -1,6 +1,18 @@
 {
   "2019-05-23": [
     {
+      "has_person": false,
+      "images": [
+
+      ],
+      "lang": "",
+      "title": "Intro",
+      "track": "Keynote",
+      "stage": "Hall 1",
+      "start_time": "09:15",
+      "end_time": "09:30"
+    },
+    {
       "has_person": true,
       "person": "Linda Rising",
       "person_slug": "linda_rising",
@@ -16,136 +28,10 @@
       "end_time": "10:30"
     },
     {
-      "title": "Coffee Break",
+      "title": "Breakfast",
       "track": "Orga",
       "start_time": "10:30",
-      "end_time": "11:00"
-    },
-    {
-      "has_person": true,
-      "person": "Tobias Struckmeier",
-      "person_slug": "tobias_struckmeier",
-      "company": "Adesso",
-      "images": [
-        "/assets/images/speaker/tobias_struckmeier.png"
-      ],
-      "lang": " (EN)",
-      "title": "GraphQL: Gotta Query 'Em All! - In one go!",
-      "track": "Tech",
-      "stage": "Hall 1",
-      "start_time": "11:15",
-      "end_time": "12:00"
-    },
-    {
-      "has_person": true,
-      "person": "Aly Blenkin",
-      "person_slug": "aly_blenkin",
-      "company": "Pivotal Act",
-      "images": [
-        "/assets/images/speaker/aly_blenkin.png"
-      ],
-      "lang": " (EN)",
-      "title": "Mapping the problem: Understanding the consequences of our design choices",
-      "track": "Design",
-      "stage": "Hall 2",
-      "start_time": "11:15",
-      "end_time": "12:00"
-    },
-    {
-      "has_person": true,
-      "person": "Rachel Willmer",
-      "person_slug": "rachel_willmer",
-      "company": "Independent Consultant",
-      "images": [
-        "/assets/images/speaker/rachel_willmer.png"
-      ],
-      "lang": " (EN)",
-      "title": "DevOps: Why the Startup CEO Should Care (and you should too)",
-      "track": "Tech",
-      "stage": "Hall 1",
-      "start_time": "12:15",
-      "end_time": "13:00"
-    },
-    {
-      "has_person": true,
-      "person": "Maren Heltsche",
-      "person_slug": "maren_heltsche",
-      "company": "Speakerinnen.org",
-      "images": [
-        "/assets/images/speaker/maren_heltsche.png"
-      ],
-      "lang": " (DE)",
-      "title": "Hack Society - Wie wir mit Code gesellschaftliche Probleme lösen können",
-      "track": "Society",
-      "stage": "Hall 2",
-      "start_time": "12:15",
-      "end_time": "13:00"
-    },
-    {
-      "title": "Lunch",
-      "track": "Orga",
-      "start_time": "13:00",
-      "end_time": "14:00"
-    },
-    {
-      "has_person": true,
-      "person": "Christoph Hassler",
-      "person_slug": "christoph_hassler",
-      "company": "ThoughtWorks",
-      "images": [
-        "/assets/images/speaker/christoph_hassler.png"
-      ],
-      "lang": " (EN)",
-      "title": "Automation and the impact on the working class",
-      "track": "Society",
-      "stage": "Hall 2",
-      "start_time": "14:15",
-      "end_time": "15:00"
-    },
-    {
-      "has_person": true,
-      "person": "Christopher Grebs",
-      "person_slug": "christopher_grebs",
-      "company": "Mozilla",
-      "images": [
-        "/assets/images/speaker/christopher_grebs.png"
-      ],
-      "lang": " (EN)",
-      "title": "Maintain your ancient projects without getting lost",
-      "track": "Tech",
-      "stage": "Hall 1",
-      "start_time": "14:15",
-      "end_time": "15:00"
-    },
-    {
-      "has_person": true,
-      "person": "Anika Zeidler",
-      "person_slug": "anika_zeidler",
-      "company": "Capgemini",
-      "images": [
-        "/assets/images/speaker/anika_zeidler.png"
-      ],
-      "lang": " (DE)",
-      "title": "Algorithmic Bias – Diskriminierung durch Algorithmen erkennen und vermeiden",
-      "track": "Tech",
-      "stage": "Hall 1",
-      "start_time": "15:15",
-      "end_time": "16:00"
-    },
-    {
-      "has_person": true,
-      "person": "Eileen Wagner",
-      "person_slug": "eileen_wagner",
-      "company": "Simply Secure",
-      "images": [
-        "/assets/images/speaker/eileen_wagner.png"
-      ],
-      "lang": " (EN)",
-      "title": "Designing for Security",
-      "track": "Design",
-      "stage": "Hall 2",
-      "start_time": "15:15",
-      "end_time": "16:00"
+      "end_time": "11:15"
     },
     {
       "has_person": true,
@@ -158,9 +44,24 @@
       "lang": " (EN)",
       "title": "Diverse representations in design and awkward conversations with colleagues",
       "track": "Design",
+      "stage": "Hall 1",
+      "start_time": "11:15",
+      "end_time": "12:00"
+    },
+    {
+      "has_person": true,
+      "person": "Silvan Jongerius",
+      "person_slug": "silvan_jongerius",
+      "company": "TechGDPR",
+      "images": [
+        "/assets/images/speaker/silvan_jongerius.png"
+      ],
+      "lang": " (EN)",
+      "title": "Innovation under the GDPR",
+      "track": "Tech",
       "stage": "Hall 2",
-      "start_time": "16:15",
-      "end_time": "17:00"
+      "start_time": "11:15",
+      "end_time": "12:00"
     },
     {
       "has_person": true,
@@ -174,6 +75,123 @@
       "title": "Intranet of Things",
       "track": "Tech",
       "stage": "Hall 1",
+      "start_time": "12:15",
+      "end_time": "13:00"
+    },
+    {
+      "has_person": true,
+      "person": "Muriel Böttger",
+      "person_slug": "muriel_boettger",
+      "company": "Share & Grow",
+      "images": [
+        "/assets/images/speaker/muriel_boettger.png"
+      ],
+      "lang": " (DE)",
+      "title": "think.about: Wie beeinflusst das Smartphone unsere Psyche und wie können wir lernen besser damit umzugehen?",
+      "track": "Society",
+      "stage": "Hall 2",
+      "start_time": "12:15",
+      "end_time": "13:00"
+    },
+    {
+      "title": "Lunch",
+      "track": "Orga",
+      "start_time": "13:00",
+      "end_time": "14:00"
+    },
+    {
+      "has_person": true,
+      "person": "Tom Vollerthun",
+      "person_slug": "tom_vollerthun",
+      "company": "OTTO",
+      "images": [
+        "/assets/images/speaker/tom_vollerthun.png"
+      ],
+      "lang": " (DE)",
+      "title": "CDCs für otto.de - Continuous Everything (jetzt mit Cloud™)",
+      "track": "Tech",
+      "stage": "Hall 1",
+      "start_time": "14:00",
+      "end_time": "14:45"
+    },
+    {
+      "has_person": true,
+      "person": "Aly Blenkin",
+      "person_slug": "aly_blenkin",
+      "company": "Pivotal Act",
+      "images": [
+        "/assets/images/speaker/aly_blenkin.png"
+      ],
+      "lang": " (EN)",
+      "title": "Mapping the problem: Understanding the consequences of our design choices",
+      "track": "Design",
+      "stage": "Hall 2",
+      "start_time": "14:00",
+      "end_time": "14:45"
+    },
+    {
+      "has_person": true,
+      "person": "Ryn Daniels",
+      "person_slug": "ryn_daniels",
+      "company": "Travis CI",
+      "images": [
+        "/assets/images/speaker/ryn_daniels.png"
+      ],
+      "lang": " (EN)",
+      "title": "CI/CD: More than Just Code",
+      "track": "Tech",
+      "stage": "Hall 1",
+      "start_time": "15:00",
+      "end_time": "15:45"
+    },
+    {
+      "has_person": true,
+      "person": "Wilhelm Rinke",
+      "person_slug": "wilhelm_rinke",
+      "company": "Berliner Ideenlabor",
+      "images": [
+        "/assets/images/speaker/wilhelm_rinke.png"
+      ],
+      "lang": " (DE)",
+      "title": "Zukunftsbilder und menschzentriertes Design",
+      "track": "Design",
+      "stage": "Hall 2",
+      "start_time": "15:00",
+      "end_time": "15:45"
+    },
+    {
+      "title": "Coffee Break",
+      "track": "Orga",
+      "start_time": "15:45",
+      "end_time": "16:15"
+    },
+    {
+      "has_person": true,
+      "person": "Rachel Willmer",
+      "person_slug": "rachel_willmer",
+      "company": "Independent Consultant",
+      "images": [
+        "/assets/images/speaker/rachel_willmer.png"
+      ],
+      "lang": " (EN)",
+      "title": "DevOps: Why the Startup CEO Should Care (and you should too)",
+      "track": "Tech",
+      "stage": "Hall 1",
+      "start_time": "16:15",
+      "end_time": "17:00"
+    },
+    {
+      "has_person": true,
+      "person": "Jenz Mau",
+      "person_slug": "jenz_mau",
+      "company": "Maubeschau",
+      "images": [
+        "/assets/images/speaker/jenz_mau.png"
+      ],
+      "lang": " (DE)",
+      "title": "Highway to the Dangerzone - Wieso es notwendig ist die Comfortzone zu verlassen.",
+      "track": "Society",
+      "stage": "Hall 2",
       "start_time": "16:15",
       "end_time": "17:00"
     },
@@ -211,10 +229,55 @@
       "end_time": "10:30"
     },
     {
-      "title": "Coffee Break",
+      "title": "Breakfast",
       "track": "Orga",
       "start_time": "10:30",
-      "end_time": "11:00"
+      "end_time": "11:15"
+    },
+    {
+      "has_person": true,
+      "person": "Anika Zeidler",
+      "person_slug": "anika_zeidler",
+      "company": "Capgemini",
+      "images": [
+        "/assets/images/speaker/anika_zeidler.png"
+      ],
+      "lang": " (DE)",
+      "title": "Algorithmic Bias – Diskriminierung durch Algorithmen erkennen und vermeiden",
+      "track": "Tech",
+      "stage": "Hall 2",
+      "start_time": "11:15",
+      "end_time": "12:00"
+    },
+    {
+      "has_person": true,
+      "person": "Dmytri Kleiner",
+      "person_slug": "dmytri_kleiner",
+      "company": "Telekommunisten",
+      "images": [
+        "/assets/images/speaker/dmytri_kleiner.png"
+      ],
+      "lang": " (EN)",
+      "title": "Wiring the Spark",
+      "track": "Society",
+      "stage": "Hall 1",
+      "start_time": "11:15",
+      "end_time": "12:00"
+    },
+    {
+      "has_person": true,
+      "person": "Christoph Hassler",
+      "person_slug": "christoph_hassler",
+      "company": "ThoughtWorks",
+      "images": [
+        "/assets/images/speaker/christoph_hassler.png"
+      ],
+      "lang": " (EN)",
+      "title": "Automation and the impact on the working class",
+      "track": "Society",
+      "stage": "Hall 1",
+      "start_time": "12:15",
+      "end_time": "13:00"
     },
     {
       "has_person": true,
@@ -227,51 +290,6 @@
       "lang": " (EN)",
       "title": "Privacy in Software: How to design and implement privacy by default",
       "track": "Tech",
-      "stage": "Hall 1",
-      "start_time": "11:15",
-      "end_time": "12:00"
-    },
-    {
-      "has_person": true,
-      "person": "Wilhelm Rinke",
-      "person_slug": "wilhelm_rinke",
-      "company": "Berliner Ideenlabor",
-      "images": [
-        "/assets/images/speaker/wilhelm_rinke.png"
-      ],
-      "lang": " (DE)",
-      "title": "Zukunftsbilder und menschzentriertes Design",
-      "track": "Design",
-      "stage": "Hall 2",
-      "start_time": "11:15",
-      "end_time": "12:00"
-    },
-    {
-      "has_person": true,
-      "person": "Tom Vollerthun",
-      "person_slug": "tom_vollerthun",
-      "company": "OTTO",
-      "images": [
-        "/assets/images/speaker/tom_vollerthun.png"
-      ],
-      "lang": " (DE)",
-      "title": "CDCs für otto.de - Continuous Everything (jetzt mit Cloud™)",
-      "track": "Tech",
-      "stage": "Hall 1",
-      "start_time": "12:15",
-      "end_time": "13:00"
-    },
-    {
-      "has_person": true,
-      "person": "Muriel Böttger",
-      "person_slug": "muriel_boettger",
-      "company": "Share & Grow",
-      "images": [
-        "/assets/images/speaker/muriel_boettger.png"
-      ],
-      "lang": " (DE)",
-      "title": "think.about: Wie beeinflusst das Smartphone unsere Psyche und wie können wir lernen besser damit umzugehen?",
-      "track": "Society",
       "stage": "Hall 2",
       "start_time": "12:15",
       "end_time": "13:00"
@@ -284,18 +302,18 @@
     },
     {
       "has_person": true,
-      "person": "Jenz Mau",
-      "person_slug": "jenz_mau",
-      "company": "Maubeschau",
+      "person": "Eileen Wagner",
+      "person_slug": "eileen_wagner",
+      "company": "Simply Secure",
       "images": [
-        "/assets/images/speaker/jenz_mau.png"
+        "/assets/images/speaker/eileen_wagner.png"
       ],
-      "lang": " (DE)",
-      "title": "Highway to the Dangerzone - Wieso es notwendig ist die Comfortzone zu verlassen.",
-      "track": "Society",
+      "lang": " (EN)",
+      "title": "Designing for Security",
+      "track": "Design",
       "stage": "Hall 2",
-      "start_time": "14:15",
-      "end_time": "15:00"
+      "start_time": "14:00",
+      "end_time": "14:45"
     },
     {
       "has_person": true,
@@ -309,23 +327,59 @@
       "title": "The Power of Web Components",
       "track": "Tech",
       "stage": "Hall 1",
-      "start_time": "14:15",
-      "end_time": "15:00"
+      "start_time": "14:00",
+      "end_time": "14:45"
     },
     {
       "has_person": true,
-      "person": "Ryn Daniels",
-      "person_slug": "ryn_daniels",
-      "company": "Travis CI",
+      "person": "Maren Heltsche",
+      "person_slug": "maren_heltsche",
+      "company": "Speakerinnen.org",
       "images": [
-        "/assets/images/speaker/ryn_daniels.png"
+        "/assets/images/speaker/maren_heltsche.png"
+      ],
+      "lang": " (DE)",
+      "title": "Hack Society - Wie wir mit Code gesellschaftliche Probleme lösen können",
+      "track": "Society",
+      "stage": "Hall 2",
+      "start_time": "15:00",
+      "end_time": "15:45"
+    },
+    {
+      "has_person": true,
+      "person": "Christopher Grebs",
+      "person_slug": "christopher_grebs",
+      "company": "Mozilla",
+      "images": [
+        "/assets/images/speaker/christopher_grebs.png"
       ],
       "lang": " (EN)",
-      "title": "CI/CD: More than Just Code",
+      "title": "Maintain your ancient projects without getting lost",
       "track": "Tech",
       "stage": "Hall 1",
-      "start_time": "15:15",
-      "end_time": "16:00"
+      "start_time": "15:00",
+      "end_time": "15:45"
+    },
+    {
+      "title": "Coffee Break",
+      "track": "Orga",
+      "start_time": "15:45",
+      "end_time": "16:15"
+    },
+    {
+      "has_person": true,
+      "person": "Tobias Struckmeier",
+      "person_slug": "tobias_struckmeier",
+      "company": "Adesso",
+      "images": [
+        "/assets/images/speaker/tobias_struckmeier.png"
+      ],
+      "lang": " (EN)",
+      "title": "GraphQL: Gotta Query 'Em All! - In one go!",
+      "track": "Tech",
+      "stage": "Hall 1",
+      "start_time": "16:15",
+      "end_time": "17:00"
     },
     {
       "has_person": true,
@@ -338,36 +392,6 @@
       "lang": " (DE)",
       "title": "Produkte gegen die eigene Moral - Über kognitive Dissonanz im Produktdesign",
       "track": "Design",
-      "stage": "Hall 2",
-      "start_time": "15:15",
-      "end_time": "16:00"
-    },
-    {
-      "has_person": true,
-      "person": "Silvan Jongerius",
-      "person_slug": "silvan_jongerius",
-      "company": "TechGDPR",
-      "images": [
-        "/assets/images/speaker/silvan_jongerius.png"
-      ],
-      "lang": " (EN)",
-      "title": "Innovation under the GDPR",
-      "track": "Tech",
-      "stage": "Hall 1",
-      "start_time": "16:15",
-      "end_time": "17:00"
-    },
-    {
-      "has_person": true,
-      "person": "Dmytri Kleiner",
-      "person_slug": "dmytri_kleiner",
-      "company": "Telekommunisten",
-      "images": [
-        "/assets/images/speaker/dmytri_kleiner.png"
-      ],
-      "lang": " (EN)",
-      "title": "Wiring the Spark",
-      "track": "Society",
       "stage": "Hall 2",
       "start_time": "16:15",
       "end_time": "17:00"
@@ -383,6 +407,18 @@
       "stage": "Hall 1",
       "start_time": "17:15",
       "end_time": "18:00"
+    },
+    {
+      "has_person": false,
+      "images": [
+
+      ],
+      "lang": "",
+      "title": "Outro",
+      "track": "Keynote",
+      "stage": "Hall 1",
+      "start_time": "18:00",
+      "end_time": "18:30"
     }
   ]
 }
