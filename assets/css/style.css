@@ -692,6 +692,14 @@ section.schedule * {
   text-align: center;
 }
 
+section.schedule > div > h1 {
+  margin-bottom: 3rem;
+}
+
+section.schedule > div > div > h2 {
+  margin: 4rem 0;
+}
+
 section.schedule div.slot,
 section.schedule div.header,
 section.schedule div.orga {
@@ -863,6 +871,10 @@ section.schedule section > a {
 section.schedule section article > p {
   min-height: 6rem;
   display: block;
+}
+
+section.schedule section[topic=keynote] article > p {
+  min-height: 0px;
 }
 
 section.schedule section p em {
