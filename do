@@ -65,6 +65,7 @@ task_update_event_data() {
   if [ -s data/events-new.json ];
   then
     mv data/events-new.json data/events.json
+    bundle exec ruby bin/schedule.rb
   else
     rm -f data/events-new.json
   fi
