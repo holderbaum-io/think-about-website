@@ -56,6 +56,8 @@ task_clean() {
 }
 
 task_update_event_data() {
+  ensure_ruby
+
   local url='https://orga.hrx.events/en/thinkabout2019/public/events.json'
   curl \
     -L \
