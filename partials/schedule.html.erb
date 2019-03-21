@@ -18,7 +18,8 @@
         <% sorted_events.each do |talk| %>
         <section topic="<%= talk[:track].downcase %>">
           <% if talk[:track].downcase == 'keynote' %><h4><%= talk[:track] %></h4><% end %>
-          <a href="/<%= lang %>/speakies/<%= talk[:person_slug] %>.html"><article>
+          <%= "<a href=\"#{lang}/speakies/#{talk[:person_slug]}.html\">" if talk[:has_person] %>
+          <article>
             <header>
               <span><%= talk[:start_time] %> - <%= talk[:end_time] %></span>
               <span><%= talk[:stage] %></span>
@@ -34,7 +35,8 @@
               <% end %>
             </footer>
             <% end %>
-          </article></a>
+          </article>
+          <%= "</a>" if talk[:has_person] %>
         </section>
         <% end %>
       </div>
