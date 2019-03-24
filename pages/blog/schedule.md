@@ -14,7 +14,7 @@ that went into the specific running order we have now.
 
 Think About! is a two day tech conference about technology, design and their
 impact on society. It will take place in a cozy cinema in Cologne, Germany. Go
-and check the [scheduled Talks](/en/#schedule)!
+and check out the [scheduled Talks](/en/#schedule)!
 
 ## Different Restrictions
 
@@ -67,7 +67,7 @@ luckily just a few speakers where limited in their availability.
 ## The Result
 
 After a day of discussing and brainstorming using many stickies and an empty
-wall we came up with a first version that satisfy all four restrictions that
+wall we came up with a first version that satisfies all four restrictions that
 were mentioned above:
 
 ![First version of the schedule on stickies](/assets/images/blog/schedule/schedule.jpg)
