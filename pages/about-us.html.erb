@@ -1,5 +1,4 @@
 <main>
-  <% if feature? :preview %>
   <section class="image-with-text">
     <div>
       <article>
@@ -41,15 +40,4 @@
       </section>
     </div>
   </section>
-  <% else %>
-  <section>
-    <div class="centered">
-      <%= content "about-us" %>
-      <a href="<%= t('about-us.contact-link') %>" button=""><%= t('about-us.contact-text') %></a>
-      <figure>
-        <img src="/assets/images/about-us.svg" alt="The Think About! Founders">
-      </figure>
-    </div>
-  </section>
-  <% end %>
 </main>
