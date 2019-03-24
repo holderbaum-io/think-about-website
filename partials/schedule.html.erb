@@ -1,9 +1,9 @@
 <div>
-<h1 id="schedule">Our Schedule</h1>
+<h1 id="schedule"><%= t('schedule.title') %></h1>
 <% i = 0 %>
 <% data('schedule').each do |day, events| %>
 <div>
-  <h2>Day <%= i += 1 %>: <%= Date.parse(day.to_s).strftime('%A, %B %d') %></h2>
+  <h2><%= t('schedule.day')[i] %><% i += 1 %></h2>
   <div class="header"><span>Hall 1</span><span>Hall 2</span></div>
   <% events.group_by { |e| e[:start_time] }.each do |_, parallel_events| %>
       <% sorted_events = parallel_events.sort_by { |e| e[:stage] } %>

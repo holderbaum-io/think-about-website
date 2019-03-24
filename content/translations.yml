@@ -19,6 +19,11 @@ de:
     abstract-missing: "Den Abstract des Talks veröffentlichen wir ganz bald hier.."
     language: "Sprache"
     length: "Länge"
+  schedule:
+    title: "Unser Programm"
+    day:
+      - "Tag 1: Donnerstag, 23. Mai"
+      - "Tag 2: Freitag, 24. Mai"
   about-us:
     contact-text: "Schreib uns"
     contact-link: "mailto:kontakt@think-about.io?subject=Hallo!"
@@ -90,6 +95,11 @@ en:
     abstract-missing: "The talk abstract will be published here soon.."
     language: "Language"
     length: "Length"
+  schedule:
+    title: "Our Schedule"
+    day:
+      - "Day 1: Thursday, May 23"
+      - "Day 2: Friday, May 24"
   about-us:
     contact-text: "Get in touch"
     contact-link: "mailto:kontakt@think-about.io?subject=Hi there!"
