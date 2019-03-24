@@ -1,9 +1,9 @@
 # Über uns!
 
-Hi, wir sind Chrissi, Andreas und Jakob aus Köln. Wir sind drei Menschen die
-sich mit Think About! einen Lebenstraum erfüllen. Gegenwärtig planen wir Think
-About! unter dem Firmennamen [HRX](https://hrx.events/) neben unseren regulären
-Jobs in der Technologie-Branche.
+Hi, wir sind Andreas, Chrissi, Jakob und Rudi aus Köln. Wir sind drei Menschen
+und ein Hund die sich mit Think About! einen Lebenstraum erfüllen. Gegenwärtig
+planen wir Think About! unter dem Firmennamen [HRX](https://hrx.events/) neben
+unseren regulären Jobs in der Technologie-Branche.
 
 Unsere Welt muss ein besserer und sicherer Ort werden, für jeden Menschen. Und
 das unabhängig von persönlichen Hintergründen und Überzeugungen. **Lasst uns
