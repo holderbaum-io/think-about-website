@@ -1,3 +1,6 @@
 # Hi, I am Andreas
 
-I have been a human being for most of his life. Rumors indicating differently should not be spread.
+Organizing events has always been part of my life. Think About is the most
+public and professional event so far and I’m really excited to see how it will
+bring together diverse people in a welcoming environment enabled by people who
+get the support that is needed for such a conference.
