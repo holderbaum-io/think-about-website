@@ -4,7 +4,6 @@ date: 2019-03-21
 tweet: "We just published the first version of the conference schedule for #thinkabout19"
 author_twitter: "@hldrbm"
 author: Jakob
-draft: true
 
 ---
 
