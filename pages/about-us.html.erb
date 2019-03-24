@@ -1,4 +1,47 @@
 <main>
+  <% if feature? :preview %>
+  <section class="image-with-text">
+    <div>
+      <article>
+        <%= content "about-us" %>
+        <center>
+          <a href="<%= t('about-us.contact-link') %>" button=""><%= t('about-us.contact-text') %></a>
+        </center>
+      </article>
+      <figure>
+        <img src="/assets/images/about-us.jpg" alt="The Think About! Founders">
+      </figure>
+    </div>
+  </section>
+  <section class="about-us">
+    <div>
+      <section>
+        <figure>
+          <img src="/assets/images/portrait-andreas.png" alt="Portrait of Andreas.">
+        </figure>
+        <article><%= content 'portrait-andreas' %></article>
+      </section>
+      <section>
+        <figure>
+          <img src="/assets/images/portrait-chrissi.png" alt="Portrait of Chrissi.">
+        </figure>
+        <article><%= content 'portrait-chrissi' %></article>
+      </section>
+      <section>
+        <figure>
+          <img src="/assets/images/portrait-jakob.png" alt="Portrait of Jakob.">
+        </figure>
+        <article><%= content 'portrait-jakob' %></article>
+      </section>
+      <section>
+        <figure>
+          <img src="/assets/images/portrait-rudi.png" alt="Portrait of Rudi.">
+        </figure>
+        <article><%= content 'portrait-rudi' %></article>
+      </section>
+    </div>
+  </section>
+  <% else %>
   <section>
     <div class="centered">
       <%= content "about-us" %>
@@ -8,4 +51,5 @@
       </figure>
     </div>
   </section>
+  <% end %>
 </main>

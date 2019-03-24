@@ -1,7 +1,13 @@
 # About Us!
 
-We are Andreas, Chrissi and Jakob from Cologne, Germany! We are three human-beings partly with technical, partly with activist backgrounds who are realizing a long time dream to make our own conference possible. Under the name of [HRX](https://hrx.events/) we are currently planning the event in our free time among our daily jobs in the tech industry.
+We are Andreas, Chrissi and Jakob from Cologne, Germany! We are three
+human-beings who are realizing a long time dream to make their own conference
+possible. Under the name of [HRX](https://hrx.events/) we are currently
+planning the event in our free time among our daily jobs in the tech industry.
 
-Our world should become a better and safer place for every human being – regardless of their personal backgrounds and beliefs. **So let’s come together and do something great!**
+Our world should become a better and safer place for every human being –
+regardless of their personal backgrounds and beliefs. **So let’s come together
+and do something great!**
 
-If you have any questions or feedback for us, or you simply want to get to know us please feel free to reach out at any time.
+If you have any questions or feedback for us, or you simply want to get to know
+us please feel free to reach out at any time.

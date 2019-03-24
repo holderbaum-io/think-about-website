@@ -437,6 +437,55 @@ section.rocket-sponsors figure img {
 }
 
 /* ================================ */
+/* About Us */
+
+section.about-us section {
+  display: flex;
+  align-items: center;
+}
+
+section.about-us section + section {
+  margin-top: 4rem;
+}
+
+section.about-us section > * {
+  flex-flow: row wrap;
+  width: 50%;
+}
+
+section.about-us section figure {
+  text-align: center;
+}
+
+section.about-us section figure img {
+  border-radius: 100%;
+  max-width: 70%;
+  min-width: 150px;
+}
+
+section.about-us section article h1 {
+  font-size: 1.2rem;
+}
+
+section.about-us section article * {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 699px) {
+section.about-us section {
+  display: block;
+}
+section.about-us section article {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+}
+section.about-us section article * {
+  text-align: center;
+}
+}
+
+/* ================================ */
 /* Topics */
 
 section.topics section:nth-child(even) figure {
