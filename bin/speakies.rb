@@ -58,7 +58,7 @@ talks.reject { |t| t[:track].casecmp('keynote').zero? }
                   <h1>#{person}</h1>
                   <p>#{company}</p>
                 </div><figure>
-                  <img src="/assets/images/speaker/#{person_slug}.png" />
+                  <img src="/assets/images/speaker/#{person_slug}.jpg" />
                 </figure></header>
             </article>#{link_close}
           </section>

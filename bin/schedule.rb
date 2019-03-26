@@ -26,7 +26,7 @@ end
 
 def speaker_image_pathes(talk)
   talk[:speakers].map do |s|
-    '/assets/images/speaker/' + slug(s[:full_public_name]) + '.png'
+    '/assets/images/speaker/' + slug(s[:full_public_name]) + '.jpg'
   end
 end
 

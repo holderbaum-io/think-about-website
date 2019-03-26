@@ -63,7 +63,7 @@ selection.each do |talk|
   HTML
 
   people.each do |person|
-    html += "<figure><img src=\"/assets/images/speaker/#{person[:person_slug]}.png\" /></figure>"
+    html += "<figure><img src=\"/assets/images/speaker/#{person[:person_slug]}.jpg\" /></figure>"
   end
 
   html += <<-HTML.strip
