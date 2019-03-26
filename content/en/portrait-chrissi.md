@@ -1,8 +1,7 @@
 # Hi, I am Chrissi
 
 I am a product designer that advocates for privacy, digital rights and
-diversity. I prefer to work on projects with social purpose and would love to
-use my design skills to build better and more usable open source products.
+diversity. With Think About! I can finally fulfill my dream to create an event that is unique, focuses on human-beings and makes people think about their own responsibilities towards our society.
 
 [Twitter](https://twitter.com/Chrissi_Hldrbm) |
 [Github](https://github.com/ChrissiHold) |
