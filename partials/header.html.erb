@@ -61,3 +61,18 @@
     <% end %>
     <link rel="stylesheet" href="/assets/css/fonts.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <link rel="preload" as="image" href="/assets/images/tech.svg">
+    <link rel="preload" as="image" href="/assets/images/design.svg">
+    <link rel="preload" as="image" href="/assets/images/society.svg">
+
+    <link rel="preload" as="image" media="(min-width: 700px)" href="/assets/images/keyvisual.svg">
+    <link rel="preload" as="image" media="(max-width: 699px)" href="/assets/images/keyvisual-small.svg">
+
+    <% data('schedule').each do |_, events| %>
+      <% events.each do |event| %>
+        <% event.fetch(:images, []).each do |image| %>
+          <link rel="preload" as="image" href="<%= image %>">
+        <% end %>
+      <% end %>
+    <% end %>
