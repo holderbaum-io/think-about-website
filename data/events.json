@@ -171,7 +171,11 @@
             "description": "",
             "links": [
               {
-                "url": "https://www.hashicorp.com/",
+                "url": "https://twitter.com/rynchantress",
+                "title": "Twitter"
+              },
+              {
+                "url": "https://hashicorp.com/",
                 "title": "Infrastructure Engineer @ HashiCorp"
               }
             ]
