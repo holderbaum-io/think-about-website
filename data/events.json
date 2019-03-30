@@ -167,17 +167,9 @@
             "id": 32,
             "image": "/system/people/avatars/000/000/032/original/ryn.jpg?1544354988",
             "full_public_name": "Ryn Daniels",
-            "abstract": "Ryn Daniels is an infrastructure engineer at Travis CI whose work has\r\nfocused on operability, observability, sustainable on-call practices, and\r\ndesigning effective engineering cultures. They co-authored O’Reilly’s\r\nEffective DevOps and have spoken on a variety of devops engineering and culture topics.\r\n\r\n\r\nRyn Daniels is an infrastructure engineer at Travis CI whose work has\r\nfocused on operability, observability, sustainable on-call practices, and\r\ndesigning effective engineering cultures. They co-authored O’Reilly’s\r\nEffective DevOps and have spoken on a variety of devops engineering and culture topics.",
+            "abstract": "Ryn Daniels is an infrastructure engineer at HashiCorp whose work has\r\nfocused on operability, observability, sustainable on-call practices, and\r\ndesigning effective engineering cultures. They co-authored O’Reilly’s\r\nEffective DevOps and have spoken on a variety of devops engineering and culture topics.\r\n\r\n\r\nRyn Daniels is an infrastructure engineer at HashiCorp whose work has\r\nfocused on operability, observability, sustainable on-call practices, and\r\ndesigning effective engineering cultures. They co-authored O’Reilly’s\r\nEffective DevOps and have spoken on a variety of devops engineering and culture topics.",
             "description": "",
             "links": [
-              {
-                "url": "https://ryn.works/",
-                "title": "Website"
-              },
-              {
-                "url": "https://twitter.com/rynchantress",
-                "title": "Twitter"
-              },
               {
                 "url": "https://www.hashicorp.com/",
                 "title": "Infrastructure Engineer @ HashiCorp"
