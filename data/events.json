@@ -171,16 +171,16 @@
             "description": "",
             "links": [
               {
-                "url": "https://travis-ci.org/",
-                "title": "Infrastructure Engineer @ Travis CI"
-              },
-              {
                 "url": "https://ryn.works/",
                 "title": "Website"
               },
               {
                 "url": "https://twitter.com/rynchantress",
                 "title": "Twitter"
+              },
+              {
+                "url": "https://www.hashicorp.com/",
+                "title": "Infrastructure Engineer @ HashiCorp"
               }
             ]
           }
