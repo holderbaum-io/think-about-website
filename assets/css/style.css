@@ -418,6 +418,13 @@ section.universe-sponsors figure img {
   margin: 2rem 1rem;
 }
 
+section.universe-sponsors div > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 /* ================================ */
 /* Rocket Sponsors */
 
