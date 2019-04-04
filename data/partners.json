@@ -43,5 +43,10 @@
   {
     "name": "wlanfuerevents",
     "link": "https://www.wlan-fuer-events.de/"
+  },
+  {
+    "name": "idf",
+    "height": 65,
+    "link": "https://www.interaction-design.org/invite?ep=think-about-conference"
   }
 ]
