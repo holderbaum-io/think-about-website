@@ -664,47 +664,6 @@
         }
       },
       {
-        "id": 36,
-        "guid": "2218db8a-a1a6-45bd-b3db-35bb9a9b388e",
-        "title": "Mapping the problem: Understanding the consequences of our design choices (EN)",
-        "subtitle": "",
-        "description": "",
-        "logo": null,
-        "type": "lecture",
-        "do_not_record": false,
-        "track": "Design",
-        "abstract": "When was the last time someone asked you ‘what are the unintended consequences of releasing this feature? Who else may be directly or indirectly affected by these product decisions?’ These questions are generally not considered or often hidden away in backlogs, as the briefs we are answering are asking us to innovate, disrupt and create the next big thing. \r\n\r\nWhen everything is telling us to speed up, make decisions faster and release new iterations, we leave ourselves with less time to consider the potential negative affects our design choices may have. This product centric focus approach can be extremely detrimental. As designers and creators of new products and services, we need to be conscious of the decisions we make and be aware of the wider systems our products fit within.  \r\n\r\nIn this talk, I will illustrate ways interdisciplinary teams can use design-led methods, such as systems modelling and speculative scenarios, to challenge the ethical, cultural and social implications of the technology we design. I will give examples from my own work of how I have been able to bring a systems lens to complex problems such as: access to education for undocumented people, forced migration due to climate change and alternative forms of humanitarian aid, and how to foster better outcomes for young people leaving government care. ",
-        "speakers": [
-          {
-            "id": 33,
-            "image": "/system/people/avatars/000/000/033/original/Forbes_Under_30_photo.jpg?1544533559",
-            "full_public_name": "Aly Blenkin",
-            "abstract": "Aly is the Co-Lead of Pivotal Act, a new initiative in Pivotal, dedicated to building technology that address social, humanitarian and environmental issues. Prior to Pivotal Labs, Aly was a design consultant at ThoughtWorks and before that worked in academia at Parsons in Design and Technology. She has consulted across private and social impact sectors on projects with large corporate clients like HSBC and Volkswagen to humanitarian organizations such as, Red Cross and Save the Children. \r\n\r\nEducated in Canada, New York, and Germany, Aly holds her master’s in Transdisciplinary Design, from Parsons in New York. She won a Rockefeller grant and was a finalist for the Fast Company Innovation awards during that time for her thesis. She also studied Service Design at Köln International School of Design in Germany and has bachelor’s degree in Industrial Design from the University of Alberta. ",
-            "description": "",
-            "links": [
-              {
-                "url": "https://pivotal.io/act",
-                "title": "Co-Lead & Senior Product Designer @ Pivotal Act"
-              },
-              {
-                "url": "http://alyblenkin.com/",
-                "title": "Website"
-              },
-              {
-                "url": "https://twitter.com/alyblenkin",
-                "title": "Twitter"
-              }
-            ]
-          }
-        ],
-        "start_time": "2019-05-23T14:00:00.000+02:00",
-        "end_time": "2019-05-23T14:45:00.000+02:00",
-        "room": {
-          "name": "Hall 2",
-          "id": 2
-        }
-      },
-      {
         "id": 48,
         "guid": "84566d8d-9866-443e-83e0-891550ea49b6",
         "title": "Outro (EN)",
@@ -1000,6 +959,47 @@
         ],
         "start_time": "2019-05-23T12:15:00.000+02:00",
         "end_time": "2019-05-23T13:00:00.000+02:00",
+        "room": {
+          "name": "Hall 2",
+          "id": 2
+        }
+      },
+      {
+        "id": 36,
+        "guid": "2218db8a-a1a6-45bd-b3db-35bb9a9b388e",
+        "title": "Unpacking the problem: understanding the consequences of our design choices",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Design",
+        "abstract": "When was the last time someone asked you ‘what are the unintended consequences of releasing this feature? Who else may be directly or indirectly affected by these product decisions?’ These questions are generally not considered or often hidden away in backlogs, as the briefs we are answering are asking us to innovate, disrupt and create the next big thing. \r\n\r\nWhen everything is telling us to speed up, make decisions faster and release new iterations, we leave ourselves with less time to consider the potential negative affects our design choices may have. This product centric focus approach can be extremely detrimental. As designers and creators of new products and services, we need to be conscious of the decisions we make and be aware of the wider systems our products fit within.  \r\n\r\nIn this talk, I will illustrate ways interdisciplinary teams can use design-led methods, such as systems modelling and speculative scenarios, to challenge the ethical, cultural and social implications of the technology we design. I will give examples from my own work of how I have been able to bring a systems lens to complex problems such as: access to education for undocumented people, forced migration due to climate change and alternative forms of humanitarian aid, and how to foster better outcomes for young people leaving government care. ",
+        "speakers": [
+          {
+            "id": 33,
+            "image": "/system/people/avatars/000/000/033/original/Forbes_Under_30_photo.jpg?1544533559",
+            "full_public_name": "Aly Blenkin",
+            "abstract": "Aly is the Co-Lead of Pivotal Act, a new initiative in Pivotal, dedicated to building technology that address social, humanitarian and environmental issues. Prior to Pivotal Labs, Aly was a design consultant at ThoughtWorks and before that worked in academia at Parsons in Design and Technology. She has consulted across private and social impact sectors on projects with large corporate clients like HSBC and Volkswagen to humanitarian organizations such as, Red Cross and Save the Children. \r\n\r\nEducated in Canada, New York, and Germany, Aly holds her master’s in Transdisciplinary Design, from Parsons in New York. She won a Rockefeller grant and was a finalist for the Fast Company Innovation awards during that time for her thesis. She also studied Service Design at Köln International School of Design in Germany and has bachelor’s degree in Industrial Design from the University of Alberta. ",
+            "description": "",
+            "links": [
+              {
+                "url": "https://pivotal.io/act",
+                "title": "Co-Lead & Senior Product Designer @ Pivotal Act"
+              },
+              {
+                "url": "http://alyblenkin.com/",
+                "title": "Website"
+              },
+              {
+                "url": "https://twitter.com/alyblenkin",
+                "title": "Twitter"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-23T14:00:00.000+02:00",
+        "end_time": "2019-05-23T14:45:00.000+02:00",
         "room": {
           "name": "Hall 2",
           "id": 2
