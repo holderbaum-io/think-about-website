@@ -553,7 +553,7 @@
         "type": "lecture",
         "do_not_record": false,
         "track": "Tech",
-        "abstract": "From AWS to Google Cloud, the major cloud providers offer different options to run a MySQL or a MySQL compatible database on the cloud. You can spin up virtual machines and configure your own cluster or rely on managed services with the ability to modify or scale vertically a database with the click of a button. The new trend is serverless (relational) database that offer both traditional interfaces and HTTP API access. Can serverless databases be the future? Is for example Amazon Aurora Serverless really serverless?",
+        "abstract": "From AWS to Google Cloud, the major cloud providers offer different options to run a MySQL or a MySQL compatible database on the cloud. You can spin up virtual machines and configure your own cluster or rely on managed services with the ability to modify or scale vertically a database with the click of a button. The new trend is serverless (relational) databases that offer both traditional interfaces and HTTP API access. Can serverless databases be the future? Is Amazon Aurora Serverless really serverless?",
         "speakers": [
           {
             "id": 42,
