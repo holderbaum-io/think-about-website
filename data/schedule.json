@@ -24,7 +24,7 @@
       "title": "The Power of an Agile Mindset",
       "track": "Keynote",
       "stage": "Hall 1",
-      "start_time": "09:30",
+      "start_time": "09:45",
       "end_time": "10:30"
     },
     {
@@ -167,21 +167,6 @@
     },
     {
       "has_person": true,
-      "person": "Rachel Willmer",
-      "person_slug": "rachel_willmer",
-      "company": "Independent Consultant",
-      "images": [
-        "/assets/images/speaker/rachel_willmer.jpg"
-      ],
-      "lang": " (EN)",
-      "title": "DevOps: Why the Startup CEO Should Care (and you should too)",
-      "track": "Tech",
-      "stage": "Hall 1",
-      "start_time": "16:15",
-      "end_time": "17:00"
-    },
-    {
-      "has_person": true,
       "person": "Jenz Mau",
       "person_slug": "jenz_mau",
       "company": "Maubeschau",
@@ -192,6 +177,21 @@
       "title": "Highway to the Dangerzone - Wieso es notwendig ist die Comfortzone zu verlassen.",
       "track": "Society",
       "stage": "Hall 2",
+      "start_time": "16:15",
+      "end_time": "17:00"
+    },
+    {
+      "has_person": true,
+      "person": "Renato Losio",
+      "person_slug": "renato_losio",
+      "company": "Website",
+      "images": [
+        "/assets/images/speaker/renato_losio.jpg"
+      ],
+      "lang": " (EN)",
+      "title": "Look Mom No Hands! Moving from a managed relational database to a serverless one",
+      "track": "Tech",
+      "stage": "Hall 1",
       "start_time": "16:15",
       "end_time": "17:00"
     },
@@ -225,7 +225,7 @@
       "title": "Peerocracy",
       "track": "Keynote",
       "stage": "Hall 1",
-      "start_time": "09:30",
+      "start_time": "09:45",
       "end_time": "10:30"
     },
     {
