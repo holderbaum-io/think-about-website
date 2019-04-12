@@ -182,14 +182,14 @@
     },
     {
       "has_person": true,
-      "person": "Renato Losio",
-      "person_slug": "renato_losio",
-      "company": "Funambol Inc.",
+      "person": "Christopher Grebs",
+      "person_slug": "christopher_grebs",
+      "company": "Mozilla",
       "images": [
-        "/assets/images/speaker/renato_losio.jpg"
+        "/assets/images/speaker/christopher_grebs.jpg"
       ],
       "lang": " (EN)",
-      "title": "Look Mom No Hands! Moving from a managed relational database to a serverless one",
+      "title": "Maintain your ancient projects without getting lost",
       "track": "Tech",
       "stage": "Hall 1",
       "start_time": "16:15",
@@ -347,14 +347,14 @@
     },
     {
       "has_person": true,
-      "person": "Christopher Grebs",
-      "person_slug": "christopher_grebs",
-      "company": "Mozilla",
+      "person": "Renato Losio",
+      "person_slug": "renato_losio",
+      "company": "Funambol Inc.",
       "images": [
-        "/assets/images/speaker/christopher_grebs.jpg"
+        "/assets/images/speaker/renato_losio.jpg"
       ],
       "lang": " (EN)",
-      "title": "Maintain your ancient projects without getting lost",
+      "title": "Look Mom No Hands! Moving from a managed relational database to a serverless one",
       "track": "Tech",
       "stage": "Hall 1",
       "start_time": "15:00",
