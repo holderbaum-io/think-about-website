@@ -324,12 +324,8 @@ body > nav[desktop] ul li {
 }
 
 body > nav[desktop] ul li a:not([button]) {
-  margin: 1rem;
+  margin: 1rem 0.7rem;
   display: inline-block;
-}
-
-body > nav[desktop] ul li:not(:first-child) {
-  margin-left: 0.6rem;
 }
 
 body > nav[desktop]:after {
@@ -1211,10 +1207,12 @@ section.speakers section:after {
   display: block;
   clear: both;
 }
-@media (max-width: 979px) {
+@media (max-width: 730px) {
 body > nav[desktop] > div > a:first-child {
   display: none;
 }
+}
+@media (max-width: 979px) {
 section.speakers .talks section,
 section.tickets section {
   width: 47%;
