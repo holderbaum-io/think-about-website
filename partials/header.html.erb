@@ -59,20 +59,23 @@
     <% else %>
     <title>Think About! Conference 2019</title>
     <% end %>
-    <link rel="stylesheet" href="/assets/css/fonts.css" />
+    <style>
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(/assets/css/montserrat-regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(/assets/css/montserrat-bold.ttf) format('truetype');
+}
+    </style>
     <link rel="stylesheet" href="/assets/css/style.css" />
-
-    <link rel="preload" as="image" href="/assets/images/tech.svg">
-    <link rel="preload" as="image" href="/assets/images/design.svg">
-    <link rel="preload" as="image" href="/assets/images/society.svg">
 
     <link rel="preload" as="image" media="(min-width: 700px)" href="/assets/images/keyvisual.svg">
     <link rel="preload" as="image" media="(max-width: 699px)" href="/assets/images/keyvisual-small.svg">
-
-    <% data('schedule').each do |_, events| %>
-      <% events.each do |event| %>
-        <% event.fetch(:images, []).each do |image| %>
-          <link rel="preload" as="image" href="<%= image %>">
-        <% end %>
-      <% end %>
-    <% end %>
