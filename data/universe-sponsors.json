@@ -6,7 +6,12 @@
   },
   {
     "name": "cologneintelligence",
-    "height": 75,
+    "height": 80,
     "link": "https://www.cologne-intelligence.de/"
+  },
+  {
+    "name": "vaillant",
+    "height": 50,
+    "link": "https://www.vaillant-group.com/careers/we-at-the-vaillant-group/"
   }
 ]
