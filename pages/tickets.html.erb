@@ -60,8 +60,6 @@
           <header>
             <price><%= data('tickets.latebird.price') %> €</price>
             <% if data('tickets.latebird.available') %>
-            <p><%= t('tickets.sold_out') %></p>
-            <% else %>
             <p><%= t('tickets.types.latebird.deadline') %></p>
             <% end %>
           </header>

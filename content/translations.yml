@@ -71,7 +71,7 @@ de:
         deadline: "Verkauf endet am 15.04.2019"
       latebird:
         title: "Late Bird Ticket"
-        deadline: "Verkauf startet am 16.04.2019"
+        deadline: "Verkauf endet am 22.05.2019"
       supporter:
         title: "Supporter Ticket"
 
@@ -149,7 +149,7 @@ en:
         deadline: "Sale ends on 15/04/2019"
       latebird:
         title: "Late Bird Ticket"
-        deadline: "Sale starts on 16/04/2019"
+        deadline: "Sale ends on 22/05/2019"
       supporter:
         title: "Supporter Ticket"
 
