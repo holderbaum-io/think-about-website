@@ -118,12 +118,12 @@
       "has_person": true,
       "person": "Aly Blenkin",
       "person_slug": "aly_blenkin",
-      "company": "Pivotal Act",
+      "company": "Website",
       "images": [
         "/assets/images/speaker/aly_blenkin.jpg"
       ],
       "lang": "",
-      "title": "Unpacking the problem: understanding the consequences of our design choices",
+      "title": "Understanding the consequences of our design choices",
       "track": "Design",
       "stage": "Hall 2",
       "start_time": "14:00",
