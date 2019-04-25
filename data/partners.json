@@ -37,16 +37,22 @@
   },
   {
     "name": "startplatz",
-    "height": 65,
+    "height": 60,
     "link": "https://www.startplatz.de/"
   },
   {
-    "name": "wlanfuerevents",
-    "link": "https://www.wlan-fuer-events.de/"
+    "name": "idf",
+    "height": 55,
+    "link": "https://www.interaction-design.org/invite?ep=think-about-conference"
   },
   {
-    "name": "idf",
-    "height": 65,
-    "link": "https://www.interaction-design.org/invite?ep=think-about-conference"
+    "name": "stickermule",
+    "height": 25,
+    "link": "https://www.stickermule.com/eu/uses?utm_source=sponsorship&utm_medium=referral&utm_campaign=ThinkAbout19"
+  },
+  {
+    "name": "wlanfuerevents",
+     "height": 45,
+    "link": "https://www.wlan-fuer-events.de/"
   }
 ]
