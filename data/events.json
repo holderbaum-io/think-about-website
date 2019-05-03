@@ -334,6 +334,27 @@
         }
       },
       {
+        "id": 50,
+        "guid": "9cc907a1-b6b1-488e-bf12-3d52b4bc0c67",
+        "title": "Doors open",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "",
+        "do_not_record": false,
+        "track": "Orga",
+        "abstract": "",
+        "speakers": [
+
+        ],
+        "start_time": "2019-05-24T08:30:00.000+02:00",
+        "end_time": "2019-05-24T09:30:00.000+02:00",
+        "room": {
+          "name": "Orga",
+          "id": 3
+        }
+      },
+      {
         "id": 49,
         "guid": "1f93127e-345d-4a59-b947-2a08f94c3933",
         "title": "Doors open & registration",

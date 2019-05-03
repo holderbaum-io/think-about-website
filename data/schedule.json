@@ -219,6 +219,12 @@
   ],
   "2019-05-24": [
     {
+      "title": "Doors open",
+      "track": "Orga",
+      "start_time": "08:30",
+      "end_time": "09:30"
+    },
+    {
       "has_person": true,
       "person": "Laura Kalbag & Aral Balkan",
       "person_slug": "laura_kalbag_and_aral_balkan",
