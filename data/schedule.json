@@ -409,12 +409,15 @@
       "end_time": "17:00"
     },
     {
-      "has_person": false,
+      "has_person": true,
+      "person": "Vimla Appadoo",
+      "person_slug": "vimla_appadoo",
+      "company": "Service Designer at FutureGov",
       "images": [
-
+        "/assets/images/speaker/vimla_appadoo.jpg"
       ],
       "lang": " (EN)",
-      "title": "Closing Keynote",
+      "title": "Design, Diversity and Tech - How to use your power",
       "track": "Keynote",
       "stage": "Hall 1",
       "start_time": "17:15",

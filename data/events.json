@@ -193,27 +193,6 @@
         }
       },
       {
-        "id": 44,
-        "guid": "2c04d90d-a5b2-4c67-b31c-042914726889",
-        "title": "Closing Keynote (EN)",
-        "subtitle": "",
-        "description": "",
-        "logo": null,
-        "type": "lecture",
-        "do_not_record": false,
-        "track": "Keynote",
-        "abstract": "",
-        "speakers": [
-
-        ],
-        "start_time": "2019-05-24T17:15:00.000+02:00",
-        "end_time": "2019-05-24T18:00:00.000+02:00",
-        "room": {
-          "name": "Hall 1",
-          "id": 1
-        }
-      },
-      {
         "id": 16,
         "guid": "dbe27125-e61d-4892-b919-cb7877337aab",
         "title": "Coffee Break",
@@ -253,6 +232,51 @@
         "room": {
           "name": "Orga",
           "id": 3
+        }
+      },
+      {
+        "id": 44,
+        "guid": "2c04d90d-a5b2-4c67-b31c-042914726889",
+        "title": "Design, Diversity and Tech - How to use your power (EN)",
+        "subtitle": "",
+        "description": "",
+        "logo": null,
+        "type": "lecture",
+        "do_not_record": false,
+        "track": "Keynote",
+        "abstract": "Diversity is a word that is thrown around at the moment. It has been turned into a buzz word without any real meaning. I'll be talking about the link between diversity and privilege and how we can design inclusive environments to empower everyone and to challenge the status quo.",
+        "speakers": [
+          {
+            "id": 43,
+            "image": null,
+            "full_public_name": "Vimla Appadoo",
+            "abstract": "As a Service Designer at FutureGov, Vimla is bringing her passion for Service Design and user-centred services to the forefront of public sector innovation. At 21, Vim co-founded Experience Matters consultancy, winning the NHS CCG as her first client. Since, Vim has also co-founded SheSaysMCR, managed DrinkaboutMCR and managed Manchester Social Entrepreneurs, has been an advisor to the Youth Charter, is a Regional Ambassador for the Holocaust Educational Trust and is on the board for the Big Youth Group. \r\n\r\nVim has been an advisor on international government tech missions and a mentor for various startup programmes. In 2016, Vim was voted on to the Northern Power Future List and in 2018 won the Young Digital Leader of the Year award at Digital Leaders. Throughout her career, Vim has remained conscious of her decisions and focus to bringing passion into her work, to make continuous a difference.",
+            "description": "",
+            "links": [
+              {
+                "url": "www.wearefuturegov.com",
+                "title": "Service Designer at FutureGov"
+              },
+              {
+                "url": "www.thatgirlvim.com",
+                "title": "Website"
+              },
+              {
+                "url": "https://twitter.com/ThatGirlVim",
+                "title": "Twitter"
+              },
+              {
+                "url": "www.linkedin.com/in/vimlaappadoo",
+                "title": "Linkedin"
+              }
+            ]
+          }
+        ],
+        "start_time": "2019-05-24T17:15:00.000+02:00",
+        "end_time": "2019-05-24T18:00:00.000+02:00",
+        "room": {
+          "name": "Hall 1",
+          "id": 1
         }
       },
       {
