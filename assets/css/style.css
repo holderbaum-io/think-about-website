@@ -875,7 +875,8 @@ section.schedule section[topic=keynote] h4 {
   color: white;
 }
 
-section.schedule section[topic=keynote] header span:last-child {
+section.schedule section[topic=keynote] header span:last-child,
+section.schedule section[topic=introoutro] header span:last-child {
   visibility:hidden;
 }
 
@@ -925,7 +926,8 @@ section.schedule section article > p {
   display: block;
 }
 
-section.schedule section[topic=keynote] article > p {
+section.schedule section[topic=keynote] article > p,
+section.schedule section[topic=introoutro] article > p {
   min-height: 0px;
 }
 

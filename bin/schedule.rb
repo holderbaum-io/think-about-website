@@ -84,7 +84,7 @@ schedule[:conference_events][:events]
   .each do |event|
   track = event[:track]
   day = Date.parse(event[:start_time]).strftime('%Y-%m-%d')
-  event = if %w[Keynote Tech Design Society].include? track
+  event = if %w[Keynote Tech Design Society IntroOutro].include? track
             process_talk(event)
           else
             process_orga(event)
