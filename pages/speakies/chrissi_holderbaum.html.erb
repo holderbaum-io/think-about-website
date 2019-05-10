@@ -1,0 +1,38 @@
+<main>
+  <section class="speaker-details">
+    <div>
+      <h1>Intro</h1>
+      <ul>
+        <li><em>Introoutro</em></li>
+        <li><%= t('speaker-details.length') %>: 45 Min</li>
+        <li><%= t('speaker-details.language') %>: EN</li>
+      </ul>
+      <article><p>One year ago we started to plan the Think About! conference in our free-time. One year later the event is finally happening and we would like to welcome you to the first edition of the Think About!. Representatively for the Think About! team, Chrissi will open the event and talk about the struggles of organizing an event for the first time. Additionally to that she will give you important information about the event itself so make sure not to miss it.</p>
+</article>
+    </div>
+  </section>
+  <section class="speaker-details">
+    <div>
+      <article class="bio">
+        <figure>
+          <img src="/assets/images/speaker/chrissi_holderbaum_big.png" />
+        </figure>
+        <div>
+          <h1>Chrissi Holderbaum</h1>
+          <p>Founder @ Think About!<p>
+          <p><%= content('speakies/chrissi_holderbaum') %></p>
+          <p><a href="https://think-about.io/en/">Think About!</a> | <a href="https://twitter.com/Chrissi_Hldrbm">Twitter</a> | <a href="https://www.xing.com/profile/Chrissi_Holderbaum/cv">XING</a> | <a href="https://www.linkedin.com/in/chrissi-holderbaum-7ab64613a/">Linkedin</a></p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section>
+    <%= partial 'tickets_footer' %>
+  </section>
+  <section class="universe-sponsors">
+    <%= partial 'universe_sponsors' %>
+  </section>
+  <section>
+    <%= partial 'updates' %>
+  </section>
+</main>

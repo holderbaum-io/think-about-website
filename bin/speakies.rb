@@ -32,6 +32,7 @@ talks.each do |talk|
 end
 
 talks.reject { |t| t[:track].casecmp('keynote').zero? }
+     .reject { |t| t[:track].casecmp('introoutro').zero? }
      .sort_by { |t| track_order(t[:track]) }
      .each do |talk|
   speaker = talk[:speakers][0]

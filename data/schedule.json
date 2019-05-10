@@ -16,7 +16,7 @@
       ],
       "lang": " (EN)",
       "title": "Intro",
-      "track": "Keynote",
+      "track": "IntroOutro",
       "stage": "Hall 1",
       "start_time": "09:15",
       "end_time": "09:30"
@@ -433,7 +433,7 @@
       ],
       "lang": " (EN)",
       "title": "Outro",
-      "track": "Keynote",
+      "track": "IntroOutro",
       "stage": "Hall 1",
       "start_time": "18:00",
       "end_time": "18:30"

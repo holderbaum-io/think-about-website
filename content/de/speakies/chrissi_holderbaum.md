@@ -1,0 +1,3 @@
+Chrissi is a freelancing UX and Product Designer and one of the founder of the Think About! Conference. Before organizing the Think About! she has worked as an UX consultant for companies such as the software consultancy ThoughtWorks as well as for startups.
+
+She concerns herself with the question how technology and design continue to shape and impact our society. Furthermore she advocates for privacy, digital rights and the fight for diversity – especially in the tech industry. Chrissi loves to work on projects with social purpose and wants to learn how to use her design skills to build better and more usable open source products.
