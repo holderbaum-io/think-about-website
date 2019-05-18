@@ -604,7 +604,7 @@
             "id": 7,
             "image": "/system/people/avatars/000/000/007/original/DSC_6816_Fotor2.jpg?1536307813",
             "full_public_name": "Chrissi Holderbaum",
-            "abstract": "",
+            "abstract": "Andreas, Chrissi and Jakob founded the Think About! Conference in 2018. For them, Think About! is a way to have a meaningful impact on a part of our society. They also dreamed of creating an event that makes people think about their own responsibilities towards our society.",
             "description": "",
             "links": [
               {
@@ -617,7 +617,7 @@
             "id": 6,
             "image": "/system/people/avatars/000/000/006/original/jakob.jpg?1536307627",
             "full_public_name": "Jakob Holderbaum",
-            "abstract": "",
+            "abstract": "Andreas, Chrissi and Jakob founded the Think About! Conference in 2018. For them, Think About! is a way to have a meaningful impact on a part of our society. They also dreamed of creating an event that makes people think about their own responsibilities towards our society.",
             "description": "",
             "links": [
               {
@@ -762,7 +762,32 @@
         "track": "IntroOutro",
         "abstract": "",
         "speakers": [
-
+          {
+            "id": 45,
+            "image": null,
+            "full_public_name": "Jakob Holderbaum",
+            "abstract": "",
+            "description": "",
+            "links": [
+              {
+                "url": "think-about.io",
+                "title": "Founder @ Think About!"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "image": "/system/people/avatars/000/000/007/original/DSC_6816_Fotor2.jpg?1536307813",
+            "full_public_name": "Chrissi Holderbaum",
+            "abstract": "Andreas, Chrissi and Jakob founded the Think About! Conference in 2018. For them, Think About! is a way to have a meaningful impact on a part of our society. They also dreamed of creating an event that makes people think about their own responsibilities towards our society.",
+            "description": "",
+            "links": [
+              {
+                "url": "think-about.io",
+                "title": "Founder @ Think About!"
+              }
+            ]
+          }
         ],
         "start_time": "2019-05-24T18:00:00.000+02:00",
         "end_time": "2019-05-24T18:30:00.000+02:00",

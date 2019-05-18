@@ -428,9 +428,13 @@
       "end_time": "18:00"
     },
     {
-      "has_person": false,
+      "has_person": true,
+      "person": "Jakob Holderbaum & Chrissi Holderbaum",
+      "person_slug": "jakob_holderbaum_and_chrissi_holderbaum",
+      "company": "Think About!",
       "images": [
-
+        "/assets/images/speaker/jakob_holderbaum.jpg",
+        "/assets/images/speaker/chrissi_holderbaum.jpg"
       ],
       "lang": " (EN)",
       "title": "Outro",
