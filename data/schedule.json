@@ -8,11 +8,12 @@
     },
     {
       "has_person": true,
-      "person": "Chrissi Holderbaum",
-      "person_slug": "chrissi_holderbaum",
+      "person": "Chrissi Holderbaum & Jakob Holderbaum",
+      "person_slug": "chrissi_holderbaum_and_jakob_holderbaum",
       "company": "Think About!",
       "images": [
-        "/assets/images/speaker/chrissi_holderbaum.jpg"
+        "/assets/images/speaker/chrissi_holderbaum.jpg",
+        "/assets/images/speaker/jakob_holderbaum.jpg"
       ],
       "lang": " (EN)",
       "title": "Intro",
