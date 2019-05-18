@@ -1,0 +1,1 @@
+Andreas, Chrissi and Jakob founded the Think About! Conference in 2018. For them, Think About! is a way to have a meaningful impact on a part of our society. They also dreamed of creating an event that makes people think about their own responsibilities towards our society.

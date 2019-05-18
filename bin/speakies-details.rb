@@ -75,14 +75,22 @@ talks.each do |talk|
     JSON.pretty_generate(data)
   )
 
+  track_html = if track.casecmp('introoutro') != 0
+                 "<li><em>#{track}</em></li>"
+               end
+
+  length_html = if track.casecmp('introoutro') != 0
+                  "<li><%= t('speaker-details.length') %>: 45 Min</li>"
+                end
+
   html = <<-HTML
     <main>
       <section class="speaker-details">
         <div>
           <h1>#{title}</h1>
           <ul>
-            <li><em>#{track}</em></li>
-            <li><%= t('speaker-details.length') %>: 45 Min</li>
+            #{track_html}
+            #{length_html}
             <li><%= t('speaker-details.language') %>: #{lang}</li>
           </ul>
           <article>#{abstract}</article>

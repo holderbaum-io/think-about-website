@@ -1,0 +1,38 @@
+<main>
+  <section class="speaker-details">
+    <div>
+      <h1>Intro</h1>
+      <ul>
+        
+        
+        <li><%= t('speaker-details.language') %>: EN</li>
+      </ul>
+      <article><p>One year ago we started to plan the Think About! conference in our free-time. One year later the event is finally happening and we would like to welcome you to the first edition of the Think About!.</p>
+</article>
+    </div>
+  </section>
+  <section class="speaker-details">
+    <div>
+      <article class="bio">
+        <figure>
+          <img src="/assets/images/speaker/chrissi_holderbaum_big.png" /><img src="/assets/images/speaker/jakob_holderbaum_big.png" />
+        </figure>
+        <div>
+          <h1>Chrissi Holderbaum &amp; Jakob Holderbaum</h1>
+          <p>Founder @ Think About!<p>
+          <p><%= content('speakies/chrissi_holderbaum_and_jakob_holderbaum') %></p>
+          <p><a href="think-about.io">Think About!</a></p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section>
+    <%= partial 'tickets_footer' %>
+  </section>
+  <section class="universe-sponsors">
+    <%= partial 'universe_sponsors' %>
+  </section>
+  <section>
+    <%= partial 'updates' %>
+  </section>
+</main>
