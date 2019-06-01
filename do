@@ -21,21 +21,6 @@ function task_prepare_ci {
     -out deploy/ssh \
     -d
   chmod 600 deploy/ssh
-
-  task_update_event_data || exit 1
-  task_update_speakers || exit 1
-  task_update_keynotes || exit 1
-  task_update_speakies_details || exit 1
-
-  if [[ "$(git diff --stat)" != '' ]];
-  then
-    eval "$(ssh-agent -s)"
-    ssh-add deploy/ssh
-
-    git commit -am '[travis] Update frab data [ci skip]'
-    git remote set-url origin git@github.com:hrx-events/think-about.git
-    git push origin master
-  fi
 }
 
 task_serve() {
@@ -73,27 +58,6 @@ task_update_event_data() {
   fi
 }
 
-task_update_speakies_details() {
-  ensure_ruby
-
-  bundle exec ruby bin/speakies-details.rb
-  return $?
-}
-
-task_update_speakers() {
-  ensure_ruby
-
-  bundle exec ruby bin/speakies.rb > partials/speakers_list.html.erb
-  return $?
-}
-
-task_update_keynotes() {
-  ensure_ruby
-
-  bundle exec ruby bin/keynotes.rb > partials/keynotes_list.html.erb
-  return $?
-}
-
 task_deploy() {
   local user="${1:-deploy-think-about}"
 
@@ -122,7 +86,7 @@ task_deploy() {
 }
 
 usage() {
-  echo "$0 serve | build | update_event_data | update_keynotes | update_speakers | update_speakies_details | deploy | clean"
+  echo "$0 serve | build | update_event_data | deploy | clean"
   exit 1
 }
 
@@ -134,9 +98,6 @@ case "$cmd" in
   serve) task_serve "$@" ;;
   build) task_build ;;
   update_event_data) task_update_event_data ;;
-  update_keynotes) task_update_keynotes ;;
-  update_speakers) task_update_speakers ;;
-  update_speakies_details) task_update_speakies_details ;;
   deploy) task_deploy "$@" ;;
   *) usage ;;
 esac

@@ -1,1 +1,0 @@
-Born in 1988 in Upper Austria, Gerhard Buchegger is a designer and illustrator. In 2014 he founded the Visual Studio DIE MÜHLE. As a lecturer in  Design and Product Management at FH Salzburg, he teaches and supervises scientific work on the topic of morality in product design. 

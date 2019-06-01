@@ -1,1 +1,0 @@
-I'm Chris, currently working as a Senior Web Engineer at Mozilla for addons.mozilla.org. I've been working for lots of smaller and bigger companies throughout the years. I'm also actively working on many web-related open source projects.

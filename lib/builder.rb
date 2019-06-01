@@ -9,19 +9,15 @@ class Builder
   end
 
   def run
-    languages = %w[en de]
-
-    languages.each do |lang|
-      Dir['pages/**/*'].each do |page|
-        next if page.start_with? 'pages/blog'
-        next if File.directory? page
-        build_page File.join(@target_dir, lang), lang, page
-      end
+    Dir['pages/**/*'].each do |page|
+      next if page.start_with? 'pages/blog'
+      next if File.directory? page
+      build_page File.join(@target_dir), page
     end
 
     Dir['pages/blog/*'].each do |page|
       next if File.directory? page
-      build_page @target_dir, 'en', page.gsub(/\.md$/, '.html')
+      build_page @target_dir, page.gsub(/\.md$/, '.html')
     end
 
     FileUtils.cp_r(File.join(@source_dir, 'assets'), @target_dir)
@@ -29,10 +25,10 @@ class Builder
 
   private
 
-  def build_page(target_dir, lang, page)
+  def build_page(target_dir, page)
     file = page.gsub(/\.erb$/, '').gsub(%r{^pages/}, '')
     file = '' if file == 'index.html'
-    result = @renderer.render(lang, file)
+    result = @renderer.render(file)
     target_path = File.join(target_dir, result.filename)
     FileUtils.mkdir_p(File.dirname(target_path))
     File.write(target_path, result.content)

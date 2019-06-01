@@ -13,18 +13,18 @@ class Renderer
     @source_dir = source_dir
   end
 
-  def render(lang, url)
+  def render(url)
     file = resolve_path(url)
     type = resolve_type(file)
     if type == 'text/html' || type == 'text/markdown'
       type = 'text/html'
       template = ERB.new(File.read(template_for(file)))
-      page = render_page(lang, url, file)
-      values = TemplateValues.new(lang, url, file, page.content, page.meta)
+      page = render_page(url, file)
+      values = TemplateValues.new(url, file, page.content, page.meta)
       values.renderer = self
       Result.new(template.result(values._context), url, type)
     else
-      page = render_page(lang, url, file)
+      page = render_page(url, file)
       Result.new(page.content, url, type)
     end
   end
@@ -81,12 +81,12 @@ class Renderer
     end
   end
 
-  def render_page(lang, url, file)
+  def render_page(url, file)
     result = RenderedPage.new
 
     if File.extname(file) == '.erb'
       template = ERB.new(File.read(path(file)))
-      values = PageValues.new(lang, url, file)
+      values = PageValues.new(url, file)
       values.renderer = self
       result.content = template.result(values._context)
     elsif File.extname(file) == '.md'
@@ -146,14 +146,18 @@ end
 
 class Renderer
   class Values
-    attr_reader :lang, :url, :file
+    attr_reader :url, :file
     attr_accessor :locals, :renderer
 
-    def initialize(lang, url, file)
-      @lang = lang
+    def initialize(url, file)
       @url = url
       @file = file
       @locals = {}
+    end
+
+    def lang
+      raise 'DEPRECATED!'
+      'en'
     end
 
     def partial(key, locals = {})
@@ -163,7 +167,7 @@ class Renderer
     end
 
     def content(key)
-      text = File.read("content/#{lang}/#{key}.md")
+      text = File.read("content/en/#{key}.md")
       Kramdown::Document.new(text).to_html
     end
 
@@ -171,7 +175,6 @@ class Renderer
       results = []
       Dir['pages/blog/*.md'].each do |page|
         result = renderer.render_page(
-          'en',
           page.gsub(/\.md$/, '.html'),
           page.gsub(%r{^pages/}, '')
         )
@@ -188,7 +191,7 @@ class Renderer
 
     def t(key, values = {})
       file = File.join('content', 'translations.yml')
-      result = YAML.safe_load(File.read(file))[lang]
+      result = YAML.safe_load(File.read(file))['en']
       key.split('.').each do |k|
         result = result.fetch(k)
       end
@@ -228,8 +231,8 @@ class Renderer
   class TemplateValues < Values
     attr_reader :main, :meta
 
-    def initialize(lang, url, file, main, meta = {})
-      super lang, url, file
+    def initialize(url, file, main, meta = {})
+      super url, file
       @main = main
       @meta = meta
     end

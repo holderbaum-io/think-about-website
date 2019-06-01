@@ -1,3 +1,0 @@
-**Diversitäre-Gruppe-Challenge**
-
-

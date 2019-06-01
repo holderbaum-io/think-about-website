@@ -1,2 +1,0 @@
-
-Renato ist Software= und Cloud Architekt, ein Digital Nomad und ein Slow Runner. Er bringt viele Jahre Erfahrung als Softwareentwickler, Tech Lead und Cloud Service Specialist in Italien, UK, Portugal und Deutschland mit. Aktuell beschäftigt er sich maßgeblich mit Relationalen Datenbanken in der Cloud sowie Location-Based Services. Er lebt in Berlin.

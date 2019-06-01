@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="<%= lang %>">
+<html lang="en">
   <head>
     <%= partial 'header' %>
   </head>
   <body>
-    <%= partial 'navigation', language_switch: false %>
+    <%= partial 'navigation' %>
     <% if is_blog_post? %>
       <main>
       <section class="blogpost">
@@ -28,9 +28,6 @@
         <div>
           <%= partial "blogauthor/#{meta[:author].downcase}" %>
         </div>
-      </section>
-      <section>
-        <%= partial 'tickets_footer' %>
       </section>
       <section>
         <%= partial 'updates' %>
