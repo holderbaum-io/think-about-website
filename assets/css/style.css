@@ -280,9 +280,6 @@ body > nav[mobile] > div > * {
   top: 1rem;
 }
 
-body > nav[mobile] > div > *:first-child {
-  left: 1rem;
-}
 body > nav[mobile] > div > *:last-child {
   right: 1rem;
 }
@@ -1240,14 +1237,6 @@ body > footer {
 }
 body > footer nav > a:first-child {
   display: inline-block;
-}
-body > footer nav > a:last-of-type {
-  position: absolute;
-  bottom: 40px;
-  left: 25vw;
-  width: 50vw;
-  margin-left: 0;
-  margin-bottom: 5rem;
 }
 body > footer nav > div:last-of-type {
   position: absolute;

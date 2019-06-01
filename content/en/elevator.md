@@ -1,3 +1,4 @@
 Think About! is a two-day community event about technology, design and their impacts on society.
 
-**23rd & 24th May 2019, Cologne**
+**May / June 2020,  
+Cologne**

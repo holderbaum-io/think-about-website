@@ -1,28 +1,15 @@
-<% language_switch = locals[:language_switch] != false %>
-<% switch_lang = lang == "en" ? "de" : "en" %>
-
     <nav desktop>
       <div>
         <a href="/<%= lang %>/"><img src="/assets/images/logo.svg" alt="Think About! Logo"/></a>
         <ul>
           <li><a href="/blog/">Blog</a></li>
-          <li><a href="/<%= lang %>/#schedule"><%= t('nav.schedule') %></a></li>
           <li><a href="/<%= lang %>/about-us.html"><%= t('nav.about-us') %></a></li>
           <li><a href="https://shop.spreadshirt.de/think-about-shop/"><%= t('nav.shop') %></a></li>
-          <li><a button href="/<%= lang %>/tickets.html"><%= t('nav.tickets') %></a></li>
-          <% if language_switch %>
-            <li><a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a></li>
-          <% end %>
         </ul>
       </div>
     </nav>
     <nav mobile <%= !url.empty? && url != 'index.html' && url != '/' ? 'dark' : ''%>>
       <div>
-        <% if language_switch %>
-          <a href="/<%= switch_lang %>/<%= url %>"><%= switch_lang.upcase %></a>
-        <% else %>
-          <a/>
-        <% end %>
         <% if !url.empty? && url != 'index.html' && url != '/' %>
           <a href="#footer"><img src="/assets/images/menu-dark.svg"/></a>
         <% else %>
