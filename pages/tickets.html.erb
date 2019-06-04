@@ -2,6 +2,7 @@
   <section>
     <div class="centered">
       <%= content 'tickets_intro' %>
+       <a href="#newsletter" button><%= t('newsletter.anchor-link-title') %></a>
     </div>
   </section>
   <section class="ticket-benefits image-with-text">
@@ -14,93 +15,6 @@
       </figure>
     </div>
     <a button href="/blog/10-reasons.html"><%= t('tickets.reasons_button_text') %></a>
-  </section>
-  <section class="tickets">
-    <div>
-      <h1><%= t('tickets.title') %></h1>
-      <a <%= data('tickets.earlybird.available') ? "href=#{t('tickets.shop_link.link')}" : '' %>>
-      <section ticket="early" <%= data('tickets.earlybird.available') ? '' : 'disabled' %>>
-        <h1><%= t('tickets.types.earlybird.title') %></h1>
-        <article>
-          <header>
-            <del><%= data('tickets.regular.price') %> €</del>
-            <price><%= data('tickets.earlybird.price') %> €</price>
-            <% if data('tickets.earlybird.available') %>
-            <p><%= t('tickets.types.earlybird.deadline') %></p>
-            <% else %>
-            <p><%= t('tickets.sold_out') %></p>
-            <% end %>
-          </header>
-          <ul>
-            <li><%= t('tickets.benefits.duration') %></li>
-            <li><%= t('tickets.benefits.food') %></li>
-            <li><%= t('tickets.benefits.beverages') %></li>
-          </ul>
-        </article>
-      </section></a><a <%= data('tickets.regular.available') ? "href=#{t('tickets.shop_link.link')}" : '' %>><section ticket="regular" <%= data('tickets.regular.available') ? '' : 'disabled' %>>
-        <h1><%= t('tickets.types.regular.title') %></h1>
-        <article>
-          <header>
-            <price><%= data('tickets.regular.price') %> €</price>
-            <% if data('tickets.regular.available') %>
-            <p><%= t('tickets.types.regular.deadline') %></p>
-            <% else %>
-            <p><%= t('tickets.sold_out') %></p>
-            <% end %>
-          </header>
-          <ul>
-            <li><%= t('tickets.benefits.duration') %></li>
-            <li><%= t('tickets.benefits.food') %></li>
-            <li><%= t('tickets.benefits.beverages') %></li>
-          </ul>
-        </article>
-      </section></a><a <%= data('tickets.latebird.available') ? "href=#{t('tickets.shop_link.link')}" : '' %>><section ticket="latebird" <%= data('tickets.latebird.available') ? '' : 'disabled' %>>
-        <h1><%= t('tickets.types.latebird.title') %></h1>
-        <article>
-          <header>
-            <price><%= data('tickets.latebird.price') %> €</price>
-            <% if data('tickets.latebird.available') %>
-            <p><%= t('tickets.types.latebird.deadline') %></p>
-            <% end %>
-          </header>
-          <ul>
-            <li><%= t('tickets.benefits.duration') %></li>
-            <li><%= t('tickets.benefits.food') %></li>
-            <li><%= t('tickets.benefits.beverages') %></li>
-          </ul>
-        </article>
-      </section></a><a <%= data('tickets.supporter.available') ? "href=#{t('tickets.shop_link.link')}" : '' %>><section ticket="supporter" <%= data('tickets.supporter.available') ? '' : 'disabled' %>>
-        <h1><%= t('tickets.types.supporter.title') %></h1>
-        <article>
-          <header>
-            <price><%= data('tickets.supporter.price') %> €</price>
-            <p><%= t('tickets.solidarity_price_details') %></p>
-          </header>
-          <ul>
-            <li><%= t('tickets.benefits.duration') %></li>
-            <li><%= t('tickets.benefits.food') %></li>
-            <li><%= t('tickets.benefits.beverages') %></li>
-            <li><%= t('tickets.benefits.karma') %></li>
-          </ul>
-        </article>
-      </section></a>
-    </div>
-  </section>
-    <section>
-    <div class="centered">
-      <%= content 'tickets_share' %>
-      <figure>
-        <img src="/assets/images/share-ticket.svg" alt="Two monsters holding a ticket together.">
-      </figure>
-    </div>
-  </section>
-  <section>
-    <div class="centered">
-      <%= content 'tickets_notes' %>
-      <figure>
-        <img src="/assets/images/solidarity.svg" alt="A Monster giving away free tickets.">
-      </figure>
-    </div>
   </section>
 </main>
 

@@ -1,3 +1,5 @@
 # Think About: Tickets
 
-[We](about-us.html#) attended a lot of conferences - that helps because this way we have a long list of things we want to do differently and think about. For example our tickets: The prices allow us to support diversity and solidarity throughout our conference.
+Tickets for the Think About! 2020 are currently not for sale. The early bird sale will start around October/November 2019. 
+
+If you don't want to miss the start of the early bird phase feel free to subscribe to our newsletter.
