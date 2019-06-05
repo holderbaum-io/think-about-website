@@ -1,5 +1,3 @@
-**Think About!** is a tech conference which focuses not only on technology but also on design and their social impact. It creates a safe and inspirational space for 
-everyone, and we really mean **everyone**. 
+Creating an event that is driven by our values was the main motivation for the **Think About! 2019**. This event was mainly focussed on four values: Diversity, Awareness, Solidarity and Privacy. 
 
-Our belief is that society needs diversity in order to continue a healthy and critical dialogue. For this reason we want to bring together diverse individuals and 
-enable them to challenge themselves and each other.
+**Thanks again** to everyone who helped making the first edition of the Think About! possible. Without you the event would not have been as amazing, inspiring and magical as it was.
