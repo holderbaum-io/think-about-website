@@ -179,6 +179,7 @@ class Renderer
         thumb = File.dirname(filepath) + '/thumb/' + File.basename(filepath)
         size = FastImage.size(filepath)
         {
+          basename: File.basename(filepath),
           path: '/' + filepath,
           thumb: '/' + thumb,
           width: size[0],
@@ -209,7 +210,8 @@ class Renderer
       file = File.join('content', 'translations.yml')
       result = YAML.safe_load(File.read(file))['en']
       key.split('.').each do |k|
-        result = result.fetch(k)
+        result = result.fetch(k, nil)
+        raise "Can't find translation key: #{key}" if result.nil?
       end
       if values.empty?
         result

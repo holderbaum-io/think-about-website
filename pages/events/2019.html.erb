@@ -20,7 +20,7 @@
           <a href="<%= image[:path] %>" itemprop="contentUrl" data-size="<%= image[:width].to_s + 'x' + image[:height].to_s %>">
             <img src="<%= image[:thumb] %>" itemprop="thumbnail" alt="Image description" />
           </a>
-          <figcaption itemprop="caption description">Image caption</figcaption>
+          <figcaption itemprop="caption description"><%= t('imagecaptions.events.ta2019.' + image[:basename].tr('.', '_')) %></figcaption>
         </figure>
       <% end %>
       </div>
