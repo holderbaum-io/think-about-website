@@ -104,6 +104,7 @@ section > div.centered {
   margin: 0 auto;
 }
 
+nav[desktop] > div,
 section > div {
   max-width: 980px;
   margin-left: auto;
