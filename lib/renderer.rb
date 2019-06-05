@@ -254,11 +254,11 @@ class Renderer
     end
 
     def is_blog_post?
-      file.start_with?('blog/') && file.end_with?('md')
+      file.start_with?('/blog/', 'blog/') && file.end_with?('md')
     end
 
     def is_event?
-      file.start_with?('/events/')
+      file.start_with?('/events/', 'events/')
     end
 
     def is_talk_details?
@@ -266,7 +266,7 @@ class Renderer
     end
 
     def is_landing_page?
-      url.empty? || url == '/index.html' || url == '/'
+      url.empty? || url == 'index.html' || url == '/index.html' || url == '/'
     end
 
     def filename
