@@ -1,4 +1,5 @@
 require 'erb'
+require 'fastimage'
 require 'kramdown'
 require 'oga'
 require 'uri'
@@ -68,6 +69,8 @@ class Renderer
 
   def resolve_type(filename)
     case File.extname(filename.gsub(/\.erb$/, ''))
+    when '.js'
+      'application/javascript'
     when '.css'
       'text/css'
     when '.svg'
@@ -169,6 +172,19 @@ class Renderer
     def content(key)
       text = File.read("content/en/#{key}.md")
       Kramdown::Document.new(text).to_html
+    end
+
+    def images(glob)
+      Dir[glob].each.map do |filepath|
+        thumb = File.dirname(filepath) + '/thumb/' + File.basename(filepath)
+        size = FastImage.size(filepath)
+        {
+          path: '/' + filepath,
+          thumb: '/' + thumb,
+          width: size[0],
+          height: size[1]
+        }
+      end
     end
 
     def blog_posts

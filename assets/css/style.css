@@ -98,20 +98,20 @@ ul li {
   padding-bottom: 0.5rem;
 }
 
-body div {
+section > div.centered {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+section > div {
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
 }
 
-body section p {
+main > section p {
   line-height: 1.4rem;
-}
-
-body div.centered {
-  max-width: 600px;
-  text-align: center;
-  margin: 0 auto;
 }
 
 main > section {
@@ -221,6 +221,13 @@ body > header {
   padding-top: 70px;
 }
 
+body > header.hero-2019 {
+  width: 100%;
+  background-image: url("/assets/images/events/2019-large.jpg");
+  background-size: 1536px 600px;
+  background-color: white;
+}
+
 body > header[small] {
   height: 75px;
   background-color: #f9f9f9;
@@ -242,6 +249,37 @@ body > header div.centered {
 
 body > header a[button] {
   margin-top: 0.4rem;
+}
+
+/* ================================ */
+/* Gallery */
+
+div.imagegallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+div.imagegallery figure {
+  flex: 33.33%;
+  max-width: 33.33%;
+  margin: 0;
+  padding: 2px;
+}
+
+div.imagegallery figure a {
+  display: block;
+  line-height: 0;
+}
+
+div.imagegallery figure img {
+  width: 100%;
+}
+
+div.imagegallery figure figcaption {
+  display: none;
 }
 
 /* ================================ */
@@ -483,6 +521,36 @@ section.about-us section article {
 section.about-us section article * {
   text-align: center;
 }
+}
+
+/* ================================ */
+/* Events */
+
+section.events div > div {
+}
+
+section.events article {
+  max-width: 80%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+section.events article > a {
+  text-decoration: none;
+}
+
+section.events article h1 {
+  font-size: 1.2rem;
+}
+
+section.events article h2 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+section.events article img {
+  width: 100%;
 }
 
 /* ================================ */
