@@ -175,7 +175,7 @@ class Renderer
     end
 
     def images(glob)
-      Dir[glob].each.map do |filepath|
+      Dir[glob].sort.each.map do |filepath|
         thumb = File.dirname(filepath) + '/thumb/' + File.basename(filepath)
         size = FastImage.size(filepath)
         {
