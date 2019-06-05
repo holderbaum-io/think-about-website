@@ -551,17 +551,71 @@ section.about-us section article * {
 /* ================================ */
 /* Events */
 
-section.events div > div {
+section.events > div > h1 {
+  text-align: center;
+}
+
+section.events > div > div {
+  display: flex;
+  justify-content: center;
 }
 
 section.events article {
-  max-width: 80%;
-  display: inline-block;
-  margin: 0 auto;
+  flex: 50%;
+  max-width: 50%;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #e9e9e9;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+section.events article {
+  flex: 75%;
+  max-width: 75%;
+}
+}
+
+@media (max-width: 699px) {
+section.events article {
+  flex: 100%;
+  max-width: 100%;
+}
+}
+
+section.events article * {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
 }
 
 section.events article > a {
   text-decoration: none;
+}
+
+section.events article figure {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+section.events article figure img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+section.events article div {
+  padding: 2rem;
+}
+
+section.events article div span:first-of-type {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+
+section.events article div span:last-of-type {
+  display: inline-block;
+  color: #9b9b9b;
+  text-decoration: underline;
 }
 
 section.events article h1 {
@@ -574,9 +628,6 @@ section.events article h2 {
   font-weight: 400;
 }
 
-section.events article img {
-  width: 100%;
-}
 
 /* ================================ */
 /* Topics */
