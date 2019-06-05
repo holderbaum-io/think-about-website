@@ -175,6 +175,7 @@ span[note] a {
 
 span[note] {
   display: block;
+  margin-bottom: 0.7rem;
 }
 
 a[button]:hover ,
@@ -269,6 +270,7 @@ div.imagegallery {
   justify-content: space-between;
   align-items: flex-start;
   align-content: flex-start;
+  margin: 2rem 0;
 }
 
 div.imagegallery figure {
