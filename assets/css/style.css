@@ -271,7 +271,11 @@ div.imagegallery {
   justify-content: space-between;
   align-items: flex-start;
   align-content: flex-start;
-  margin: 2rem 0;
+  margin: 1rem 0;
+}
+
+div.imagegallery + a[button] {
+  margin-bottom: 2rem;
 }
 
 div.imagegallery figure {
