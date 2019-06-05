@@ -215,17 +215,26 @@ body > header {
   background-image: url("/assets/images/keyvisual.svg");
   background-repeat: no-repeat;
   background-position: center 0;
-  background-size: auto;
   background-size: 4096px 600px;
   background-color: #470076;
   padding-top: 70px;
 }
 
-body > header.hero-2019 {
-  width: 100%;
+body > header.hero {
+  background-color: white;
+}
+
+body > header.ta2019 {
   background-image: url("/assets/images/events/2019-large.jpg");
   background-size: 1536px 600px;
-  background-color: white;
+}
+
+@media (max-width: 699px) {
+body > header.ta2019 {
+  background-image: url("/assets/images/events/2019-small.jpg");
+  background-position: center;
+  background-size: cover;
+}
 }
 
 body > header[small] {

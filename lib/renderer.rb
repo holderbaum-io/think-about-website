@@ -257,8 +257,16 @@ class Renderer
       file.start_with?('blog/') && file.end_with?('md')
     end
 
+    def is_event?
+      file.start_with?('/events/')
+    end
+
     def is_talk_details?
       file.match(%r{speakies/[a-zA-Z0-9_]+\.html\.erb$})
+    end
+
+    def is_landing_page?
+      url.empty? || url == '/index.html' || url == '/'
     end
 
     def filename

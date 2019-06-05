@@ -8,12 +8,16 @@
         </ul>
       </div>
     </nav>
-    <nav mobile <%= !url.empty? && url != 'index.html' && url != '/' ? 'dark' : ''%>>
+    <% if is_landing_page? || is_event? %>
+      <nav mobile>
+    <% else %>
+      <nav mobile dark>
+    <% end %>
       <div>
-        <% if !url.empty? && url != 'index.html' && url != '/' %>
-          <a href="#footer"><img src="/assets/images/menu-dark.svg"/></a>
-        <% else %>
+        <% if is_landing_page? || is_event? %>
           <a href="#footer"><img src="/assets/images/menu.svg"/></a>
+        <% else %>
+          <a href="#footer"><img src="/assets/images/menu-dark.svg"/></a>
         <% end %>
       </div>
     </nav>
