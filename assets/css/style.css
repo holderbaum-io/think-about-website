@@ -228,7 +228,7 @@ body > header.hero {
 
 body > header.ta2019 {
   background-image: url("/assets/images/events/2019-large.jpg");
-  background-size: 1536px 600px;
+  background-size: 1920px 600px;
 }
 
 @media (max-width: 699px) {
