@@ -3,15 +3,14 @@
 ## Information pursuant to § 5 TMG
 
 HRX Veranstaltungen GmbH  
-Kaiserwerther Straße 8  
-50739 Köln
+Adolphstraße 18  
+50679 Köln
 
 Handelsregister: HRB 94561  
 Registration court: Amtsgericht Köln
 
 **Represented by the managing directors:**  
 Christina Holderbaum  
-Andreas Rosing  
 Jakob Holderbaum
 
 ## Contact
