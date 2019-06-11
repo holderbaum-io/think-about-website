@@ -1,4 +1,4 @@
-#Call for Participation?
+#Call for Participation
 
 We are not running an official Call for Participation (CfP) for the Think About! 2020. The reason is simply that we are focusing on many different aspects in our speaker lineup: gender- and ethnical diversity, good mixture of technical and non-technical topics that work with each other, amateurs and seasoned speakers and of course a sensible combination of locals and people from far away.
 
