@@ -67,11 +67,7 @@ situations.  One team will be moving freely on the location, another one can be
 reached at a fixed position which will be communicated in advance. They will
 also be available via a phone number which will be published here as well.
 
-One can also contact the Awareness Team through any of the other conference officials (people working at the conference).
-
-The Awareness Team may warn offenders or exclude them from the conference with no refund.
-
-Further details about our Awareness-Structure and our conduct during incidents will be published here in the future.
+One can also contact the Awareness Team through any of the other conference officials (people working at the conference). The Awareness Team may warn offenders or exclude them from the conference with no refund.
 
 You can contact us before or after the conference as well.
 
@@ -79,7 +75,6 @@ The organization team may be reached via mail under the following addresses:
 
 [chrissi@think-about.io](mailto:chrissi@think-about.io) ([GPG](/assets/chrissi.asc))  
 [jakob@think-about.io](mailto:jakob@think-about.io) ([GPG](/assets/jakob.asc))  
-[andreas@think-about.io](mailto:andreas@think-about.io) ([GPG](/assets/andreas.asc))  
 
 We shall soon be providing a list of external organizations you may also wish to contact.
  
