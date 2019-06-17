@@ -1526,6 +1526,11 @@ section.speaker-details article.bio > div p:first-of-type {
 /* ================================ */
 /* Blog Overview */
 
+section.blog > div > h1,
+section.blog > div > p {
+  text-align: center;
+}
+
 section.blog section {
   border-radius: 5px;
   background-color: white;

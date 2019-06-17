@@ -43,6 +43,29 @@
       </span>
     </div>
   </section>
+  <section class="blog">
+    <div>
+      <h1>Media Coverage</h1>
+      <p>
+        Some words about this..
+      </p>
+      <% data('2019/media').each do |media| %>
+      <a href="<%= media[:url] %>">
+        <section>
+          <div>
+            <img src="<%= media[:image] %>" />
+          </div>
+          <div>
+            <span><%= media[:author] %></span>
+            <h1><%= media[:title] %></h1>
+            <p><%= media[:text] %></p>
+            <span>Read more</span>
+          </div>
+        </section>
+      </a>
+      <% end %>
+    </div>
+  </section>
 </main>
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="pswp__bg"></div>
