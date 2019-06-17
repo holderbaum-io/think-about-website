@@ -1,0 +1,24 @@
+---
+pageable: false
+---
+<main>
+  <section class="blog">
+    <div>
+      <h1>Think About! Blog</h1>
+      <% blog.articles.each do |article| %>
+        <a href="<%= article.url %>"><section>
+          <div><img src="<%= blogimg article %>" /></div>
+          <div>
+            <span>
+              <%= article.data.author %>
+              /
+              <%= blogdate article %>
+            </span>
+            <h1><%= article.title %></h1>
+            <p><%= article.summary %></p>
+            <span>Read more</span>
+          </div>
+        </section></a><% end %>
+    </div>
+  </section>
+</main>

@@ -1,8 +1,10 @@
+require 'uri'
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
+  prefix.browsers = 'last 2 versions'
 end
 
 # Layouts
@@ -39,6 +41,29 @@ helpers do
   def is_event?
     true
   end
+
+  def encode(string)
+    URI::encode string
+  end
+
+  def blogdate(article)
+    article.date.strftime('%b %d')
+  end
+
+  def blogimg(article)
+    "/images/blog/#{article.slug}/header.png"
+  end
+
+  def social_url(article)
+    'https://think-about.io' + article.url
+  end
+end
+
+activate :blog do |blog|
+  blog.prefix = 'blog'
+  # blog.sources = 'articles/{year}-{month}-{day}-{title}.html.markdown'
+  blog.permalink = '{title}.html'
+  blog.layout = 'article'
 end
 
 # Build-specific configuration
@@ -47,5 +72,4 @@ end
 configure :build do
   activate :minify_css
   activate :minify_javascript
-  activate :i18n
 end

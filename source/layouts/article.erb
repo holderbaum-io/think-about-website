@@ -1,0 +1,35 @@
+<% wrap_layout :layout do %>
+  <main>
+    <section class="blogpost">
+      <div>
+        <h1>Title</h1>
+        <span>
+          Published
+          <%= blogdate current_article %>
+          by
+          <a href="#author"><%= current_article.data.author %></a>,
+          Reading time ... Minutes
+        </span>
+        <img src="<%= blogimg current_article %>" />
+        <%= yield %>
+        <div class="centered">
+          <p>Share this article:</p>
+          <p>
+            <a href="https://twitter.com/intent/tweet?text=<%= encode(current_article.data.tweet) %>&url=<%= encode(social_url current_article) %>" button light>Twitter</a>
+            <a href="https://facebook.com/sharer.php?u=<%= encode(social_url current_article) %>" button light>Facebook</a>
+            <a href="http://news.ycombinator.com/submitlink?u=<%= encode(social_url current_article) %>&t=<%= encode(current_article.title) %>" button light>Hackernews</a>
+          </p>
+        </div>
+      </div>
+      <a id="author"></a>
+    </section>
+    <section class="blogauthor">
+      <div>
+        <%= partial 'blogauthor/' + current_article.data.author.downcase %>
+      </div>
+    </section>
+    <section>
+      <%= partial 'updates' %>
+    </section>
+  </main>
+<% end %>
