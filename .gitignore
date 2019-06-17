@@ -1,6 +1,7 @@
 vendor/*
 .bundle/
 result/*
+build/*
 .DS_Store
 /.idea/*
 *.iml

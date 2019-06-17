@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#280050">
+    <meta name="msapplication-TileColor" content="#280050">
+    <meta name="theme-color" content="#280050">
+
+    <title><%= current_page.data.title || "Think About! Conference" %></title>
+    <style>
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/stylesheets/fonts/montserrat-regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/stylesheets/fonts/montserrat-bold.ttf) format('truetype');
+}
+    </style>
+    <%= stylesheet_link_tag "site" %>
+    <link rel="preload" as="image" media="(min-width: 700px)" href="/assets/images/keyvisual.svg">
+    <link rel="preload" as="image" media="(max-width: 699px)" href="/assets/images/keyvisual-small.svg">
+  </head>
+  <body>
+    <%= partial 'navigation' %>
+    <%= yield %>
+    <%= partial 'footer' %>
+  </body>
+</html>
