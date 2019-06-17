@@ -1,6 +1,5 @@
 ---
 title: "How not to spy on your Users!"
-date: 2020-01-16
 tweet: "TODO @ThinkAboutConf #thinkabout19"
 author_twitter: "@hldrbm"
 author: Jakob
@@ -10,6 +9,8 @@ author: Jakob
 How can user privacy be ensured when website owners want statistics about their
 website usage? Common tools like Google Analytics expose your website visitor's
 data to huge corporations, we find this to be unethical.
+
+READMORE
 
 We wanted to be able to understand how our website is used. How many clicks are
 we generating, where are the users coming from and how frequently are the

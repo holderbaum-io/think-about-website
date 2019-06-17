@@ -2,7 +2,7 @@
   <main>
     <section class="blogpost">
       <div>
-        <h1>Title</h1>
+        <h1><%= current_article.title %></h1>
         <span>
           Published
           <%= blogdate current_article %>
@@ -25,11 +25,27 @@
     </section>
     <section class="blogauthor">
       <div>
-        <%= partial 'blogauthor/' + current_article.data.author.downcase %>
+        <%= partial 'blog/' + current_article.data.author.downcase %>
       </div>
     </section>
     <section>
       <%= partial 'updates' %>
     </section>
   </main>
+<% end %>
+
+<% content_for :metatags do %>
+  <meta property="og:image" content="<%= social_img current_article %>">
+  <meta property="og:title" content="<%= current_article.title %>">
+  <meta property="og:description" content="<%= strip_tags current_article.summary %>">
+  <meta property="og:url" content="<%= social_url current_article %>">
+  <meta property="og:type"   content="article" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@thinkaboutconf">
+  <meta name="twitter:title" content="<%= current_article.title %>">
+  <meta name="twitter:description" content="<%= strip_tags current_article.summary %>">
+  <meta name="twitter:creator" content="<%= current_article.author_twitter %>">
+  <meta name="twitter:image" content="<%= social_img current_article %>">
+  <meta name="twitter:domain" content="<%= social_domain %>">
 <% end %>

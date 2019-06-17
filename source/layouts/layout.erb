@@ -13,6 +13,23 @@
     <meta name="msapplication-TileColor" content="#280050">
     <meta name="theme-color" content="#280050">
 
+    <% if content_for? :header %>
+    <%= yield_content :header %>
+    <% else %>
+    <meta property="og:image" content="/images/og-image.jpg">
+    <meta property="og:title" content="Think About! Conference">
+    <meta property="og:description" content="Think About! is a tech conference which focuses not only on technology but also on design and their social impact. It creates a safe and inspirational space for everyone, and we really mean everyone.">
+    <meta property="og:url" content="https://think-about.io/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@thinkaboutconf">
+    <meta name="twitter:title" content="Think About! Conference">
+    <meta name="twitter:description" content="Think About! is a tech conference which focuses not only on technology but also on design and their social impact. It creates a safe and inspirational space for everyone, and we really mean everyone.">
+    <meta name="twitter:image" content="https://think-about.io/images/og-image.jpg">
+    <meta name="twitter:domain" content="think-about.io">
+    <% end %>
+
+
     <title><%= current_page.data.title || "Think About! Conference" %></title>
     <style>
 @font-face {

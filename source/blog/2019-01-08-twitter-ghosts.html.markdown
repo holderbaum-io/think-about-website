@@ -1,6 +1,5 @@
 ---
 title: "The Haunted Twitter Account"
-date: 2019-01-08
 tweet: "Our twitter account is haunted by ghost followers 👻. We grabbed our mad computer skills and went on a ghost hunt. This is a story on how we got rid of our fake followers. @ThinkAboutConf #thinkabout19"
 author_twitter: "@hldrbm"
 author: Jakob
@@ -9,6 +8,8 @@ author: Jakob
 
 On Monday the 7th of January it happened: Over night we had more than 300
 additional Twitter followers. Sounds cool, right? Well, unfortunately it is not. 
+
+READMORE
 
 We were not praised by sudden fame. All of those 300 new followers were ghost
 followers: fake accounts that only exist to increase the reach of another

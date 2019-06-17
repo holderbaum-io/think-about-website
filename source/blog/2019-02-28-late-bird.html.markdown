@@ -1,6 +1,5 @@
 ---
 title: "On being late for Late Bird"
-date: 2019-02-28
 tweet: "Take a look at how @ThinkAboutConf learned from their first Early Bird Sale ever! #thinkabout19"
 author_twitter: "@hldrbm"
 author: Jakob
@@ -11,6 +10,8 @@ Beginning of January we published our first [blog
 post](/blog/learning-from-a-ticket-price-adventure.html) about finding the
 right ticket price. Now, after the end of the early bird sales, we learned some
 new things. Let's dive into those!
+
+READMORE
 
 Think About! is a two day tech conference about technology, design and their
 impact on society. It will take place in a cozy cinema in Cologne, Germany.

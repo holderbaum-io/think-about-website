@@ -1,6 +1,5 @@
 ---
 title: "Learning from a Ticket Price Adventure"
-date: 2019-01-04
 tweet: "Great article about the ticket price challenges for a newcomer conference @ThinkAboutConf #thinkabout19"
 author_twitter: "@hldrbm"
 author: Jakob
@@ -10,6 +9,8 @@ author: Jakob
 November 15th we officially launched the [ticket sales](/en/tickets.html) of
 the first installment of the Think About! Conference. This is a summary of our
 journey towards finding the "right" ticket price.
+
+READMORE
 
 Think About! is a two day tech conference about technology, design and their
 impact on society. It will take place in a cozy cinema in Cologne, Germany.

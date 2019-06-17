@@ -1,6 +1,5 @@
 ---
 title: "It is Scheduled"
-date: 2019-03-21
 tweet: "We just published the first version of the conference schedule for #thinkabout19"
 author_twitter: "@hldrbm"
 author: Jakob
@@ -10,6 +9,8 @@ author: Jakob
 We just finished the first version of the schedule. 24 amazing talks spread
 over two stages on two days. This article explains a few thoughts and ideas
 that went into the specific running order we have now.
+
+READMORE
 
 Think About! is a two day tech conference about technology, design and their
 impact on society. It will take place in a cozy cinema in Cologne, Germany. Go

@@ -6,7 +6,8 @@ pageable: false
     <div>
       <h1>Think About! Blog</h1>
       <% blog.articles.each do |article| %>
-        <a href="<%= article.url %>"><section>
+      <a href="<%= article.url %>">
+        <section>
           <div><img src="<%= blogimg article %>" /></div>
           <div>
             <span>
@@ -15,10 +16,12 @@ pageable: false
               <%= blogdate article %>
             </span>
             <h1><%= article.title %></h1>
-            <p><%= article.summary %></p>
+            <p><%= strip_tags article.summary %></p>
             <span>Read more</span>
           </div>
-        </section></a><% end %>
+        </section>
+      </a>
+      <% end %>
     </div>
   </section>
 </main>

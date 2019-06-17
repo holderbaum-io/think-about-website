@@ -55,7 +55,15 @@ helpers do
   end
 
   def social_url(article)
-    'https://think-about.io' + article.url
+    'https://' + social_domain + article.url
+  end
+
+  def social_img(article)
+    'https://' + social_domain + blogimg(article)
+  end
+
+  def social_domain
+    'think-about.io'
   end
 end
 
