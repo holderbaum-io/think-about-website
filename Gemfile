@@ -1,13 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'faraday'
 gem 'fastimage'
 gem 'kramdown', '~> 1.2'
-gem 'kramdown-metadata-parsers'
 gem 'middleman', '~> 4.2'
 gem 'middleman-autoprefixer', '~> 2.7'
 gem 'middleman-blog', '~> 4.0'
 gem 'nokogiri'
-gem 'oga'
-gem 'sinatra'
-gem 'sinatra-contrib'

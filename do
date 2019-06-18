@@ -27,17 +27,17 @@ task_serve() {
   ensure_ruby
 
   local port="${1:-9090}"
-  ./vendor/bin/rackup -p "$port" -o 0.0.0.0
+  ./vendor/bin/middleman serve -p "$port" --bind-address=127.0.0.1
 }
 
 task_build() {
   ensure_ruby
 
-  bundle exec ruby ./bin/build.rb
+  ./vendor/bin/middleman build
 }
 
 task_clean() {
-  rm -rf result/
+  rm -rf build/
 }
 
 task_update_event_data() {
@@ -70,12 +70,7 @@ task_deploy() {
   rsync \
     -ruvc \
     --delete \
-    result/* \
-    "${user}@turing.holderbaum.me:www/"
-
-  rsync \
-    -ruvc \
-    root/* \
+    build/* \
     "${user}@turing.holderbaum.me:www/"
 
   rsync \
