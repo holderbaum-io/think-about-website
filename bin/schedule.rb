@@ -2,7 +2,7 @@ require 'json'
 require 'date'
 require 'time'
 
-schedule = JSON.parse(File.read('data/events.json'), symbolize_names: true)
+schedule = JSON.parse(ARGF.read, symbolize_names: true)
 
 def slug(string)
   string.downcase.gsub!(/[ äöüß]/) do |match|
@@ -35,13 +35,35 @@ def speakers_company(talk)
   link ? link[:title].split(' @ ').last : 'TODO'
 end
 
+def speakers_title(talk)
+  link = talk[:speakers].first[:links].first
+  link ? link[:title].split(' @ ').first : 'TODO'
+end
+
+def talk_abstract(talk)
+  talk[:abstract]
+end
+
+def speaker_bio(talk)
+  talk[:speakers].first[:abstract]
+end
+
+def speaker_info(talk)
+  {
+    person: printable_person_name(talk),
+    person_slug: printable_person_slug(talk),
+    company: speakers_company(talk),
+    title: speakers_title(talk),
+    bio: speaker_bio(talk)
+  }
+end
+
 def process_speaker(talk)
   if !talk[:speakers].empty?
-    { has_person: true,
-      person: printable_person_name(talk),
-      person_slug: printable_person_slug(talk),
-      company: speakers_company(talk),
-      images: speaker_image_pathes(talk) }
+    result = { has_person: true,
+               abstract: talk_abstract(talk),
+               images: speaker_image_pathes(talk) }
+    result.merge(speaker_info(talk))
   else
     { has_person: false, images: [] }
   end
@@ -51,7 +73,7 @@ def process_title(talk)
   lang = talk[:title].match(/(\(\w+\))/)
   lang = lang[1].tr('()', '') if lang
 
-  { lang: lang ? " (#{lang})" : '',
+  { lang: lang ? lang : '',
     title: talk[:title].gsub(/\(\w+\)/, '').strip }
 end
 
@@ -92,5 +114,4 @@ schedule[:conference_events][:events]
   events[day] << event
 end
 
-json = JSON.pretty_generate(events)
-File.write('data/schedule.json', json)
+puts JSON.pretty_generate(events)

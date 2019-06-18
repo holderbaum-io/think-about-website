@@ -46,14 +46,16 @@ task_update_event_data() {
     -L \
     "$url" \
       |ruby -rjson -e 'puts JSON.pretty_generate(JSON.parse(STDIN.read))' \
-      >data/events-new.json
-  if [ -s data/events-new.json ];
+      >.events.json
+
+  bundle exec ruby bin/schedule.rb <.events.json >.schedule.json
+
+  if [ -s .schedule.json ];
   then
-    mv data/events-new.json data/events.json
-    bundle exec ruby bin/schedule.rb
-  else
-    rm -f data/events-new.json
+    mv .schedule.json data/events/2019/schedule.json
   fi
+
+  rm -f .events.json .schedule.json
 }
 
 task_deploy() {
