@@ -12,8 +12,6 @@ ensure_ruby() {
 }
 
 function task_prepare_ci {
-  git checkout -qf master
-
   openssl aes-256-cbc \
     -K "$encrypted_9e05e58bd4ea_key" \
     -iv "$encrypted_9e05e58bd4ea_iv" \
@@ -80,6 +78,12 @@ task_deploy() {
     "${user}@turing.holderbaum.me:conf.d/"
 }
 
+task_deploy_travis() {
+  task_prepare_ci
+  task_deploy
+}
+
+
 usage() {
   echo "$0 serve | build | update_event_data | deploy | clean"
   exit 1
@@ -88,11 +92,11 @@ usage() {
 cmd="${1:-}"
 shift || true
 case "$cmd" in
-  prepare-ci) task_prepare_ci ;;
   clean) task_clean ;;
   serve) task_serve "$@" ;;
   build) task_build ;;
   update_event_data) task_update_event_data ;;
   deploy) task_deploy "$@" ;;
+  deploy-travis) task_deploy_travis "$@" ;;
   *) usage ;;
 esac
