@@ -1,1 +1,0 @@
-Eileen leverages human-centered design and open digital technologies to empower people online. Besides a keen interest in security and privacy issues, she brings her research and analytical skills to lead programs at Simply Secure, a non-profit that brings experience design to open source projects.

@@ -1,1 +1,0 @@
-Graduated in Mathematics, I am working as an IT consultant in the field of Data Science and Artificial Intelligence. Having been a fighter for diversity and equal rights all my lifetime, today one of my main interests is how to make sure that techniques and algorithms do not discriminate against race or gender and to awake awareness on this topic and its effects on society.

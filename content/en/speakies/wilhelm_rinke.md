@@ -1,2 +1,0 @@
-Wilhelm acts as Head of Design Thinking at Berliner Ideenlabor. He studied Biology and Ecology (B.Sc. TU Darmstadt, M.Sc. HU Berlin), Photography (Ostkreuzschule für
-+Fotografie), Design Thinking (HPI DSchool) and teaches at HTW Berlin.

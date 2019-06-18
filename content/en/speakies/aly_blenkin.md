@@ -1,5 +1,0 @@
-Aly is the Associate Director of Pivotal Act, an initiative in Pivotal, dedicated to building technology that address social, humanitarian and environmental issues.
-
-Prior to Pivotal, Aly was a design consultant at ThoughtWorks and before that worked in academia at Parsons in Design and Technology. She has consulted across private and social impact sectors on projects with large corporate clients like HSBC and Volkswagen to humanitarian organizations such as, Red Cross and Save the Children.
-
-Educated in Canada, New York, and Germany, Aly holds her master’s in Transdisciplinary Design, from Parsons in New York. She won a Rockefeller grant and was a finalist for the Fast Company Innovation awards during that time for her thesis. She also studied Service Design at Köln International School of Design in Germany and has bachelor’s degree in Industrial Design from the University of Alberta.

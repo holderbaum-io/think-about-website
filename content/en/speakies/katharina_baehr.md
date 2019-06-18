@@ -1,1 +1,0 @@
-I am working at Zühlke Engineering as a software engineer and focus on web technologies including cross-platform applications. Mostly I work in projects in the IoT context and love the combination of different technologies, cloud and connected devices. Besides this, I write about aurelia on my blog.
