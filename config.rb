@@ -37,11 +37,11 @@ page '/*.txt', layout: false
 
 helpers do
   def is_landing_page?
-    true
+    current_page.url == '/'
   end
 
   def is_event?
-    true
+    current_page.url =~ %r{^/events/.+\.html}
   end
 
   def encode(string)
