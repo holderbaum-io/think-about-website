@@ -1,0 +1,11 @@
+<div>
+  <h1>Our 2019 Rocket Sponsors</h1>
+  <div>
+    <% data.events['2019']['rocket-sponsors'].each do |sponsor| %>
+    <% path = "/images/events/2019/partners/#{sponsor[:name]}.png" %>
+    <% height = sponsor.fetch :height, 70 %>
+    <% href = sponsor[:link] %>
+    <a href="<%= href %>"><figure><img style="height: <%= height %>px" src="<%= path %>"/></figure></a>
+    <% end %>
+  </div>
+</div>
