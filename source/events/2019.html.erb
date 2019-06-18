@@ -8,7 +8,16 @@
   <section>
     <div class="centered">
       <h1>Think About! 2019</h1>
-      <%= content 'our_conference' %>
+      <p>
+      Creating an event that is driven by our values was the main motivation for the
+      <b>Think About! 2019</b>. This event was mainly focussed on four values:
+      Diversity, Awareness, Solidarity and Privacy.
+      </p>
+      <p>
+      <b>Thanks again</b> to everyone who helped making the first edition of the
+      Think About! possible. Without you the event would not have been as amazing,
+      inspiring and magical as it was.
+      </p>
     </div>
   </section>
   <section>
@@ -25,12 +34,12 @@
     <div class="centered">
       <h1>Pictures</h1>
       <div class="imagegallery" itemscope itemtype="http://schema.org/ImageGallery">
-      <% images('assets/images/events/2019/*.jpg').each do |image| %>
+      <% images('source/images/events/2019/*.jpg').each do |image| %>
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
           <a href="<%= image[:path] %>" itemprop="contentUrl" data-size="<%= image[:width].to_s + 'x' + image[:height].to_s %>">
             <img src="<%= image[:thumb] %>" itemprop="thumbnail" alt="Image description" />
           </a>
-          <figcaption itemprop="caption description"><%= t('imagecaptions.events.ta2019.' + image[:basename].tr('.', '_')) %></figcaption>
+          <figcaption itemprop="caption description"><%= image[:caption] %></figcaption>
         </figure>
       <% end %>
       </div>
@@ -46,7 +55,7 @@
   <section class="blog">
     <div>
       <h1>Media Coverage</h1>
-      <% data('2019/media').each do |media| %>
+      <% data.events['2019'].media .each do |media| %>
       <a href="<%= media[:url] %>">
         <section>
           <div>

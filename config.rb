@@ -1,4 +1,6 @@
 require 'uri'
+require 'fastimage'
+require 'yaml'
 
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
@@ -64,6 +66,24 @@ helpers do
 
   def social_domain
     'think-about.io'
+  end
+
+  def images(glob)
+    captions = YAML.safe_load(File.read('data/captions.yaml'))
+    Dir[glob].sort.each.map do |filepath|
+      caption = captions.fetch filepath, ''
+      path = filepath.gsub(/^source/, '')
+      thumb = File.dirname(path) + '/thumb/' + File.basename(filepath)
+      size = FastImage.size(filepath)
+      {
+        basename: File.basename(path),
+        path:  path,
+        thumb: thumb,
+        caption: caption,
+        width: size[0],
+        height: size[1]
+      }
+    end
   end
 end
 
