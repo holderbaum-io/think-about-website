@@ -1,0 +1,44 @@
+<main>
+  <section class="speaker-details">
+    <div>
+      <h1><%= talk[:title] %></h1>
+      <ul>
+        <% unless talk[:track].casecmp('introoutro') == 0 %>
+        <li><em><%= talk[:track] %></em></li>
+        <li>Length: 45 Min</li>
+        <% end %>
+        <li>Language: <%= talk[:lang] %></li>
+      </ul>
+      <article>
+        <%= markdown talk[:abstract] %>
+      </article>
+    </div>
+  </section>
+  <section class="speaker-details">
+    <div>
+      <article class="bio">
+        <figure>
+          <% talk[:images].each do |image| %>
+          <img src="<%= "/images/events/2019/speakies/#{image}_big.png" %>" />
+          <% end %>
+        </figure>
+        <div>
+          <h1><%= talk[:person] %></h1>
+          <p><%= talk[:jobtitle] %></p>
+          <p><%= markdown talk[:bio] %></p>
+          <p>
+            <% talk[:links].each_with_index do |l, i| %>
+              <a href="<%= l[:url] %>"><%= l[:title] %></a>
+              <%= ' | ' if i < talk[:links].size - 1 %>
+            <% end %>
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="universe-sponsors">
+  </section>
+  <section>
+    <%= partial 'updates' %>
+  </section>
+</main>

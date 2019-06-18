@@ -23,6 +23,18 @@ page '/*.txt', layout: false
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
+schedule = File.read 'data/events/2019/schedule.json'
+JSON.parse(schedule, symbolize_names: true).each do |_day, talks|
+  talks.each do |talk|
+    slug = talk[:person_slug]
+    next if slug.nil?
+    proxy("/events/2019/speakies/#{slug}.html",
+          '/events/2019/speakies/template.html',
+          locals: { talk: talk },
+          ignore: true)
+  end
+end
+
 # proxy(
 #   '/this-page-has-no-template.html',
 #   '/template-file.html',
@@ -84,6 +96,10 @@ helpers do
         height: size[1]
       }
     end
+  end
+
+  def markdown(text)
+    Kramdown::Document.new(text).to_html
   end
 end
 

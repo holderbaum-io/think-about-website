@@ -26,7 +26,7 @@ end
 
 def speaker_image_pathes(talk)
   talk[:speakers].map do |s|
-    '/assets/images/speaker/' + slug(s[:full_public_name]) + '.jpg'
+    slug(s[:full_public_name])
   end
 end
 
@@ -35,7 +35,7 @@ def speakers_company(talk)
   link ? link[:title].split(' @ ').last : 'TODO'
 end
 
-def speakers_title(talk)
+def speakers_jobtitle(talk)
   link = talk[:speakers].first[:links].first
   link ? link[:title].split(' @ ').first : 'TODO'
 end
@@ -48,13 +48,26 @@ def speaker_bio(talk)
   talk[:speakers].first[:abstract]
 end
 
+def speaker_links(talk)
+  talk[:speakers][0][:links].map do |link|
+    title = if link[:title] == 'Independent Consultant'
+              'Website'
+            else
+              link[:title].split(' @ ').last
+            end
+
+    { title: title, url: link[:url] }
+  end
+end
+
 def speaker_info(talk)
   {
     person: printable_person_name(talk),
     person_slug: printable_person_slug(talk),
     company: speakers_company(talk),
-    title: speakers_title(talk),
-    bio: speaker_bio(talk)
+    jobtitle: speakers_jobtitle(talk),
+    bio: speaker_bio(talk),
+    links: speaker_links(talk)
   }
 end
 
