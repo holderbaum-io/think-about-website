@@ -9,8 +9,9 @@ install: true
 script:
 - "./do prepare-ci"
 - "./do build"
-- "./do deploy"
-- "./do clean"
+deploy:
+  provider: script
+  script: ./do deploy
 env:
   global:
     secure: DXs2Jb8x+AxIw5GXRXUx/QADRacuAp6gg2IDNWH63u+XYI3lIO+aT/mMTZWPx5ynd996PaVRFZTKoHI59Xhu0J2XYiT1F9ptLSNOJAfN23i+Cco2p64ZaiRmCcTN88VVpF8Kt28DcM4bmBF3vSBt3+xAVQZScoV/g+d70JVXBht1Q0N3qgZLY72WU+uWwP8tOSHnplgcg67Mdw/ePfZS2mRidwE6trUIIk7J0GPgoL87DPpo1d5BeZqQqti7CRnDAJIpnsPrYolNT3np9qJs0hftKKBixSaQWePBUaP3j7sOdE5ljLK34BL2/zJN4Xgh1N1W1jCrIMBoYOPO63I73zd3RTx9MlX2dWVCxCRBNm9Rvr8tTV01UGov08Ur25LREBWH+6zX9msIWCddNGqielHcsk/P7PaZJbjgnvT75AI3hcQw0ZhGJ0wl7kdLU3WflsfbSmkQ3KvIdL8fWIzx73VwDM5dixmm5ARCqO4MCisALryLzZ5hO6A3FETTTC7V0c3hG0NaPMhvWB+J60keCq2fApIno2cRm8SynV4u89+QzV+ZStidcBHuy1530XaOF0ir3YQyN/iJ9qNQrQe5h48pOQpVSY6HvEKEn6Hmx/uAmip91Q7Xw4Lg8QqgTdbwUk+uLwEpm8/Fej0dFmontGW2UOppU6LJa/nnaWtX6Zc=
