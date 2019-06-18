@@ -34,7 +34,7 @@
     <div class="centered">
       <h1>Pictures</h1>
       <div class="imagegallery" itemscope itemtype="http://schema.org/ImageGallery">
-      <% images('source/images/events/2019/*.jpg').each do |image| %>
+      <% images('source/images/events/2019/images/*.jpg').each do |image| %>
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
           <a href="<%= image[:path] %>" itemprop="contentUrl" data-size="<%= image[:width].to_s + 'x' + image[:height].to_s %>">
             <img src="<%= image[:thumb] %>" itemprop="thumbnail" alt="Image description" />
