@@ -111,6 +111,19 @@ helpers do
     recordings = File.read "data/events/#{event}/recordings.json"
     JSON.parse(recordings, symbolize_names: true).fetch(slug.to_sym)
   end
+
+  def keynotes(event)
+    talks(event)
+      .select { |talk| talk[:track].casecmp('keynote').zero? }
+  end
+
+  def talks(event)
+    schedule = File.read "data/events/#{event}/schedule.json"
+    JSON
+      .parse(schedule, symbolize_names: true)
+      .map { |_day, talks| talks }
+      .flatten
+  end
 end
 
 activate :blog do |blog|

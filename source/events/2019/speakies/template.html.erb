@@ -12,7 +12,11 @@
       <% if talk_recorded? '2019', talk[:person_slug] %>
       <ul>
         <% talk_recordings('2019', talk[:person_slug]).each do |record| %>
+        <% if record[:inactive] %>
+        <li><span inactive><%= record[:title] %></span></li>
+        <% else %>
         <li><a target="_blank" href="<%= record[:url] %>"><%= record[:title] %></a></li>
+        <% end %>
         <% end %>
       </u>
       <% end %>

@@ -20,14 +20,33 @@
       </p>
     </div>
   </section>
-  <section>
-    <div class="centered">
-      <h1>Talk Recordings</h1>
-      <p>
-      The post-processing of the raw recordings is still ongoing.
-      Once finished we will upload all the talks here.<br>
-      Expect them by the <b>end of June</b>.
-      </p>
+  <section class="speakers">
+    <div class="keynotes" id="keynotes">
+      <h1>Recorded Keynotes</h1>
+      <% keynotes('2019').each do |talk| %>
+      <% next unless talk_recorded? '2019', talk[:person_slug] %>
+      <a href="<%= "/events/2019/speakies/#{talk[:person_slug]}.html" %>">
+        <section topic="<%= talk[:track].downcase %>">
+          <h4><%= talk[:track].capitalize %></h4>
+          <article>
+            <p>"<%= talk[:title] %>"<em> (<%= talk[:lang].upcase %>)</em></p>
+            <hr/>
+            <header>
+              <div>
+                <h1><%= talk[:person] %></h1>
+                <p><%= talk[:company] %></p>
+              </div>
+              <% talk[:images].each do |image| %>
+              <figure>
+                <img src="<%= "/images/events/2019/speakies/#{image}.jpg" %>" />
+              </figure>
+              <% end %>
+            </header>
+          </article>
+        </section>
+      </a>
+      <% end %>
+    </div>
     </div>
   </section>
   <section class="universe-sponsors">
