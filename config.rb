@@ -101,6 +101,16 @@ helpers do
   def markdown(text)
     Kramdown::Document.new(text).to_html
   end
+
+  def talk_recorded?(event, slug)
+    recordings = File.read "data/events/#{event}/recordings.json"
+    JSON.parse(recordings, symbolize_names: true).key? slug.to_sym
+  end
+
+  def talk_recordings(event, slug)
+    recordings = File.read "data/events/#{event}/recordings.json"
+    JSON.parse(recordings, symbolize_names: true).fetch(slug.to_sym)
+  end
 end
 
 activate :blog do |blog|

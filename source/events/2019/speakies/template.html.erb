@@ -9,6 +9,13 @@
         <% end %>
         <li>Language: <%= talk[:lang] %></li>
       </ul>
+      <% if talk_recorded? '2019', talk[:person_slug] %>
+      <ul>
+        <% talk_recordings('2019', talk[:person_slug]).each do |record| %>
+        <li><a target="_blank" href="<%= record[:url] %>"><%= record[:title] %></a></li>
+        <% end %>
+      </u>
+      <% end %>
       <article>
         <%= markdown talk[:abstract] %>
       </article>
