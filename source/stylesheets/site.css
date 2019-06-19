@@ -1329,18 +1329,20 @@ section.speakers section hr {
 }
 
 section.speakers section article > p {
-  min-height: 6rem;
+  min-height: 7rem;
 }
 
 section.speakers section header h1 {
   font-weight: 400;
 }
 
+section.speakers article header {
+  display: flex;
+}
+
 section.speakers section header div {
   margin: 0;
-  width: 70%;
-  display: inline-block;
-  vertical-align: top;
+  flex: 70%;
 }
 
 section.speakers section header div p {
@@ -1349,8 +1351,7 @@ section.speakers section header div p {
 
 section.speakers section header figure {
   margin: 0;
-  width: 30%;
-  display: inline-block;
+  flex: 30%;
 }
 
 section.speakers section header figure img {

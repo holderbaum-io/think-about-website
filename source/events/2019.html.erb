@@ -22,7 +22,7 @@
   </section>
   <section class="speakers">
     <div class="keynotes" id="keynotes">
-      <h1>Recorded Keynotes</h1>
+      <h1>Keynote Recordings</h1>
       <% keynotes('2019').each do |talk| %>
       <% next unless talk_recorded? '2019', talk[:person_slug] %>
       <a href="<%= "/events/2019/speakies/#{talk[:person_slug]}.html" %>">
@@ -47,6 +47,29 @@
       </a>
       <% end %>
     </div>
+    <div class="talks">
+      <h1>Talk Recordings</h1>
+      <% talks('2019').each do |talk| %>
+      <% next unless talk_recorded? '2019', talk[:person_slug] %>
+      <section topic="<%= talk[:track].downcase %>">
+        <a href="<%= "/events/2019/speakies/#{talk[:person_slug]}.html" %>"><article>
+          <h4><%= talk[:track].capitalize + ' Talk' %></h4>
+          <p>"<%= talk[:title] %>"<em> (<%= talk[:lang].upcase %>)</em></p>
+          <hr/>
+          <header>
+            <div>
+              <h1><%= talk[:person] %></h1>
+              <p><%= talk[:company] %></p>
+            </div>
+            <% talk[:images].each do |image| %>
+            <figure>
+              <img src="<%= "/images/events/2019/speakies/#{image}.jpg" %>" />
+            </figure>
+            <% end %>
+          </header>
+        </article></a>
+      </section>
+      <% end %>
     </div>
   </section>
   <section class="universe-sponsors">

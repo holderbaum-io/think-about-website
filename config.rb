@@ -103,17 +103,23 @@ helpers do
   end
 
   def talk_recorded?(event, slug)
+    return false if slug.nil?
     recordings = File.read "data/events/#{event}/recordings.json"
     JSON.parse(recordings, symbolize_names: true).key? slug.to_sym
   end
 
   def talk_recordings(event, slug)
+    return [] if slug.nil?
     recordings = File.read "data/events/#{event}/recordings.json"
     JSON.parse(recordings, symbolize_names: true).fetch(slug.to_sym)
   end
 
   def keynotes(event)
-    talks(event)
+    schedule = File.read "data/events/#{event}/schedule.json"
+    JSON
+      .parse(schedule, symbolize_names: true)
+      .map { |_day, talks| talks }
+      .flatten
       .select { |talk| talk[:track].casecmp('keynote').zero? }
   end
 
@@ -123,6 +129,11 @@ helpers do
       .parse(schedule, symbolize_names: true)
       .map { |_day, talks| talks }
       .flatten
+      .select do |talk|
+        talk[:track].casecmp('tech').zero? ||
+          talk[:track].casecmp('design').zero? ||
+          talk[:track].casecmp('society').zero?
+      end
   end
 end
 
