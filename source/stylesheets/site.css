@@ -1470,7 +1470,22 @@ section.speaker-details + section.speaker-details {
 section.speaker-details em {
   font-style: normal;
   text-transform: uppercase;
+}
+
+section.speaker-details em[topic=keynote] {
+  color: #00c29f;
+}
+
+section.speaker-details em[topic=tech] {
   color: #eb18ff;
+}
+
+section.speaker-details em[topic=design] {
+  color: #00a0df;
+}
+
+section.speaker-details em[topic=society] {
+  color: #6b3cff;
 }
 
 section.speaker-details ul {

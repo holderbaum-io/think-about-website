@@ -4,7 +4,7 @@
       <h1><%= talk[:title] %></h1>
       <ul>
         <% unless talk[:track].casecmp('introoutro') == 0 %>
-        <li><em><%= talk[:track] %></em></li>
+        <li><em topic="<%= talk[:track].downcase %>"><%= talk[:track] %></em></li>
         <li>Length: 45 Min</li>
         <% end %>
         <li>Language: <%= talk[:lang] %></li>
