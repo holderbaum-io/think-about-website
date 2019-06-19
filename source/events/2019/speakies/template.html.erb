@@ -35,7 +35,7 @@
         </figure>
         <div>
           <h1><%= talk[:person] %></h1>
-          <p><%= talk[:jobtitle] %></p>
+          <p><%= talk[:full_jobtitle] %></p>
           <p><%= markdown talk[:bio] %></p>
           <p>
             <% talk[:links].each_with_index do |l, i| %>

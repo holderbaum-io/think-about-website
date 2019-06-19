@@ -40,6 +40,11 @@ def speakers_jobtitle(talk)
   link ? link[:title].split(' @ ').first : 'TODO'
 end
 
+def speakers_full_jobtitle(talk)
+  link = talk[:speakers].first[:links].first
+  link ? link[:title] : 'TODO'
+end
+
 def talk_abstract(talk)
   talk[:abstract]
 end
@@ -66,6 +71,7 @@ def speaker_info(talk)
     person_slug: printable_person_slug(talk),
     company: speakers_company(talk),
     jobtitle: speakers_jobtitle(talk),
+    full_jobtitle: speakers_full_jobtitle(talk),
     bio: speaker_bio(talk),
     links: speaker_links(talk)
   }
