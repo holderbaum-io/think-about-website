@@ -1,8 +1,62 @@
 {
+  "susanne_kaiser": [
+    {
+      "title": "Watch at Vimeo",
+      "url": "https://vimeo.com/342974284"
+    },
+    {
+      "title": "Download 1080p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Susanne-Kaiser_1080p.mp4"
+    },
+    {
+      "title": "Download 720p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Susanne-Kaiser_720p.mp4"
+    },
+    {
+      "title": "Download 360p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Susanne-Kaiser_360p.mp4"
+    }
+  ],
+  "linda_rising": [
+    {
+      "title": "Watch at Vimeo",
+      "url": "https://vimeo.com/342973815"
+    },
+    {
+      "title": "Download 1080p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Linda-Rising_1080p.mp4"
+    },
+    {
+      "title": "Download 720p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Linda-Rising_720p.mp4"
+    },
+    {
+      "title": "Download 360p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Linda-Rising_360p.mp4"
+    }
+  ],
+  "vimla_appadoo": [
+    {
+      "title": "Watch at Vimeo",
+      "url": "https://vimeo.com/342974770"
+    },
+    {
+      "title": "Download 1080p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Vimla-Appadoo_1080p.mp4"
+    },
+    {
+      "title": "Download 720p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Vimla-Appadoo_720p.mp4"
+    },
+    {
+      "title": "Download 360p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Vimla-Appadoo_360p.mp4"
+    }
+  ],
   "laura_kalbag_and_aral_balkan": [
     {
       "title": "Watch at Vimeo",
-      "url": "https://vimeo.com/342972799/685596602c"
+      "url": "https://vimeo.com/342972799"
     },
     {
       "title": "Download 1080p",
@@ -10,19 +64,17 @@
     },
     {
       "title": "Download 720p",
-      "url": "https://media.think-about.io/videos/Think-About-2019-Laura-Kalbag-and-Aral-Balkan_720p.mp4",
-      "inactive": true
+      "url": "https://media.think-about.io/videos/Think-About-2019-Laura-Kalbag-and-Aral-Balkan_720p.mp4"
     },
     {
       "title": "Download 360p",
-      "url": "https://media.think-about.io/videos/Think-About-2019-Laura-Kalbag-and-Aral-Balkan_360p.mp4",
-      "inactive": true
+      "url": "https://media.think-about.io/videos/Think-About-2019-Laura-Kalbag-and-Aral-Balkan_360p.mp4"
     }
   ],
   "eriol_fox": [
     {
       "title": "Watch at Vimeo",
-      "url": "#"
+      "url": "https://vimeo.com/343386287"
     },
     {
       "title": "Download 1080p",
@@ -30,54 +82,11 @@
     },
     {
       "title": "Download 720p",
-      "url": "https://media.think-about.io/videos/Think-About-2019-Eriol-Fox_720p.mp4",
-      "inactive": true
+      "url": "https://media.think-about.io/videos/Think-About-2019-Eriol-Fox_720p.mp4"
     },
     {
       "title": "Download 360p",
-      "url": "https://media.think-about.io/videos/Think-About-2019-Eriol-Fox_360p.mp4",
-      "inactive": true
-    }
-  ],
-  "ryn_daniels": [
-  
-    {
-      "title": "Watch at Vimeo",
-      "url": "#"
-    },
-    {
-      "title": "Download 1080p",
-      "url": "https://media.think-about.io/videos/Think-About-2019-Ryn-Daniels_1080p.mp4"
-    },
-    {
-      "title": "Download 720p",
-      "url": "https://media.think-about.io/videos/Think-About-2019-Ryn-Daniels_720p.mp4",
-      "inactive": true
-    },
-    {
-      "title": "Download 360p",
-      "url": "https://media.think-about.io/videos/Think-About-2019-Ryn-Daniels_360p.mp4",
-      "inactive": true
-    }
-  ],
-  "sebastian_golasch": [
-    {
-      "title": "Watch at Vimeo",
-      "url": "#"
-    },
-    {
-      "title": "Download 1080p",
-      "url": "https://media.think-about.io/videos/Think-About-2019-Sebastian-Golasch_1080p.mp4"
-    },
-    {
-      "title": "Download 720p",
-      "url": "https://media.think-about.io/videos/Think-About-2019-Sebastian-Golasch_720p.mp4",
-      "inactive": true
-    },
-    {
-      "title": "Download 360p",
-      "url": "https://media.think-about.io/videos/Think-About-2019-Sebastian-Golasch_360p.mp4",
-      "inactive": true
+      "url": "https://media.think-about.io/videos/Think-About-2019-Eriol-Fox_360p.mp4"
     }
   ]
 }
