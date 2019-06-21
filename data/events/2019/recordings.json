@@ -128,7 +128,7 @@
   "christopher_grebs": [
     {
       "title": "Watch at Vimeo",
-      "url": "https://vimeo.com/343386012/"
+      "url": "https://vimeo.com/343386012"
     },
     {
       "title": "Download 1080p",
@@ -141,6 +141,24 @@
     {
       "title": "Download 360p",
       "url": "https://media.think-about.io/videos/Think-About-2019-Christopher-Grebs_360p.mp4"
+    }
+  ],
+  "christoph_hassler": [
+    {
+      "title": "Watch at Vimeo",
+      "url": "https://vimeo.com/343693460"
+    },
+    {
+      "title": "Download 1080p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Christoph-Hassler_1080p.mp4"
+    },
+    {
+      "title": "Download 720p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Christoph-Hassler_720p.mp4"
+    },
+    {
+      "title": "Download 360p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Christoph-Hassler_360p.mp4"
     }
   ]
 }
