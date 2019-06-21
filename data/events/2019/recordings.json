@@ -106,5 +106,23 @@
       "title": "Download 360p",
       "url": "https://media.think-about.io/videos/Think-About-2019-Sebastian-Golasch_360p.mp4"
     }
+  ],
+  "tom_vollerthun": [
+    {
+      "title": "Watch at Vimeo",
+      "url": "https://vimeo.com/343387352"
+    },
+    {
+      "title": "Download 1080p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Tom-Vollerthun_1080p.mp4"
+    },
+    {
+      "title": "Download 720p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Tom-Vollerthun_720p.mp4"
+    },
+    {
+      "title": "Download 360p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Tom-Vollerthun_360p.mp4"
+    }
   ]
 }
