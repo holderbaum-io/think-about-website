@@ -124,5 +124,23 @@
       "title": "Download 360p",
       "url": "https://media.think-about.io/videos/Think-About-2019-Tom-Vollerthun_360p.mp4"
     }
+  ],
+  "christopher_grebs": [
+    {
+      "title": "Watch at Vimeo",
+      "url": "https://vimeo.com/343386012/"
+    },
+    {
+      "title": "Download 1080p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Christopher-Grebs_1080p.mp4"
+    },
+    {
+      "title": "Download 720p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Christopher-Grebs_720p.mp4"
+    },
+    {
+      "title": "Download 360p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Christopher-Grebs_360p.mp4"
+    }
   ]
 }
