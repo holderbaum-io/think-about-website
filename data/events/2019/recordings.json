@@ -178,5 +178,23 @@
       "title": "Download 360p",
       "url": "https://media.think-about.io/videos/Think-About-2019-Dmytri-Kleiner_360p.mp4"
     }
+  ],
+  "ryn_daniels": [
+    {
+      "title": "Watch at Vimeo",
+      "url": "https://vimeo.com/343386673"
+    },
+    {
+      "title": "Download 1080p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Ryn-Daniels_1080p.mp4"
+    },
+    {
+      "title": "Download 720p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Ryn-Daniels_720p.mp4"
+    },
+    {
+      "title": "Download 360p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Ryn-Daniels_360p.mp4"
+    }
   ]
 }
