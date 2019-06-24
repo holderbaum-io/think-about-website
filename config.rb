@@ -123,12 +123,23 @@ helpers do
       .select { |talk| talk[:track].casecmp('keynote').zero? }
   end
 
+  def track_order(track)
+    %w[
+      tech
+      design
+      society
+    ].index((track || '').downcase) || 4
+  end
+
   def talks(event)
     schedule = File.read "data/events/#{event}/schedule.json"
     JSON
       .parse(schedule, symbolize_names: true)
       .map { |_day, talks| talks }
       .flatten
+      .sort_by { |t| t[:start_time] || '' }
+      .sort_by { |t| t[:stage] || '' }
+      .sort_by { |t| track_order t[:track] }
       .select do |talk|
         talk[:track].casecmp('tech').zero? ||
           talk[:track].casecmp('design').zero? ||
