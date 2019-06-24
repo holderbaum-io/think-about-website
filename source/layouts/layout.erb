@@ -13,8 +13,8 @@
     <meta name="msapplication-TileColor" content="#280050">
     <meta name="theme-color" content="#280050">
 
-    <% if content_for? :header %>
-    <%= yield_content :header %>
+    <% if content_for? :metatags %>
+    <%= yield_content :metatags %>
     <% else %>
     <meta property="og:image" content="/images/og-image.jpg">
     <meta property="og:title" content="Think About! Conference">
