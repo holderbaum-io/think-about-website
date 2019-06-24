@@ -22,7 +22,7 @@
   </section>
   <section class="speakers">
     <div class="keynotes" id="keynotes">
-      <h1>Keynote Recordings</h1>
+      <h1 id="recordings">Talk Recordings</h1>
       <% keynotes('2019').each do |talk| %>
       <% next unless talk_recorded? '2019', talk[:person_slug] %>
       <a href="<%= "/events/2019/speakies/#{talk[:person_slug]}.html" %>">
@@ -48,7 +48,6 @@
       <% end %>
     </div>
     <div class="talks">
-      <h1>Talk Recordings</h1>
       <% talks('2019').each do |talk| %>
       <% next unless talk_recorded? '2019', talk[:person_slug] %>
       <section topic="<%= talk[:track].downcase %>">
