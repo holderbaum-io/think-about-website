@@ -250,5 +250,23 @@
       "title": "Download 360p",
       "url": "https://media.think-about.io/videos/Think-About-2019-Renato-Losio_360p.mp4"
     }
+  ],
+  "silvan_jongerius": [
+    {
+      "title": "Watch at Vimeo",
+      "url": "https://vimeo.com/344058770"
+    },
+    {
+      "title": "Download 1080p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Silvan-Jongerius_1080p.mp4"
+    },
+    {
+      "title": "Download 720p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Silvan-Jongerius_720p.mp4"
+    },
+    {
+      "title": "Download 360p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Silvan-Jongerius_360p.mp4"
+    }
   ]
 }
