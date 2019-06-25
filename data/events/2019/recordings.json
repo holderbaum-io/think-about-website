@@ -268,5 +268,23 @@
       "title": "Download 360p",
       "url": "https://media.think-about.io/videos/Think-About-2019-Silvan-Jongerius_360p.mp4"
     }
+  ],
+  "muriel_boettger": [
+    {
+      "title": "Watch at Vimeo",
+      "url": "https://vimeo.com/344252256"
+    },
+    {
+      "title": "Download 1080p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Muriel-Boettger_1080p.mp4"
+    },
+    {
+      "title": "Download 720p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Muriel-Boettger_720p.mp4"
+    },
+    {
+      "title": "Download 360p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Muriel-Boettger_360p.mp4"
+    }
   ]
 }
