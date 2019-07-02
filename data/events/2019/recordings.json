@@ -412,5 +412,23 @@
       "title": "Download 360p",
       "url": "https://media.think-about.io/videos/Think-About-2019-Gerri-Buchegger_360p.mp4"
     }
+  ],
+  "wilhelm_rinke": [
+    {
+      "title": "Watch at Vimeo",
+      "url": "https://vimeo.com/345715032"
+    },
+    {
+      "title": "Download 1080p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Wilhelm-Rinke_1080p.mp4"
+    },
+    {
+      "title": "Download 720p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Wilhelm-Rinke_720p.mp4"
+    },
+    {
+      "title": "Download 360p",
+      "url": "https://media.think-about.io/videos/Think-About-2019-Wilhelm-Rinke_360p.mp4"
+    }
   ]
 }
