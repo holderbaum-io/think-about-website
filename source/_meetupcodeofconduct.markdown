@@ -42,13 +42,12 @@ Inspired by: [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
 
 [Back to top](#)
 
-You don't have to be able to hack NASA in order to be a part of the Think
-About! conference. As long as you are considerate of others and intend to
+You don't have to be able to hack NASA in order to be a part of Think
+About! events. As long as you are considerate of others and intend to
 learn, you have a place here. 
 
 You have the right to decide when, where and by whom you want to be
-photographed or filmed. We have available colour-coded conference lanyards for
-anyone who would prefer not to be photographed or filmed.
+photographed or filmed.
 
 You have the right to be treated fairly. Nobody has the right to threaten you
 or scare you. No matter how. Nobody is allowed to blackmail you, treat you
