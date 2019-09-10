@@ -4,12 +4,9 @@
 Subscribe to our monthly newsletter*. It provides you with regular news about
 the event, behind the scenes content, updates to the speakies and much more.
       </p>
-      <form method="get" action="/goto/newsletter">
-        <input type="email" name="email" placeholder="you@example.org"/>
-        <input type="submit" value="Subscribe"/>
-      </form>
+      <%= partial 'newsletter_form' %>
       <figure>
         <img src="/images/buddies.svg" alt="Think About! Monsters">
       </figure>
-      <span note>* We use the Open Source Software <a href="https://mailtrain.org/">Mailtrain</a></span>
+      <span note>* We use the Open Source Software <a href="https://phplist.org/">phpList</a></span>
     </div>

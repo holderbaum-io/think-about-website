@@ -6,7 +6,6 @@ Redirect 302 /goto/xing https://www.xing.com/events/think-about-konferenz-tech-d
 Redirect 302 /goto/github https://github.com/hrx-events/think-about
 Redirect 302 /goto/pretix-en https://pretix.eu/locale/set?locale=en&next=/hrx/think-about-2019/
 Redirect 302 /goto/pretix-de https://pretix.eu/locale/set?locale=de-informal&next=/hrx/think-about-2019/
-RedirectMatch 302 /goto/newsletter(.*) https://newsletter.hrx.events/subscription/DUogKTFJF$1
 Redirect 302 /goto/makuyuni https://makuyuni.org/
 Redirect 302 /goto/dasguteruft https://dasguteruft.de/
 Redirect 302 /goto/workingdraft https://workingdraft.de/
