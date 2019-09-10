@@ -14,9 +14,11 @@ ensure_ruby() {
 function prepare_ci {
   if [[ -z "${CI:=}" ]]; then return 0; fi
 
+  export LANG=C.UTF-8
+
   apt-get update
 
-  if [ $1 = 'build' ];
+  if [ "$1" = 'build' ];
   then
     apt-get \
       install \
@@ -28,7 +30,7 @@ function prepare_ci {
       nodejs
   fi
 
-  if [ $1 = 'deploy' ];
+  if [ "$1" = 'deploy' ];
   then
     apt-get \
       install \
