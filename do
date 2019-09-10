@@ -12,11 +12,14 @@ ensure_ruby() {
 }
 
 function prepare_ci {
-  if [[ -z "${TRAVIS:=}" ]]; then return 0; fi
+  if [[ -z "${CI:=}" ]]; then return 0; fi
 
-  sudo apt-get \
+  apt-get update
+  apt-get \
     install \
     -y \
+    ruby \
+    ruby-dev \
     lftp
 }
 
@@ -28,6 +31,7 @@ task_serve() {
 }
 
 task_build() {
+  prepare_ci
   ensure_ruby
 
   ./vendor/bin/middleman build
@@ -60,15 +64,11 @@ task_update_event_data() {
 task_deploy() {
   prepare_ci
 
-  set -x
-  lftp -c "
-    set ftps:initial-prot \"\";
-    set ftp:ssl-force true;
-    set ftp:ssl-protect-data true;
-    set dns:order \"inet\";
-    open ftp://$DEPLOY_USER:$DEPLOY_PASS@www151.your-server.de:21;
-    mirror -eRv build .;
-    quit;"
+  lftp \
+    -c " \
+      open $DEPLOY_USER:$DEPLOY_PASS@www151.your-server.de; \
+      mirror --reverse --verbose --delete build/ .; \
+      "
 }
 
 usage() {
