@@ -35,7 +35,8 @@ function prepare_ci {
     apt-get \
       install \
       -y \
-      lftp
+      lftp \
+      ca-certificates
   fi
 
 }
