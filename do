@@ -15,13 +15,27 @@ function prepare_ci {
   if [[ -z "${CI:=}" ]]; then return 0; fi
 
   apt-get update
-  apt-get \
-    install \
-    -y \
-    ruby \
-    ruby-dev \
-    build-essential \
-    lftp
+
+  if [ $1 = 'build' ];
+  then
+    apt-get \
+      install \
+      -y \
+      ruby \
+      ruby-dev \
+      build-essential \
+      zlib1g-dev \
+      nodejs
+  fi
+
+  if [ $1 = 'deploy' ];
+  then
+    apt-get \
+      install \
+      -y \
+      lftp
+  fi
+
 }
 
 task_serve() {
@@ -32,7 +46,7 @@ task_serve() {
 }
 
 task_build() {
-  prepare_ci
+  prepare_ci build
   ensure_ruby
 
   ./vendor/bin/middleman build
@@ -63,7 +77,7 @@ task_update_event_data() {
 }
 
 task_deploy() {
-  prepare_ci
+  prepare_ci deploy
 
   lftp \
     -c " \
