@@ -1,0 +1,14 @@
+image: debian
+
+build:
+  stage: "build"
+  script: "./do build"
+  artifacts:
+    paths:
+      - "build/"
+
+deploy:
+  stage: "deploy"
+  script: "./do deploy"
+  needs:
+    - "build"

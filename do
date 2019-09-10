@@ -11,14 +11,13 @@ ensure_ruby() {
   bundle install --path vendor/bundle --binstubs vendor/bin
 }
 
-function task_prepare_ci {
-  openssl aes-256-cbc \
-    -K "$encrypted_9e05e58bd4ea_key" \
-    -iv "$encrypted_9e05e58bd4ea_iv" \
-    -in deploy/ssh.enc \
-    -out deploy/ssh \
-    -d
-  chmod 600 deploy/ssh
+function prepare_ci {
+  if [[ -z "${TRAVIS:=}" ]]; then return 0; fi
+
+  sudo apt-get \
+    install \
+    -y \
+    lftp
 }
 
 task_serve() {
@@ -59,32 +58,18 @@ task_update_event_data() {
 }
 
 task_deploy() {
-  local user="${1:-deploy-think-about}"
+  prepare_ci
 
-  if [[ -f deploy/ssh ]];
-  then
-    eval "$(ssh-agent -s)"
-    ssh-add deploy/ssh
-  fi
-
-  rsync \
-    -ruvc \
-    --delete \
-    build/* \
-    "${user}@turing.holderbaum.me:www/"
-
-  rsync \
-    -ruvc \
-    --delete \
-    deploy/conf.d/* \
-    "${user}@turing.holderbaum.me:conf.d/"
+  set -x
+  lftp -c "
+    set ftps:initial-prot \"\";
+    set ftp:ssl-force true;
+    set ftp:ssl-protect-data true;
+    set dns:order \"inet\";
+    open ftp://$DEPLOY_USER:$DEPLOY_PASS@www151.your-server.de:21;
+    mirror -eRv build .;
+    quit;"
 }
-
-task_deploy_travis() {
-  task_prepare_ci
-  task_deploy
-}
-
 
 usage() {
   echo "$0 serve | build | update_event_data | deploy | clean"
@@ -99,6 +84,5 @@ case "$cmd" in
   build) task_build ;;
   update_event_data) task_update_event_data ;;
   deploy) task_deploy "$@" ;;
-  deploy-travis) task_deploy_travis "$@" ;;
   *) usage ;;
 esac
