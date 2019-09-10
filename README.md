@@ -1,4 +1,4 @@
-# The Think About! Website [![Build Status](https://travis-ci.org/hrx-events/think-about.svg?branch=master)](https://travis-ci.org/hrx-events/think-about)
+# The Think About! Website [![Build Status](https://gitlab.com/holderbaum-io/think-about-website/badges/master/pipeline.svg)](https://gitlab.com/holderbaum-io/think-about-website/pipelines)
 
 This is the code for the main Think About! Website, fully responsive.
 
