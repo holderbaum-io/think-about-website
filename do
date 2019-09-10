@@ -20,6 +20,7 @@ function prepare_ci {
     -y \
     ruby \
     ruby-dev \
+    build-essential \
     lftp
 }
 
