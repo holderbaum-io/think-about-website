@@ -707,8 +707,8 @@ section.tickets section {
   display: inline-block;
   text-align: left;
   position: relative;
-  width: 24%;
-  max-width: 300px;
+  width: 33%;
+  max-width: 350px;
   margin: 0.5%;
   margin-bottom: 2rem;
 }
@@ -766,7 +766,7 @@ section.tickets section header price:last-child {
 }
 
 section.tickets section header p {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 1rem;
