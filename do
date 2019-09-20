@@ -15,18 +15,14 @@ ensure_ruby() {
 function prepare_ci {
   if [[ -z "${CI:=}" ]]; then return 0; fi
 
-  export LANG=C.UTF-8
+  mkdir -p ~/.ssh
+  chmod 700 ~/.ssh
 
-  if [ "$1" = 'deploy' ];
-  then
-    apt-get update
-    apt-get \
-      install \
-      -y \
-      lftp \
-      ca-certificates
-  fi
+  eval $(ssh-agent -s)
+  echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
 
+  echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+  chmod 644 ~/.ssh/known_hosts
 }
 
 task_serve() {
@@ -37,7 +33,6 @@ task_serve() {
 }
 
 task_build() {
-  prepare_ci build
   ensure_ruby
 
   ./vendor/bin/middleman build
@@ -68,13 +63,16 @@ task_update_event_data() {
 }
 
 task_deploy() {
-  prepare_ci deploy
+  prepare_ci
 
-  lftp \
-    -c " \
-      open $DEPLOY_USER:$DEPLOY_PASS@www151.your-server.de; \
-      mirror --reverse --verbose --delete build/ .; \
-      "
+  rsync \
+    --rsh "ssh -p $SSH_PORT" \
+    --archive \
+    --checksum \
+    --verbose \
+    build/ \
+    "$SSH_USER@$SSH_HOST:"
+
 }
 
 usage() {
