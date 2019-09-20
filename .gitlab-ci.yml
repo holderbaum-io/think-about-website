@@ -3,6 +3,10 @@ image: ruby:2.6
 build:
   stage: "build"
   script: "./do build"
+  cache:
+    paths:
+      - "build/"
+      - "vendor/"
   artifacts:
     paths:
       - "build/"
