@@ -1,4 +1,4 @@
-image: debian
+image: ruby:2.6
 
 build:
   stage: "build"

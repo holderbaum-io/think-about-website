@@ -6,6 +6,7 @@ ensure_ruby() {
   local bundler_version="$(tail -n1 Gemfile.lock |tr -d ' ')"
   if ! gem list -q bundler |grep -q "$bundler_version" >/dev/null;
   then
+    export BUNDLER_VERSION=2.0.1
     gem install "bundler:$bundler_version"
   fi
   bundle install --path vendor/bundle --binstubs vendor/bin
@@ -16,22 +17,9 @@ function prepare_ci {
 
   export LANG=C.UTF-8
 
-  apt-get update
-
-  if [ "$1" = 'build' ];
-  then
-    apt-get \
-      install \
-      -y \
-      ruby \
-      ruby-dev \
-      build-essential \
-      zlib1g-dev \
-      nodejs
-  fi
-
   if [ "$1" = 'deploy' ];
   then
+    apt-get update
     apt-get \
       install \
       -y \
