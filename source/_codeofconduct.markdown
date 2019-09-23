@@ -18,9 +18,11 @@ harassment of conference participants in any form.
 Sexual language and imagery is not appropriate for any conference venue,
 including talks, workshops, parties, Twitter and other online media.  If talks
 are related to sexuality exceptions can be made if this is discussed with the
-organizers beforehand and is announced in advance.  Conference participants
-violating these rules may be sanctioned or expelled from the conference without
-a refund at the discretion of the conference’s Awareness-Team.
+organizers beforehand and is announced in advance. Weapons or any other items
+used for the purpose of causing injury or harm to others are forbidden at the
+conference. Conference participants violating these rules may be sanctioned or
+expelled from the conference without a refund at the discretion of the
+conference’s Awareness-Team.
 
 ## The Less Quick Version
 

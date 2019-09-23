@@ -4,11 +4,12 @@ All attendees, speakers, sponsors, organizers and volunteers at this meetup are
 required to agree with the following code of conduct. We expect cooperation
 from all participants to help ensure a safe environment for everybody.
 
-Our meetups are dedicated to provide a harassment-free experience for everyone,
-regardless of gender, gender identity and expression, age, sexual orientation,
-disability, physical appearance, body size, race, ethnicity, religion (or lack
-thereof), or technology choices. We do not tolerate harassment of participants
-in any form.
+Our meetups are dedicated to provide a safe and harassment-free experience for
+everyone, regardless of gender, gender identity and expression, age, sexual
+orientation, disability, physical appearance, body size, race, ethnicity,
+religion (or lack thereof), or technology choices. We do not tolerate
+harassment of participants in any form. Weapons or any other items used for the
+purpose of causing injury or harm to others are forbidden at the venue.
 
 Harassment includes offensive verbal comments related to gender, gender
 identity and expression, age, sexual orientation, disability, physical
@@ -17,12 +18,10 @@ images in public spaces, deliberate intimidation, stalking, following,
 harassing photography or recording, sustained disruption of talks or other
 events, inappropriate physical contact, and unwelcome sexual attention.
 
-Participants asked to stop any harassing behavior are expected to comply
-immediately.
-
-If a participant engages in harassing behavior, the organizers may take any
-action they deem appropriate, including warning the offender or expulsion from
-the event with no refund.
+Participants asked to stop any harmful behavior are expected to comply
+immediately. If a participant engages in harmfule behavior, the organizers may
+take any action they deem appropriate, including warning the offender or
+expulsion from the event with no refund.
 
 If you are being harassed, notice that someone else is being harassed, or have
 any other concerns, please contact a member of the event's staff immediately.
