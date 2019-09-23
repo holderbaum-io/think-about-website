@@ -43,7 +43,7 @@ Inspired by: [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
 
 You don't have to be able to hack NASA in order to be a part of Think
 About! events. As long as you are considerate of others and intend to
-learn, you have a place here. 
+learn, you have a place here.
 
 You have the right to decide when, where and by whom you want to be
 photographed or filmed.
@@ -61,7 +61,7 @@ hurts your feelings or those of someone else. You can say NO with facial
 expressions, words or body language. Even if you have said YES before.
 
 Adapted from Amyna e.V., Institute for prevention of sexual abuse via
-[Geheimorganisation.org](http://diversity.geheim.org/) at the 34C3. 
+[Geheimorganisation.org](http://diversity.geheim.org/) at the 34C3.
 
 # Disclaimer
 

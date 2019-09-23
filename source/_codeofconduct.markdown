@@ -16,7 +16,7 @@ religion (or lack thereof), or technology choices. We do not tolerate
 harassment of conference participants in any form.
 
 Sexual language and imagery is not appropriate for any conference venue,
-including talks, workshops, parties, Twitter and other online media.  If talks
+including talks, workshops, parties, Twitter and other online media. If talks
 are related to sexuality exceptions can be made if this is discussed with the
 organizers beforehand and is announced in advance. Weapons or any other items
 used for the purpose of causing injury or harm to others are forbidden at the
@@ -49,7 +49,7 @@ any other concerns, please contact a member of conference staff or the
 conference’s Awareness-team immediately.
 
 The Awareness-team can be visually identified – details will be published here
-in advance.  We expect participants to follow these rules at the conference
+in advance. We expect participants to follow these rules at the conference
 venues and conference-related social events.
 
 Inspired by: [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
@@ -59,17 +59,19 @@ Inspired by: [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
 [Back to top](#)
 
 To create a pleasant, safe and respectful atmosphere for all participants of
-the Think About!  conference we have two Awareness-Teams available during the
-conference.  "Awareness" in this case means the recognition or perception of
+the Think About! conference we have two Awareness-Teams available during the
+conference. "Awareness" in this case means the recognition or perception of
 verbal, psychological or physical violations of personal boundaries.
 
 The Teams consist of two people of different genders and are experienced in the
 care and consultation of people who have experienced boundary-crossing
-situations.  One team will be moving freely on the location, another one can be
+situations. One team will be moving freely on the location, another one can be
 reached at a fixed position which will be communicated in advance. They will
 also be available via a phone number which will be published here as well.
 
-One can also contact the Awareness Team through any of the other conference officials (people working at the conference). The Awareness Team may warn offenders or exclude them from the conference with no refund.
+One can also contact the Awareness Team through any of the other conference
+officials (people working at the conference). The Awareness Team may warn
+offenders or exclude them from the conference with no refund.
 
 You can contact us before or after the conference as well.
 
@@ -82,21 +84,28 @@ The organization team may be reached via mail under the following addresses:
 
 [Back to top](#)
 
-You don't have to be able to hack NASA in order to be a part of the Think About! conference. As long as you are considerate of others and intend to learn, you have a place here. 
+You don't have to be able to hack NASA in order to be a part of the Think
+About! conference. As long as you are considerate of others and intend to
+learn, you have a place here.
 
-You have the right to decide when, where and by
-whom you want to be photographed or filmed. We have available colour-coded conference lanyards for anyone who would prefer not to be photographed or filmed.
+You have the right to decide when, where and by whom you want to be
+photographed or filmed. We have available colour-coded conference lanyards for
+anyone who would prefer not to be photographed or filmed.
 
-You have the right to be treated fairly. Nobody has the right to threaten you or scare you. No matter how. Nobody is allowed to blackmail you, treat you
+You have the right to be treated fairly. Nobody has the right to threaten you
+or scare you. No matter how. Nobody is allowed to blackmail you, treat you
 poorly or hurt you. You decide what goes beyond your limits, nobody else.
 
-You have the right to decide how close people can be to you. Nobody is allowed to touch you, massage you, caress you, kiss you without your consent, or push you to do so to someone else.
+You have the right to decide how close people can be to you. Nobody is allowed
+to touch you, massage you, caress you, kiss you without your consent, or push
+you to do so to someone else.
 
-You have the right to say NO and to resist when someone oversteps your borders, hurts your feelings or those of someone else. You can say NO with facial
+You have the right to say NO and to resist when someone oversteps your borders,
+hurts your feelings or those of someone else. You can say NO with facial
 expressions, words or body language. Even if you have said YES before.
 
 Adapted from Amyna e.V., Institute for prevention of sexual abuse via
-[Geheimorganisation.org](http://diversity.geheim.org/) at the 34C3. 
+[Geheimorganisation.org](http://diversity.geheim.org/) at the 34C3.
 
 # Respecting Data Sovereignty {#privacy}
 
@@ -120,6 +129,6 @@ We will neither sell your data nor give it away to any third party without your 
 
 # Disclaimer
 
-This document is a work in progress and will be updated from time to time.  In
+This document is a work in progress and will be updated from time to time. In
 case you want to participate we welcome you to get in touch with us and send us
 your feedback or your suggestions.
