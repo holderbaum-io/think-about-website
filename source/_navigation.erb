@@ -8,6 +8,10 @@
       <li><a href="/cfp.html">CfP</a></li>
       <li><a href="/consensus.html">Consensus</a></li>
     </ul>
+    <% if is_landing_page? %>
     <a class="Header-menu-button" href="#footer"><img src="/images/menu.svg"/></a>
+    <% else %>
+    <a class="Header-menu-button" href="#footer"><img src="/images/menu-dark.svg"/></a>
+    <% end %>
   </div>
 </nav>

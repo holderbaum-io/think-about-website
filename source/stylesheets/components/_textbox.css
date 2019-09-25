@@ -6,5 +6,48 @@
   text-align: center;
 }
 
-.Textbox * {
+.Textbox .Textbox-text-with-image {
+  display: flex;
+}
+
+.Textbox .Textbox-text-with-image + .Textbox-text-with-image {
+  margin-top: $spacer-2;
+}
+
+.Textbox .Textbox-text-with-image figure {
+  flex: 1;
+}
+
+.Textbox .Textbox-text-with-image article {
+  flex: 1;
+}
+
+.Textbox .Textbox-text-with-image.Textbox-left {
+  flex-direction: row-reverse;
+}
+
+.Textbox .Textbox-text-with-image.Textbox-right {
+  flex-direction: row;
+}
+
+.Textbox .Textbox-text-with-image.Textbox-left article {
+  margin-right: $spacer-2;
+}
+
+.Textbox .Textbox-text-with-image.Textbox-right article {
+  margin-left: $spacer-2;
+}
+
+@media (--phone-only) {
+.Textbox .Textbox-text-with-image.Textbox-left,
+.Textbox .Textbox-text-with-image.Textbox-right {
+  flex-direction: column;
+}
+
+.Textbox .Textbox-text-with-image.Textbox-left article,
+.Textbox .Textbox-text-with-image.Textbox-right article {
+  margin-top: $spacer-2;
+  margin-right: 0;
+  margin-left: 0;
+}
 }

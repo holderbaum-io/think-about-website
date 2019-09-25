@@ -2,11 +2,9 @@
 <link rel="stylesheet" href="/assets/photoswipe/4.1.3/default-skin/default-skin.css">
 <script src="/assets/photoswipe/4.1.3/photoswipe.js"></script>
 <script src="/assets/photoswipe/4.1.3/photoswipe-ui-default.js"></script>
-<header class="hero ta2019">
-</header>
 <main>
-  <section>
-    <div class="centered">
+  <section class="Textbox Textbox-small">
+    <div class="container">
       <h1>Think About! 2019</h1>
       <p>
       Creating an event that is driven by our values was the main motivation for the
@@ -21,6 +19,7 @@
     </div>
   </section>
   <section class="speakers">
+    <div class="container">
     <div class="keynotes" id="keynotes">
       <h1 id="recordings">Talk Recordings</h1>
       <% keynotes('2019').each do |talk| %>
@@ -70,6 +69,7 @@
       </section>
       <% end %>
     </div>
+    </div>
   </section>
   <section class="universe-sponsors">
     <%= partial 'universe_sponsors' %>
@@ -100,7 +100,7 @@
     <%= partial 'rocket_sponsors' %>
   </section>
   <section class="blog">
-    <div>
+    <div class="container">
       <h1>Media Coverage</h1>
       <% data.events['2019'].media .each do |media| %>
       <a href="<%= media[:url] %>">

@@ -5,10 +5,8 @@
   margin-right: auto;
 }
 
-@media (max-width: $page-width) {
-  .container {
-    padding-left: $spacer-3;
-    padding-right: $spacer-3;
-  }
+.container {
+  padding-left: $spacer-3;
+  padding-right: $spacer-3;
 }
 
