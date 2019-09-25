@@ -18,14 +18,16 @@ ensure_ruby() {
 }
 
 ensure_node() {
-  if [ ! -e bin/vendor/node-v10.16.3-linux-x64/bin/npm ];
+  local node_version="10.16.3"
+
+  if [ ! -e "bin/vendor/node-v${node_version}-linux-x64/bin/npm" ];
   then
     mkdir -p bin/vendor
-    wget https://nodejs.org/dist/v10.16.3/node-v10.16.3-linux-x64.tar.xz
-    (cd bin/vendor; tar xf ../../node-v10.16.3-linux-x64.tar.xz)
-    rm -f node-v10.16.3-linux-x64.tar.xz
+    wget "https://nodejs.org/dist/v${node_version}/node-v${node_version}-linux-x64.tar.xz"
+    (cd bin/vendor; tar xf "../../node-v${node_version}-linux-x64.tar.xz")
+    rm -f node-*-linux-x64.tar.xz
   fi
-  ./bin/vendor/node-v10.16.3-linux-x64/bin/npm install
+  ./bin/vendor/node-v${node_version}-linux-x64/bin/npm install
 }
 
 function prepare_ci {
