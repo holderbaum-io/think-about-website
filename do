@@ -2,7 +2,6 @@
 
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
 
 set -eu
 
@@ -37,6 +36,8 @@ ensure_node() {
 
 function prepare_ci {
   if [[ -z "${CI:=}" ]]; then return 0; fi
+
+  export LC_ALL=C.UTF-8
 
   mkdir -p ~/.ssh
   chmod 700 ~/.ssh
