@@ -2,13 +2,6 @@ require 'uri'
 require 'fastimage'
 require 'yaml'
 
-# Activate and configure extensions
-# https://middlemanapp.com/advanced/configuration/#configuring-extensions
-
-activate :autoprefixer do |prefix|
-  prefix.browsers = 'last 2 versions'
-end
-
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -155,10 +148,10 @@ activate :blog do |blog|
   blog.layout = 'article'
 end
 
-# Build-specific configuration
-# https://middlemanapp.com/advanced/configuration/#environment-specific-settings
+postcss = './bin/build-css.sh'
 
-configure :build do
-  activate :minify_css
-  activate :minify_javascript
-end
+activate :external_pipeline,
+         name: :postcss,
+         command: build? ? postcss : postcss + ' --watch',
+         source: '.tmp/dist',
+         latency: 1
