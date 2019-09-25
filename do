@@ -1,9 +1,12 @@
 #!/bin/bash
 
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 set -eu
 
 ensure_ruby() {
-  export LANG=C.UTF-8
   local bundler_version
   bundler_version="$(tail -n1 Gemfile.lock |tr -d ' ')"
   if ! gem list -q bundler |grep -q "$bundler_version" >/dev/null;
