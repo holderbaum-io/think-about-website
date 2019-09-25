@@ -3,6 +3,7 @@
 @import 'basics/_container.css';
 @import 'components/_header.css';
 @import 'components/_keyvisual.css';
+@import 'components/_events.css';
 
 html {
   font-size: 20px;
@@ -26,6 +27,7 @@ body {
   box-sizing: inherit;
   padding: 0;
   letter-spacing: 0.02rem;
+  line-height: 1.2rem;
 }
 
 h1, h2, h3, h1 *, h2 *, h3 * {
@@ -73,11 +75,6 @@ figure {
   margin: 2rem auto;
 }
 
-figure {
-  width: 100%;
-  max-width: 500px;
-}
-
 b, strong {
   font-weight: 700;
   letter-spacing: 0.05rem;
@@ -97,15 +94,9 @@ section > div.centered {
   margin: 0 auto;
 }
 
-main > section p {
-  line-height: 1.4rem;
-}
-
 main > section {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 main > section:nth-child(odd) {
@@ -377,84 +368,6 @@ section.about-us section article * {
   text-align: center;
 }
 }
-
-section.events > div > h1 {
-  text-align: center;
-}
-
-section.events > div > div {
-  display: flex;
-  justify-content: center;
-}
-
-section.events article {
-  flex: 50%;
-  max-width: 50%;
-  border-radius: 10px;
-  background-color: white;
-  border: 1px solid #e9e9e9;
-  padding: 0;
-}
-
-@media (max-width: 900px) {
-section.events article {
-  flex: 75%;
-  max-width: 75%;
-}
-}
-
-@media (max-width: 699px) {
-section.events article {
-  flex: 100%;
-  max-width: 100%;
-}
-}
-
-section.events article * {
-  font-size: 0.9rem;
-  line-height: 1.2rem;
-}
-
-section.events article > a {
-  text-decoration: none;
-}
-
-section.events article figure {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-}
-
-section.events article figure img {
-  border-radius: 10px 10px 0 0;
-  width: 100%;
-}
-
-section.events article div {
-  padding: 2rem;
-}
-
-section.events article div span:first-of-type {
-  display: inline-block;
-  margin-bottom: 0.4rem;
-}
-
-section.events article div span:last-of-type {
-  display: inline-block;
-  color: #9b9b9b;
-  text-decoration: underline;
-}
-
-section.events article h1 {
-  font-size: 1.2rem;
-}
-
-section.events article h2 {
-  font-size: 1rem;
-  margin: 0;
-  font-weight: 400;
-}
-
 
 section.topics section:nth-child(even) figure {
   float: right;

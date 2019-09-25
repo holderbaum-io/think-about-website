@@ -7,8 +7,8 @@
 
 @media (max-width: $page-width) {
   .container {
-    padding-left: $spacer-2;
-    padding-right: $spacer-2;
+    padding-left: $spacer-3;
+    padding-right: $spacer-3;
   }
 }
 

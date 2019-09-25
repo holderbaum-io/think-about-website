@@ -1,0 +1,57 @@
+.Events {
+}
+
+.Events .Events-title {
+  text-align: center;
+  margin: 0 0 $spacer-section 0;
+}
+
+.Events .Events-list {
+  display: flex;
+  justify-content: center;
+}
+
+.Events .Events-event {
+  flex: 1;
+  max-width: 50%;
+  min-width: 400px;
+  border: 1px solid #e9e9e9;
+  border-radius: $border-radius;
+  text-decoration: none;
+}
+
+@media (--phone-only) {
+.Events .Events-event {
+  max-width: 100%;
+  min-width: auto;
+}
+}
+
+.Events .Events-event-image {
+  margin: 0;
+}
+
+.Events .Events-event-image img {
+  border-radius: $border-radius $border-radius 0 0;
+  width: 100%;
+}
+
+.Events .Events-event-content {
+  margin: $spacer-3;
+}
+
+.Events .Events-event-content * {
+  font-size: $font-size-in-element;
+}
+
+.Events .Events-event-title {
+  font-size: $font-size-larger;
+}
+
+.Events .Events-event-subtitle {
+  font-size: $font-small;
+}
+
+.Events .Events-event-more {
+  text-decoration: underline;
+}
