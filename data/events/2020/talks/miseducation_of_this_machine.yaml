@@ -1,0 +1,32 @@
+title: "The Miseducation of This Machine"
+track: "tech"
+abstract: |
+  Machine Learning appears to be the solution to all the problems right now,
+  whether solvable by tech or (probably) not. While we implement more
+  sophisticated algorithms and collect larger amounts of data, most developers
+  are lacking an actual understanding of how these algorithms learn. This talk
+  will give you an insight into the inner workings of neural networks and their
+  decision making to help you stay critical of such results. Because machines
+  don't actually learn that much, but humans do. Let's make ML tangible and
+  help you become a better machine teacher!
+speakies:
+  - name: "Laura Linda Laugwitz"
+    slug: "laura_linda_laugwitz"
+    bio: |
+      With degrees in both social and computer science, Laura's spending most
+      of her time mediating between the two fields. She was an organizer of
+      Rails Girls Berlin for about four years and helped women get their first
+      experiences in programming. Currently, she's a working student in a
+      research project that analyzes hate speech in the comment sections of
+      German news websites, which has increased her need for videos of happy
+      kittens as well as coffee, and politicized her even more. She also
+      teaches at the intersections of tech at her alma mater.
+    position: "MSc Student"
+    company:
+      name: "Technische Universität Berlin"
+      link: ""
+    links:
+      - name: "Twitter"
+        link: "twitter.com/lauralindal"
+      - name: "NOHATE"
+        link: "http://nohate.online/"

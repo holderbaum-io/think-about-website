@@ -1,0 +1,43 @@
+title: "Please, Release me!"
+track: "tech"
+abstract: |
+  A song sung by every engineer who wants to deploy to production...
+
+  I hold a vision of having every single commit being release-ready for
+  production. This is what every team should strive for and put processes in
+  place which enable it. But visions are meant to be contested.
+
+  I recently took on the responsibility of release management of a very tricky
+  and major project. There was no infrastructure and no guidelines on how to do
+  this. In this talk, I will tell you why I volunteered for this role; what
+  inspired me; the principles that guided me, and what process I put in place.
+  There will be mention of system tests and how they enabled the group to gain
+  confidence about their releases. I will also talk about the team dynamics
+  which informed the initial difficulty and eventual success for release
+  management.
+speakies:
+  - name: "Maryam Umar"
+    slug: "maryam_umar"
+    bio: |
+      I work in London as Head of QA of a Fintech firm. I started my career
+      thirteen years ago as a QA test engineer in the finance and mobile
+      industry. After transitioning to the eCommerce sector, I performed QA in
+      various capacities for online restaurant and travel services. I continue
+      to work in QA as a manager now with special focus on sustainable delivery
+      practices. In addition to this, I have been a keen advocate of creating
+      and sustaining diverse teams. As I have transitioned in my career, I have
+      found that creating teams which work well together is more challenging
+      than the actual project(s) to be delivered by the team. I pay special
+      attention to team dynamics and ensuring engineers are in roles which give
+      them a sense of purpose. I have also been speaking at schools and
+      universities to educate students about what the industry has to offer and
+      what a creative space the technology sector can be.
+    position: "Head of Quality"
+    company:
+      name: "Thought Machine"
+      link: "https://www.thoughtmachine.net/"
+    links:
+      - name: "Twitter"
+        link: "https://twitter.com/maryamumar"
+      - name: "LinkedIn"
+        link: "https://www.linkedin.com/in/maryam-umar-50840312/"

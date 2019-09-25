@@ -1,0 +1,44 @@
+title: "Unintended Consequences"
+track: "keynote"
+abstract: |
+  "You cannot manage what you cannot measure."
+
+  Building a successful business requires more than just understanding customer
+  discovery, go-to-market strategies, legal issues, and raising capital.
+  Successful businesses are built on foundations that enable leaders to turn
+  information into knowledge in order to scale, evolve, and recover.  This
+  foundation requires entrepreneurs to understand and implement strategies in
+  *Process Management, Organizational Culture for Competitive Advantage, and
+  Crisis Management.*
+
+  Going from product/service focused to business model focused takes time and
+  intentional effort but is necessary in order to innovate, differentiate, and
+  compete in today’s economic climate. Also, building better businesses and
+  communities is a proactive approach to addressing inclusion, diversity, and
+  safe spaces in tech.
+speakies:
+  - name: "Kim Crayton"
+    slug: "kim_crayton"
+    bio: |
+      Kim Crayton is a business strategist, the founder of the #causeascene
+      movement, board chair of We Pivot, proud multipotentialite and advocate
+      for diversity, inclusion, and safe spaces in tech. She is committed to
+      facilitating and hosting spaces with honest conversations with
+      intentional actions for positive change.
+
+      Kim has years of experience working with learners of all ages, skill
+      level, and abilities and is now using her knowledge to develop technical
+      people, ideas, organizations, and communities. She is known for her
+      skills as a problem solver and strategy developer. She possesses a unique
+      ability of being able to see the BIG picture while still managing the
+      details. She also promotes positive organizational and community change
+      in fun and engaging ways.
+    position: "Founder"
+    company:
+      name: "#causeascene"
+      link: "https://hashtagcauseascene.com/"
+    links:
+      - name: "Twitter"
+        link: "https://twitter.com/kimcrayton1"
+      - name: "We Pivot"
+        link: "https://www.wepivot.org/"
