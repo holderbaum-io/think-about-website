@@ -27,7 +27,12 @@ ensure_node() {
     (cd bin/vendor; tar xf "../../node-v${node_version}-linux-x64.tar.xz")
     rm -f node-*-linux-x64.tar.xz
   fi
-  ./bin/vendor/node-v${node_version}-linux-x64/bin/npm install
+
+  PATH="$(pwd)/node_modules/.bin:${PATH}"
+  PATH="$(pwd)/bin/vendor/node-v${node_version}-linux-x64/bin:${PATH}"
+  export PATH
+
+  npm install
 }
 
 function prepare_ci {

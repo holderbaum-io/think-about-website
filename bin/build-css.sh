@@ -1,9 +1,6 @@
 #!/bin/bash
 
-node="$(find bin/vendor/ -maxdepth 1 |sort |tail -n1)"
-PATH="$(pwd)/$node/bin:$PATH"
-
-cmd='./node_modules/.bin/postcss source/stylesheets/site.css -o .tmp/dist/stylesheets/site.css'
+cmd='postcss source/stylesheets/site.css -o .tmp/dist/stylesheets/site.css'
 
 if [[ "${1:-}" = '--watch' ]];
 then
