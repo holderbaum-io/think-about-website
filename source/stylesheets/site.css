@@ -1,16 +1,3 @@
-/*
- * Headlines/Footer   0e003b
- * Text               4a4a4a
- * Tech               eb18ff
- * Design             00a0df
- * Society            6b3cff
- * Background         f9f9f9
- * Dark Background    470076
- * /
-
-/* ================================ */
-/* Element reset and defaults */
-
 html {
   font-size: 20px;
   box-sizing: border-box;
@@ -135,10 +122,6 @@ main > section > a:last-child {
   transform: translateX(-50%);
 }
 
-
-/* ================================ */
-/* Buttons */
-
 a[button] ,
 form input[type=submit] {
   background-color: #6b3cff;
@@ -214,9 +197,6 @@ header a[button]:hover {
   background-color: #bf18ce;
 }
 
-/* ================================ */
-/* Keyvisual */
-
 body > header {
   height: 600px;
   background-image: url("/images/keyvisual.svg");
@@ -266,9 +246,6 @@ body > header div.centered {
 body > header a[button] {
   margin-top: 0.4rem;
 }
-
-/* ================================ */
-/* Gallery */
 
 div.imagegallery {
   display: flex;
@@ -320,9 +297,6 @@ div.imagegallery figure {
   padding: 4px;
 }
 }
-
-/* ================================ */
-/* Navigation */
 
 body > nav {
   position: relative;
@@ -408,9 +382,6 @@ body > nav[desktop]:after {
   clear: both;
 }
 
-/* ================================ */
-/* Footer */
-
 body > footer {
   text-align: center;
   color: white;
@@ -470,9 +441,6 @@ body > footer nav > div a img {
   margin: 0;
 }
 
-/* ================================ */
-/* Universe Sponsors */
-
 section.universe-sponsors * {
   text-align: center;
 }
@@ -495,9 +463,6 @@ section.universe-sponsors div > div {
   align-items: center;
 }
 
-/* ================================ */
-/* Rocket Sponsors */
-
 section.rocket-sponsors * {
   text-align: center;
 }
@@ -512,9 +477,6 @@ section.rocket-sponsors figure {
 section.rocket-sponsors figure img {
   margin: 2rem 1rem;
 }
-
-/* ================================ */
-/* About Us */
 
 section.about-us section {
   display: flex;
@@ -561,9 +523,6 @@ section.about-us section article * {
   text-align: center;
 }
 }
-
-/* ================================ */
-/* Events */
 
 section.events > div > h1 {
   text-align: center;
@@ -643,9 +602,6 @@ section.events article h2 {
 }
 
 
-/* ================================ */
-/* Topics */
-
 section.topics section:nth-child(even) figure {
   float: right;
 }
@@ -676,9 +632,6 @@ section.topics section:after {
   display: block;
   clear: both;
 }
-
-/* ================================ */
-/* Tickets */
 
 section.tickets {
   text-align: center;
@@ -829,9 +782,6 @@ section.tickets section[ticket][disabled] * {
   color: #9b9b9b;
 }
 
-/* ================================ */
-/* Group Tickets */
-
 section.grouptickets > div {
   display: flex;
   flex-flow: row wrap;
@@ -870,9 +820,6 @@ section.grouptickets section ul li {
   border-top: 1px solid #dfdfdf;
 }
 
-/* ================================ */
-/* Partners */
-
 section.partners {
   text-align: center;
 }
@@ -891,9 +838,6 @@ section.partners section figure img {
   max-width: 100%;
 }
 
-
-/* ================================ */
-/* Schedule */
 
 section.schedule * {
   text-align: center;
@@ -1184,9 +1128,6 @@ section.schedule section header span:first-child {
 }
 }
 
-/* ================================ */
-/* Speaker */
-
 section.speakers {
   text-align: center;
 }
@@ -1427,9 +1368,6 @@ section.speakers .keynotes section header figure {
 }
 }
 
-/* ================================ */
-/* Location */
-
 section.image-with-text figure {
   float: left;
   width: 50%;
@@ -1451,9 +1389,6 @@ section.image-with-text > div:after {
   display: block;
   clear: both;
 }
-
-/* ================================ */
-/* Speaker Details */
 
 section.speaker-details > div {
   max-width: 700px;
@@ -1545,9 +1480,6 @@ section.speaker-details article.bio > div p:first-of-type {
   margin-bottom: 1.3rem;
   text-align: center;
 }
-
-/* ================================ */
-/* Blog Overview */
 
 section.blog > div > h1 {
   text-align: center;
@@ -1754,10 +1686,6 @@ section.blog section div span:last-of-type {
   position: inherit;
 }
 }
-
-/* ================================ */
-/* Topic related coloring */
-
 
 [topic=tech] em, [topic=tech] h4 {
  color: #eb18ff;
