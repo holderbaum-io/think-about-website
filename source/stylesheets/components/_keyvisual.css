@@ -1,0 +1,27 @@
+.Keyvisual {
+  height: 600px;
+  background-image: url("/images/keyvisual.svg");
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: 4096px 600px;
+  background-color: #470076;
+  padding-top: 70px;
+}
+
+.Keyvisual .container {
+  max-width: $page-width-small;
+  text-align: center;
+}
+
+.Keyvisual * {
+  color: white;
+}
+
+@media (--phone-only) {
+.Keyvisual {
+  height: 100vh;
+  background-image: url("/images/keyvisual-small.svg");
+  background-size: 700px 100vh;
+  padding-top: 120px;
+}
+}

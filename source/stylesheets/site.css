@@ -2,6 +2,7 @@
 
 @import 'basics/_container.css';
 @import 'components/_header.css';
+@import 'components/_keyvisual.css';
 
 html {
   font-size: 20px;
@@ -182,65 +183,6 @@ a[button][light]:hover {
   background-color: #470076;
   color: white;
   text-decoration: none;
-}
-
-header a[button] {
-  margin: 0;
-  background-color: #eb18ff;
-}
-
-header a[button]:hover {
-  background-color: #bf18ce;
-}
-
-body > header {
-  height: 600px;
-  background-image: url("/images/keyvisual.svg");
-  background-repeat: no-repeat;
-  background-position: center 0;
-  background-size: 4096px 600px;
-  background-color: #470076;
-  padding-top: 70px;
-}
-
-body > header.hero {
-  background-color: white;
-}
-
-body > header.ta2019 {
-  background-image: url("/images/events/2019-large.jpg");
-  background-size: 1920px 600px;
-}
-
-@media (max-width: 699px) {
-body > header.ta2019 {
-  background-image: url("/images/events/2019-small.jpg");
-  background-position: center;
-  background-size: cover;
-}
-}
-
-body > header[small] {
-  height: 75px;
-  background-color: #f9f9f9;
-  background-image: none;
-}
-
-body > header * {
-  color: white;
-}
-
-body > header *:first-child {
-  margin-top: 0;
-}
-
-body > header div.centered {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-body > header a[button] {
-  margin-top: 0.4rem;
 }
 
 div.imagegallery {
@@ -1631,15 +1573,6 @@ section.topics section:nth-child(1n) article {
 @media (max-width: 699px) {
 html {
   font-size: 18px;
-}
-body > header {
-  height: 100vh;
-  background-image: url("/images/keyvisual-small.svg");
-  background-size: 700px 100vh;
-  padding-top: 90px;
-}
-body > header div.centered {
-  max-width: 25rem;
 }
 a[button] {
   padding-top: 0.9rem;
