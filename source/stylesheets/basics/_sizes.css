@@ -1,0 +1,18 @@
+$page-width: 980px;
+
+$spacer: 1rem;
+$spacer-0: 0;
+$spacer-1: calc($spacer * 0.5);
+$spacer-2: calc($spacer * 1);
+$spacer-3: calc($spacer * 3);
+$spacer-header: calc($spacer * 4);
+$spacer-section: calc($spacer * 4);
+$border-radius: 20px;
+
+$font-small: 0.8rem;
+
+@custom-media --phone-only (max-width: 599px);
+@custom-media --tablet-portrait-up (min-width: 600px);
+@custom-media --tablet-landscape-up (min-width: 900px);
+@custom-media --desktop-up (min-width: 1200px);
+@custom-media --big-desktop-up (min-width: 1800px);

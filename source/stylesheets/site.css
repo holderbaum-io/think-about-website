@@ -1,3 +1,8 @@
+@import 'basics/_sizes.css';
+
+@import 'basics/_container.css';
+@import 'components/_header.css';
+
 html {
   font-size: 20px;
   box-sizing: border-box;
@@ -91,13 +96,6 @@ section > div.centered {
   margin: 0 auto;
 }
 
-nav[desktop] > div,
-section > div {
-  max-width: 980px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 main > section p {
   line-height: 1.4rem;
 }
@@ -186,13 +184,11 @@ a[button][light]:hover {
   text-decoration: none;
 }
 
-body > nav a[button],
 header a[button] {
   margin: 0;
   background-color: #eb18ff;
 }
 
-body > nav a[button]:hover,
 header a[button]:hover {
   background-color: #bf18ce;
 }
@@ -296,90 +292,6 @@ div.imagegallery figure {
   max-width: 100%;
   padding: 4px;
 }
-}
-
-body > nav {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  color: white;
-}
-
-body > nav > div {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-body > nav a {
-  text-decoration: none;
-  font-size: 0.8rem;
-}
-
-body > nav[mobile] {
-  display: none;
-  position: absolute;
-  top: 0;
-  padding: 1rem;
-}
-
-body > nav[desktop] {
-  display: block;
-}
-
-body > nav[mobile] > div > * {
-  position: absolute;
-  top: 1rem;
-}
-
-body > nav[mobile] > div > *:last-child {
-  right: 1rem;
-}
-
-body > nav[mobile] a img {
-  width: 1.2rem;
-}
-
-body > nav[mobile] a {
-  color: white;
-}
-
-body > nav[mobile][dark] a {
-  color: #470076;
-}
-
-body > nav[mobile] a:first-child {
-  padding-top: 0.1rem;
-  font-size: 0.8rem;
-  font-weight: 700;
-}
-
-body > nav[desktop] img {
-  float: left;
-  height: 2rem;
-  margin-top: 0.5rem;
-}
-
-body > nav[desktop] ul {
-  float: right;
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-body > nav[desktop] ul li {
-  display: inline-block;
-  padding: 0;
-}
-
-body > nav[desktop] ul li a:not([button]) {
-  margin: 1rem 0.7rem;
-  display: inline-block;
-}
-
-body > nav[desktop]:after {
-  content: '';
-  display: block;
-  clear: both;
 }
 
 body > footer {
@@ -1306,11 +1218,6 @@ section.speakers section:after {
   display: block;
   clear: both;
 }
-@media (max-width: 730px) {
-body > nav[desktop] > div > a:first-child {
-  display: none;
-}
-}
 @media (max-width: 979px) {
 section.speakers .talks section,
 section.tickets section {
@@ -1325,12 +1232,6 @@ section.speakers .keynotes section header figure {
 }
 }
 @media (max-width: 699px) {
-body > nav[desktop] {
-  display: none;
-}
-body > nav[mobile] {
-  display: block;
-}
 body > footer {
   min-height: 100vh;
   position: relative;

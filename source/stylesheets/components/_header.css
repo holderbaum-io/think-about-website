@@ -1,0 +1,62 @@
+.Header {
+  width: 100%;
+  background-color: white;
+}
+
+.Header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header-image {
+  width: $spacer-3;
+  margin: $spacer-1 0;
+}
+
+.Header-links {
+  list-style: none;
+  display: flex;
+  margin: $spacer-1 0;
+}
+
+.Header-links li {
+  display: inline;
+}
+
+.Header-links li + li{
+  margin-left: $spacer-2;
+}
+
+.Header-links a {
+  text-decoration: none;
+  font-size: $font-small;
+}
+
+.Header-menu-button {
+  display: none;
+  margin: $spacer-1 0;
+}
+
+.Header-menu-button img {
+  width: 1rem;
+}
+
+@media (--phone-only) {
+.Header {
+  background: none;
+  position: absolute;
+}
+.Header .container {
+  flex-direction: row-reverse;
+}
+.Header-image {
+  display: none;
+}
+.Header-links {
+  display: none;
+}
+.Header-menu-button {
+  display: inline-block;
+}
+}
