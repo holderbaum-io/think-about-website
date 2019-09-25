@@ -23,3 +23,5 @@ deploy:
     - "./do deploy"
   needs:
     - "build"
+  only:
+    - "master"
