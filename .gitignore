@@ -1,5 +1,6 @@
 bin/vendor/*
 vendor/*
+node_modules/*
 .bundle/
 result/*
 build/*

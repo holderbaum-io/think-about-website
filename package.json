@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/holderbaum-io/think-about-website/issues"
   },
-  "homepage": "https://github.com/holderbaum-io/think-about-website#readme"
+  "homepage": "https://github.com/holderbaum-io/think-about-website#readme",
+  "dependencies": {
+    "postcss-calc": "^7.0.1",
+    "postcss-cli": "^6.1.3",
+    "postcss-custom-properties": "^9.0.2",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0"
+  }
 }
