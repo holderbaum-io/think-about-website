@@ -42,6 +42,7 @@ function prepare_ci {
 }
 
 task_serve() {
+  ensure_node
   ensure_ruby
 
   local port="${1:-9090}"
