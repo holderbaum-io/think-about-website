@@ -6,6 +6,7 @@ build:
     paths:
       - "build/"
       - "vendor/"
+      - "bin/vendor/"
   artifacts:
     paths:
       - "build/"

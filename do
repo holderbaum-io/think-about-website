@@ -17,6 +17,17 @@ ensure_ruby() {
   bundle install --path vendor/bundle --binstubs vendor/bin
 }
 
+ensure_node() {
+  if [ ! -e bin/vendor/node-v10.16.3-linux-x64/bin/npm ];
+  then
+    mkdir -p bin/vendor
+    wget https://nodejs.org/dist/v10.16.3/node-v10.16.3-linux-x64.tar.xz
+    (cd bin/vendor; tar xf ../../node-v10.16.3-linux-x64.tar.xz)
+    rm -f node-v10.16.3-linux-x64.tar.xz
+  fi
+  ./bin/vendor/node-v10.16.3-linux-x64/bin/npm install
+}
+
 function prepare_ci {
   if [[ -z "${CI:=}" ]]; then return 0; fi
 
@@ -38,6 +49,7 @@ task_serve() {
 }
 
 task_build() {
+  ensure_node
   ensure_ruby
 
   ./vendor/bin/middleman build

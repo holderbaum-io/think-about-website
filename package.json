@@ -1,0 +1,19 @@
+{
+  "name": "think-about-website",
+  "version": "1.0.0",
+  "description": "This is the code for the main Think About! Website, fully responsive.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holderbaum-io/think-about-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holderbaum-io/think-about-website/issues"
+  },
+  "homepage": "https://github.com/holderbaum-io/think-about-website#readme"
+}
