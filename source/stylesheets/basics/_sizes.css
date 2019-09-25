@@ -13,6 +13,8 @@ $border-radius: 20px;
 $font-size-larger: 1.3rem;
 $font-size-in-element: 0.9rem;
 $font-small: 0.8rem;
+$line-height-regular: 1.4rem;
+$line-height-small: 1.2rem;
 
 @custom-media --phone-only (max-width: 599px);
 @custom-media --tablet-portrait-up (min-width: 600px);

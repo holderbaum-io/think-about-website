@@ -1,0 +1,10 @@
+.Textbox {
+}
+
+.Textbox.Textbox-small .container {
+  max-width: $page-width-small;
+  text-align: center;
+}
+
+.Textbox * {
+}

@@ -22,6 +22,7 @@
 
 .Header-links li {
   display: inline;
+  padding: 0;
 }
 
 .Header-links li + li{

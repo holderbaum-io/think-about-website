@@ -4,6 +4,7 @@
 @import 'components/_header.css';
 @import 'components/_keyvisual.css';
 @import 'components/_events.css';
+@import 'components/_textbox.css';
 
 html {
   font-size: 20px;
@@ -27,7 +28,7 @@ body {
   box-sizing: inherit;
   padding: 0;
   letter-spacing: 0.02rem;
-  line-height: 1.2rem;
+  line-height: $line-height-regular;
 }
 
 h1, h2, h3, h1 *, h2 *, h3 * {
@@ -68,11 +69,11 @@ a {
 }
 
 article {
-  margin: 2rem 0;
+  margin: 0;
 }
 
 figure {
-  margin: 2rem auto;
+  margin: 0;
 }
 
 b, strong {
