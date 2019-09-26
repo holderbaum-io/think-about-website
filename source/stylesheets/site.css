@@ -8,6 +8,7 @@
 @import 'components/_textbox.css';
 @import 'components/_bordered_list.css';
 @import 'components/_image_gallery.css';
+@import 'components/_footer.css';
 
 html {
   font-size: 20px;
@@ -174,6 +175,7 @@ a[button][light]:hover {
   text-decoration: none;
 }
 
+/*
 body > footer {
   text-align: center;
   color: white;
@@ -232,6 +234,7 @@ body > footer nav > div a img {
   height: 1.2rem;
   margin: 0;
 }
+*/
 
 section.universe-sponsors * {
   text-align: center;
@@ -993,6 +996,7 @@ section.speakers .keynotes section header figure {
 }
 }
 @media (max-width: 699px) {
+/*
 body > footer {
   min-height: 100vh;
   position: relative;
@@ -1012,6 +1016,7 @@ body > footer nav > div a img {
   width: 2.2rem;
   height: 2.2rem;
 }
+*/
 section.speakers .talks section,
 section.speakers .keynotes section,
 section.tickets section {

@@ -1,0 +1,45 @@
+.Footer {
+  background-color: $color-primary-dark;
+}
+
+.Footer * {
+  color: white;
+  text-align: center;
+}
+
+.Footer ul {
+  list-style: none;
+}
+
+.Footer ul li {
+}
+
+.Footer a {
+  text-decoration: none;
+}
+
+.Footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Footer .Footer-links-external li {
+  display: inline-block;
+}
+
+.Footer .Footer-links-external img {
+  width: 1rem;
+}
+
+.Footer .Footer-close-button {
+  display: none;
+}
+
+.Footer .Footer-image {
+  margin: $spacer-section 0;
+}
+
+.Footer .Footer-image img {
+  width: 200px;
+}

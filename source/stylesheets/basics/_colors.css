@@ -1,6 +1,7 @@
 $color-tech: #eb18ff;
 $color-design: #00a0df;
 $color-society: #6b3cff;
+$color-primary-dark: #470076;
 
 em.tech {
   color: $color-tech;
