@@ -7,6 +7,7 @@
 @import 'components/_events.css';
 @import 'components/_textbox.css';
 @import 'components/_bordered_list.css';
+@import 'components/_image_gallery.css';
 
 html {
   font-size: 20px;
@@ -171,57 +172,6 @@ a[button][light]:hover {
   background-color: #470076;
   color: white;
   text-decoration: none;
-}
-
-div.imagegallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  align-content: flex-start;
-  margin: 0;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-}
-
-div.imagegallery + a[button] {
-  margin-bottom: 2rem;
-}
-
-div.imagegallery figure {
-  flex: 33.33%;
-  max-width: 33.33%;
-  margin: 0;
-  padding: 2px;
-}
-
-div.imagegallery figure a {
-  display: block;
-  line-height: 0;
-}
-
-div.imagegallery figure img {
-  width: 100%;
-}
-
-div.imagegallery figure figcaption {
-  display: none;
-}
-
-@media (max-width: 699px) {
-div.imagegallery figure {
-  flex: 50%;
-  max-width: 50%;
-  padding: 4px;
-}
-}
-
-@media (max-width: 499px) {
-div.imagegallery figure {
-  flex: 100%;
-  max-width: 100%;
-  padding: 4px;
-}
 }
 
 body > footer {

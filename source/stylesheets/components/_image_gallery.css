@@ -1,0 +1,25 @@
+.ImageGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ImageGallery .ImageGallery-image {
+  max-width: 33%;
+}
+
+.ImageGallery .ImageGallery-image a {
+  display: block;
+  line-height: 0;
+  margin: $spacer-1;
+}
+
+.ImageGallery .ImageGallery-image img {
+  width: 100%;
+}
+
+@media (--tablet-portrait-down) {
+.ImageGallery .ImageGallery-image {
+  max-width: 100%;
+}
+}

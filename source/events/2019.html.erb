@@ -74,19 +74,23 @@
   <section class="universe-sponsors">
     <%= partial 'universe_sponsors' %>
   </section>
-  <section>
-    <div class="centered">
+  <section class="Textbox">
+    <div class="container">
       <h1 id="pictures">Pictures</h1>
-      <div class="imagegallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+      <div class="ImageGallery" itemscope itemtype="http://schema.org/ImageGallery">
       <% images('source/images/events/2019/images/*.jpg').each do |image| %>
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+        <figure class="ImageGallery-image" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
           <a href="<%= image[:path] %>" itemprop="contentUrl" data-size="<%= image[:width].to_s + 'x' + image[:height].to_s %>">
             <img src="<%= image[:thumb] %>" itemprop="thumbnail" alt="Image description" />
           </a>
           <figcaption itemprop="caption description"><%= image[:caption] %></figcaption>
         </figure>
+
       <% end %>
       </div>
+
       <a button href="https://cdn.think-about.io/Think-About-2019.zip">Download all 407 Images (1.16GB)</a>
       <span note>
       We are using the <a href="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial License</a> which means that you can share, copy and redistribute the material in any medium or format and adapt, remix, transform, and build upon the material. You can do that under the following terms: You must give appropriate credit, provide a link to the license, and indicate if changes were made. And you may not use the material for commercial purposes.
@@ -355,5 +359,5 @@
   };
 
   // execute above function
-  initPhotoSwipeFromDOM('.imagegallery');
+  initPhotoSwipeFromDOM('.ImageGallery');
 </script>
