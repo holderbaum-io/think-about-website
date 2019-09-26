@@ -1,4 +1,5 @@
 @import 'basics/_sizes.css';
+@import 'basics/_colors.css';
 
 @import 'basics/_container.css';
 @import 'components/_header.css';
@@ -28,7 +29,6 @@ body {
   box-sizing: inherit;
   padding: 0;
   letter-spacing: 0.02rem;
-  line-height: $line-height-regular;
 }
 
 h1, h2, h3, h1 *, h2 *, h3 * {
@@ -78,15 +78,10 @@ figure {
 
 b, strong {
   font-weight: 700;
-  letter-spacing: 0.05rem;
 }
 
-ul {
-  list-style: square;
-}
-
-ul li {
-  padding-bottom: 0.5rem;
+p {
+  line-height: $line-height-regular;
 }
 
 section > div.centered {

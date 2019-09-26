@@ -1,0 +1,15 @@
+$color-tech: #eb18ff;
+$color-design: #00a0df;
+$color-society: #6b3cff;
+
+em.tech {
+  color: $color-tech;
+}
+
+em.design {
+  color: $color-design;
+}
+
+em.society {
+  color: $color-society;
+}
