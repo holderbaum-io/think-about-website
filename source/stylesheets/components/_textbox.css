@@ -44,6 +44,10 @@
   flex-direction: column;
 }
 
+.Textbox .Textbox-text-with-image.Textbox-fold-image-down {
+  flex-direction: column-reverse;
+}
+
 .Textbox .Textbox-text-with-image.Textbox-left article,
 .Textbox .Textbox-text-with-image.Textbox-right article {
   margin-top: $spacer-2;
