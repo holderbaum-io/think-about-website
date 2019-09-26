@@ -1,11 +1,12 @@
 @import 'basics/_sizes.css';
 @import 'basics/_colors.css';
-
 @import 'basics/_container.css';
+
 @import 'components/_header.css';
 @import 'components/_keyvisual.css';
 @import 'components/_events.css';
 @import 'components/_textbox.css';
+@import 'components/_bordered_list.css';
 
 html {
   font-size: 20px;
@@ -365,53 +366,12 @@ section.about-us section article * {
 }
 }
 
-section.topics section:nth-child(even) figure {
-  float: right;
-}
-
-section.topics section:nth-child(even) article {
-  float: left;
-}
-
-section.topics section:nth-child(odd) figure {
-  float: left;
-}
-
-section.topics section:nth-child(odd) article {
-  float: right;
-}
-
-section.topics section figure, section.topics section article {
-  width: 50%;
-}
-
-section.topics section article {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-section.topics section:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
 section.tickets {
   text-align: center;
 }
 
 section.tickets > div {
   max-width: 1200px;
-}
-
-section.ticket-benefits ul {
-  list-style: none;
-}
-
-section.ticket-benefits ul li {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-top: 1px solid #dfdfdf;
 }
 
 section.tickets section {
@@ -1460,19 +1420,6 @@ section.image-with-text figure {
 }
 
 section.image-with-text article {
-  float: none;
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-section.topics section:nth-child(1n) figure {
-  float: none;
-  width: 90%;
-  max-width: 400px;
-  margin: 3rem auto 0 auto;
-}
-section.topics section:nth-child(1n) article {
   float: none;
   width: 100%;
   padding-left: 0;

@@ -1,0 +1,9 @@
+.BorderedList {
+  list-style: none;
+}
+
+.BorderedList li {
+  padding-top: $spacer-1;
+  padding-bottom: $spacer-1;
+  border-top: 1px solid #dfdfdf;
+}

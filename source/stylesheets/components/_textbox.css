@@ -1,9 +1,9 @@
 .Textbox {
+  text-align: center;
 }
 
 .Textbox.Textbox-small .container {
   max-width: $page-width-small;
-  text-align: center;
 }
 
 .Textbox .Textbox-text-with-image {
@@ -11,7 +11,7 @@
 }
 
 .Textbox .Textbox-text-with-image + .Textbox-text-with-image {
-  margin-top: $spacer-2;
+  margin-top: $spacer-3;
 }
 
 .Textbox .Textbox-text-with-image figure {
@@ -20,6 +20,7 @@
 
 .Textbox .Textbox-text-with-image article {
   flex: 1;
+  text-align: left;
 }
 
 .Textbox .Textbox-text-with-image.Textbox-left {
@@ -31,14 +32,29 @@
 }
 
 .Textbox .Textbox-text-with-image.Textbox-left article {
-  margin-right: $spacer-2;
+  margin-right: $spacer-3;
 }
 
 .Textbox .Textbox-text-with-image.Textbox-right article {
-  margin-left: $spacer-2;
+  margin-left: $spacer-3;
 }
 
-@media (--phone-only) {
+@media (--tablet-portrait-down) {
+.Textbox .Textbox-text-with-image {
+  align-items: center;
+}
+
+.Textbox .Textbox-text-with-image article {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc($page-width / 2);
+}
+
+.Textbox .Textbox-text-with-image figure {
+  max-width: calc($page-width / 2);
+  width: 100%;
+}
+
 .Textbox .Textbox-text-with-image.Textbox-left,
 .Textbox .Textbox-text-with-image.Textbox-right {
   flex-direction: column;
