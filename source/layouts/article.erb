@@ -1,7 +1,7 @@
 <% wrap_layout :layout do %>
   <main>
     <section class="blogpost">
-      <div>
+      <div class="container">
         <h1><%= current_article.title %></h1>
         <span>
           Published
@@ -24,11 +24,11 @@
       <a id="author"></a>
     </section>
     <section class="blogauthor">
-      <div>
+      <div class="container">
         <%= partial 'blog/' + current_article.data.author.downcase %>
       </div>
     </section>
-    <section>
+    <section class="Textbox Textbox-small">
       <%= partial 'updates' %>
     </section>
   </main>

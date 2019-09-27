@@ -2,7 +2,7 @@
 
 <main>
   <section class="speaker-details">
-    <div>
+    <div class="container">
       <h1><%= talk[:title] %></h1>
       <ul>
         <% unless talk[:track].casecmp('introoutro') == 0 %>
@@ -28,7 +28,7 @@
     </div>
   </section>
   <section class="speaker-details">
-    <div>
+    <div class="container">
       <article class="bio">
         <figure>
           <% talk[:images].each do |image| %>
@@ -52,7 +52,7 @@
   <section class="universe-sponsors">
     <%= partial 'universe_sponsors' %>
   </section>
-  <section>
+  <section class="Textbox Textbox-small">
     <%= partial 'updates' %>
   </section>
 </main>
