@@ -77,8 +77,8 @@ You can contact us before or after the conference as well.
 
 The organization team may be reached via mail under the following addresses:
 
-[chrissi@think-about.io](mailto:chrissi@think-about.io) ([GPG](/assets/chrissi.asc))  
-[jakob@think-about.io](mailto:jakob@think-about.io) ([GPG](/assets/jakob.asc))  
+[chrissi@holderbaum.io](mailto:chrissi@holderbaum.io) ([GPG](/assets/chrissi.asc))  
+[jakob@holderbaum.io](mailto:jakob@holderbaum.io) ([GPG](/assets/jakob.asc))  
 
 # Message of Empowerment {#empowerment}
 
