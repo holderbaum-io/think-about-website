@@ -5,6 +5,7 @@
 .Footer * {
   color: white;
   text-align: center;
+  font-size: $font-size-smaller;
 }
 
 .Footer ul {
@@ -12,6 +13,7 @@
 }
 
 .Footer ul li {
+  margin-bottom: $spacer-1;
 }
 
 .Footer a {
@@ -24,12 +26,28 @@
   justify-content: center;
 }
 
+.Footer .Footer-links * {
+  font-weight: 700;
+}
+
+.Footer .Footer-links-secondary * {
+  font-size: $font-small;
+}
+
+.Footer .Footer-links-external {
+  margin-top: $spacer-section;
+}
+
 .Footer .Footer-links-external li {
   display: inline-block;
 }
 
+.Footer .Footer-links-external li + li {
+  margin-left: $spacer-1;
+}
+
 .Footer .Footer-links-external img {
-  width: 1rem;
+  width: 1.5rem;
 }
 
 .Footer .Footer-close-button {
