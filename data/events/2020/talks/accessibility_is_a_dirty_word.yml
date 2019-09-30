@@ -1,0 +1,35 @@
+title: "Accessibility is a Dirty Word"
+track: "tech"
+abstract: |
+  Diversity and inclusion are trending in most organisations and industries (in
+  the West). However, majority of websites, apps and interfaces are not
+  accessible. Why is this so? How can we change this? I'll be talking about my
+  experiences trying build accessibility into the baseline at the companies I
+  work for. I'll also share what I know about building inclusive design into
+  your process so that you can create accessible products.
+speakies:
+  - name: "Chimmy Kalu"
+    slug: "chimmy_kalu"
+    bio: |
+      Chimmy Kalu is a product designer who works with companies that put
+      people first, helping them create products that solve real problems. She
+      believes inclusive design practices should be integrated as the baseline
+      for creating products as user-centred products are accessible. Having
+      worked as a software engineer for half her career, Chimmy's able to
+      translate user needs, technical limitations and business goals into
+      designs that are accessible, usable and delightful. Over the last
+      decade, Chimmy has worked to help heritage brands like British Airways,
+      Vogue and GQ transform their offerings and deliver pioneering products
+      and experiences for their customers. She now works with startups and
+      entrepreneurs, helping them understand and connect with their user
+      base. When she's not creating product, Chimmy also writes and teaches
+      about inclusive UX and UI design.
+    position: "Senior Product Designer"
+    company:
+      name: "WorldRemit"
+      link: "https://www.worldremit.com"
+    links:
+      - name: "Twitter"
+        link: "https://twitter.com/geekaspora"
+      - name: "Website"
+        link: "https://www.chimmykalu.com"
