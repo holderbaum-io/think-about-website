@@ -1,0 +1,63 @@
+<main>
+  <section class="Textbox Textbox-small">
+    <div class="container">
+      <h1>Think About! 2020 Talks</h1>
+      <p>
+        This is a text about speakers on a conference.
+      </p>
+    </div>
+  </section>
+  <section class="speakers">
+    <div class="container">
+    <div class="keynotes">
+      <h1 id="keynotes">Keynotes</h1>
+      <% events('2020').keynotes.each do |keynote| %>
+      <a href="<%= keynote.path %>">
+        <section topic="<%= keynote.track.slug %>">
+          <h4><% keynote.track.readable %></h4>
+          <article>
+            <p>"<%= keynote.title %>"<em> (<%= keynote.language %>)</em></p>
+            <hr/>
+            <header>
+              <div>
+                <h1><%= keynote.joined_speaker_names %></h1>
+                <p><%= keynote.joined_company_names %></p>
+              </div>
+              <% keynote.speakers.each do |speaker| %>
+              <figure>
+                <img src="<%= speaker.image_path %>" />
+              </figure>
+              <% end %>
+            </header>
+          </article>
+        </section>
+      </a>
+      <% end %>
+    </div>
+    <div class="talks">
+      <h1 id="talks">Talks</h1>
+      <% events('2020').talks.each do |talk| %>
+      <section topic="<%= talk.track.slug %>">
+        <a href="<%= talk.path %>"><article>
+          <h4><%= talk.track.readable + ' Talk' %></h4>
+          <p>"<%= talk.title %>"<em> (<%= talk.language %>)</em></p>
+          <hr/>
+          <header>
+            <div>
+              <h1><%= talk.joined_speaker_names %></h1>
+              <p><%= talk.joined_company_names %></p>
+            </div>
+            <% talk.speakers.each do |speaker| %>
+            <figure>
+              <img src="<%= speaker.image_path %>" />
+            </figure>
+            <% end %>
+          </header>
+        </article></a>
+      </section>
+      <% end %>
+    </div>
+    </div>
+  </section>
+</main>
+

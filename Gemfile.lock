@@ -115,6 +115,7 @@ DEPENDENCIES
   middleman-autoprefixer (~> 2.7)
   middleman-blog (~> 4.0)
   mini_racer
+  minitest
   nokogiri
 
 BUNDLED WITH

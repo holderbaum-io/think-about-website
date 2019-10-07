@@ -2,6 +2,8 @@ require 'uri'
 require 'fastimage'
 require 'yaml'
 
+load './lib/event.rb'
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -41,6 +43,12 @@ end
 # https://middlemanapp.com/basics/helper-methods/
 
 helpers do
+  def events(slug)
+    base_dir = 'data/events/' + slug
+    raise "Could not find event '#{slug}'" unless File.directory? base_dir
+    Event.new(slug, base_dir)
+  end
+
   def nav_link(name, path)
     current_url = current_page.url
     if current_url == path
