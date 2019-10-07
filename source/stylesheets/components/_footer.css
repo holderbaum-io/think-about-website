@@ -1,4 +1,5 @@
 .Footer {
+  position: relative;
   background-color: $color-primary-dark;
 }
 
@@ -22,8 +23,9 @@
 
 .Footer .container {
   display: flex;
+  height: 100%;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .Footer .Footer-links * {
@@ -52,6 +54,11 @@
 
 .Footer .Footer-close-button {
   display: none;
+  padding: $spacer-1;
+}
+
+.Footer .Footer-close-button img {
+  width: 1.5rem;
 }
 
 .Footer .Footer-image {
@@ -60,4 +67,19 @@
 
 .Footer .Footer-image img {
   width: 200px;
+}
+
+@media (--phone-only) {
+.Footer {
+  height: 100vh;
+}
+.Footer .Footer-close-button {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.Footer .Footer-links-external {
+  margin-top: auto;
+}
 }
