@@ -29,9 +29,15 @@
   margin-left: $spacer-2;
 }
 
-.Header-links a {
+.Header-links a,
+.Header-links span {
   text-decoration: none;
   font-size: $font-small;
+}
+
+.Header-links span {
+  color: $color-tech;
+  font-weight: 700;
 }
 
 .Header-menu-button {

@@ -2,11 +2,12 @@
   <div class="container">
     <a href="/" class="Header-image"><img src="/images/logo.svg" alt="Think About! Logo"/></a>
     <ul class="Header-links">
-      <li><a href="/blog/">Blog</a></li>
-      <li><a href="/about-us.html">About</a></li>
-      <li><a href="/tickets.html">Tickets</a></li>
-      <li><a href="/cfp.html">CfP</a></li>
-      <li><a href="/consensus.html">Consensus</a></li>
+      <li><%= nav_link 'Speaker', '/speaker.html' %></li>
+      <li><%= nav_link 'Venue', '/venue.html' %></li>
+      <li><%= nav_link 'Tickets', '/tickets.html' %></li>
+      <li><%= nav_link 'Consensus', '/consensus.html' %></li>
+      <li><%= nav_link 'Blog', '/blog/' %></li>
+      <li><%= nav_link 'Events', '/events/' %></li>
     </ul>
     <% if is_landing_page? %>
     <a class="Header-menu-button" href="#footer"><img src="/images/menu.svg"/></a>

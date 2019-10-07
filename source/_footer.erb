@@ -3,15 +3,17 @@
     <a class="Footer-close-button" id="footer" href="#"><img src="/images/icons/close.svg"/></a>
     <a class="Footer-image" logo href="/"><img src="/images/logo.svg" alt="Think About! Logo"/></a>
     <ul class="Footer-links">
-      <li><a href="/blog/">Blog</a></li>
-      <li><a href="/about-us.html">About</a></li>
-      <li><a href="/tickets.html">Tickets</a></li>
-      <li><a href="/cfp.html">CfP</a></li>
-      <li><a href="/consensus.html">Consensus</a></li>
+      <li><%= nav_link 'Speaker', '/speaker.html' %></li>
+      <li><%= nav_link 'Venue', '/venue.html' %></li>
+      <li><%= nav_link 'Tickets', '/tickets.html' %></li>
+      <li><%= nav_link 'Consensus', '/consensus.html' %></li>
+      <li><%= nav_link 'Blog', '/blog/' %></li>
+      <li><%= nav_link 'Events', '/events/' %></li>
     </ul>
     <ul class="Footer-links-secondary">
-      <li><a href="/legal.html">Legal Notice</a></li>
-      <li><a href="/privacy.html">Privacy</a></li>
+      <li><%= nav_link 'About', '/about-us.html' %></li>
+      <li><%= nav_link 'Legal Notice', '/legal.html' %></li>
+      <li><%= nav_link 'Privacy', '/privacy.html' %></li>
       <li><a href="https://cdn.think-about.io/Think_About_Press_Kit.zip">Download Press Kit</a></li>
     </ul>
     <ul class="Footer-links-external">

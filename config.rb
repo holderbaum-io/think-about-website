@@ -41,6 +41,15 @@ end
 # https://middlemanapp.com/basics/helper-methods/
 
 helpers do
+  def nav_link(name, path)
+    current_url = current_page.url
+    if current_url == path
+      "<span>#{name}</span>"
+    else
+      link_to name, path
+    end
+  end
+
   def is_landing_page?
     current_page.url == '/'
   end
