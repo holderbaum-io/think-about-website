@@ -1,0 +1,44 @@
+title: "Pipeline: A Chinese Woman’s Journey in(to) a White Man’s World"
+track: "society"
+abstract: |
+  Is there a pipeline problem?  This is a [hot topic in the technology
+  industry](https://www.google.de/search?q=pipeline+problem+in+technology),
+  since it continues to be dominated by white men, while women and minorities
+  remain underrepresented.
+
+  So, is there a pipeline problem?  I won’t try to answer that question in this
+  talk.  Instead, I want to shed light on what it’s like to be part of the
+  minority in tech - and in society.  I’ll offer you a seemingly rare but
+  important glimpse into what it’s like to journey through life as a Chinese
+  woman, using a series of short stories from my work and personal life.  From
+  having gender and racial stereotypes thrust upon me from a young age, to
+  being objectified at work, to uninvited questions about my race and living in
+  the “other” box, these experiences have influenced my personal “pipeline” and
+  shaped my experience of the technology industry and the world around me.
+speakies:
+  - name: "Cassandra H. Leung"
+    slug: "cassandra_leung"
+    bio: |
+      Cassandra describes herself as a tester and UX enthusiast, with previous
+      roles including product owner, business analyst, recruiter and
+      international account manager.  She uses her varied knowledge and
+      experience to help her in all aspects of testing.
+
+      Cassandra is very passionate about diversity and inclusion, and tries to
+      raise awareness of various social issues relevant to technology.  To this
+      end, Cassandra launched a new collaborative blog series, [Identity
+      Stories](https://www.cassandrahl.com/blog/call-for-collaboration-identity-stories-0/),
+      in 2019 to amplify the voices of others and shed light on other people’s
+      experiences and perspectives.  She has spoken at various conferences
+      around the world and hopes to inspire others to share their stories too.
+    position: "Senior Test Engineer"
+    company:
+      name: "MaibornWolff"
+      link: "https://www.maibornwolff.de/"
+    links:
+      - name: "Website"
+        link: "https://www.cassandrahl.com/"
+      - name: "Twitter"
+        link: "https://twitter.com/Tweet_Cassandra"
+      - name: "LinkedIn"
+        link: "https://www.linkedin.com/in/cassandrahl/"

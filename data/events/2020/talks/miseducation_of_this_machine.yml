@@ -23,10 +23,10 @@ speakies:
       teaches at the intersections of tech at her alma mater.
     position: "MSc Student"
     company:
-      name: "Technische Universität Berlin"
-      link: ""
+      name: "TU Berlin"
+      link: "https://www.tu-berlin.de/menue/home/"
     links:
       - name: "Twitter"
-        link: "twitter.com/lauralindal"
+        link: "https://twitter.com/lauralindal"
       - name: "NOHATE"
         link: "http://nohate.online/"

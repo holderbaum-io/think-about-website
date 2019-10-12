@@ -25,6 +25,18 @@ class Event
     end
   end
 
+  class Link
+    attr_accessor(
+      :name,
+      :link
+    )
+
+    def initialize(data)
+      @name = data.fetch(:name)
+      @link = data.fetch(:link)
+    end
+  end
+
   class Speaker
     attr_accessor(
       :slug,
@@ -44,7 +56,7 @@ class Event
       @company_link = data.fetch(:company).fetch(:link)
       @job_title = data.fetch(:position)
       @bio = data.fetch(:bio)
-      @links = []
+      @links = data.fetch(:links).map { |d| Link.new(d) }
     end
 
     def big_image_path

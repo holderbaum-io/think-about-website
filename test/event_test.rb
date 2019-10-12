@@ -99,5 +99,9 @@ describe Event do
     )
     assert_equal 'Senior Speakie', speaker1.job_title
     assert_equal "I am\nSpeakie 1", speaker1.bio
+
+    assert_equal 1, speaker1.links.size
+    assert_equal 'My Website 1', speaker1.links.first.name
+    assert_equal 'https://example.org/mywebsite1', speaker1.links.first.link
   end
 end

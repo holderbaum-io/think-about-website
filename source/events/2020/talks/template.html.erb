@@ -27,8 +27,8 @@
           <p><%= markdown speaker.bio %></p>
           <p>
             <% speaker.links.each_with_index do |l, i| %>
-              <a href="<%= l[:url] %>"><%= l[:title] %></a>
-              <%= ' | ' if i < talk[:links].size - 1 %>
+              <a href="<%= l.link %>"><%= l.name %></a>
+              <%= ' | ' if i < speaker.links.size - 1 %>
             <% end %>
           </p>
         </div>
