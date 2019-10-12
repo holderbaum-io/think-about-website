@@ -30,6 +30,16 @@ JSON.parse(schedule, symbolize_names: true).each do |_day, talks|
   end
 end
 
+event = Event.lookup('2020')
+event.performances.each do |performance|
+  p performance
+  proxy("/events/2020/talks/#{performance.slug}.html",
+        '/events/2020/talks/template.html',
+        locals: { talk: performance },
+        ignore: true)
+end
+
+
 # proxy(
 #   '/this-page-has-no-template.html',
 #   '/template-file.html',
@@ -44,17 +54,15 @@ end
 
 helpers do
   def events(slug)
-    base_dir = 'data/events/' + slug
-    raise "Could not find event '#{slug}'" unless File.directory? base_dir
-    Event.new(slug, base_dir)
+    Event.lookup(slug)
   end
 
-  def nav_link(name, path)
+  def nav_link(name, *paths)
     current_url = current_page.url
-    if current_url == path
+    if paths.any? { |path| path == current_url }
       "<span>#{name}</span>"
     else
-      link_to name, path
+      link_to name, paths.first
     end
   end
 

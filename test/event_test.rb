@@ -78,12 +78,14 @@ describe Event do
     assert_equal '/events/myevent/talks/my_slug.html', keynote.path
 
     assert_equal 'my title', keynote.title
+    assert_equal "my\nabstract", keynote.abstract
     assert_equal 'EN', keynote.language
 
     assert_equal 2, keynote.speakers.size
 
     assert_equal 'Speakie 1 & Speakie 2', keynote.joined_speaker_names
     assert_equal 'Speaking Company', keynote.joined_company_names
+    assert_equal ['https://example.org/company'], keynote.company_links
 
     speaker1 = keynote.speakers.first
     assert_equal 'speakie_1', speaker1.slug
@@ -91,5 +93,11 @@ describe Event do
       '/images/events/myevent/speakies/speakie_1.jpg',
       speaker1.image_path
     )
+    assert_equal(
+      '/images/events/myevent/speakies/speakie_1_big.jpg',
+      speaker1.big_image_path
+    )
+    assert_equal 'Senior Speakie', speaker1.job_title
+    assert_equal "I am\nSpeakie 1", speaker1.bio
   end
 end

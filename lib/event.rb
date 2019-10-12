@@ -1,6 +1,12 @@
 require 'psych'
 
 class Event
+  def self.lookup(slug)
+    base_dir = 'data/events/' + slug
+    raise "Could not find event '#{slug}'" unless File.directory? base_dir
+    Event.new(slug, base_dir)
+  end
+
   class Track
     def initialize(track_string)
       @track_string = track_string.downcase
@@ -19,12 +25,15 @@ class Event
     end
   end
 
-
   class Speaker
     attr_accessor(
       :slug,
       :name,
-      :company_name
+      :company_name,
+      :company_link,
+      :job_title,
+      :bio,
+      :links
     )
 
     def initialize(event_slug, data)
@@ -32,6 +41,14 @@ class Event
       @slug = data[:slug]
       @name = data.fetch :name
       @company_name = data.fetch(:company).fetch(:name)
+      @company_link = data.fetch(:company).fetch(:link)
+      @job_title = data.fetch(:position)
+      @bio = data.fetch(:bio)
+      @links = []
+    end
+
+    def big_image_path
+      "/images/events/#{@event_slug}/speakies/#{@slug}_big.jpg"
     end
 
     def image_path
@@ -45,7 +62,8 @@ class Event
       :track,
       :title,
       :language,
-      :speakers
+      :speakers,
+      :abstract
     )
 
     def initialize(event_slug, data, filename)
@@ -56,6 +74,7 @@ class Event
       @title = data[:title]
       @language = data.fetch(:lang, 'en').upcase
       @speakers = @data[:speakies].map { |d| Speaker.new(event_slug, d) }
+      @abstract = @data[:abstract]
     end
 
     def keynote?
@@ -74,6 +93,11 @@ class Event
       @speakers.map(&:company_name).uniq.join(', ')
     end
 
+    def company_links
+      @speakers.map(&:company_link).uniq
+    end
+
+
     def [](key)
       @data.fetch key
     end
@@ -91,8 +115,6 @@ class Event
   def talks
     performances.reject(&:keynote?)
   end
-
-  private
 
   def performances
     return @performances if @performances

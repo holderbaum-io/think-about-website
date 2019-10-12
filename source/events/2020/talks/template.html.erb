@@ -1,0 +1,62 @@
+<main>
+  <section class="speaker-details">
+    <div class="container">
+      <h1><%= talk.title %></h1>
+      <ul>
+        <li><em topic="<%= talk.track.slug %>"><%= talk.track.readable %></em></li>
+        <li>Length: 45 Min</li>
+        <li>Language: <%= talk.language %></li>
+      </ul>
+      <article>
+        <%= markdown talk.abstract %>
+      </article>
+    </div>
+  </section>
+  <section class="speaker-details">
+    <div class="container">
+      <article class="bio">
+        <figure>
+          <% talk.speakers.each do |speaker| %>
+          <img src="<%= speaker.big_image_path %>" />
+          <% end %>
+        </figure>
+        <% talk.speakers.each do |speaker| %>
+        <div>
+          <h1><%= speaker.name %></h1>
+          <p><%= speaker.job_title %> @ <a href="<%= speaker.company_link %>"><%= speaker.company_name %></a></p>
+          <p><%= markdown speaker.bio %></p>
+          <p>
+            <% speaker.links.each_with_index do |l, i| %>
+              <a href="<%= l[:url] %>"><%= l[:title] %></a>
+              <%= ' | ' if i < talk[:links].size - 1 %>
+            <% end %>
+          </p>
+        </div>
+        <% end %>
+      </article>
+    </div>
+  </section>
+  <section class="Textbox Textbox-small">
+    <%= partial 'updates' %>
+  </section>
+</main>
+
+<% content_for :metatags do %>
+<% title = html_escape strip_tags markdown talk.title %>
+<% abstract = html_escape strip_tags markdown talk.abstract %>
+<% image_path = "https://think-about.io/images/events/2020/speakies/#{talk.slug}_card.png" %>
+
+<meta property="og:image" content="<%= image_path %>">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:title" content="<%= talk.title %>">
+<meta property="og:description" content="<%= talk.abstract %>">
+<meta property="og:type" content="article" />
+<meta property="og:url" content="<%= "https://think-about.io/#{current_page.url}" %>" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@thinkaboutconf">
+<meta name="twitter:title" content="<%= talk.title %>">
+<meta name="twitter:description" content="<%= talk.abstract %>">
+<meta name="twitter:image" content="<%= image_path %>">
+<meta name="twitter:domain" content="think-about.io">
+<% end %>
