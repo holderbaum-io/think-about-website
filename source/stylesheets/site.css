@@ -822,6 +822,10 @@ section.speakers section {
   position: relative;
 }
 
+section.speakers .talks > h1 {
+  margin-top: 4rem;
+}
+
 section.speakers > div + *{
   margin-top: 4rem;
 }
