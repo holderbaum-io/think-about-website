@@ -23,8 +23,8 @@ JSON.parse(schedule, symbolize_names: true).each do |_day, talks|
   talks.each do |talk|
     slug = talk[:person_slug]
     next if slug.nil?
-    proxy("/events/2019/speakies/#{slug}.html",
-          '/events/2019/speakies/template.html',
+    proxy("/events/2019/speakers/#{slug}.html",
+          '/events/2019/speakers/template.html',
           locals: { talk: talk },
           ignore: true)
   end

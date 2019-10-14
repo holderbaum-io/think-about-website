@@ -64,15 +64,15 @@ which we have to pay, independent of the actual amount of attendees.
 
 ### 3. Compensation
 
-Another considerable position is the **compensation of speakies and helpies**.
+Another considerable position is the **compensation of speakers and helpies**.
 We decided on a solidarity compensation for everyone who helps us to make the
 conference possible. That means, everyone gets the same compensation, be it a
-speakie, a keynote speakie or a person helping with the doors and doing child
-care. In addition to that, all attending speakies get a hotel room and we pay
+speaker, a keynote speaker or a person helping with the doors and doing child
+care. In addition to that, all attending speakers get a hotel room and we pay
 for their travel to Cologne.
 
 This is unusual for a conference, most events simply pay for their keynotes or a
-few very high profile speakies.
+few very high profile speakers.
 
 As stated above, those three positions make up nearly 80% of the total cost. In
 a graphical representation, this would look like this:

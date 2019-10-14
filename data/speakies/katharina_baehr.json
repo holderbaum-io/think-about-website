@@ -1,5 +1,0 @@
-{
-  "title": "The Power of Web Components",
-  "track": "Tech",
-  "abstract": "Die Idee der Web Components ist nicht neu. Jedes Mal, wenn wir ein HTML button oder input Element schreiben, verwenden wir das zu grundliegende Konzept.\nHeutzutage ist es möglich, dass jeder gekapselte Komponenten erstellt und mit anderen teilt. Durch die Wiederverwendung dieser können die Entwicklungs- und Wartungskosten gesenkt werden. Auch die heute gängigsten Frameworks wie Angular und React basieren auf Komponenten. Web Components haben einen großen Einfluss auf die moderne Webentwicklung und haben die Art und Weise, wie wir Anwendungen designen und strukturieren, verändert. ..."
-}

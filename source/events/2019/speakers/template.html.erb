@@ -32,7 +32,7 @@
       <article class="bio">
         <figure>
           <% talk[:images].each do |image| %>
-          <img src="<%= "/images/events/2019/speakies/#{image}_big.png" %>" />
+          <img src="<%= "/images/events/2019/speakers/#{image}_big.png" %>" />
           <% end %>
         </figure>
         <div>
@@ -60,7 +60,7 @@
 <% content_for :metatags do %>
 <% title = html_escape strip_tags markdown talk[:title] %>
 <% abstract = html_escape strip_tags markdown abstract %>
-<% image_path = "https://think-about.io/images/events/2019/speakies/#{talk[:person_slug]}_card.png" %>
+<% image_path = "https://think-about.io/images/events/2019/speakers/#{talk[:person_slug]}_card.png" %>
 
 <meta property="og:image" content="<%= image_path %>">
 <meta property="og:image:width" content="1200">

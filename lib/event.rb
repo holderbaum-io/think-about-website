@@ -60,11 +60,11 @@ class Event
     end
 
     def big_image_path
-      "/images/events/#{@event_slug}/speakies/#{@slug}_big.jpg"
+      "/images/events/#{@event_slug}/speakers/#{@slug}_big.jpg"
     end
 
     def image_path
-      "/images/events/#{@event_slug}/speakies/#{@slug}.jpg"
+      "/images/events/#{@event_slug}/speakers/#{@slug}.jpg"
     end
   end
 
@@ -85,7 +85,7 @@ class Event
       @track = Track.new(@data[:track])
       @title = data[:title]
       @language = data.fetch(:lang, 'en').upcase
-      @speakers = @data[:speakies].map { |d| Speaker.new(event_slug, d) }
+      @speakers = @data[:speakers].map { |d| Speaker.new(event_slug, d) }
       @abstract = @data[:abstract]
     end
 

@@ -12,12 +12,12 @@ REFERENCE_PERFORMANCE = {
   track: 'keynote',
   lang: 'en',
   abstract: "my\nabstract",
-  speakies: [
+  speakers: [
     {
-      name: 'Speakie 1',
-      slug: 'speakie_1',
-      bio: "I am\nSpeakie 1",
-      position: 'Senior Speakie',
+      name: 'Speaker 1',
+      slug: 'speaker_1',
+      bio: "I am\nSpeaker 1",
+      position: 'Senior Speaker',
       company: {
         name: 'Speaking Company',
         link: 'https://example.org/company'
@@ -30,10 +30,10 @@ REFERENCE_PERFORMANCE = {
       ]
     },
     {
-      name: 'Speakie 2',
-      slug: 'speakie_2',
-      bio: "I am\nSpeakie 2",
-      position: 'Senior Speakie',
+      name: 'Speaker 2',
+      slug: 'speaker_2',
+      bio: "I am\nSpeaker 2",
+      position: 'Senior Speaker',
       company: {
         name: 'Speaking Company',
         link: 'https://example.org/company'
@@ -83,22 +83,22 @@ describe Event do
 
     assert_equal 2, keynote.speakers.size
 
-    assert_equal 'Speakie 1 & Speakie 2', keynote.joined_speaker_names
+    assert_equal 'Speaker 1 & Speaker 2', keynote.joined_speaker_names
     assert_equal 'Speaking Company', keynote.joined_company_names
     assert_equal ['https://example.org/company'], keynote.company_links
 
     speaker1 = keynote.speakers.first
-    assert_equal 'speakie_1', speaker1.slug
+    assert_equal 'speaker_1', speaker1.slug
     assert_equal(
-      '/images/events/myevent/speakies/speakie_1.jpg',
+      '/images/events/myevent/speakers/speaker_1.jpg',
       speaker1.image_path
     )
     assert_equal(
-      '/images/events/myevent/speakies/speakie_1_big.jpg',
+      '/images/events/myevent/speakers/speaker_1_big.jpg',
       speaker1.big_image_path
     )
-    assert_equal 'Senior Speakie', speaker1.job_title
-    assert_equal "I am\nSpeakie 1", speaker1.bio
+    assert_equal 'Senior Speaker', speaker1.job_title
+    assert_equal "I am\nSpeaker 1", speaker1.bio
 
     assert_equal 1, speaker1.links.size
     assert_equal 'My Website 1', speaker1.links.first.name

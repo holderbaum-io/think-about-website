@@ -16,3 +16,4 @@ Redirect 302 /goto/beyondtellerrand https://beyondtellerrand.com/
 Redirect 302 /goto/dmw https://digitalmediawomen.de/
 Redirect 302 /goto/meetup/stammtisch/20190307 https://www.meetup.com/de-DE/Think-About-about-Tech-Design-and-their-impact-on-Society/events/bhhvrqyzfbkb/
 
+RedirectMatch 301 /events/2019/speakies/(.*) https://think-about.io/events/2019/speakers/$1
