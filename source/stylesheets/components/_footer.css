@@ -3,6 +3,16 @@
   background-color: $color-primary-dark;
 }
 
+.Footer a[button] {
+  display: inline;
+  background-color: $color-tech;
+}
+
+.Footer a[button]:hover {
+  /* TODO */
+}
+
+
 .Footer * {
   color: white;
   text-align: center;
@@ -26,6 +36,7 @@
   height: 100%;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .Footer .Footer-links * {
@@ -59,7 +70,7 @@
 
 .Footer .Footer-close-button {
   display: none;
-  padding: $spacer-1;
+  padding: $spacer-2;
 }
 
 .Footer .Footer-close-button img {

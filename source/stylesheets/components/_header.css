@@ -3,6 +3,15 @@
   background-color: white;
 }
 
+.Header a[button] {
+  margin: 0;
+  background-color: $color-tech;
+}
+
+.Header a[button]:hover {
+  /* TODO */
+}
+
 .Header .container {
   display: flex;
   justify-content: space-between;
@@ -10,13 +19,14 @@
 }
 
 .Header-image {
-  width: $spacer-3;
+  width: $spacer-4;
   margin: $spacer-1 0;
 }
 
 .Header-links {
   list-style: none;
   display: flex;
+  align-items: center;
   margin: $spacer-1 0;
 }
 
@@ -42,11 +52,11 @@
 
 .Header-menu-button {
   display: none;
-  margin: $spacer-1 0;
+  margin: $spacer-2
 }
 
 .Header-menu-button img {
-  width: 1rem;
+  width: 1.5rem;
 }
 
 @media (--phone-only) {
@@ -55,6 +65,7 @@
   position: absolute;
 }
 .Header .container {
+  padding: 0;
   flex-direction: row-reverse;
 }
 .Header-image {
