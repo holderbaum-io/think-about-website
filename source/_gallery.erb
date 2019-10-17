@@ -1,0 +1,11 @@
+<div class="ImageGallery" itemscope itemtype="http://schema.org/ImageGallery">
+<% images(locals[:path]).each do |image| %>
+  <figure class="ImageGallery-image" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="<%= image[:path] %>" itemprop="contentUrl" data-size="<%= image[:width].to_s + 'x' + image[:height].to_s %>">
+      <img src="<%= image[:thumb] %>" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description"><%= image[:caption] %></figcaption>
+  </figure>
+<% end %>
+</div>
+

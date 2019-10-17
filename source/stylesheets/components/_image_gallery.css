@@ -4,6 +4,12 @@
   justify-content: center;
 }
 
+.ImageGallery-description {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $page-width-small;
+}
+
 .ImageGallery .ImageGallery-image {
   max-width: 33%;
 }

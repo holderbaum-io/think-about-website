@@ -1,0 +1,43 @@
+<main>
+  <section class="Textbox Textbox-small">
+    <div class="container">
+      <h1>Think About:<br>A Conference in a Cinema</h1>
+      <p>
+        The Conference will take place in a cozy cinema right in the center of
+        the Ehrenfeld district in Cologne. It provides us with two big stages
+        for talks, unlimited drinks, free popcorn and regional organic catering
+        services.
+      </p>
+    </div>
+  </section>
+  <section class="Textbox">
+    <div class="container">
+      <h1 id="pictures">The Location</h1>
+      <p class="ImageGallery-description">
+      The <a href="https://cinenova.de/">Cinenova Cinema</a> has two beautiful
+      and cozy theaters inside, which will be the two stages for our tracks.
+      Additionally, it has beautiful outdoor and indoor areas to hang out, have
+      some drinks and eat delicious icecream.
+      </p>
+      <%= partial 'gallery', locals: { path: 'source/images/venue/location/*.jpg' } %>
+    </div>
+  </section>
+  <section class="Textbox">
+    <div class="container">
+      <h1 id="pictures">The Food</h1>
+      <p class="ImageGallery-description">
+      The ticket includes breakfast, lunch and cake &mdash; together with
+      drinks, coffee, icecream and popcorn.
+      </p>
+      <p class="ImageGallery-description">
+      The food is locally sourced, organic and freshly provided by our caterer.
+      All available options are vegan and vegetarian.
+      </p>
+      <%= partial 'gallery', locals: { path: 'source/images/venue/food/*.jpg' } %>
+    </div>
+  </section>
+  <section class="Textbox Textbox-small">
+    <%= partial 'updates' %>
+  </section>
+</main>
+<%= partial 'gallery_code' %>
