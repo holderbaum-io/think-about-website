@@ -39,13 +39,12 @@
   margin-left: $spacer-2;
 }
 
-.Header-links a,
-.Header-links span {
+.Header-links a {
   text-decoration: none;
   font-size: $font-small;
 }
 
-.Header-links span {
+.Header-links a.current {
   color: $color-tech;
 }
 

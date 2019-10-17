@@ -56,12 +56,14 @@ helpers do
     Event.lookup(slug)
   end
 
-  def nav_link(name, *paths)
+  def nav_link(name, path)
     current_url = current_page.url
-    if paths.any? { |path| path == current_url }
-      "<span>#{name}</span>"
+    if path.end_with?('/') && current_url.start_with?(path)
+      link_to name, path, class: 'current'
+    elsif path == current_url
+      link_to name, path, class: 'current'
     else
-      link_to name, paths.first
+      link_to name, path
     end
   end
 
