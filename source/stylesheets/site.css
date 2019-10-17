@@ -1225,6 +1225,10 @@ section.blog section div:last-child {
   padding: 30px;
 }
 
+section.blogpost .centered p {
+  text-align: center;
+}
+
 body section.blogpost div,
 body section.blogauthor div {
   max-width: 700px;

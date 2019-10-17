@@ -8,7 +8,9 @@
           <%= blogdate current_article %>
           by
           <a href="#author"><%= current_article.data.author %></a>,
-          Reading time ... Minutes
+          Reading time:
+          <%= (current_article.body.split(/\s+/).count / 300.0).ceil %>
+          Minutes
         </span>
         <img src="<%= blogimg current_article %>" />
         <%= yield %>
