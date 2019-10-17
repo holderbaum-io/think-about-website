@@ -9,7 +9,7 @@
 }
 
 .Header a[button]:hover {
-  /* TODO */
+  background-color: $color-tech-dark;
 }
 
 .Header .container {

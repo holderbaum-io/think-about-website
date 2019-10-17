@@ -9,7 +9,7 @@
 }
 
 .Footer a[button]:hover {
-  /* TODO */
+  background-color: $color-tech-dark;
 }
 
 
