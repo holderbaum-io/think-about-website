@@ -1,3 +1,5 @@
+Redirect 302 /en https://think-about.io/
+Redirect 302 /de https://think-about.io/
 Redirect 302 /en/ https://think-about.io/
 Redirect 302 /de/ https://think-about.io/
 Redirect 302 /goto/twitter https://twitter.com/thinkaboutconf
