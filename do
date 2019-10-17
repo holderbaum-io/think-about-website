@@ -63,6 +63,11 @@ task_clean() {
   rm -rf build/
 }
 
+task_test() {
+  ensure_ruby
+  bundle exec ruby test/runner.rb
+}
+
 task_deploy() {
   prepare_ci
 
@@ -77,7 +82,7 @@ task_deploy() {
 }
 
 usage() {
-  echo "$0 serve | build | deploy | clean"
+  echo "$0 serve | test | build | deploy | clean"
   exit 1
 }
 
@@ -85,6 +90,7 @@ cmd="${1:-}"
 shift || true
 case "$cmd" in
   clean) task_clean ;;
+  test) task_test ;;
   serve) task_serve "$@" ;;
   build) task_build ;;
   deploy) task_deploy "$@" ;;
