@@ -293,6 +293,7 @@ section.about-us section > * {
 
 section.about-us section figure {
   text-align: center;
+  margin: 1rem auto;
 }
 
 section.about-us section figure img {
@@ -316,7 +317,7 @@ section.about-us section {
 section.about-us section article {
   margin: 0 auto;
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
 }
 section.about-us section article * {
   text-align: center;
