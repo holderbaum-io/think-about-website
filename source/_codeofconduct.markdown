@@ -33,12 +33,13 @@ images in public spaces, deliberate intimidation, stalking, following,
 harassing photography or recording, sustained disruption of talks or other
 events, inappropriate physical contact, and unwelcome sexual attention.
 
-Participants asked to stop any harassing behavior are expected to comply immediately.
+Participants asked to stop any harassing behavior are expected to comply
+immediately.
 
-Sponsors are also subject to this code. In particular,
-sponsors should not use sexualised images, activities, or other material. Booth
-staff (including volunteers) should not use sexualised
-clothing/uniforms/costumes, or otherwise create a sexualised environment.
+Sponsors are also subject to this code. In particular, sponsors should not use
+sexualised images, activities, or other material. Booth staff (including
+volunteers) should not use sexualised clothing/uniforms/costumes, or otherwise
+create a sexualised environment.
 
 If a participant engages in harassing behavior, the conference’s Awareness-Team
 may take any action they deem appropriate, including warning the offender or
@@ -48,9 +49,9 @@ If you are being harassed, notice that someone else is being harassed, or have
 any other concerns, please contact a member of conference staff or the
 conference’s Awareness-team immediately.
 
-The Awareness-team can be visually identified – details will be published here
-in advance. We expect participants to follow these rules at the conference
-venues and conference-related social events.
+The Awareness-team can be visually identified – details will be published in
+advance. We expect participants to follow these rules at the conference venues
+and conference-related social events.
 
 Inspired by: [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
 
@@ -59,21 +60,24 @@ Inspired by: [http://confcodeofconduct.com/](http://confcodeofconduct.com/)
 [Back to top](#)
 
 To create a pleasant, safe and respectful atmosphere for all participants of
-the Think About! conference we have two Awareness-Teams available during the
-conference. "Awareness" in this case means the recognition or perception of
+the Think About! conference we have several Awareness-Teams available during
+the conference. "Awareness" in this case means the recognition or perception of
 verbal, psychological or physical violations of personal boundaries.
 
-The Teams consist of two people of different genders and are experienced in the
-care and consultation of people who have experienced boundary-crossing
+Each Team consist of two people of different genders. They are experienced in
+the care and consultation of people who have experienced boundary-crossing
 situations. One team will be moving freely on the location, another one can be
 reached at a fixed position which will be communicated in advance. They will
 also be available via a phone number which will be published here as well.
+Additionally, there will be a dedicated team for the speakers.
 
-One can also contact the Awareness Team through any of the other conference
-officials (people working at the conference). The Awareness Team may warn
-offenders or exclude them from the conference with no refund.
+The Awareness Team may warn offenders or exclude them from the conference with
+no refund.
 
-You can contact us before or after the conference as well.
+You can contact them before, during and after the conference either by
+approaching them or any of the conference staff or by using the official phone
+line or E-Mail adress. The phone number and E-Mail adress will be published
+prior to and on the event itself.
 
 The organization team may be reached via mail under the following addresses:
 
@@ -120,15 +124,17 @@ necessity. That would be:
 * Storing it at out ticket provider ([Pretix](https://pretix.eu) in Germany)
 * Giving payment information to the payment provider selected during checkout
   \- unless you wire the money via regular bank transaction
-* Storing it in our conference management tool Frab (hosted by
+* Storing it in our project management tool NextCloud (hosted by
   [Hetzner](https://hetzner.de) in Germany)
-* Storing it in our newsletter management tool Mailtrain if you subscribed to
+* Storing it in our newsletter management tool phpList if you subscribed to
   our newsletter (hosted by [Hetzner](https://hetzner.de) in Germany)
 
-We will neither sell your data nor give it away to any third party without your explicit consent, not even sponsors.
+We will neither sell your data nor give it away to any third party without your explicit consent - not even to our sponsors.
 
 # Disclaimer
 
 This document is a work in progress and will be updated from time to time. In
 case you want to participate we welcome you to get in touch with us and send us
-your feedback or your suggestions.
+your feedback or your suggestions. Or hop over to
+[Github](https://github.com/holderbaum-io/think-about-website/blob/master/source/_codeofconduct.markdown)
+for a quick pull reqest.

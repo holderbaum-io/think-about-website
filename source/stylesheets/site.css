@@ -87,6 +87,10 @@ p {
   line-height: $line-height-regular;
 }
 
+ul li {
+  line-height: $line-height-regular;
+}
+
 section > div.centered {
   max-width: 600px;
   text-align: center;
