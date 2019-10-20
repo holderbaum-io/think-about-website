@@ -44,19 +44,19 @@
 <% content_for :metatags do %>
 <% title = html_escape strip_tags markdown talk.title %>
 <% abstract = html_escape strip_tags markdown talk.abstract %>
-<% image_path = "https://think-about.io/images/events/2020/speakers/#{talk.slug}_card.png" %>
+<% image_path = "https://think-about.io/images/events/2020/talks/#{talk.slug}_card.png" %>
 
 <meta property="og:image" content="<%= image_path %>">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:title" content="<%= talk.title %>">
-<meta property="og:description" content="<%= talk.abstract %>">
+<meta property="og:title" content="<%= title %>">
+<meta property="og:description" content="<%= abstract %>">
 <meta property="og:type" content="article" />
-<meta property="og:url" content="<%= "https://think-about.io/#{current_page.url}" %>" />
+<meta property="og:url" content="<%= "https://think-about.io#{current_page.url}" %>" />
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@thinkaboutconf">
-<meta name="twitter:title" content="<%= talk.title %>">
-<meta name="twitter:description" content="<%= talk.abstract %>">
+<meta name="twitter:title" content="<%= title %>">
+<meta name="twitter:description" content="<%= abstract %>">
 <meta name="twitter:image" content="<%= image_path %>">
 <meta name="twitter:domain" content="think-about.io">
 <% end %>
