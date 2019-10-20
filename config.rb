@@ -56,6 +56,10 @@ helpers do
     Event.lookup(slug)
   end
 
+  def selling_tickets?
+    false
+  end
+
   def nav_link(name, path)
     current_url = current_page.url
     if path.end_with?('/') && current_url.start_with?(path)
