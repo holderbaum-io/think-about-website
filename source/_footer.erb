@@ -8,6 +8,9 @@
       <li><%= nav_link 'Consensus', '/consensus.html' %></li>
       <li><%= nav_link 'Blog', '/blog/' %></li>
       <li><%= nav_link 'Past Events', '/events/' %></li>
+      <% unless selling_tickets? %>
+      <li><%= nav_link 'Tickets', '/tickets.html' %></li>
+      <% end %>
     </ul>
     <% if selling_tickets? %>
     <a button href="/tickets.html">Get Ticket</a>

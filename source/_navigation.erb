@@ -8,6 +8,8 @@
       <li><%= nav_link 'Past Events', '/events/' %></li>
       <% if selling_tickets? %>
       <li><a button href="/tickets.html">Get Ticket</a></li>
+      <% else %>
+      <li><%= nav_link 'Tickets', '/tickets.html' %></li>
       <% end %>
     </ul>
     <% if is_landing_page? %>
