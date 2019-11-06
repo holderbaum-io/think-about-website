@@ -43,6 +43,11 @@
   font-weight: 700;
 }
 
+.Footer .Footer-links a.current {
+  color: $color-tech;
+}
+
+
 .Footer .Footer-links span,
 .Footer .Footer-links-secondary span {
   color: $color-tech;
