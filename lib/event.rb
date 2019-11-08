@@ -41,19 +41,17 @@ class Event
     attr_accessor(
       :slug,
       :name,
-      :company_name,
-      :company_link,
       :job_title,
       :bio,
       :links
     )
 
     def initialize(event_slug, data)
+      @data = data
       @event_slug = event_slug
       @slug = data[:slug]
       @name = data.fetch :name
-      @company_name = data.fetch(:company).fetch(:name)
-      @company_link = data.fetch(:company).fetch(:link)
+      @independent = !data.key?(:company)
       @job_title = data.fetch(:position)
       @bio = data.fetch(:bio)
       @links = data.fetch(:links).map { |d| Link.new(d) }
@@ -65,6 +63,18 @@ class Event
 
     def image_path
       "/images/events/#{@event_slug}/speakers/#{@slug}.jpg"
+    end
+
+    def independent?
+      @independent
+    end
+
+    def company_name
+      @data.fetch(:company).fetch(:name)
+    end
+
+    def company_link
+      @data.fetch(:company).fetch(:link)
     end
   end
 
@@ -102,7 +112,9 @@ class Event
     end
 
     def joined_company_names
-      @speakers.map(&:company_name).uniq.join(', ')
+      @speakers.map do |speaker|
+        speaker.independent? ? speaker.job_title : speaker.company_name
+      end.uniq.join(', ')
     end
 
     def company_links

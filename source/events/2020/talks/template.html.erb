@@ -23,7 +23,11 @@
         <% talk.speakers.each do |speaker| %>
         <div>
           <h1><%= speaker.name %></h1>
-          <p><%= speaker.job_title %> @ <a href="<%= speaker.company_link %>"><%= speaker.company_name %></a></p>
+          <p><%= speaker.job_title %>
+          <% unless speaker.independent? %>
+          @
+          <a href="<%= speaker.company_link %>"><%= speaker.company_name %></a></p>
+          <% end %>
           <p><%= markdown speaker.bio %></p>
           <p>
             <% speaker.links.each_with_index do |l, i| %>
