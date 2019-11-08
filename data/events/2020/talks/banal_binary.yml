@@ -1,0 +1,44 @@
+title: "Our Banal Binary"
+track: "society"
+abstract: |
+  Binary code is the axiomatic core of computing. It's quite magnificent, if
+  you think about it. From the binary, ones and zeros, we have built a universe
+  of technology to visualise black holes and record nanoseconds of football
+  goals. And while our technological reliance on binary has stemmed
+  unfathomable inventions, it has come at an unspoken cost.
+
+  We perceive the world through this lens—ones and zeros signify clear divide
+  between one another. It is the same dichotomy that lends itself to Boolean
+  thinking: true and false, good and evil, right and wrong, black and white,
+  just and unjust.
+
+  From these two simple numbers, we will traverse the impact of binaries on our
+  thinking, language, art, and culture; what it means for the technology we
+  create and the people and environment for whom and in which we create. We
+  will examine the impact of this elegant axiom has limited our expression and
+  how it stands as the most monolithic harbinger our future innovations.
+
+  We will seek to fracture the spokes of this wheel and challenge ourselves to
+  a new mental model for tech in order to create something intersectional and
+  inclusive for all.
+
+speakers:
+  - name: "Tatiana Mac"
+    slug: "tatiana_mac"
+    bio: |
+      Tatiana Mac is an independent American designer.
+
+      Currently she works directly with organisations to build products and
+      design systems with accessibility and inclusion in mind. She believes
+      that design heavily influences our social landscape. When
+      ethically-minded, she thinks designers can dismantle exclusionary systems
+      in favor of community-focused, inclusive ones.
+
+      She's embarassed herself in 34 countries.
+
+    position: "Independent Designer"
+    links:
+      - name: "Website"
+        link: "https://www.tatianamac.com/"
+      - name: "Twitter"
+        link: "https://www.twitter.com/tatianatmac"
