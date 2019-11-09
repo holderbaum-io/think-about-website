@@ -15,17 +15,23 @@ ensure_ruby() {
 
 ensure_node() {
   local node_version="10.16.3"
+  if uname -a |grep -iq darwin >/dev/null;
+  then
+    local node_string="${node_version}-darwin"
+  else
+    local node_string="${node_version}-linux"
+  fi
 
-  if [ ! -e "bin/vendor/node-v${node_version}-linux-x64/bin/npm" ];
+  if [ ! -e "bin/vendor/node-v${node_string}-x64/bin/npm" ];
   then
     mkdir -p bin/vendor
-    wget "https://nodejs.org/dist/v${node_version}/node-v${node_version}-linux-x64.tar.xz"
-    (cd bin/vendor; tar xf "../../node-v${node_version}-linux-x64.tar.xz")
+    wget "https://nodejs.org/dist/v${node_version}/node-v${node_string}-x64.tar.xz"
+    (cd bin/vendor; tar xf "../../node-v${node_string}-x64.tar.xz")
     rm -f node-*-linux-x64.tar.xz
   fi
 
   PATH="$(pwd)/node_modules/.bin:${PATH}"
-  PATH="$(pwd)/bin/vendor/node-v${node_version}-linux-x64/bin:${PATH}"
+  PATH="$(pwd)/bin/vendor/node-v${node_string}-x64/bin:${PATH}"
   export PATH
 
   npm install
