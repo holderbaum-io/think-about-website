@@ -17,11 +17,19 @@
   color: white;
 }
 
+.Keyvisual a[button] {
+  background-color: $color-tech;
+}
+
+.Keyvisual a[button]:hover {
+  background-color: $color-tech-dark;
+}
+
 @media (--phone-only) {
 .Keyvisual {
   height: 100vh;
   background-image: url("/images/keyvisual-small.svg");
   background-size: 700px 100vh;
-  padding-top: 120px;
+  padding-top: 70px;
 }
 }
