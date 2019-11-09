@@ -1,0 +1,31 @@
+title: "Designing Against Domestic Violence"
+track: "design"
+abstract: |
+  The reality of domestic violence doesn’t disappear when people enter the
+  digital world. Abusers use technology to exploit and control their victims,
+  meaning we have a responsibility to ensure user safety. How can we prevent
+  people with violent intentions from using our digital products as tools of
+  abuse? There are no silver bullets, but an understanding of the role of
+  technology in domestic violence along with thoughtful design can increase
+  people’s safety. This talk will help the audience understand the
+  intersections of technology and domestic violence and provide a framework
+  for designing against domestic violence.
+
+speakers:
+  - name: "Eva PenzeyMoog"
+    slug: "eva_penzeymoog"
+    bio: |
+      Eva PenzeyMoog is a Principle Designer at 8th Light. She works to ensure
+      that digital products cannot be be used as tools of abuse, with the goal of
+      reducing harm in the world through centering the safety of victims of
+      domestic violence. When not designing and coding, she spends her time
+      thinking and having dreams about the zombie apocalypse and playing with her
+      two dogs, Hamlet and Horatio.
+
+    position: "Principal Designer"
+    company:
+      name: "8th Light"
+      link: "https://8thlight.com/"
+    links:
+      - name: "Twitter"
+        link: "https://twitter.com/epenzeymoog"
