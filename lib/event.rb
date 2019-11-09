@@ -23,6 +23,10 @@ class Event
     def slug
       @track_string
     end
+
+    def order
+      %w[tech design society].index(@track_string) || -1
+    end
   end
 
   class Link
@@ -121,7 +125,6 @@ class Event
       @speakers.map(&:company_link).uniq
     end
 
-
     def [](key)
       @data.fetch key
     end
@@ -143,10 +146,11 @@ class Event
   def performances
     return @performances if @performances
     pattern = File.join @base_dir, 'talks', '*.yml'
-    @performances = Dir[pattern].map do |data_file|
+    unordered_performances = Dir[pattern].map do |data_file|
       data = Psych.load File.read(data_file), symbolize_names: true
 
       Perfomance.new(@event_slug, data, File.basename(data_file, '.yml'))
     end
+    @performances = unordered_performances.sort_by { |p| p.track.order }
   end
 end
