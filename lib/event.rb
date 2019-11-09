@@ -52,7 +52,7 @@ class Event
       @slug = data[:slug]
       @name = data.fetch :name
       @independent = !data.key?(:company)
-      @job_title = data.fetch(:position)
+      @job_title = data.fetch(:position, nil)
       @bio = data.fetch(:bio)
       @links = data.fetch(:links).map { |d| Link.new(d) }
     end

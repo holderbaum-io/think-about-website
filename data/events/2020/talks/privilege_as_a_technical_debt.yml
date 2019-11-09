@@ -1,0 +1,25 @@
+title: "Privilege as a technical debt"
+track: "society"
+abstract: |
+  Do you believe political correctness and empathy are buzzwords that limit
+  the society rather than contribute to its advancement? Do you think talking
+  about topics like diversity quotas, privilege doesn't make much sense and
+  you would rather spend this time talking about the latest in technology?
+
+  In this talk I would like to take the chance to try and add the missing
+  contexts to such terms and arguments, moreover, I will try to go through
+  various examples on how it can impact your product from a very pragmatic
+  prospective.
+
+speakers:
+  - name: "Amr Abdelwahab"
+    slug: "amr_abdelwahab"
+    bio: |
+      An African Egyptian native who crossed continents to work with his passion
+      in digital environments. Amr's interests span technology, tech-communities,
+      politics and politics in tech, all enriched through various software
+      engineering roles in Egypt, Hungary and Germany.
+
+    links:
+      - name: "Twitter"
+        link: "https://www.twitter.com/amrabdelwahab"
