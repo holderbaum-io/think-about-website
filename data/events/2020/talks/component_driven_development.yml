@@ -1,0 +1,37 @@
+title: "Testing Techniques for Component Driven Development"
+track: "tech"
+abstract: |
+  The web development, especially the frontend development has changed a lot
+  over the last years. Nowadays, we can choose from a numerous range of
+  different helper libraries to find solutions for various problems. Component
+  Driven Development and Design systems are becoming very popular. Has that
+  also changed the way we should, want and can test our code? Frontend Testing
+  is an opinionated topic. There are a lot of highly regarded developers who
+  have tried out TDD once and never gone back. Also, some might argue that
+  particularly (Frontend) Unit Testing is not useful. In this talk, we will
+  have a look at the past and present of JavaScript Testing. With this
+  background, we will discuss new possibilities of Testing for Component-Based
+  Frameworks, like Snapshot and Visual Regression Testing.
+
+speakers:
+  - name: "Vanessa Böhner"
+    slug: "vanessa_boehner"
+    bio: |
+      Vanessa is a Web Developer. Currently, she is a Senior Product Engineer
+      at SinnerSchrader. Since 2019 she is the Vue Vixens Munich City
+      Coordinator, helping women with their first coding and speaking
+      experiences. She is a member of the JS Kongress Program Committee 2020.
+      She created her first website at the age of ten and has been passionate
+      about web development ever since. She studied Media Informatics with a
+      focus on Human-Computer-Interaction. Now Vanessa is striving to provide
+      customers with the best experience possible while creating modern and
+      accessible web applications. When she writes code, she does it not for
+      herself but for the next developer.
+
+    position: "Senior Product Engineer"
+    company:
+      name: "SinnerSchrader"
+      link: "https://sinnerschrader.com/"
+    links:
+      - name: "Website"
+        link: "https://vannsl.io/"
