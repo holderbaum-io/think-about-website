@@ -34,6 +34,51 @@ If you don't want to miss the start of the early bird phase feel free to subscri
   </section>
   <section class="tickets">
     <div class="container">
+      <% if selling_tickets? %>
+      <h1>Ticket Options</h1>
+      <a href="https://pretix.eu/hrx/thinkabout2020/" target="_blank"><section ticket="early">
+        <h1>Early Bird Ticket</h1>
+        <article>
+          <header>
+            <del>500 €</del>
+            <price>380 €</price>
+            <p>Limited to 50 Tickets</p>
+          </header>
+          <ul>
+            <li>2-Day ticket for 24 talks</li>
+            <li>Amazing organic food</li>
+            <li>Unlimited popcorn &amp; drinks</li>
+          </ul>
+        </article>
+      </section></a><a target="_blank"><section ticket="regular" disabled>
+        <h1>Regular Ticket</h1>
+        <article>
+          <header>
+            <price>500 €</price>
+            <p>Sale starts on <br/> 15/02/2020</p>
+          </header>
+          <ul>
+            <li>2-Day ticket for 24 talks</li>
+            <li>Amazing organic food</li>
+            <li>Unlimited popcorn &amp; drinks</li>
+          </ul>
+        </article>
+      </section></a><a href="https://pretix.eu/hrx/thinkabout2020/" target="_blank"><section ticket="supporter">
+        <h1>Supporter Ticket</h1>
+        <article>
+          <header>
+            <price>750 €</price>
+            <p>Sale starts on <br/> 15/11/2019</p>
+          </header>
+          <ul>
+            <li>2-Day ticket for 24 talks</li>
+            <li>Amazing organic food</li>
+            <li>Unlimited popcorn &amp; drinks</li>
+            <li>Enable us to give Tickets away &#42;</li>
+          </ul>
+        </article>
+      </section></a>
+      <% else %>
       <h1>Ticket Sale will start soon</h1>
       <a> 
       <section ticket="early" disabled>
@@ -62,6 +107,7 @@ If you don't want to miss the start of the early bird phase feel free to subscri
           </header>
         </article>
       </section></a>
+      <% end %>
     </div>
     <!--
     <a href="#" button>Get Your Ticket</a>
