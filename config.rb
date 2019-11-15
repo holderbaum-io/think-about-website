@@ -57,7 +57,7 @@ helpers do
   end
 
   def selling_tickets?
-    false
+    true
   end
 
   def nav_link(name, path)
