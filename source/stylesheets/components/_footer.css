@@ -47,7 +47,6 @@
   color: $color-tech;
 }
 
-
 .Footer .Footer-links span,
 .Footer .Footer-links-secondary span {
   color: $color-tech;
@@ -58,7 +57,6 @@
 }
 
 .Footer .Footer-links-external {
-  margin-top: $spacer-section;
 }
 
 .Footer .Footer-links-external li {
@@ -84,6 +82,7 @@
 
 .Footer .Footer-image {
   margin: $spacer-section 0;
+  margin-bottom: $spacer-2
 }
 
 .Footer .Footer-image img {
@@ -93,6 +92,9 @@
 @media (--phone-only) {
 .Footer {
   height: 100vh;
+}
+.Footer .Footer-image img {
+  width: 100px;
 }
 .Footer .Footer-close-button {
   display: block;

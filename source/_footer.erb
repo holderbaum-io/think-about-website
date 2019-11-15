@@ -17,10 +17,15 @@
     <% end %>
     <ul class="Footer-links-secondary">
       <li><%= nav_link 'About', '/about-us.html' %></li>
-      <li><%= nav_link 'Legal Notice', '/legal.html' %></li>
-      <li><%= nav_link 'Terms and Conditions', '/terms.html' %></li>
-      <li><%= nav_link 'Privacy', '/privacy.html' %></li>
-      <li><a href="https://cdn.think-about.io/Think_About_Press_Kit.zip">Download Press Kit</a></li>
+      <li>
+        <%= nav_link 'Legal', '/legal.html' %>
+        |
+        <%= nav_link 'Terms', '/terms.html' %>
+        |
+        <%= nav_link 'Privacy', '/privacy.html' %>
+        |
+        <a href="https://cdn.think-about.io/Think_About_Press_Kit.zip">Press Kit</a>
+      </li>
     </ul>
     <ul class="Footer-links-external">
       <li><a href="/goto/twitter"><img src="/images/icons/twitter.svg"/></a></li>
