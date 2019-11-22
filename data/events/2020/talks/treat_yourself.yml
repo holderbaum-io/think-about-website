@@ -1,0 +1,36 @@
+title: "Treat yourself - a tale about dog training and test-driven development"
+track: "tech"
+abstract: |
+  Before I started my career in software development, I worked for many years
+  as a dog trainer. The experiences I made in this time are the reason why I
+  immediately fell in love with testing. So, let’s talk about TDD! TDD stand
+  for Test-driven development and it’s not only a technique to write tests but
+  also a design process in software development. I want to give you a new
+  perspective on this process and explain how to TDD with the help of
+  comparing it to how to train a dog. TDD has much in common with
+  dogtraining, so at the end of my talk you should be able to write a piece
+  of c test driven code, and also teach a dog a little trick - well, the last
+  thing at least theoretically.
+
+speakers:
+  - name: "Mirjam Bäuerlein"
+    slug: "mirjam_baeuerlein"
+    bio: |
+      While Mirjam began programming at the age of eleven, her career didn’t
+      start in that field. She worked as an accountant, management assistant
+      and office administrator and after that became a dog trainer with a main
+      focus on behavioral issues. After many years working with people and
+      their dogs she changed her career for the second time and became a
+      frontend developer. Currently, Mirjam is working at BRYTER, where she
+      helps building a no-code automation platform with lots of tests in the
+      front-end!
+
+    position: "Software Developer"
+    company:
+      name: "BRYTER GmbH"
+      link: "ttps://bryter.io/"
+    links:
+      - name: "Website"
+        link: "https://www.programmiri.de/"
+      - name: "Twitter"
+        link: "https://twitter.com/mirjam_diala"
