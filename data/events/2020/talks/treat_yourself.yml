@@ -28,7 +28,7 @@ speakers:
     position: "Software Developer"
     company:
       name: "BRYTER GmbH"
-      link: "ttps://bryter.io/"
+      link: "https://bryter.io/"
     links:
       - name: "Website"
         link: "https://www.programmiri.de/"
