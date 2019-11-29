@@ -1,0 +1,31 @@
+title: "Breaking down Barriers to Inclusion"
+track: "keynote"
+abstract: |
+  Diversity challenges faced in the tech industry have long been a topic of
+  conversation, but how do we move beyond that to see positive results? This
+  talk will explore common barriers to inclusion, offering practical tips and
+  actionable outcomes that will help us all make tech a more inclusive place for
+  everyone.
+
+speakers:
+  - name: "Amy Lynch"
+    slug: "amy_lynch"
+    bio: |
+      Amy has been working with technology teams for over a decade and currently
+      heads up diversity & inclusion (D&I) for ThoughtWorks, a global software
+      consultancy. A curious and adaptable leader, Amy advocates passionately
+      for social justice and is committed to amplifying those who often go
+      unheard and underserved. She has been a driving force behind ThoughtWorks
+      being recognised as one of ony two tech compaies in the Stonewall Top 100
+      LGBTQ+ inclusive employers, has been included on Northern Power Women's
+      2019 Future List and champions for a more equitable future for all.
+    
+    position: "Head of Diversity & Inclusion"
+    company:
+      name: "ThoughtWorks (UK)"
+      link: "https://www.thoughtworks.com/"
+    links:
+      - name: "Twitter"
+        link: "https://twitter.com/Amy_Lynch"
+      - name: "Linkedin"
+        link: "https://www.linkedin.com/in/lyncha/"
