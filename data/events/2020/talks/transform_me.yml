@@ -1,0 +1,31 @@
+title: "Transform me, but Please Don’t Change Anything"
+track: "design"
+abstract: |
+  Gabrielle will talk about how hard it is to change. How companies are bought 
+  into digital transformation and implementing Lean & Agile methodologies at a 
+  high level because they know it is the right thing to do, but they don't want 
+  to change their current process. Gabrielle will talk about the pitfalls of 
+  companies in implementing Lean & Agile, and wrap up the talk by sharing what 
+  she has learned is effective in making organizations lean and changing ingrained 
+  behaviors both for traditional organizations and start-ups.
+speakers:
+  - name: "Gabrielle Bufrem"
+    slug: "gabrielle_bufrem"
+    bio: |
+      Gabrielle Bufrem is a Manager of Product Management at Pivotal in San Francisco. 
+      She is originally from Brazil, has lived in 14 cities around the world across 10 
+      different countries, and has built products across North America, Europe, and Asia. 
+      She is passionate about the intersection of product management and design - 
+      so much so that she is currently conducting research with Brown Ph.D. students on 
+      how to improve collaboration in design. She is a trainer for Mind the Product, 
+      a passionate Product Management speaker, and writer. She loves to travel and explore 
+      different countries, is a barista, and a coffee lover.
+    position: "Manager of Product Management"
+    company:
+      name: "Pivotal"
+      link: "https://pivotal.io/"
+    links:
+      - name: "Twitter"
+        link: "https://twitter.com/gbufremsays"
+      - name: "Linkedin"
+        link: "https://www.linkedin.com/in/gabriellebufrem"
