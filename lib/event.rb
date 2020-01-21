@@ -97,10 +97,15 @@ class Event
       @data = data
       @slug = filename
       @track = Track.new(@data[:track])
-      @title = data[:title]
+      @title = data.fetch(:title, '')
       @language = data.fetch(:lang, 'en').upcase
       @speakers = @data[:speakers].map { |d| Speaker.new(event_slug, d) }
-      @abstract = @data[:abstract]
+      @abstract = @data.fetch(:abstract, '')
+      @draft = @data.fetch(:draft, false)
+    end
+
+    def draft?
+      @draft == true
     end
 
     def keynote?
@@ -143,7 +148,15 @@ class Event
     performances.reject(&:keynote?)
   end
 
+  def draft_performances
+    all_performances.select(&:draft?)
+  end
+
   def performances
+    all_performances.reject(&:draft?)
+  end
+
+  def all_performances
     return @performances if @performances
     pattern = File.join @base_dir, 'talks', '*.yml'
     unordered_performances = Dir[pattern].map do |data_file|

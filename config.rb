@@ -31,7 +31,7 @@ JSON.parse(schedule, symbolize_names: true).each do |_day, talks|
 end
 
 event = Event.lookup('2020')
-event.performances.each do |performance|
+(event.performances + event.draft_performances).each do |performance|
   proxy("/events/2020/talks/#{performance.slug}.html",
         '/events/2020/talks/template.html',
         locals: { talk: performance },

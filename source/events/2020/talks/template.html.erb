@@ -1,14 +1,22 @@
 <main>
   <section class="speaker-details">
     <div class="container">
-      <h1><%= talk.title %></h1>
+      <% if talk.draft? %>
+        <h1>To be Decided</h1>
+      <% else %>
+        <h1><%= talk.title %></h1>
+      <% end %>
       <ul>
         <li><em topic="<%= talk.track.slug %>"><%= talk.track.readable %></em></li>
         <li>Length: 45 Min</li>
         <li>Language: <%= talk.language %></li>
       </ul>
       <article>
-        <%= markdown talk.abstract %>
+        <% if talk.draft? %>
+          To be Decided
+        <% else %>
+          <%= markdown talk.abstract %>
+        <% end %>
       </article>
     </div>
   </section>
