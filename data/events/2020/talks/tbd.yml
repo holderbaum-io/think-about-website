@@ -1,0 +1,18 @@
+draft: true
+track: "keynote"
+speakers:
+  - name: "Michael Feathers"
+    slug: "michael_feathers"
+    bio: |
+      Let's have a bio here.
+
+      Something with another paragraph maybe?
+    position: "Founder"
+    company:
+      name: "R7K Research & Conveyance"
+      link: "https://www.r7krecon.com/"
+    links:
+      - name: "Blog"
+        link: "https://michaelfeathers.silvrback.com/"
+      - name: "Twitter"
+        link: "https://twitter.com/mfeathers"
