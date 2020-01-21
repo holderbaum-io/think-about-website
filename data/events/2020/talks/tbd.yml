@@ -4,9 +4,10 @@ speakers:
   - name: "Michael Feathers"
     slug: "michael_feathers"
     bio: |
-      Let's have a bio here.
-
-      Something with another paragraph maybe?
+      Michael Feathers is the founder and Director of R7K Research & Conveyance, 
+      a company specializing in software and organization design. 
+      Michael is also the author of the book Working Effectively with 
+      Legacy Code (Prentice Hall, 2004).
     position: "Founder"
     company:
       name: "R7K Research & Conveyance"
