@@ -15,6 +15,7 @@ partners:
     - name: 'Inovex'
       link: 'https://www.inovex.de/en/'
       slug: 'inovex'
+  speaker:
     - name: 'SinnerSchrader'
       link: 'https://sinnerschrader.com/'
       slug: 'sinnerschrader'

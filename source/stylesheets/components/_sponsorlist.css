@@ -14,21 +14,12 @@
 
 .SponsorList .SponsorList-Sponsor-Link {
   display: flex;
+  height: 200px;
+  width: 200px;
 }
 
 .SponsorList .SponsorList-Sponsor-Image {
+  width: 100%;
   height: 100%;
   margin: auto 0;
-}
-
-.SponsorList[type='gold'] .SponsorList-Sponsor-Link {
-  height: 75px;
-}
-
-.SponsorList[type='silver'] .SponsorList-Sponsor-Link {
-  height: 60px;
-}
-
-.SponsorList[type='others'] .SponsorList-Sponsor-Link {
-  height: 50px;
 }

@@ -35,12 +35,17 @@ body {
   letter-spacing: 0.02rem;
 }
 
+h1:first-child,
+h2:first-child,
+h3:first-child {
+  margin-top: 0;
+}
+
 h1, h2, h3, h1 *, h2 *, h3 * {
   font-weight: 700;
   letter-spacing: 0.05rem;
   font-size: 1.7rem;
   font-style: normal;
-  margin-top: 0;
   color: #0e003b;
 }
 
