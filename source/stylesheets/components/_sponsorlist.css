@@ -1,0 +1,34 @@
+.SponsorList {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.SponsorList .SponsorList-Sponsor {
+  list-style: none;
+  margin: 1rem;
+  padding: 0
+}
+
+.SponsorList .SponsorList-Sponsor-Link {
+  display: flex;
+}
+
+.SponsorList .SponsorList-Sponsor-Image {
+  height: 100%;
+  margin: auto 0;
+}
+
+.SponsorList[type='gold'] .SponsorList-Sponsor-Link {
+  height: 75px;
+}
+
+.SponsorList[type='silver'] .SponsorList-Sponsor-Link {
+  height: 60px;
+}
+
+.SponsorList[type='others'] .SponsorList-Sponsor-Link {
+  height: 50px;
+}

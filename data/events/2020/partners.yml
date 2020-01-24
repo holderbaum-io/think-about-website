@@ -1,0 +1,26 @@
+partners:
+  gold:
+    - name: 'Cologne Intelligence'
+      link: 'https://cologne-intelligence.de/'
+      slug: 'cologneintelligence'
+    - name: 'Vaillant'
+      link: 'https://vaillant.de/'
+      slug: 'vaillant'
+      height: '80%'
+  silver:
+    - name: 'Neuland'
+      link: 'https://neuland-bfi.de/'
+      slug: 'neuland'
+  others:
+    - name: 'Inovex'
+      link: 'https://www.inovex.de/en/'
+      slug: 'inovex'
+    - name: 'SinnerSchrader'
+      link: 'https://sinnerschrader.com/'
+      slug: 'sinnerschrader'
+    - name: '8th Light'
+      link: 'https://8thlight.com/'
+      slug: '8thlight'
+    - name: 'BRYTER'
+      link: 'https://bryter.io/'
+      slug: 'bryter'

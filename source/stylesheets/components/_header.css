@@ -57,7 +57,7 @@
   width: 1.5rem;
 }
 
-@media (--phone-only) {
+@media (max-width: 800px) {
 .Header {
   background: none;
   position: absolute;

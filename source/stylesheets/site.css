@@ -9,6 +9,7 @@
 @import 'components/_bordered_list.css';
 @import 'components/_image_gallery.css';
 @import 'components/_footer.css';
+@import 'components/_sponsorlist.css';
 
 html {
   font-size: 20px;

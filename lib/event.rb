@@ -7,6 +7,29 @@ class Event
     Event.new(slug, base_dir)
   end
 
+  class Partner
+    attr_accessor(
+      :type,
+      :event_slug,
+      :name,
+      :link,
+      :slug,
+      :height
+    )
+    def initialize(type, event_slug, data)
+      @type = type
+      @event_slug = event_slug
+      @name = data[:name]
+      @link = data[:link]
+      @slug = data[:slug]
+      @height = data.fetch(:height, '100%')
+    end
+
+    def image_path
+      "/images/events/#{@event_slug}/partners/#{@slug}.png"
+    end
+  end
+
   class Track
     def initialize(track_string)
       @track_string = track_string.downcase
@@ -165,5 +188,25 @@ class Event
       Perfomance.new(@event_slug, data, File.basename(data_file, '.yml'))
     end
     @performances = unordered_performances.sort_by { |p| p.track.order }
+  end
+
+  def partners(type = nil)
+    if type
+      all_partners.select { |partner| partner.type == type }
+    else
+      all_partners
+    end
+  end
+
+  def all_partners
+    return @partners if @partners
+    data_file = File.join @base_dir, 'partners.yml'
+    data = Psych.load File.read(data_file), symbolize_names: true
+    mapped_partners = data[:partners].map do |key, values|
+      values.map do |value|
+        Partner.new(key, @event_slug, value)
+      end
+    end
+    @partners = mapped_partners.flatten
   end
 end
