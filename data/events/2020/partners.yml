@@ -6,7 +6,6 @@ partners:
     - name: 'Vaillant'
       link: 'https://vaillant.de/'
       slug: 'vaillant'
-      height: '80%'
   silver:
     - name: 'Neuland'
       link: 'https://neuland-bfi.de/'
