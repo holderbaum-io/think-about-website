@@ -1,5 +1,8 @@
 partners:
   gold:
+    - name: 'Avenga'
+      link: 'https://www.avenga.com/'
+      slug: 'avenga'
     - name: 'Cologne Intelligence'
       link: 'https://cologne-intelligence.de/'
       slug: 'cologneintelligence'
