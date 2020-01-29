@@ -1,0 +1,26 @@
+title: "Truth and Technology"
+track: "society"
+abstract: |
+  Abstract will follow soon
+
+speakers:
+  - name: "Alice Thwaite"
+    slug: "alice_thwaite"
+    bio: |
+      Alice Thwaite is a technology ethicist who specialises in improving democratic 
+      information environments. She is the founder of the Echo Chamber Club, a philosophical 
+      research institute, and Hattusia, an ethics consultancy. Alice holds an MSc in the 
+      Social Sciences of the Internet from the Oxford Internet Institute and an MA Cantab 
+      in the History and Philosophy of Science from the University of Cambridge.
+
+    position: "Founder"
+    company:
+      name: "Echo Chamber Club"
+      link: "https://www.echochamber.club/"
+    links:
+      - name: "Website"
+        link: "https://alicethwaite.com/"
+      - name: "Hattusia"
+        link: "https://hattusia.com/"
+      - name: "Twitter"
+        link: "https://www.twitter.com/alicelthwaite/"
