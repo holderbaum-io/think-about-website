@@ -26,7 +26,7 @@ class Event
     end
 
     def image_path
-      "/images/events/#{@event_slug}/partners/#{@slug}.png"
+      "/images/events/#{@event_slug}/partners/#{@slug}.svg"
     end
   end
 
