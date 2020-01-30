@@ -5,3 +5,18 @@
   margin-top: -1rem;
   margin-bottom: 5rem;
 }
+
+.SponsorPage h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+@media (--tablet-landscape-up) {
+.SponsorPage h2 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+}
