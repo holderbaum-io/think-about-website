@@ -1,0 +1,28 @@
+title: "Mainstreaming Data Minimalism "
+track: "design"
+abstract: |
+  On the surface, this is a designer's quest to responsibly gather analytics on a 
+  privacy-respecting  website: rich, actionable data to support strategy and design 
+  decisions. Are simplistic page view counters the only alternative to creepy tracking? 
+  Is spoiling the user experience with consent banners inevitable for proper insight?
+
+  While navigating ethical imperatives, technological intricacies, and legal ambiguities, 
+  it soon becomes apparent how designing for privacy is about much more than just reducing 
+  data: establishing the paradigm shift from surveillance to privacy requires nothing less 
+  than to unlearn old truths and radically rethink.
+
+speakers:
+  - name: "Sebastian Greger"
+    slug: "sebastian_greger"
+    bio: |
+      Sebastian Greger is a Berlin-based sociologist and interaction designer. 
+      He provides research services, consulting, and strategic design for “people-first” 
+      digital technology: ethical, considerate, useful and usable design — guided by respect, 
+      inclusion, sustainability, and human rights. 
+
+    position: "Independent Consultant"
+    links:
+      - name: "Website"
+        link: "https://sebastiangreger.net/"
+      - name: "Twitter"
+        link: "https://twitter.com/sebastiangreger"
