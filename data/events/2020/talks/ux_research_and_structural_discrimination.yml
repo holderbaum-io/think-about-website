@@ -1,0 +1,27 @@
+title: "Contributions of UX Research to Structural Discrimination - and Ways to Act Against it"
+track: "design"
+abstract: |
+  Discrimination is complex and not approachable as a problem that we define and solve easily. 
+  It is difficult to understand how we reproduce it with our daily practices.
+  In this talk, I would like to give a short introduction to structural discrimination and 
+  focus on how I as a UX Researcher sometimes fail and sometimes succeed to create more 
+  inclusive structures in my daily work. My goal is not to provide the „Top five things 
+  you can do to stop discrimination“; it is to share the journey I made so far 
+  accepting ambiguity in a world where we treat complex problems as they were more simple 
+  than they are.
+
+speakers:
+  - name: "Lena Sarp"
+    slug: "lena_sarp"
+    bio: |
+      Lena works as a UX Researcher for the menstrual cycle tracking app Clue. 
+      She likes to think about design and research processes, political design and inclusion. 
+      She finds her inspiration by learning from other disciplines.
+
+    position: "UX Researcher"
+    company:
+      name: "Clue by BioWink"
+      link: "https://helloclue.com/"
+    links:
+      - name: "Linkedin"
+        link: "https://de.linkedin.com/in/lenasarp"
