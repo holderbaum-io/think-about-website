@@ -9,7 +9,11 @@
       <ul>
         <li><em topic="<%= talk.track.slug %>"><%= talk.track.readable %></em></li>
         <li>Length: 45 Min</li>
+        <% if talk.language_details? %>
+        <li>Language: <%= talk.language_details %></li>
+        <% else %>
         <li>Language: <%= talk.language %></li>
+        <% end %>
       </ul>
       <article>
         <% if talk.draft? %>

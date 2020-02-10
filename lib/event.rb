@@ -111,6 +111,7 @@ class Event
       :track,
       :title,
       :language,
+      :language_details,
       :speakers,
       :abstract
     )
@@ -122,6 +123,7 @@ class Event
       @track = Track.new(@data[:track])
       @title = data.fetch(:title, '')
       @language = data.fetch(:lang, 'en').upcase
+      @language_details = data.fetch(:lang_details, nil)
       @speakers = @data[:speakers].map { |d| Speaker.new(event_slug, d) }
       @abstract = @data.fetch(:abstract, '')
       @draft = @data.fetch(:draft, false)
@@ -133,6 +135,10 @@ class Event
 
     def keynote?
       @track.keynote?
+    end
+
+    def language_details?
+      !!@language_details
     end
 
     def path
