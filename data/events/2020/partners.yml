@@ -47,3 +47,6 @@ partners:
     - name: 'Workingdraft Podcast'
       link: 'https://workingdraft.de/'
       slug: 'workingdraft'
+    - name: 'JSHeroes'
+      link: 'https://jsheroes.io/'
+      slug: 'jsheroes'

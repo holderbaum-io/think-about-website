@@ -1,6 +1,6 @@
 <ul class="SponsorList" type="<%= locals[:type] %>">
 <% events(locals[:event_slug]).partners(locals[:type]).each do |partner| %>
-  <li class="SponsorList-Sponsor">
+  <li class="SponsorList-Sponsor <%= partner.slug %>">
     <a class="SponsorList-Sponsor-Link" href="<%= partner.link %>">
       <img
         class="SponsorList-Sponsor-Image"
