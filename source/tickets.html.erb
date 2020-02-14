@@ -32,13 +32,13 @@
     <div class="container">
       <% if selling_tickets? %>
       <h1>Ticket Options</h1>
-      <a href="https://pretix.eu/hrx/thinkabout2020/" target="_blank"><section ticket="early">
+      <a target="_blank"><section ticket="early" disabled>
         <h1>Early Bird Ticket</h1>
         <article>
           <header>
             <del>500 €</del>
             <price>380 €</price>
-            <p>Limited to 50 Tickets</p>
+            <p>Sold Out</p>
           </header>
           <ul>
             <li>2-Day ticket for 24 talks</li>
@@ -46,12 +46,11 @@
             <li>Unlimited popcorn &amp; drinks</li>
           </ul>
         </article>
-      </section></a><a target="_blank"><section ticket="regular" disabled>
+      </section></a><a href="https://pretix.eu/hrx/thinkabout2020/" target="_blank"><section ticket="regular">
         <h1>Regular Ticket</h1>
         <article>
           <header>
             <price>500 €</price>
-            <p>Sale starts on <br/> 15/02/2020</p>
           </header>
           <ul>
             <li>2-Day ticket for 24 talks</li>
