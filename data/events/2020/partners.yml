@@ -47,9 +47,10 @@ partners:
     - name: 'Femtec'
       link: 'https://www.femtec-alumnae.org/'
       slug: 'femtec'
-    - name: 'Workingdraft Podcast'
-      link: 'https://workingdraft.de/'
-      slug: 'workingdraft'
     - name: 'JSHeroes'
       link: 'https://jsheroes.io/'
       slug: 'jsheroes'
+    - name: 'Workingdraft Podcast'
+      link: 'https://workingdraft.de/'
+      slug: 'workingdraft'
+
