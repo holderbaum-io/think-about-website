@@ -1,0 +1,37 @@
+title: "Distributed Teams - FF through 20 years of out- & in-sourcing"
+track: "tech"
+abstract: |
+  Distributed Software Delivery used to be around cost savings, V-Model, 
+  IT standardisation and outsourcing. That was in the 2000s. Today - 20 years later - 
+  it is very different setup. Software Teams are agile, distributed and autonomous, 
+  because there are barely enough educated and experienced Technologists (or Digital Natives) 
+  around, to fulfil the demand for digital products. 
+
+  Dino will share data and personal experience around the change of distributed software 
+  development throughout the last 20 years. He will cover the changes in client's perspectives 
+  and motivations, economic aspects and touch impact on society. Part of that change journey 
+  are advances in technology (bandwidth, latency & collaboration tools) and in methods 
+  (autonomy of teams, value breakdown structures and feedback loops).
+
+speakers:
+  - name: "Dino Frese"
+    slug: "dino_frese"
+    bio: |
+      Dino is a husband and father of two daughters. He lives in Cologne and loves (rock) music, 
+      handball and cars. Dino started his professional career in 2004 after studying computer 
+      science at RWTH Aachen. He joined Accenture and gathered many different experiences as a 
+      Consultant in Custom Solutions, Team-, Project-, and Program-Management, IT Infrastructure, 
+      Outsourcing and ITIL. He joined ThoughtWorks in 2014 to focus on agile software delivery 
+      and support growth of the German business. Since May 2019 Dino is back at Accenture 
+      Interactive to realise really cool user-experiences for his clients and create a diverse 
+      and inclusive work environment with his colleagues.
+
+    position: "Managing Director"
+    company:
+      name: "Accenture Interactive"
+      link: "https://www.accenture.com/de-de/services/interactive-index"
+    links:
+      - name: "LinkedIn"
+        link: "https://www.linkedin.com/in/dino-frese-84b74084/"
+      - name: "Instagram"
+        link: "https://www.instagram.com/frese.dino/"
