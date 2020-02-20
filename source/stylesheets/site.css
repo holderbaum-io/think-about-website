@@ -975,6 +975,7 @@ section.speakers article header {
 
 section.speakers section header div {
   margin: 0;
+  padding-right: 1rem;
   flex: 70%;
 }
 
