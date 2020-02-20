@@ -1,0 +1,45 @@
+title: "The Layers Of The Web"
+track: "tech"
+abstract: |
+  The World Wide Web turned 30 last year. The web has changed quite a bit over
+  that time. But progress has been evolutionary rather than revolutionary:
+
+  changes have accreted on top of what has come before. This layered iterative
+  approach also works for building websites. Together we'll uncover how to
+  build resilient, performant, accessible and beautiful structures that work
+  with the grain of the materials of the web.
+speakers:
+  - name: "Jeremy Keith"
+    slug: "jeremy_keith"
+    bio: |
+      Jeremy Keith lives in Brighton, England where he makes websites with the
+      splendid design agency [Clearleft](https://clearleft.com/). You may know
+      him from such books as [DOM Scripting](https://domscripting.com/),
+      [Bulletproof Ajax](https://bulletproofajax.com/), [HTML5 For Web
+      Designers](https://html5forwebdesigners.com/), [Resilient Web
+      Design](https://resilientwebdesign.com/), and, most recently, [Going
+      Offline](https://abookapart.com/products/going-offline).
+
+      He curated the dConstruct conference for a number of years as well as
+      [Brighton SF](http://brightonsf.adactio.com/), and he organised the
+      world's first [Science Hack Day](http://sciencehackday.org/). He also
+      made the website [Huffduffer](https://huffduffer.com/) to allow people to
+      make podcasts of found sounds—it's like Instapaper for audio files.
+
+      Hailing from Erin's green shores, Jeremy maintains his link to Irish
+      traditional music running the community site [The
+      Session](https://thesession.org/). He also indulges a darker side of his
+      bouzouki-playing in the band [Salter Cane](https://saltercane.com/).
+
+      Jeremy spends most of his time goofing off on the internet, documenting
+      his time-wasting on [adactio.com](https://adactio.com/), where he has
+      been writing for over fifteen years.
+    position: "Founder"
+    company:
+      name: "Clearleft"
+      link: "https://clearleft.com/"
+    links:
+      - name: "Website"
+        link: "https://adactio.com/"
+      - name: "Twitter"
+        link: "https://twitter.com/adactio"
