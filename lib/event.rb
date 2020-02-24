@@ -109,7 +109,6 @@ class Event
     attr_accessor(
       :slug,
       :track,
-      :title,
       :language,
       :language_details,
       :speakers,
@@ -121,7 +120,7 @@ class Event
       @data = data
       @slug = filename
       @track = Track.new(@data[:track])
-      @title = data.fetch(:title, '')
+      @title = data.fetch(:title, nil)
       @language = data.fetch(:lang, 'en').upcase
       @language_details = data.fetch(:lang_details, nil)
       @speakers = @data[:speakers].map { |d| Speaker.new(event_slug, d) }
@@ -135,6 +134,14 @@ class Event
 
     def keynote?
       @track.keynote?
+    end
+
+    def title?
+      !@title.nil?
+    end
+
+    def title
+      @title || 'Coming soon ...'
     end
 
     def language_details?

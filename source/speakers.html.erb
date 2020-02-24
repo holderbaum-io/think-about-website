@@ -17,7 +17,11 @@
         <section topic="<%= keynote.track.slug %>">
           <h4><% keynote.track.readable %></h4>
           <article>
+            <% if keynote.title? %>
             <p>"<%= keynote.title %>"<em> (<%= keynote.language %>)</em></p>
+            <% else %>
+            <p><%= keynote.title %><em> (<%= keynote.language %>)</em></p>
+            <% end %>
             <hr/>
             <header>
               <div>
@@ -42,7 +46,11 @@
       <section topic="<%= talk.track.slug %>">
         <a href="<%= talk.path %>"><article>
           <h4><%= talk.track.readable + ' Talk' %></h4>
+          <% if talk.title? %>
           <p>"<%= talk.title %>"<em> (<%= talk.language %>)</em></p>
+          <% else %>
+          <p><%= talk.title %><em> (<%= talk.language %>)</em></p>
+          <% end %>
           <hr/>
           <header>
             <div>
