@@ -1,5 +1,6 @@
-draft: true
 track: "keynote"
+abstract: |
+  This keynote will be published soon.
 speakers:
   - name: "Michael Feathers"
     slug: "michael_feathers"
