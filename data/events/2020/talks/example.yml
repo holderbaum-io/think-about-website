@@ -1,0 +1,50 @@
+title: "Workshop'o'Clock"
+type: "workshop"
+track: "design"
+host:
+  name: "Denkwerk"
+  slug: "denkwerk"
+  link: "https://denkwerk.de/"
+abstract: |
+  An honest conversation about tech burnout, what it is, who it impacts, and
+  how to avoid it.
+
+  Tech Burnout is one of the leading complaints in the tech industry. So why
+  then do so few people and companies talk about it? In this talk, we will have
+  an honest conversation on what tech burnout looks like, who it impacts most
+  with real world examples, and how we can avoid it.
+
+  There are various reasons for why we burn out at our tech jobs. One thing is
+  for certain, we are burning out. A leading survey taker Blind has year after
+  year shown that as much as 60% of our industry feels burned out. I have
+  been in the technology industry for over 15 years and have seen first hand
+  and experienced first hand the impact of burnout. I will highlight examples
+  from my time as well as examples of others. We will talk about what this
+  looks like and some of the reasons it can occur. We will also talk about
+  ways we can mitigate tech burnout. In the always connected world we are
+  immersed in, these challenges are numerous so hopefully you will be able to
+  come out of this talk with a better understanding of the signs and
+  solutions. We may not be able to beat tech burnout, but hopefully we can
+  all at least have an honest conversation about it and how we can try to
+  avoid it. This will be relevant for the CEO down to the Junior Developer.
+
+speakers:
+  - name: "James Spivey"
+    slug: "james_spivey"
+    bio: |
+      James has been working in tech since Adobe Flash was a thing, RIP! He has
+      a desire to learn and make mistakes and teach others. Building cool stuff
+      and leading teams is his dream, hobby, and job. He has navigated the
+      coding realm for nearly two decades dabbling in Coldfusion, Flash, Flex,
+      .NET, Java, and settling into his current love, Javascript. He has helped
+      numerous Startups, Government Agencies and Fortune 50 companies realize
+      their technical dreams and is currently the Director of Engineering at
+      Shutterstock
+
+    position: "Director of Engineering"
+    company:
+      name: "Shutterstock"
+      link: "https://shutterstock.com/"
+    links:
+      - name: "LinkedIn"
+        link: "https://www.linkedin.com/in/jamesspivey/"

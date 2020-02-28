@@ -21,6 +21,12 @@
         <% else %>
           <%= markdown talk.abstract %>
         <% end %>
+        <% if talk.host? %>
+        <div class="performance-host">
+          <p>Hosted by:</p>
+          <a href="<%= talk.host.link %>"><img src="<%= talk.host.image_path %>" /></a>
+        </div>
+        <% end %>
       </article>
     </div>
   </section>

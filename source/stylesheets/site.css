@@ -961,8 +961,12 @@ section.speakers section hr {
   background-color: #9b9b9b;
 }
 
-section.speakers section article > p {
+section.speakers section article > p:first-of-type {
   min-height: 7rem;
+}
+
+section.speakers section article > p:last-of-type {
+  color: #9b9b9b;
 }
 
 section.speakers section header h1 {
@@ -1111,6 +1115,20 @@ section.speaker-details em[topic=design] {
 
 section.speaker-details em[topic=society] {
   color: #6b3cff;
+}
+
+section.speaker-details .performance-host {
+  display: flex;
+  align-items: center;
+}
+
+section.speaker-details .performance-host a {
+  margin-left: 1rem;
+  width: 200px;
+}
+
+section.speaker-details .performance-host a img {
+  width: 100%;
 }
 
 section.speaker-details ul {

@@ -105,6 +105,26 @@ class Event
     end
   end
 
+  class Host
+    attr_accessor(
+      :name,
+      :slug,
+      :link
+    )
+
+    def initialize(event_slug, data)
+      @event_slug = event_slug
+      @data = data
+      @name = @data.fetch(:name)
+      @slug = @data.fetch(:slug)
+      @link = @data.fetch(:link)
+    end
+
+    def image_path
+      "/images/events/#{@event_slug}/hosts/#{@slug}.svg"
+    end
+  end
+
   class Perfomance
     attr_accessor(
       :slug,
@@ -112,7 +132,9 @@ class Event
       :language,
       :language_details,
       :speakers,
-      :abstract
+      :abstract,
+      :type,
+      :host
     )
 
     def initialize(event_slug, data, filename)
@@ -126,6 +148,11 @@ class Event
       @speakers = @data[:speakers].map { |d| Speaker.new(event_slug, d) }
       @abstract = @data.fetch(:abstract, '')
       @draft = @data.fetch(:draft, false)
+      @type = @data.fetch(:type, 'talk')
+      host = @data.fetch(:host, nil)
+      if host
+        @host = Host.new(event_slug, host)
+      end
     end
 
     def draft?
@@ -136,12 +163,20 @@ class Event
       @track.keynote?
     end
 
+    def workshop?
+      @type == 'workshop'
+    end
+
     def title?
       !@title.nil?
     end
 
     def title
       @title || 'Coming soon ...'
+    end
+
+    def host?
+      !@host.nil?
     end
 
     def language_details?
@@ -177,11 +212,15 @@ class Event
   end
 
   def keynotes
-    performances.select(&:keynote?)
+    performances.reject(&:workshop?).select(&:keynote?)
   end
 
   def talks
-    performances.reject(&:keynote?)
+    performances.reject(&:workshop?).reject(&:keynote?)
+  end
+
+  def workshops
+    performances.select(&:workshop?)
   end
 
   def draft_performances

@@ -68,6 +68,32 @@
       <% end %>
       <span note>And many more...</span>
     </div>
+    <!--
+    <div class="talks">
+      <h1 id="workshops">Workshops</h1>
+      <% events('2020').workshops.each do |workshop| %>
+      <section topic="<%= workshop.track.slug %>">
+        <a href="<%= workshop.path %>"><article>
+          <h4><%= workshop.track.readable %> Workshop</h4>
+          <p>"<%= workshop.title %>"<em> (<%= workshop.language %>)</em></p>
+          <p>Hosted at <%= workshop.host.name %></p>
+          <hr/>
+          <header>
+            <div>
+              <h1><%= workshop.joined_speaker_names %></h1>
+              <p><%= workshop.joined_company_names %></p>
+            </div>
+            <% workshop.speakers.each do |speaker| %>
+            <figure>
+              <img src="<%= speaker.image_path %>" />
+            </figure>
+            <% end %>
+          </header>
+        </article></a>
+      </section>
+      <% end %>
+    </div>
+    -->
     </div>
   </section>
   <section class="Textbox Textbox-small">
