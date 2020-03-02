@@ -965,7 +965,7 @@ section.speakers section article > p:first-of-type {
   min-height: 7rem;
 }
 
-section.speakers section article > p:last-of-type {
+section.speakers section.workshop article > p:last-of-type {
   color: #9b9b9b;
 }
 
