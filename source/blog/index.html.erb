@@ -5,7 +5,7 @@ pageable: false
   <section class="blog">
     <div class="container">
       <h1>Think About! Blog</h1>
-      <% blog.articles.each do |article| %>
+      <% blog.articles.reject { |article| article.data[:draft] }.each do |article| %>
       <a href="<%= article.url %>">
         <section>
           <div><img src="<%= blogimg article %>" /></div>
