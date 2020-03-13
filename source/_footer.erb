@@ -9,13 +9,8 @@
       <li><%= nav_link 'Consensus', '/consensus.html' %></li>
       <li><%= nav_link 'Blog', '/blog/' %></li>
       <li><%= nav_link 'Events', '/events/' %></li>
-      <% unless selling_tickets? %>
       <li><%= nav_link 'Tickets', '/tickets.html' %></li>
-      <% end %>
     </ul>
-    <% if selling_tickets? %>
-    <a button href="/tickets.html">Get Ticket</a>
-    <% end %>
     <ul class="Footer-links-secondary">
       <li><%= nav_link 'About', '/about-us.html' %></li>
       <li>

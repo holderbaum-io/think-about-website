@@ -7,11 +7,7 @@
       <li><%= nav_link 'Venue', '/venue.html' %></li>
       <li><%= nav_link 'Consensus', '/consensus.html' %></li>
       <li><%= nav_link 'Events', '/events/' %></li>
-      <% if selling_tickets? %>
-      <li><a button href="/tickets.html">Get Ticket</a></li>
-      <% else %>
       <li><%= nav_link 'Tickets', '/tickets.html' %></li>
-      <% end %>
     </ul>
     <% if is_landing_page? %>
     <a class="Header-menu-button" href="#footer"><img src="/images/menu.svg"/></a>
