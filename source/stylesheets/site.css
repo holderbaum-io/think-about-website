@@ -86,7 +86,8 @@ figure {
   margin: 0;
 }
 
-b, strong {
+b, strong,
+b a, strong a {
   font-weight: 700;
 }
 
