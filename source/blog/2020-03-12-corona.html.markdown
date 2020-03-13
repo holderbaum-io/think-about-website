@@ -1,6 +1,6 @@
 ---
 title: "Think About! 2020 Canceled"
-tweet: "TODO"
+tweet: "We heavy heartedly decided to cancel the #ThinkAbout2020 due to #CoronaVirus"
 author_twitter: "@Chrissi_Hldrbm"
 author: Chrissi
 
