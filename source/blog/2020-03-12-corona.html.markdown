@@ -1,43 +1,50 @@
 ---
 title: "Think About! in Times of a Pandemic"
 tweet: "TODO"
-author_twitter: "@hldrbm"
-author: Jakob
-draft: true
+author_twitter: "@Chrissi_Hldrbm"
+author: Chrissi
 
 ---
 
-Many events around the world are cancelled or postponed due to the Corona
-Virus. As of now the Think About! will still happen in June. Here are our
-thoughts.
+**We heavy heartedly decided to cancel Think About! 2020**
+
+Although it is the right and reasonable decision considering the current
+situation with the Corona virus we are extremely sad that we have to share
+these news with you.
 
 READMORE
 
-Given the information we have as of today **we are not considering to postpone 
-or cancel the Think About! on June 4th and 5th**.
+Many questions have been on our mind in the past few days. We followed the news
+and have been in touch with the public health department in Cologne regularly.
+The first people started reaching out to us with regard to whether the
+event is taking place. That is why we started to discuss how we would like to
+react and what that means for our conference.
 
-None of the attendees raised any concers so far but we still want to be transparent 
-about our thoughts and reasoning.
+Two aspects affected our decision:
 
-We are following the news and keep in touch with the public health department in 
-Cologne on a weekly basis. Should it become clear that the event must not take 
-place in June we will of course **reimburse all attendees that bought a ticket so far**. 
-The reimbursement of already occurred travel cost for our speakers is of course unaffected 
-as well. **We will pay these cost whether the Think About! happens or not.**
+   1. We take **your health and safety very seriously** and don’t want to put
+anyone at risk. Right now we need to rely on trusted sources like the
+Robert-Koch-Institute.
+   2.  Pulling off an event like the Think About! is a tremendous effort -
+measured in hours invested by the orga team and measured in money invested
+upfront for hotel, travel and so on. Since we are a small company we have to
+pay a lot of this upfront from our own pockets - many of the cost are not
+refundable from a certain point on.
 
-## Why are we not Cancelling as of now?
+Considering these two factors led us to the decision to cancel the Think About!
+2020. As said, we are **very sad and can’t put into words how we feel right now**
+but we hope you understand the decision we've made.
 
-Pulling off an event like the Think About! is a tremendous effort - measured in
-hours invested by the orga team and measured in money invested upfront for
-hotel, travel and so on. Since we are a small company we have to pay a lot of
-this upfront from our own pockets - many of the cost are not refundable.
+**All attendees that bought a ticket and all sponsors will be reimbursed
+entirely**. We will reach out to those affected by this individually.
 
-**Nevertheless we take your health and safety seriously so if the government and health
-institutes issue a concrete cancellation warning for June we will of course
-comply.** But until this isn't the case we stay positive and believe that we can
-cope with this global thread in the coming months.
+The good news are: Think About! will be back in 2021 and we are planning to
+continue with awesome meetups until then!
+
+Stay healthy and safe, everyone <3
 
 ## What are your thoughts?
 
-If you have any concers, ideas or recommendations for this unique situation please don't 
-hesitate to drop us [a message](mailto:kontakt@think-about.io) and let us know what you think.
+If you have any concers, ideas or recommendations for this unique situation
+please don't hesitate to drop us [a message](mailto:kontakt@think-about.io) and
+let us know what you think.
